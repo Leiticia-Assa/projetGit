@@ -13,7 +13,19 @@
     "prettier": "prettier --write \"**/*.{cls,cmp,component,css,html,js,json,md,page,trigger,xml,yaml,yml}\"",
     "prettier:verify": "prettier --list-different \"**/*.{cls,cmp,component,css,html,js,json,md,page,trigger,xml,yaml,yml}\"",
     "postinstall": "husky install",
-    "precommit": "lint-staged"
+    "precommit": "lint-staged",
+    "start": "vlocity help",
+    "packExport": "vlocity packExport -job Example.yaml",
+    "packDeploy": "vlocity packDeploy -job Example.yaml",
+    "packUpdateSettings": "vlocity packUpdateSettings",
+    "packGetDiffs": "vlocity packGetDiffs -job Example.yaml",
+    "packGetDiffsAndDeploy": "vlocity packGetDiffsAndDeploy -job Example.yaml",
+    "refreshVlocityBase": "vlocity refreshVlocityBase",
+    "runJavaScript": "vlocity runJavaScript -job Example.yaml",
+
+    "unitTest": "mocha test/**/**.spec.js",
+    "build": "pkg . --out-path ./dist",
+    "nyctest": "nyc mocha test/**/**.spec.js"
   },
   "devDependencies": {
     "@lwc/eslint-plugin-lwc": "^1.1.2",
@@ -28,7 +40,9 @@
     "husky": "^7.0.4",
     "lint-staged": "^12.3.7",
     "prettier": "^2.6.0",
-    "prettier-plugin-apex": "^1.10.0"
+    "prettier-plugin-apex": "^1.10.0",
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
   },
   "lint-staged": {
     "**/*.{cls,cmp,component,css,html,js,json,md,page,trigger,xml,yaml,yml}": [
@@ -37,5 +51,47 @@
     "**/{aura,lwc}/**": [
       "eslint"
     ]
+  },
+  "engines": {
+      "node": ">=10"
+  },
+  "files": [
+      "/DataPackMetadata",
+      "/DataPackSettings",
+      "/apex",
+      "/lib",
+      "/test",
+      "/javascript",
+      "/force-app"
+  ],
+  "license": "MIT",
+  "main": "lib/vlocity.js",
+  "owner": "vlocityinc",
+  "pkg": {
+      "assets": [
+          "DataPackMetadata/**/*",
+          "DataPackSettings/**/*",
+          "apex/*",
+          "test/**/*",
+          "javascript/*",
+          "force-app/****/***/**/*",
+          "lib/*.json",
+          "lib/*.yaml",
+          "node_modules/salesforce-alm/**/*"
+      ],
+      "scripts": [
+          "lib/*.js",
+          "node_modules/salesforce-alm/**/*.js"
+      ],
+      "targets": [
+          "win-x64",
+          "macos",
+          "linux"
+      ]
+  },
+  "preferGlobal": true,
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/Leiticia-Assa/vlocitydep.git"
   }
 }
