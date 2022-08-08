@@ -1,6 +1,0 @@
-vlocitybuild:
-  build:
-    image: vlocitybuild
-    dockerfile: Dockerfile
-  encrypted_env_file: codeship/env.encrypted
-  cached: true
