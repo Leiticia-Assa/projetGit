@@ -33,3 +33,4 @@ The `sfdx-project.json` file contains useful configuration information for your 
 # vldx
 # gitAccount
 # gitAccount
+# gitVlocity
