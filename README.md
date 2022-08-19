@@ -36,3 +36,4 @@ The `sfdx-project.json` file contains useful configuration information for your 
 # gitVlocity
 # vmetadata
 # projetGit
+# projetGit
