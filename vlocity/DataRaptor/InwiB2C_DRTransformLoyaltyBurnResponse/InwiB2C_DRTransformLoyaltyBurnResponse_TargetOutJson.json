@@ -1,0 +1,20 @@
+{
+    "result": {
+        "id": "10029636788",
+        "loyaltyTransaction": [
+            {
+                "date": "2019-09-01T23:00:00Z[UTC]",
+                "id": "1768600611",
+                "offre": "KDO 15 min on-net valables 1j Achoura 2019",
+                "quantity": 0
+            },
+            {
+                "date": "2020-01-26T23:00:00Z[UTC]",
+                "id": "2146530243",
+                "offre": "15 min on-net valables de 08 à 18h",
+                "quantity": 5
+            }
+        ],
+        "quantity": 5
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "create": {
+        "AccountId": "0012500001Osh1iAAB",
+        "AgenceDistributeur": "0012500001Osh1iAAB",
+        "CanalIdentification": "inwiB2C_Eshop",
+        "CategorieClient": "",
+        "Civilite": "",
+        "DateCommande": "NOW",
+        "DateDeNaissance": "",
+        "Distributeur": "0012500001Osh1iAAB",
+        "Email": "ahmed@gmail.com",
+        "IdAddressContract": "",
+        "NLigne": "",
+        "Nom": "testdevvvv",
+        "NumCIN": "",
+        "Prenom": "teeeeeesstdev",
+        "Profession": "",
+        "Sexe": "",
+        "SourceReception": "POS",
+        "StatusContract": "Initialise",
+        "TypeCIN": ""
+    }
+}

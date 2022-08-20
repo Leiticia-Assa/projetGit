@@ -1,0 +1,51 @@
+[
+    {
+        "%vlocity_namespace%__DefaultValue__c": "FAILED",
+        "%vlocity_namespace%__DomainObjectAPIName__c": "INWIB2C_TRAITEMENTMASSIF_FICHIER__c",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "INWIB2C_STATUT__c",
+        "%vlocity_namespace%__GlobalKey__c": "377d702e-4e61-20eb-7e32-304c687fda07",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "InwiB2C_UpdateTraitementMassifStatustoFailedCustoma1d3M000000ArFnQAKItem2",
+        "%vlocity_namespace%__OMplusSyncEnabled__c": true,
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "CurrencyIsoCode": "MAD",
+        "Name": "InwiB2C_UpdateTraitementMassifStatustoFailed",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "INWIB2C_TRAITEMENTMASSIF_FICHIER__c",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Id",
+        "%vlocity_namespace%__GlobalKey__c": "ade1e198-5aa9-dc73-e1c9-ca46cc4fd2c2",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "ListId:Id",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "InwiB2C_UpdateTraitementMassifStatustoFailedCustoma1d3M000000ArFnQAKItem1",
+        "%vlocity_namespace%__OMplusSyncEnabled__c": true,
+        "%vlocity_namespace%__UpsertKey__c": true,
+        "CurrencyIsoCode": "MAD",
+        "Name": "InwiB2C_UpdateTraitementMassifStatustoFailed",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__ConfigurationValue__c": "FAKEMAPPING",
+        "%vlocity_namespace%__DomainObjectAPIName__c": "INWIB2C_TRAITEMENTMASSIF_FICHIER__c",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Id",
+        "%vlocity_namespace%__FilterOperator__c": "=",
+        "%vlocity_namespace%__GlobalKey__c": "4a64baf8-f2b5-b98f-29fc-a95512c950c4",
+        "%vlocity_namespace%__IsDisabled__c": true,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "InwiB2C_UpdateTraitementMassifStatustoFailedCustoma1d3M000000ArFnQAKItem0",
+        "%vlocity_namespace%__OMplusSyncEnabled__c": true,
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "CurrencyIsoCode": "MAD",
+        "Name": "InwiB2C_UpdateTraitementMassifStatustoFailed",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    }
+]

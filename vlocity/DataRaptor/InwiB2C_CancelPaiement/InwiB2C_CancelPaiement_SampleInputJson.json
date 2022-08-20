@@ -1,0 +1,26 @@
+{
+    "TFDRresp": {
+        "CSCancelPaymentInteraction": [
+            {
+                "CSOperationInfo": {
+                    "channel": "SF",
+                    "user": "KNG",
+                    "uuid": "1031f069-776c-50c7-75fd-2c3b23b7f290"
+                },
+                "CSPayment": {
+                    "cancellationDate": "2020-03-30T17:15:56",
+                    "cancellationReason": "erreur saisie",
+                    "cancelledBy": "RMA"
+                },
+                "CSPaymentMethod": {
+                    "POS": "CPD01",
+                    "businessUnit": "CPD01"
+                },
+                "CSPaymentReference": {
+                    "registerReference": "1222545875544"
+                }
+            }
+        ]
+    },
+    "error": "OK"
+}

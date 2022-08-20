@@ -1,0 +1,39 @@
+{
+    "OrderId": "8013M000000c047QAA",
+    "OrderNumber": "00620292",
+    "Panier": "00620292",
+    "amountVAT": 0,
+    "payment": [
+        {
+            "amount": {
+                "amountTI": 49
+            },
+            "channel": "SFB2C",
+            "creationDate": "2022-04-03T18:43:21.213+0000",
+            "creator": "Rma Mansour",
+            "order": {
+                "businessAccountId": "99918527",
+                "customer": {
+                    "identification": {
+                        "code": "I873647",
+                        "type": "NIC"
+                    },
+                    "individualName": {
+                        "familyName": "Saadani",
+                        "firstName": "Karim"
+                    },
+                    "marketSegment": "B2C"
+                }
+            },
+            "paymentMethod": {
+                "POS": "CPD01",
+                "businessUnit": "CPD01",
+                "mode": "CS"
+            },
+            "paymentReference": {
+                "creatorReference": "22033022467"
+            },
+            "type": "REMBCAUT"
+        }
+    ]
+}

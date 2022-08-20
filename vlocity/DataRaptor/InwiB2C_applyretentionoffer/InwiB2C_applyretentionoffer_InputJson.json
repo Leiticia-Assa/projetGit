@@ -1,0 +1,75 @@
+{
+    "CancelRequest": {
+        "CustomLWC1": null,
+        "FileAttachmentsUploadCancel": null
+    },
+    "ContextId": null,
+    "Eligibilite": {
+        "Block2": {
+            "RetentionStatus": null
+        },
+        "Block3": {
+            "ActivationDate": null,
+            "NumberImpayes": null,
+            "OffreLigne": null,
+            "OwnerofLine": null,
+            "SegmentClient": null,
+            "litigationClient": null
+        }
+    },
+    "Formulaires": {
+        "FileAttachmentsUpload": null
+    },
+    "RetentionOffers": {
+        "Displayretentionoffers": null,
+        "SelectRetentionStatus": null
+    },
+    "Select_Subscription": {
+        "SubscriptionDisplay": null
+    },
+    "StepResult": {
+        "CustomLWC3": null
+    },
+    "Validation": {
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "CancelRequest": null,
+        "DREAssetAccountFromSubscription": null,
+        "DREGetAccountInfo": null,
+        "DRP_UpdateNeedAppRequest": null,
+        "DRPcancelrequest": null,
+        "DRTRedirectionRetOffer": null,
+        "DataRaptorExtractActionGetMDN": null,
+        "DataRaptorExtractActivePostPayedSubscriptions": null,
+        "DataRaptorExtractAllResiliationRequest": null,
+        "DataRaptorPostAction1": null,
+        "Eligibilite": null,
+        "Formulaires": null,
+        "IPSubProductsActivation": null,
+        "IntegrationProcedureAction1": null,
+        "RedirectionMigrationPostpostpay": null,
+        "RedirectionMigrationPostpostpayCommunity": null,
+        "RedirectionSuspensiondefacturation": null,
+        "RedirectionSuspensiondefacturationCommunity": null,
+        "RetentionOffers": null,
+        "Select_Subscription": null,
+        "SetAccountId": null,
+        "SetValues1": null,
+        "SetValues2": null,
+        "SetValues3": null,
+        "SetValues5": null,
+        "SetValues6": null,
+        "SetValues7": null,
+        "SetValues8": null,
+        "SetValuesSubscriptionId": null,
+        "StepResult": null,
+        "Validation": null
+    }
+}

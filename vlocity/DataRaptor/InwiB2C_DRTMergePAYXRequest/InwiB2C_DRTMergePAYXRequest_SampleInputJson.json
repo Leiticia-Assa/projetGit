@@ -1,0 +1,36 @@
+{
+    "Node": {
+        "CSProduct": [
+            {
+                "CSProduct": {
+                    "code": "000056165"
+                },
+                "CSProductIterationStatus": true,
+                "LoopBlockIterationIndex": 1,
+                "LoopBlockIterationStatus": true
+            },
+            {
+                "CSProduct": {
+                    "code": "000058679"
+                },
+                "CSProductIterationStatus": true,
+                "LoopBlockIterationIndex": 2,
+                "LoopBlockIterationStatus": true
+            }
+        ]
+    },
+    "OrderInfo": {
+        "OrderId": "8014K000002gKgRQAU",
+        "POS": "CMS18",
+        "Panier": "00799730-212704710900",
+        "PaymentReference": "",
+        "amountVAT": 0,
+        "businessAccountId": "72249661",
+        "businessUnit": "CMS18",
+        "paymentMode": "PC",
+        "type": "TERMINAL_PAYMENT",
+        "user": "jihan.zarouala@inwi.ma.inwib2cpdv",
+        "uuid": "03706623-1202-d4f2-af92-1db0de1f1d5f"
+    },
+    "Price": 449
+}

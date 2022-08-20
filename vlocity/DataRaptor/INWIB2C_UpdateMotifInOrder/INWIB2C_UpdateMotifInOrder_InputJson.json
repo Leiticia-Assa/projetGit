@@ -1,0 +1,46 @@
+{
+    "ContextId": null,
+    "Step2": {
+        "Motif": null
+    },
+    "Step3": {
+        "CustomLWC2": null
+    },
+    "Step4": {
+        "CodeUpgrade4G": null
+    },
+    "Step5": {
+        "File1": [
+            {
+                "data": null,
+                "filename": null,
+                "size": null
+            }
+        ]
+    },
+    "SubmitApproval": {
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "CreateCart": null,
+        "DR_GetAccountAsset": null,
+        "GetCart": null,
+        "GetCommunityUserInfo": null,
+        "NavigateTo360": null,
+        "SetChannelAndStatus": null,
+        "SetOrderId": null,
+        "Step2": null,
+        "Step3": null,
+        "Step4": null,
+        "Step5": null,
+        "SubmitApproval": null,
+        "UpdateChannelAndStatus": null,
+        "UpdateeMotifInOrder": null
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "result": {
+        "code": "0",
+        "id": "10029636788",
+        "loyaltyTransaction": [
+            {
+                "endDateTime": "2021-10-31T22:07:00Z[UTC]",
+                "id": "-1",
+                "quantity": 51,
+                "section": "RechargeProcessor",
+                "startDateTime": "2018-10-31T22:07:00Z[UTC]"
+            }
+        ],
+        "message": "",
+        "quantity": 608
+    }
+}

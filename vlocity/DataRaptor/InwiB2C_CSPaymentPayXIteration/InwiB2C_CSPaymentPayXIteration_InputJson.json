@@ -1,0 +1,70 @@
+{
+    "BDC": {
+        "Lots": [
+            {
+                "Order": {
+                    "Parent": {
+                        "billingAccount": "Soft_BA4",
+                        "billingAccountId": "0010D00000REPk8QAH",
+                        "businessAccount": "Soft-Innovation ARE",
+                        "businessAccountId": "0010D00000Qaz8hQAB",
+                        "effectiveOneTimeTotal": 12734.33,
+                        "id": "8020D000000nENqQAM",
+                        "name": "Forfaits Open+",
+                        "oneTimeCalculatedPrice": 159,
+                        "tradingRegister": "RC6666666"
+                    },
+                    "ParentTotal": 12734.33,
+                    "Terminal": {
+                        "billingAccount": "Soft_BA4",
+                        "billingAccountId": "0010D00000REPk8QAH",
+                        "businessAccount": "Soft-Innovation ARE",
+                        "businessAccountId": "0010D00000Qaz8hQAB",
+                        "effective_One_Time_Total": 12408.33,
+                        "id": "8020D000000nENpQAM",
+                        "name": "Terminal",
+                        "oneTimeCalculatedPrice": 12408.33,
+                        "parentItemId": "8020D000000nENqQAM",
+                        "tradingRegister": "RC6666666"
+                    },
+                    "TerminalTotal": 12408.33,
+                    "id": "8010D000000YJRvQAO"
+                },
+                "name": "0000000059"
+            },
+            {
+                "Order": {
+                    "Parent": {
+                        "billingAccount": "Soft_BA3",
+                        "billingAccountId": "0010D00000REPjyQAH",
+                        "businessAccount": "Soft-Innovation ARE",
+                        "businessAccountId": "0010D00000Qaz8hQAB",
+                        "effectiveOneTimeTotal": 6083,
+                        "id": "8020D000000nENvQAM",
+                        "name": "Forfaits illimités",
+                        "oneTimeCalculatedPrice": 0,
+                        "tradingRegister": "RC6666666"
+                    },
+                    "ParentTotal": 6083,
+                    "Terminal": {
+                        "billingAccount": "Soft_BA3",
+                        "billingAccountId": "0010D00000REPjyQAH",
+                        "businessAccount": "Soft-Innovation ARE",
+                        "businessAccountId": "0010D00000Qaz8hQAB",
+                        "effective_One_Time_Total": 6000,
+                        "id": "8020D000000nENuQAM",
+                        "name": "Terminal",
+                        "oneTimeCalculatedPrice": 6000,
+                        "parentItemId": "8020D000000nENvQAM",
+                        "tradingRegister": "RC6666666"
+                    },
+                    "TerminalTotal": 6000,
+                    "id": "8010D000000YJSoQAO"
+                },
+                "name": "0000000060"
+            }
+        ],
+        "user": "walid.moumen@soft-innovation.com",
+        "uuid": "ab6879de-4944-2458-6b86-25053bf3f69d"
+    }
+}

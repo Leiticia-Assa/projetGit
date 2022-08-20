@@ -1,0 +1,24 @@
+{
+    "Attention": {
+        "Messaging1": null
+    },
+    "ContextId": null,
+    "Offre_Cible": {
+        "Offer": null
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "Attention": null,
+        "CreateCart": null,
+        "DR_GetAccountAsset": null,
+        "DataRaptorPostAction1": null,
+        "GetInfosFromSubscription": null,
+        "Offre_Cible": null
+    }
+}

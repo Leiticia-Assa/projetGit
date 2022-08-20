@@ -1,0 +1,13 @@
+{
+    "input": {
+        "AdresseMail": "",
+        "IDCC": "0014K00000D8mu9QAB",
+        "IdentifiantReseau": "Facebook",
+        "MoyenContact": "Téléphone",
+        "Nom": "Lakrari",
+        "Prenom": "Imane",
+        "Salutation": "Madame",
+        "Telephone": "2125633302",
+        "TypeIDReseau": "Facebook"
+    }
+}

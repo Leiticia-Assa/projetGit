@@ -1,0 +1,21 @@
+{
+    "PaymenList": [
+        {
+            "OrderId": "801250000027OHRAA2",
+            "POS": "CPD01",
+            "amountPT": 20,
+            "amountTI": 20,
+            "amountVAT": 0,
+            "businessAccountId": "0012500001Osh1BAAR",
+            "code": "000056165",
+            "creatorReference": "SIM_80225000002dpv4AAA",
+            "id": "80225000002dpv4AAA",
+            "parentItemId": "80225000002dpv4AAA",
+            "paymentMode": "PC",
+            "type": "TERMINAL_PAYMENT"
+        }
+    ],
+    "PaymentReference": "1111111111",
+    "user": "sara.asmlal@devph02.com",
+    "uuid": "7ab85243-dbae-e21c-9eed-38707e399472"
+}

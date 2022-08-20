@@ -1,0 +1,13 @@
+{
+    "actionType": "ACQ",
+    "handsetTemp": [
+        {
+            "ProductCode": "INWIB2C_OFFERING_SIM",
+            "action": "Add",
+            "code": "000056165",
+            "orderType": "Mobile",
+            "serialNumber": "892120270001227148",
+            "vendor": "CMS99"
+        }
+    ]
+}

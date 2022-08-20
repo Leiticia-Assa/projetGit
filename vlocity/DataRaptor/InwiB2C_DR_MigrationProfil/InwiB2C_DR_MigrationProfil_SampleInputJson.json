@@ -1,0 +1,4663 @@
+{
+    "jsonInput": {
+        "bucket": [
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "23",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.01",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212636591728",
+                    "M_LISTEBAL": "3000:0.01;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-09 21:30:07",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "13",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.01",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212636591728",
+                    "M_LISTEBAL": "3000:0.01;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-09 21:29:31",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "4",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212677753713",
+                    "M_LISTEBAL": "",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-09 21:16:55",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "12",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.01",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212673543055",
+                    "M_LISTEBAL": "3000:0.01;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-09 20:57:54",
+                    "M_TYPE": "GAB",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "110",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.07",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212667412890",
+                    "M_LISTEBAL": "3000:0.07;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-09 20:21:24",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "18",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.01",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212650962661",
+                    "M_LISTEBAL": "3000:0.01;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-09 20:20:15",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "14",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.01",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212611603167",
+                    "M_LISTEBAL": "3000:0.01;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-09 19:43:28",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "30",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.02",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212677046010",
+                    "M_LISTEBAL": "3000:0.02;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-09 19:41:46",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "115",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212668965653",
+                    "M_LISTEBAL": "2685:0.95;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-09 19:35:26",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "25",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.02",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212611603167",
+                    "M_LISTEBAL": "3000:0.02;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-09 19:29:26",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "24",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.01",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212667412890",
+                    "M_LISTEBAL": "3000:0.01;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-09 13:41:54",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "56",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.03",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212636591728",
+                    "M_LISTEBAL": "3000:0.03;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-09 12:45:56",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "124",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.07",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212766865837",
+                    "M_LISTEBAL": "3000:0.07;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-09 12:23:19",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "71",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.04",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212611603167",
+                    "M_LISTEBAL": "3000:0.04;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-09 11:38:46",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "47",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.03",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212636591728",
+                    "M_LISTEBAL": "3000:0.03;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-09 10:41:29",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "35",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.02",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212643096526",
+                    "M_LISTEBAL": "3000:0.02;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-09 10:01:19",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "8",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212643096526",
+                    "M_LISTEBAL": "",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-09 10:00:37",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "12",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.01",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212643096526",
+                    "M_LISTEBAL": "3000:0.01;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-09 10:00:04",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "188",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.11",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212670813658",
+                    "M_LISTEBAL": "3000:0.11;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-09 08:47:24",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "15",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.01",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212766865837",
+                    "M_LISTEBAL": "3000:0.01;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-09 08:46:55",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "113",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.07",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212766865837",
+                    "M_LISTEBAL": "3000:0.07;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-09 08:44:45",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "33",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.02",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212673543055",
+                    "M_LISTEBAL": "3000:0.02;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-09 01:46:09",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "25",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.02",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212652223928",
+                    "M_LISTEBAL": "3000:0.02;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-08 23:54:06",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "30",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.02",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212696961848",
+                    "M_LISTEBAL": "3000:0.02;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-08 22:31:44",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "49",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.03",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212651439181",
+                    "M_LISTEBAL": "3000:0.03;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-08 21:41:43",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "54",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.03",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212651439181",
+                    "M_LISTEBAL": "3000:0.03;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-08 21:37:33",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "61",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.04",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212651439181",
+                    "M_LISTEBAL": "3000:0.04;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-08 20:48:12",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "3",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212677753713",
+                    "M_LISTEBAL": "",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-08 20:25:58",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "58",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.03",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212696961848",
+                    "M_LISTEBAL": "3000:0.03;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-08 16:19:23",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "59",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.04",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212650962661",
+                    "M_LISTEBAL": "3000:0.04;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-08 16:01:53",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "70",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.04",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212650962661",
+                    "M_LISTEBAL": "3000:0.04;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-08 16:00:28",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "185",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212706905593",
+                    "M_LISTEBAL": "2685:1.54;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-08 15:56:03",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "41",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.02",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212650962661",
+                    "M_LISTEBAL": "3000:0.02;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-08 15:25:29",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "4",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212677753713",
+                    "M_LISTEBAL": "",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-08 15:22:56",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "42",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.03",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212651439181",
+                    "M_LISTEBAL": "3000:0.03;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-08 12:04:49",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "84",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.05",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212677046010",
+                    "M_LISTEBAL": "3000:0.05;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-08 10:57:49",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "4",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212636591728",
+                    "M_LISTEBAL": "",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-08 10:52:37",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "52",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.03",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212677046010",
+                    "M_LISTEBAL": "3000:0.03;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-08 10:37:29",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "4",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212636591728",
+                    "M_LISTEBAL": "",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-08 10:36:59",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "20",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.01",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212651439181",
+                    "M_LISTEBAL": "3000:0.01;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-08 10:27:41",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "86",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.05",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212677046010",
+                    "M_LISTEBAL": "3000:0.05;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-08 10:19:43",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "2",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212636591728",
+                    "M_LISTEBAL": "",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-08 10:19:00",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "3",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212636591728",
+                    "M_LISTEBAL": "",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-08 10:17:00",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "3",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212636591728",
+                    "M_LISTEBAL": "",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-08 10:06:24",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "4",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212636591728",
+                    "M_LISTEBAL": "",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-08 10:03:25",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "4",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212636591728",
+                    "M_LISTEBAL": "",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-08 10:03:10",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "70",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.04",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212611603167",
+                    "M_LISTEBAL": "3000:0.04;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-08 10:00:20",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "26",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.02",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212651439181",
+                    "M_LISTEBAL": "3000:0.02;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-08 09:30:50",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "34",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.02",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212651439181",
+                    "M_LISTEBAL": "3000:0.02;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-07 22:45:36",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "213",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.13",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212661342050",
+                    "M_LISTEBAL": "3000:0.13;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-07 22:29:34",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "23",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.01",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212673543055",
+                    "M_LISTEBAL": "3000:0.01;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-07 22:24:10",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "59",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.04",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212651439181",
+                    "M_LISTEBAL": "3000:0.04;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-07 20:30:42",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "29",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.02",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212636591728",
+                    "M_LISTEBAL": "3000:0.02;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-07 18:59:18",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "100",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.06",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212667412890",
+                    "M_LISTEBAL": "3000:0.06;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-07 18:42:05",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "78",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212661638476",
+                    "M_LISTEBAL": "2685:0.65;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-07 13:24:53",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "48",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.03",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212673543055",
+                    "M_LISTEBAL": "3000:0.03;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-07 13:06:37",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "19",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.01",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212651439181",
+                    "M_LISTEBAL": "3000:0.01;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-07 12:40:56",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "34",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.02",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212651439181",
+                    "M_LISTEBAL": "3000:0.02;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-07 12:34:00",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "59",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.04",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212643096526",
+                    "M_LISTEBAL": "3000:0.04;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-07 12:32:17",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "31",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.02",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212636591728",
+                    "M_LISTEBAL": "3000:0.02;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-07 11:57:41",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "50",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.03",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212611603167",
+                    "M_LISTEBAL": "3000:0.03;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-07 11:55:40",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "36",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.02",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212662605229",
+                    "M_LISTEBAL": "3000:0.02;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-07 11:54:10",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "35",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.02",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212673543055",
+                    "M_LISTEBAL": "3000:0.02;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-07 11:13:20",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "90",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.05",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212673543055",
+                    "M_LISTEBAL": "3000:0.05;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-07 10:36:11",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "14",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.01",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212673543055",
+                    "M_LISTEBAL": "3000:0.01;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-07 10:06:43",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "20",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.01",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212636591728",
+                    "M_LISTEBAL": "3000:0.01;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-06 21:35:03",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "76",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.05",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212651439181",
+                    "M_LISTEBAL": "3000:0.05;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-06 21:27:40",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "125",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.08",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212655070305",
+                    "M_LISTEBAL": "3000:0.08;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-06 21:09:48",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "11",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.01",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212673543055",
+                    "M_LISTEBAL": "3000:0.01;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-06 19:27:51",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "174",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.1",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212636591728",
+                    "M_LISTEBAL": "3000:0.1;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-06 19:05:04",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "70",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.04",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212611603167",
+                    "M_LISTEBAL": "3000:0.04;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-06 17:10:08",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "131",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.08",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212611603167",
+                    "M_LISTEBAL": "3000:0.08;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-06 16:46:17",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "4",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212636591728",
+                    "M_LISTEBAL": "",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-06 15:17:33",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "4",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212636591728",
+                    "M_LISTEBAL": "",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-06 15:15:28",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "4",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212636591728",
+                    "M_LISTEBAL": "",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-06 15:07:25",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "3",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212636591728",
+                    "M_LISTEBAL": "",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-06 15:05:05",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "4",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212636591728",
+                    "M_LISTEBAL": "",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-06 15:04:52",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "4",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212636591728",
+                    "M_LISTEBAL": "",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-06 15:04:37",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "23",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.01",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212643096526",
+                    "M_LISTEBAL": "3000:0.01;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-06 14:44:10",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "83",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.05",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212611603167",
+                    "M_LISTEBAL": "3000:0.05;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-06 13:32:45",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "18",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.01",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212673543055",
+                    "M_LISTEBAL": "3000:0.01;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-06 12:19:51",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "587",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.35",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212766865837",
+                    "M_LISTEBAL": "3000:0.35;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-05 22:44:33",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "98",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.06",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212689041760",
+                    "M_LISTEBAL": "3000:0.06;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-05 21:43:49",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "84",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.05",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212689041760",
+                    "M_LISTEBAL": "3000:0.05;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-05 21:20:41",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "136",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212706905593",
+                    "M_LISTEBAL": "2685:1.13;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-05 19:58:20",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "62",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.04",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212666959325",
+                    "M_LISTEBAL": "3000:0.04;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-05 19:52:47",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "40",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.02",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212611603167",
+                    "M_LISTEBAL": "3000:0.02;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-05 19:40:26",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "5",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212632292179",
+                    "M_LISTEBAL": "",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-05 16:35:30",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "3",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212632292179",
+                    "M_LISTEBAL": "",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-05 16:34:46",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "4",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212632292179",
+                    "M_LISTEBAL": "",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-05 16:33:51",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "15",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.01",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212689472196",
+                    "M_LISTEBAL": "3000:0.01;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-05 16:28:28",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "82",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.05",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212611603167",
+                    "M_LISTEBAL": "3000:0.05;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-05 15:28:31",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "37",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.02",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212652223928",
+                    "M_LISTEBAL": "3000:0.02;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-05 14:44:12",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "33",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.02",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212652223928",
+                    "M_LISTEBAL": "3000:0.02;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-05 14:43:13",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "60",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.04",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212653529050",
+                    "M_LISTEBAL": "3000:0.04;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-05 14:39:44",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "239",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212600843776",
+                    "M_LISTEBAL": "2685:1.98;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-05 14:34:18",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "36",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.02",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212666959325",
+                    "M_LISTEBAL": "3000:0.02;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-05 14:06:19",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "62",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.04",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212611603167",
+                    "M_LISTEBAL": "3000:0.04;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-05 14:03:22",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "206",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.12",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212654563304",
+                    "M_LISTEBAL": "3000:0.12;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-05 13:50:59",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "52",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.03",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212611603167",
+                    "M_LISTEBAL": "3000:0.03;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-05 13:49:13",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "57",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.03",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212611603167",
+                    "M_LISTEBAL": "3000:0.03;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-05 13:16:25",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "133",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.08",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212654563304",
+                    "M_LISTEBAL": "3000:0.08;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-05 13:13:17",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "68",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.04",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212611603167",
+                    "M_LISTEBAL": "3000:0.04;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-05 13:11:16",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "25",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.02",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212666959325",
+                    "M_LISTEBAL": "3000:0.02;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-05 12:10:40",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "322",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.19",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212670104991",
+                    "M_LISTEBAL": "3000:0.19;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-05 10:51:53",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "61",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212700193258",
+                    "M_LISTEBAL": "2685:0.51;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-05 10:26:36",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "29",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.02",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212666959325",
+                    "M_LISTEBAL": "3000:0.02;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-05 10:24:35",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "15",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.01",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212611603167",
+                    "M_LISTEBAL": "3000:0.01;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-04 22:59:29",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "20",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.01",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212611603167",
+                    "M_LISTEBAL": "3000:0.01;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-04 22:58:02",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "207",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.12",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212651439181",
+                    "M_LISTEBAL": "3000:0.12;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-04 22:54:20",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "13",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.01",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212611603167",
+                    "M_LISTEBAL": "3000:0.01;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-04 22:50:10",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "113",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.07",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212643096526",
+                    "M_LISTEBAL": "3000:0.07;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-04 22:47:21",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "31",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.02",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212666959325",
+                    "M_LISTEBAL": "3000:0.02;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-04 20:58:14",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "28",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.02",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212666959325",
+                    "M_LISTEBAL": "3000:0.02;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-04 20:56:18",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "65",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212633880164",
+                    "M_LISTEBAL": "2685:0.54;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-04 20:51:59",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "4",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212677753713",
+                    "M_LISTEBAL": "",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-04 20:50:19",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "224",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.13",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212650015026",
+                    "M_LISTEBAL": "3000:0.13;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-04 20:19:58",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "158",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.09",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212650015026",
+                    "M_LISTEBAL": "3000:0.09;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-04 13:05:33",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "2",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212650015026",
+                    "M_LISTEBAL": "",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-04 13:04:59",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "16",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.01",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212650015026",
+                    "M_LISTEBAL": "3000:0.01;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-04 13:04:16",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "27",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.02",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212650015026",
+                    "M_LISTEBAL": "3000:0.02;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-04 13:03:43",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "4",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212678431723",
+                    "M_LISTEBAL": "",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-04 13:02:27",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "152",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.09",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212631944569",
+                    "M_LISTEBAL": "3000:0.09;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-04 12:58:35",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "38",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.02",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212611603167",
+                    "M_LISTEBAL": "3000:0.02;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-04 11:57:35",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "26",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.02",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212672096465",
+                    "M_LISTEBAL": "3000:0.02;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-04 10:29:35",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "152",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.09",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212636591728",
+                    "M_LISTEBAL": "3000:0.09;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-03 23:14:26",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "194",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.12",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212611603167",
+                    "M_LISTEBAL": "3000:0.12;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-03 23:07:01",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "284",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.17",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212643096526",
+                    "M_LISTEBAL": "3000:0.17;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-03 23:01:18",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "126",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.08",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212651439181",
+                    "M_LISTEBAL": "3000:0.08;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-03 22:58:51",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "29",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.02",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212650962661",
+                    "M_LISTEBAL": "3000:0.02;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-03 22:27:48",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "25",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212633880164",
+                    "M_LISTEBAL": "2685:0.21;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-03 21:56:03",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "16",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212633880164",
+                    "M_LISTEBAL": "2685:0.13;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-03 21:54:18",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "29",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212633880164",
+                    "M_LISTEBAL": "2685:0.24;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-03 21:35:48",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "80",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212633880164",
+                    "M_LISTEBAL": "2685:0.66;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-03 21:27:33",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "23",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.01",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212611603167",
+                    "M_LISTEBAL": "3000:0.01;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-03 20:26:54",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "150",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.09",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212611603167",
+                    "M_LISTEBAL": "3000:0.09;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-03 20:23:57",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "193",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.12",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212643096526",
+                    "M_LISTEBAL": "3000:0.12;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-03 20:20:20",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "5",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212643096526",
+                    "M_LISTEBAL": "",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-03 20:20:03",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "281",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.17",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212652223928",
+                    "M_LISTEBAL": "3000:0.17;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-03 20:14:54",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "97",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.06",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212643096526",
+                    "M_LISTEBAL": "3000:0.06;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-03 20:12:36",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "111",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212661638476",
+                    "M_LISTEBAL": "2685:0.92;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-03 20:07:20",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "99",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.06",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212651439181",
+                    "M_LISTEBAL": "3000:0.06;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-03 18:21:35",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "51",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.03",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212611603167",
+                    "M_LISTEBAL": "3000:0.03;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-03 18:18:11",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "262",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.16",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212611603167",
+                    "M_LISTEBAL": "3000:0.16;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-03 17:19:19",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "60",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.04",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212642216301",
+                    "M_LISTEBAL": "3000:0.04;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-03 17:15:18",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "192",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212672247470",
+                    "M_LISTEBAL": "2685:1.59;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-03 16:21:57",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "3",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212678431723",
+                    "M_LISTEBAL": "",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-03 16:04:46",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "3",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212650015026",
+                    "M_LISTEBAL": "",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-03 16:04:26",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "32",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.02",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212677584898",
+                    "M_LISTEBAL": "3000:0.02;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-03 15:56:10",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "4",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212632459435",
+                    "M_LISTEBAL": "",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-03 15:38:29",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "14",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.01",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212677753713",
+                    "M_LISTEBAL": "3000:0.01;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-03 14:28:17",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "21",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.01",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212689190096",
+                    "M_LISTEBAL": "3000:0.01;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-03 11:30:57",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "71",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.04",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212650962661",
+                    "M_LISTEBAL": "3000:0.04;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-02 22:56:13",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "32",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.02",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212650962661",
+                    "M_LISTEBAL": "3000:0.02;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-02 22:47:02",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "110",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.07",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212655070305",
+                    "M_LISTEBAL": "3000:0.07;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-02 20:53:53",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "51",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212700193258",
+                    "M_LISTEBAL": "2685:0.42;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-02 20:51:15",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "39",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212706905593",
+                    "M_LISTEBAL": "2685:0.32;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-02 20:23:03",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "4",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212628847268",
+                    "M_LISTEBAL": "",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-02 19:58:52",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "71",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.04",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212666856055",
+                    "M_LISTEBAL": "3000:0.04;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-02 19:14:32",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "32",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212605006478",
+                    "M_LISTEBAL": "2685:0.27;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-02 14:49:13",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "69",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.04",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212689190096",
+                    "M_LISTEBAL": "3000:0.04;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-02 13:38:10",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "268",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.16",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212661667232",
+                    "M_LISTEBAL": "3000:0.16;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-02 13:12:39",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "110",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212700193258",
+                    "M_LISTEBAL": "2685:0.91;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-02 12:01:55",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "140",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.08",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212672451015",
+                    "M_LISTEBAL": "3000:0.08;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-02 11:58:32",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "63",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.04",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212666959325",
+                    "M_LISTEBAL": "3000:0.04;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-01 22:28:46",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "4",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212666959325",
+                    "M_LISTEBAL": "",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-01 22:28:22",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "4",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212666959325",
+                    "M_LISTEBAL": "",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-01 22:28:11",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "38",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.02",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212667249170",
+                    "M_LISTEBAL": "3000:0.02;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-01 22:05:07",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "153",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212602517963",
+                    "M_LISTEBAL": "2685:1.27;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-01 21:58:59",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "22",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212602517963",
+                    "M_LISTEBAL": "2685:0.18;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-01 21:57:20",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "4",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212661667232",
+                    "M_LISTEBAL": "",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-01 21:42:08",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "29",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212600785597",
+                    "M_LISTEBAL": "2685:0.24;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-01 21:27:07",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "105",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.06",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212632292179",
+                    "M_LISTEBAL": "3000:0.06;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-01 21:14:19",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "3",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212661667232",
+                    "M_LISTEBAL": "",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-01 20:52:39",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "8",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212661667232",
+                    "M_LISTEBAL": "",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-01 20:00:24",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "3",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212678431723",
+                    "M_LISTEBAL": "",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-01 19:58:00",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "3",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212650015026",
+                    "M_LISTEBAL": "",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-01 19:57:46",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "98",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.06",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212666959325",
+                    "M_LISTEBAL": "3000:0.06;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-01 18:13:07",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "50",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.03",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212653529050",
+                    "M_LISTEBAL": "3000:0.03;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-01 18:09:22",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "163",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.1",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212670890001",
+                    "M_LISTEBAL": "3000:0.1;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-01 18:05:26",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "5",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212678431723",
+                    "M_LISTEBAL": "",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-01 18:04:28",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "4",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212650015026",
+                    "M_LISTEBAL": "",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-01 18:03:57",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "110",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.07",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212666664571",
+                    "M_LISTEBAL": "3000:0.07;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-01 17:20:14",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "592",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.36",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212689058350",
+                    "M_LISTEBAL": "3000:0.36;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-01 17:08:30",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "4",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212624178479",
+                    "M_LISTEBAL": "",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-01 17:07:03",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "67",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.04",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212666856055",
+                    "M_LISTEBAL": "3000:0.04;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-01 15:41:01",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "67",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212661638476",
+                    "M_LISTEBAL": "2685:0.56;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-01 14:58:30",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "979",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.59",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212643862963",
+                    "M_LISTEBAL": "3000:0.59;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-01 14:40:34",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "96",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.06",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212615687582",
+                    "M_LISTEBAL": "3000:0.06;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-01 14:38:06",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "3",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212670954924",
+                    "M_LISTEBAL": "",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-01 14:37:10",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "140",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.08",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212615780413",
+                    "M_LISTEBAL": "3000:0.08;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-01 14:32:22",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "221",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.13",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212615780413",
+                    "M_LISTEBAL": "3000:0.13;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-01 14:28:21",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "191",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0.11",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212666959325",
+                    "M_LISTEBAL": "3000:0.11;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-01 14:21:17",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "OC",
+                    "CANAL": "",
+                    "DURATION": "29",
+                    "FNFFLAG": "0",
+                    "GPRS_VOLUME": "0",
+                    "M_AMOUNT_CEILING": "0",
+                    "M_AMOUNT_CON": "0",
+                    "M_CALL_TYPE": "Voice",
+                    "M_FLAG_CEILING": "N",
+                    "M_LINE_ID": "212630166391",
+                    "M_LISTEBAL": "2685:0.24;",
+                    "M_SERVICE_NAME": "SERVICE INCONNU",
+                    "M_START_DATE": "2020-08-01 14:07:04",
+                    "M_TYPE_CONSO": "Voice_OC"
+                }
+            }
+        ]
+    }
+}

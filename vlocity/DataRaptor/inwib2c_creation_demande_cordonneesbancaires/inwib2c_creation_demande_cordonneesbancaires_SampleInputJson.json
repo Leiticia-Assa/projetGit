@@ -1,0 +1,14 @@
+{
+    "AccountInfo": {
+        "Mode_de_paiement": "Prélèvement automatique (RIB)"
+    },
+    "ContextId": "0013M000010gbGBQAY",
+    "Oldkey": "12",
+    "Selectmodepaiement": "Prélèvement automatique (RIB)",
+    "Statut": "En attente de validation",
+    "oldcodebank": "124",
+    "oldnomagence": "agence casa",
+    "oldnombanque": "banque",
+    "oldnumcomptebancaire": "1234567891234566",
+    "oldnumerocompte": "123"
+}

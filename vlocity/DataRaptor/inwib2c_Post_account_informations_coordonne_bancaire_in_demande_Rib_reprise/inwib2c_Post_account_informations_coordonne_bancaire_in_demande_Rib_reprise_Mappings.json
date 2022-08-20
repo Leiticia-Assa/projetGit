@@ -1,0 +1,51 @@
+[
+    {
+        "%vlocity_namespace%__ConfigurationValue__c": "FAKEMAPPING",
+        "%vlocity_namespace%__DomainObjectAPIName__c": "InwiB2C_Demande__c",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Id",
+        "%vlocity_namespace%__FilterOperator__c": "=",
+        "%vlocity_namespace%__GlobalKey__c": "8157e69b-75ab-6c86-b158-e0d39d5b7813",
+        "%vlocity_namespace%__IsDisabled__c": true,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "inwib2c_Post_account_informations_coordonne_bancaire_in_demande_Rib_repriseCustoma1d3M000000AaG9QAKItem0",
+        "%vlocity_namespace%__OMplusSyncEnabled__c": true,
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "CurrencyIsoCode": "MAD",
+        "Name": "inwib2c_Post_account_informations_coordonne_bancaire_in_demande_Rib_reprise",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "InwiB2C_Demande__c",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "InwiB2C_Account__c",
+        "%vlocity_namespace%__GlobalKey__c": "d56d933f-a288-3bcd-d439-6c75aa796f14",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "ContextId",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "inwib2c_Post_account_informations_coordonne_bancaire_in_demande_Rib_repriseCustoma1d3M000000AaG9QAKItem1",
+        "%vlocity_namespace%__OMplusSyncEnabled__c": true,
+        "%vlocity_namespace%__UpsertKey__c": true,
+        "CurrencyIsoCode": "MAD",
+        "Name": "inwib2c_Post_account_informations_coordonne_bancaire_in_demande_Rib_reprise",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DefaultValue__c": "En attente de validation",
+        "%vlocity_namespace%__DomainObjectAPIName__c": "InwiB2C_Demande__c",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "InwiB2C_Status_BO__c",
+        "%vlocity_namespace%__GlobalKey__c": "2dc614f4-3433-85b4-3900-f4843d686f20",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "inwib2c_Post_account_informations_coordonne_bancaire_in_demande_Rib_repriseCustoma1d3M000000AaG9QAKItem10",
+        "%vlocity_namespace%__OMplusSyncEnabled__c": true,
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "CurrencyIsoCode": "MAD",
+        "Name": "inwib2c_Post_account_informations_coordonne_bancaire_in_demande_Rib_reprise",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    }
+]

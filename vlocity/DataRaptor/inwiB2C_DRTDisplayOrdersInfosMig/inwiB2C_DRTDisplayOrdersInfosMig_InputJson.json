@@ -1,0 +1,39 @@
+{
+    "Attention": {
+        "ErrorMsg": null
+    },
+    "ContextId": null,
+    "ExitingOfferRecap": {
+    },
+    "OffreCible": {
+    },
+    "Recap": {
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "Attention": null,
+        "Checkout": null,
+        "CreateCart": null,
+        "DREGetOrderLineInfo": null,
+        "DRPUpdateOrderFields": null,
+        "DR_GetAccountAsset": null,
+        "DataRaptorTransformAction1": null,
+        "DoneAction1": null,
+        "ExitingOfferRecap": null,
+        "GetExistingOffer": null,
+        "GetInfosFromSubscription": null,
+        "OffreCible": null,
+        "OffreCibleValue": null,
+        "Recap": null,
+        "ReplaceOffer": null,
+        "SetOrderId": null,
+        "getCartItems": null,
+        "getCartsTargetOffers": null
+    }
+}

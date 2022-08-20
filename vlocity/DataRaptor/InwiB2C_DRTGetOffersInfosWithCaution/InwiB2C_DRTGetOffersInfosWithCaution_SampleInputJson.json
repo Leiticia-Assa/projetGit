@@ -1,0 +1,16 @@
+{
+    "OLI": [
+        {
+            "IdOLI": "8023M000000cfU5QAI",
+            "PaymentType": "PAYFMS",
+            "creatorReference": "PAYFMS_8023M000000cfU5QAI",
+            "prix": 149
+        },
+        {
+            "IdOLI": "8023M000000cfU5QAI",
+            "PaymentType": "PAYFMD",
+            "creatorReference": "PAYFMD_8023M000000cfU5QAI",
+            "prix": 149
+        }
+    ]
+}

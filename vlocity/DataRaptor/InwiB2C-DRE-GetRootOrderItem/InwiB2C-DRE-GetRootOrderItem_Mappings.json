@@ -1,0 +1,18 @@
+[
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "orderrootid",
+        "%vlocity_namespace%__GlobalKey__c": "18980317-8425-48fd-64d8-d78bcbe282fd",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "orderroot:%vlocity_namespace%__SourceOrderItemId__r.%vlocity_namespace%__RootItemId__c",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "InwiB2C-DRE-GetRootOrderItemCustoma1d25000001aOT3AAMItem13",
+        "%vlocity_namespace%__OMplusSyncEnabled__c": true,
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "CurrencyIsoCode": "MAD",
+        "Name": "InwiB2C-DRE-GetRootOrderItem",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    }
+]

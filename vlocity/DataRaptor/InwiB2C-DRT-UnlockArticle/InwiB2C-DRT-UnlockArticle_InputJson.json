@@ -1,0 +1,21 @@
+{
+    "ConditionalBlock1": {
+    },
+    "ConditionalBlock2": {
+    },
+    "ConditionalBlock3": {
+    },
+    "ContextId": null,
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "ConditionalBlock1": null,
+        "ConditionalBlock2": null,
+        "ConditionalBlock3": null
+    }
+}

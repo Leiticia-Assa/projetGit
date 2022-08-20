@@ -1,0 +1,110 @@
+{
+    "LoopBlock2": [
+        {
+            "CSCreatePaymentInteractionStatus": true,
+            "CSPayment": {
+                "CSAmount": {
+                    "amountPT": 80,
+                    "amountTI": 80,
+                    "amountVAT": 0
+                },
+                "CSOrder": {
+                    "CSCustomer": {
+                        "CSIdentification": {
+                            "code": "",
+                            "type": "NIC"
+                        },
+                        "CSIndividualName": {
+                            "familyName": "Hajaj",
+                            "firstName": ""
+                        },
+                        "CSMarketSegment": "B2C",
+                        "id": "99918335"
+                    },
+                    "CSOffer": {
+                        "CSProduct": {
+                            "code": ""
+                        }
+                    },
+                    "billingAccountID": "10989999996"
+                },
+                "CSPaymentMethod": {
+                    "POS": "CPD01",
+                    "bankAccount": "",
+                    "bankCheckDueDate": "",
+                    "bankCheckID": "",
+                    "bankCity": "",
+                    "bankCode": "",
+                    "bankKey": "",
+                    "bankName": "",
+                    "businessUnit": "CPD01",
+                    "mode": "CS",
+                    "tpeCode": ""
+                },
+                "CSPaymentReference": {
+                    "creatorReference": "For_8023M000000QXthQAG",
+                    "pspReference": ""
+                },
+                "channel": "SF",
+                "creationDate": "2020-03-30T17:15:56",
+                "creator": "sara.asmlal@atos.net.prodb2c.dev3",
+                "type": "PAYFI"
+            },
+            "LoopBlockIterationIndex": 1,
+            "LoopBlockIterationStatus": true
+        },
+        {
+            "CSCreatePaymentInteractionStatus": true,
+            "CSPayment": {
+                "CSAmount": {
+                    "amountPT": 80,
+                    "amountTI": 80,
+                    "amountVAT": 0
+                },
+                "CSOrder": {
+                    "CSCustomer": {
+                        "CSIdentification": {
+                            "code": "",
+                            "type": "NIC"
+                        },
+                        "CSIndividualName": {
+                            "familyName": "Hajaj",
+                            "firstName": ""
+                        },
+                        "CSMarketSegment": "B2C",
+                        "id": "99918335"
+                    },
+                    "CSOffer": {
+                        "CSProduct": {
+                            "code": ""
+                        }
+                    },
+                    "billingAccountID": "10989999996"
+                },
+                "CSPaymentMethod": {
+                    "POS": "CPD01",
+                    "bankAccount": "",
+                    "bankCheckDueDate": "",
+                    "bankCheckID": "",
+                    "bankCity": "",
+                    "bankCode": "",
+                    "bankKey": "",
+                    "bankName": "",
+                    "businessUnit": "CPD01",
+                    "mode": "CS",
+                    "tpeCode": ""
+                },
+                "CSPaymentReference": {
+                    "creatorReference": "For_8023M000000QXthQAG",
+                    "pspReference": ""
+                },
+                "channel": "SF",
+                "creationDate": "2020-03-30T17:15:56",
+                "creator": "sara.asmlal@atos.net.prodb2c.dev3",
+                "type": "PAYFI"
+            },
+            "LoopBlockIterationIndex": 1,
+            "LoopBlockIterationStatus": true
+        }
+    ]
+}

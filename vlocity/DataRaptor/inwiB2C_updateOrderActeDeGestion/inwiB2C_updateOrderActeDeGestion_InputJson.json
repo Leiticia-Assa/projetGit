@@ -1,0 +1,23 @@
+{
+    "ContextId": null,
+    "DisconnectService": {
+        "warning": null
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "DisconnectService": null,
+        "GetAccountFromSubscription": null,
+        "GetAssetFromSubscription": null,
+        "GetOrderNumber": null,
+        "SetContextId": null,
+        "SetOrderId": null,
+        "inwiB2C_PostOrderSubscription": null,
+        "inwiB2C_updateOrderActeDeGestion": null
+    }
+}

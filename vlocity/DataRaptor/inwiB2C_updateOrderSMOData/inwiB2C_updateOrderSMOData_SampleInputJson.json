@@ -1,0 +1,34 @@
+{
+    "AccountIdsynch": "0012500001UO7dEAAT",
+    "AssetIdsynch": "02i2500000IamYTAAZ",
+    "ContextId": "02i2500000IamYTAAZ",
+    "OrderIdsyncch": [
+        "801250000028YW6AAM"
+    ],
+    "OrderIdsynch": [
+        "801250000028YW6AAM"
+    ],
+    "SMOTypesynch": "inwiB2C_Synchronisation_Assets",
+    "Statussynch": "inwiB2C_EnCours",
+    "TypeCommandesynch": "inwiB2C_Modification",
+    "assetIdsynch": "02i2500000IamYTAAZ",
+    "invetoryItemsNotExists": true,
+    "messages": [
+    ],
+    "records": [
+        {
+            "cartId": "801250000028YW6AAM",
+            "displaySequence": -1,
+            "messages": [
+            ]
+        }
+    ],
+    "requestDateTime": "02/08/2021 22:56:13",
+    "timeStamp": "2021-08-02T21:56:12.385Z",
+    "totalSize": 0,
+    "userCurrencyCode": "MAD",
+    "userId": "00525000006lJNjAAM",
+    "userName": "djamel.lekhbassene@devph02.com",
+    "userProfile": "System Administrator",
+    "userTimeZone": "60"
+}

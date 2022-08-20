@@ -1,0 +1,79 @@
+{
+    "ChooseOffer": {
+        "OfferSelection": null,
+        "Panier": null
+    },
+    "ChooseTypeLigne": {
+        "Panier2": null,
+        "TypeLigne": null
+    },
+    "ContextId": null,
+    "Document": {
+    },
+    "Eligibity": {
+    },
+    "Promotion": {
+        "inwib2c_acquisition_promotions": null
+    },
+    "Recap": {
+        "PostpaidCart": null
+    },
+    "Scan": {
+        "Attachments": null
+    },
+    "ValidationBO": {
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "AttachmentParameters": null,
+        "CheckAvailablePromotions": null,
+        "CheckEligibilityClient": null,
+        "CheckOut": null,
+        "ChooseOffer": null,
+        "ChooseTypeLigne": null,
+        "CreateOrder": null,
+        "DRExtractOrderInfo": null,
+        "DRPUpdateOrderItem": null,
+        "Document": null,
+        "Eligibity": null,
+        "GetAccountFromSubscription": null,
+        "GetAssetFromSubscription": null,
+        "GetCINData": null,
+        "GetExistingOffer": null,
+        "GetOrderNumber": null,
+        "GetUserInfo": null,
+        "GoTo360": null,
+        "GoTo360Order": null,
+        "IPCreateContrat": null,
+        "IPUpdateOrderInfo": null,
+        "IpUpdateOrderNeedApp": null,
+        "LinkDoc": null,
+        "Promotion": null,
+        "Recap": null,
+        "ReplaceOffer": null,
+        "Scan": null,
+        "SetAccountId": null,
+        "SetAttachmentParameters": null,
+        "SetCartInput": null,
+        "SetContextId": null,
+        "SetInputLWC": null,
+        "SetOrderId": null,
+        "SetOrderInfo": null,
+        "SetoffrecurrentItemId": null,
+        "TransformCartInput": null,
+        "ValidationBO": null,
+        "getCartItems": null,
+        "getCartItems2": null,
+        "getCartItems3": null,
+        "getCartsTargetOffers": null,
+        "needApp": null,
+        "submitApproval": null,
+        "sumTotalOrderAndSubscription": null
+    }
+}

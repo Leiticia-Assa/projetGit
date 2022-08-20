@@ -1,0 +1,23 @@
+{
+    "Id": "8023M000000QXthQAG",
+    "OrderInfo": {
+        "OrderId": "8013M000000MLEkQAO",
+        "OrderNumber": "00618741",
+        "POS": "CPD01",
+        "Panier": "00618741",
+        "PaymentReference": "1222545875544",
+        "amountVAT": 0,
+        "businessAccountId": "99918335",
+        "businessUnit": "CPD01",
+        "nationalid": "I761255",
+        "nom": "Hajaj",
+        "paymentMode": "CS",
+        "prenom": "Farid",
+        "type": "PAYFI",
+        "user": "sara.asmlal@atos.net.prodb2c.dev3",
+        "uuid": "a5247ebf-0e5e-b165-8dce-defeeb96c428"
+    },
+    "Prix": 80,
+    "code": "",
+    "creatorReference": "For_8023M000000QXthQAG"
+}

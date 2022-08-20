@@ -1,0 +1,9 @@
+{
+    "Action": "Activation Offre Etudiant",
+    "Canal": "inwiB2C_Televente",
+    "ErrorCode": "",
+    "Statut": "OK",
+    "SubscriptionId": "a4k25000000F588AAC",
+    "TypeAction": "inwiB2C_ActivationOffreEtudiant",
+    "TypeModification": "InwiB2C_Activation"
+}

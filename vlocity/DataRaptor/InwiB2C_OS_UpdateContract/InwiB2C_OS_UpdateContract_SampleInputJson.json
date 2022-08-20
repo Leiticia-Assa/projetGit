@@ -1,0 +1,12 @@
+{
+    "update": {
+        "fieldstoupdate": {
+            "EchangeExpress": false,
+            "Email": "",
+            "FigureannuaireWANA": false,
+            "SignaturePDV": false,
+            "UsageInternet": false
+        },
+        "id": "80025000007oRWGAA2"
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "FMD": [
+        {
+            "IdOLI": "8023M000000QYgbQAG",
+            "PaymentType": "PAYFMD",
+            "creatorReference": "PAYFMD_8023M000000QYgbQAG",
+            "prix": 1
+        },
+        {
+            "IdOLI": "8023M000000QYhQQAW",
+            "PaymentType": "PAYFMD",
+            "creatorReference": "PAYFMD_8023M000000QYhQQAW",
+            "prix": 0
+        },
+        {
+            "IdOLI": "8023M000000QYfJQAW",
+            "PaymentType": "PAYFMD",
+            "creatorReference": "PAYFMD_8023M000000QYfJQAW",
+            "prix": 0
+        }
+    ],
+    "FMS": [
+        {
+            "IdOLI": "8023M000000QYgbQAG",
+            "PaymentType": "PAYFMS",
+            "creatorReference": "PAYFMS_8023M000000QYgbQAG",
+            "prix": 0
+        },
+        {
+            "IdOLI": "8023M000000QYhQQAW",
+            "PaymentType": "PAYFMS",
+            "creatorReference": "PAYFMS_8023M000000QYhQQAW",
+            "prix": 0
+        },
+        {
+            "IdOLI": "8023M000000QYfJQAW",
+            "PaymentType": "PAYFMS",
+            "creatorReference": "PAYFMS_8023M000000QYfJQAW",
+            "prix": 90
+        }
+    ]
+}

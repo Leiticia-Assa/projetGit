@@ -1,0 +1,21 @@
+{
+    "Code": "000056165",
+    "Id": "80225000002djI6AAI",
+    "Name": "SIM",
+    "OrderInfo": [
+        {
+            "OrderId": "801250000027LdCAAU",
+            "POS": "CPD01",
+            "PaymentReference": "1222545875544",
+            "amountVAT": 0,
+            "businessAccountId": "99913446",
+            "businessUnit": "CPD01",
+            "paymentMode": "PC",
+            "type": "TERMINAL_PAYMENT",
+            "user": "sara.asmlal@devph02.com",
+            "uuid": "22d21f4e-572b-2a2d-4648-25b855d1ecf0"
+        }
+    ],
+    "Prix": 20,
+    "creatorReference": "SIM_80225000002djI6AAI"
+}

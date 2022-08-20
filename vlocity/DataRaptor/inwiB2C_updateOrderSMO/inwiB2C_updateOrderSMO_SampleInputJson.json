@@ -1,0 +1,30 @@
+{
+    "AccountId": "0012500001Osh1BAAR",
+    "AssetId": "02i2500000IQPPLAA5",
+    "Attention": null,
+    "ContextId": "a4k25000000F72NAAS",
+    "MDN": "0671176098",
+    "ModeleCarteSIM": "S.A SIM 4G BOUTIQUES PREPAID",
+    "NumeroLigne": "0671176098",
+    "Offre": "Offre Koulchi",
+    "SubStatut": "ACTIVE",
+    "cartId": "801250000027XHrAAM",
+    "dateActivation": "2021-05-05T23:06:44.000Z",
+    "messages": [
+    ],
+    "records": [
+        {
+            "cartId": "801250000027XHrAAM",
+            "displaySequence": -1,
+            "messages": [
+            ]
+        }
+    ],
+    "timeStamp": "2021-05-05T23:24:41.997Z",
+    "totalSize": 0,
+    "userCurrencyCode": "MAD",
+    "userId": "005250000076gbiAAA",
+    "userName": "saloua.elkhoufairi@devph02.com",
+    "userProfile": "System Administrator",
+    "userTimeZone": "0"
+}

@@ -1,0 +1,413 @@
+{
+    "AccountNumber": "99918066",
+    "Action": "inwiB2C_PaiementFacture",
+    "BillingAccounts": [
+        {
+            "AccountNumber": "99918066",
+            "BillingAddress": "Maroc Grand Casablanca CASABLANCA ADDAMANE",
+            "FirstName": "Yasmine",
+            "Id": "0013M00000sQ7kVQAS",
+            "LastName": "achour",
+            "Name": "Yasmine achour"
+        }
+    ],
+    "CIN": "FK525852",
+    "ContextId": null,
+    "DisplayInvoices": {
+        "DisplayInvoicesLWC": {
+            "selectedInvoices": [
+                {
+                    "Id": "F21031339067",
+                    "InvoiceDate": "2021-03-18",
+                    "IsSelected": false,
+                    "billingAccountId": "6568557",
+                    "invoiceAmount": 185.76,
+                    "invoiceEndDate": "18/03/2021",
+                    "invoicePaymentDueDate": "07/04/2021",
+                    "invoiceStartDate": "18/02/2021",
+                    "mois": "Février",
+                    "status": "Payée",
+                    "vlcSelected": true
+                },
+                {
+                    "Id": "F21041379892",
+                    "InvoiceDate": "2021-04-18",
+                    "IsSelected": false,
+                    "billingAccountId": "6568557",
+                    "invoiceAmount": 174.5,
+                    "invoiceEndDate": "18/04/2021",
+                    "invoicePaymentDueDate": "07/05/2021",
+                    "invoiceStartDate": "11/03/2021",
+                    "mois": "Mars",
+                    "status": "Payée",
+                    "vlcSelected": true
+                },
+                {
+                    "Id": "F21071389997",
+                    "InvoiceDate": "2021-07-18",
+                    "IsSelected": false,
+                    "billingAccountId": "6568557",
+                    "invoiceAmount": 174.5,
+                    "invoiceEndDate": "18/07/2021",
+                    "invoicePaymentDueDate": "07/08/2021",
+                    "invoiceStartDate": "18/06/2021",
+                    "mois": "Juin",
+                    "status": "Payée",
+                    "vlcSelected": true
+                },
+                {
+                    "Id": "F21081451877",
+                    "InvoiceDate": "2021-08-18",
+                    "IsSelected": false,
+                    "billingAccountId": "6568557",
+                    "invoiceAmount": 174.5,
+                    "invoiceEndDate": "18/08/2021",
+                    "invoicePaymentDueDate": "07/09/2021",
+                    "invoiceStartDate": "18/07/2021",
+                    "mois": "Juillet",
+                    "status": "Payée",
+                    "vlcSelected": true
+                },
+                {
+                    "Id": "F21061431291",
+                    "InvoiceDate": "2021-06-18",
+                    "IsSelected": false,
+                    "billingAccountId": "6568557",
+                    "invoiceAmount": 174.5,
+                    "invoiceEndDate": "18/06/2021",
+                    "invoicePaymentDueDate": "07/07/2021",
+                    "invoiceStartDate": "18/05/2021",
+                    "mois": "Mai",
+                    "status": "Payée",
+                    "vlcSelected": true
+                },
+                {
+                    "Id": "F21051432012",
+                    "InvoiceDate": "2021-05-18",
+                    "IsSelected": false,
+                    "billingAccountId": "6568557",
+                    "invoiceAmount": 174.5,
+                    "invoiceEndDate": "18/05/2021",
+                    "invoicePaymentDueDate": "07/06/2021",
+                    "invoiceStartDate": "18/04/2021",
+                    "mois": "Avril",
+                    "status": "Payée",
+                    "vlcSelected": true
+                }
+            ],
+            "totatamount": 174.5
+        }
+    },
+    "DistriCode": "CMS01",
+    "DistriId": "0013M00000sPgwYQAS",
+    "Id": "label",
+    "InvId": "",
+    "Montant": 1060.90565,
+    "NoPayedInvoices": null,
+    "Nom": "achour",
+    "Operation": {
+        "DisplayOperationChoice": {
+            "selectedchoiceoperation": "invoicePayment"
+        }
+    },
+    "POSCode": "CPD01",
+    "POSId": "0013M00000sPgwUQAS",
+    "POSName": "Agence CPD01",
+    "Paiement": {
+        "Cheque": null,
+        "FreeAmount": null,
+        "TPE": null,
+        "TypePaiement": "CS"
+    },
+    "Pays": "Maroc",
+    "Prenom": "Yasmine",
+    "Quartier": "ADDAMANE",
+    "ResultInvoicesKO": null,
+    "Resultat": {
+        "DisplayBillingAccounts": {
+            "selectedBillingAccountId": "0013M00000sQ7kVQAS"
+        }
+    },
+    "ResultatKO": null,
+    "Search": {
+        "searchOSInputsAccount": {
+            "BillingAccountNumbervalue": "99918066",
+            "IsExecuteDataraptor1": false,
+            "IsExecuteDataraptor2": false,
+            "IsExecuteDataraptor3": true,
+            "IsExecuteDataraptor4": false
+        }
+    },
+    "SelectedInvoices": [
+        {
+            "Id": "F21031339067",
+            "invoiceAmount": 185.76,
+            "invoiceEndDate": "18/03/2021",
+            "invoiceStartDate": "18/02/2021"
+        },
+        {
+            "Id": "F21041379892",
+            "invoiceAmount": 174.5,
+            "invoiceEndDate": "18/04/2021",
+            "invoiceStartDate": "11/03/2021"
+        },
+        {
+            "Id": "F21071389997",
+            "invoiceAmount": 174.5,
+            "invoiceEndDate": "18/07/2021",
+            "invoiceStartDate": "18/06/2021"
+        },
+        {
+            "Id": "F21081451877",
+            "invoiceAmount": 174.5,
+            "invoiceEndDate": "18/08/2021",
+            "invoiceStartDate": "18/07/2021"
+        },
+        {
+            "Id": "F21061431291",
+            "invoiceAmount": 174.5,
+            "invoiceEndDate": "18/06/2021",
+            "invoiceStartDate": "18/05/2021"
+        },
+        {
+            "Id": "F21051432012",
+            "invoiceAmount": 174.5,
+            "invoiceEndDate": "18/05/2021",
+            "invoiceStartDate": "18/04/2021"
+        }
+    ],
+    "Statut": "OK",
+    "TPEAuth": false,
+    "UserName": "lamyaa.brikssi@atos.net.dev3",
+    "Ville": "CASABLANCA",
+    "accid": "0013M00000sQ7kVQAS",
+    "checkingTable": "1",
+    "contextId": null,
+    "cptfacturation": "99918066",
+    "fraistimbre": 2.64565,
+    "freeamountdoc": 0,
+    "invoiceAmount": "label",
+    "invoiceAmountATI": "label",
+    "invoicePaymentDueDate": "label",
+    "isOkPayxf": "",
+    "isOkPayxi": "0",
+    "list": [
+        {
+            "Id": "F21031339067",
+            "InvoiceDate": "2021-03-18",
+            "IsSelected": false,
+            "billingAccountId": "6568557",
+            "invoiceAmount": 185.76,
+            "invoiceEndDate": "18/03/2021",
+            "invoicePaymentDueDate": "07/04/2021",
+            "invoiceStartDate": "18/02/2021",
+            "mois": "Février",
+            "status": "Payée",
+            "vlcSelected": true
+        },
+        {
+            "Id": "F21041379892",
+            "InvoiceDate": "2021-04-18",
+            "IsSelected": false,
+            "billingAccountId": "6568557",
+            "invoiceAmount": 174.5,
+            "invoiceEndDate": "18/04/2021",
+            "invoicePaymentDueDate": "07/05/2021",
+            "invoiceStartDate": "11/03/2021",
+            "mois": "Mars",
+            "status": "Payée",
+            "vlcSelected": true
+        },
+        {
+            "Id": "F21071389997",
+            "InvoiceDate": "2021-07-18",
+            "IsSelected": false,
+            "billingAccountId": "6568557",
+            "invoiceAmount": 174.5,
+            "invoiceEndDate": "18/07/2021",
+            "invoicePaymentDueDate": "07/08/2021",
+            "invoiceStartDate": "18/06/2021",
+            "mois": "Juin",
+            "status": "Payée",
+            "vlcSelected": true
+        },
+        {
+            "Id": "F21081451877",
+            "InvoiceDate": "2021-08-18",
+            "IsSelected": false,
+            "billingAccountId": "6568557",
+            "invoiceAmount": 174.5,
+            "invoiceEndDate": "18/08/2021",
+            "invoicePaymentDueDate": "07/09/2021",
+            "invoiceStartDate": "18/07/2021",
+            "mois": "Juillet",
+            "status": "Payée",
+            "vlcSelected": true
+        },
+        {
+            "Id": "F21091483058",
+            "InvoiceDate": "2021-09-18",
+            "IsSelected": false,
+            "billingAccountId": "6568557",
+            "invoiceAmount": 174.5,
+            "invoiceEndDate": "18/09/2021",
+            "invoicePaymentDueDate": "07/10/2021",
+            "invoiceStartDate": "18/08/2021",
+            "mois": "Août",
+            "status": "Partiellement payée",
+            "vlcSelected": true
+        },
+        {
+            "Id": "F21061431291",
+            "InvoiceDate": "2021-06-18",
+            "IsSelected": false,
+            "billingAccountId": "6568557",
+            "invoiceAmount": 174.5,
+            "invoiceEndDate": "18/06/2021",
+            "invoicePaymentDueDate": "07/07/2021",
+            "invoiceStartDate": "18/05/2021",
+            "mois": "Mai",
+            "status": "Payée",
+            "vlcSelected": true
+        },
+        {
+            "Id": "F21051432012",
+            "InvoiceDate": "2021-05-18",
+            "IsSelected": false,
+            "billingAccountId": "6568557",
+            "invoiceAmount": 174.5,
+            "invoiceEndDate": "18/05/2021",
+            "invoicePaymentDueDate": "07/06/2021",
+            "invoiceStartDate": "18/04/2021",
+            "mois": "Avril",
+            "status": "Payée",
+            "vlcSelected": true
+        }
+    ],
+    "listo": [
+        {
+            "Id": "F21031339067"
+        },
+        {
+            "Id": "F21031339044"
+        }
+    ],
+    "modepayment": "Espèce",
+    "mois": "label",
+    "numberofaccounts": 1,
+    "numberofinvoices": "7",
+    "numberofselectedinvoices": 6,
+    "numberofunpayedinvoices": 6,
+    "operation": "invoicePayment",
+    "payment": {
+        "checkmnt": 0,
+        "customer": {
+        },
+        "errorCode": "191",
+        "errorDesc": "Cette facture a été déjà encaissée",
+        "invoice": [
+        ],
+        "order": {
+            "devis": false,
+            "reasoncode": 0
+        },
+        "paymentMethod": {
+            "chkCertif": false
+        },
+        "paymentReference": {
+        }
+    },
+    "paymentref": "5218962174",
+    "remainingAmount": "label",
+    "selectedinvoices": [
+        {
+            "Id": "F21031339067",
+            "InvoiceDate": "2021-03-18",
+            "IsSelected": false,
+            "billingAccountId": "6568557",
+            "invoiceAmount": 185.76,
+            "invoiceEndDate": "18/03/2021",
+            "invoicePaymentDueDate": "07/04/2021",
+            "invoiceStartDate": "18/02/2021",
+            "mois": "Février",
+            "status": "Payée",
+            "vlcSelected": true
+        },
+        {
+            "Id": "F21041379892",
+            "InvoiceDate": "2021-04-18",
+            "IsSelected": false,
+            "billingAccountId": "6568557",
+            "invoiceAmount": 174.5,
+            "invoiceEndDate": "18/04/2021",
+            "invoicePaymentDueDate": "07/05/2021",
+            "invoiceStartDate": "11/03/2021",
+            "mois": "Mars",
+            "status": "Payée",
+            "vlcSelected": true
+        },
+        {
+            "Id": "F21071389997",
+            "InvoiceDate": "2021-07-18",
+            "IsSelected": false,
+            "billingAccountId": "6568557",
+            "invoiceAmount": 174.5,
+            "invoiceEndDate": "18/07/2021",
+            "invoicePaymentDueDate": "07/08/2021",
+            "invoiceStartDate": "18/06/2021",
+            "mois": "Juin",
+            "status": "Payée",
+            "vlcSelected": true
+        },
+        {
+            "Id": "F21081451877",
+            "InvoiceDate": "2021-08-18",
+            "IsSelected": false,
+            "billingAccountId": "6568557",
+            "invoiceAmount": 174.5,
+            "invoiceEndDate": "18/08/2021",
+            "invoicePaymentDueDate": "07/09/2021",
+            "invoiceStartDate": "18/07/2021",
+            "mois": "Juillet",
+            "status": "Payée",
+            "vlcSelected": true
+        },
+        {
+            "Id": "F21061431291",
+            "InvoiceDate": "2021-06-18",
+            "IsSelected": false,
+            "billingAccountId": "6568557",
+            "invoiceAmount": 174.5,
+            "invoiceEndDate": "18/06/2021",
+            "invoicePaymentDueDate": "07/07/2021",
+            "invoiceStartDate": "18/05/2021",
+            "mois": "Mai",
+            "status": "Payée",
+            "vlcSelected": true
+        },
+        {
+            "Id": "F21051432012",
+            "InvoiceDate": "2021-05-18",
+            "IsSelected": false,
+            "billingAccountId": "6568557",
+            "invoiceAmount": 174.5,
+            "invoiceEndDate": "18/05/2021",
+            "invoicePaymentDueDate": "07/06/2021",
+            "invoiceStartDate": "18/04/2021",
+            "mois": "Avril",
+            "status": "Payée",
+            "vlcSelected": true
+        }
+    ],
+    "status": "0",
+    "timeStamp": "2022-03-21T12:58:44.663Z",
+    "totalamount": 1058.26,
+    "totalamountdoc": 1060.90565,
+    "tpevariable": null,
+    "typePos": "inwib2c_OS",
+    "userCurrencyCode": "MAD",
+    "userId": "0053M000001ZB0zQAG",
+    "userName": "lamyaa.brikssi@atos.net.dev3",
+    "userProfile": "System Administrator",
+    "userTimeZone": "60"
+}

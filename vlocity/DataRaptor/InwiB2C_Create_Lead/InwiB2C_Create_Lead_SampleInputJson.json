@@ -1,0 +1,23 @@
+{
+    "input": {
+        "Civilite": "Monsieur",
+        "CodePostal": "2080",
+        "Cote": "Warm",
+        "Email": "mahdi.mansour@live.fr",
+        "FirstName": "Samia",
+        "Fonction": "Consultante",
+        "Interet": "Twiter",
+        "LastName": "Salmia",
+        "OriginePiste": "Email",
+        "Pays": "Tunisie",
+        "Phone": "Fax",
+        "Region": "Riadh Andalos",
+        "Rue": "12rue Everst",
+        "Societe": "Assa",
+        "Statut": "Fermé-Abondonné",
+        "TypeOffre": "Mobile",
+        "Ville": "Ariana",
+        "formule": "NA",
+        "offre": "Tic TAC"
+    }
+}

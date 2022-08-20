@@ -1,0 +1,2606 @@
+{
+    "jsonInput": {
+        "bucket": [
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-09-02 15:01:05",
+                    "M_LINE_ID": "212703902166",
+                    "M_MONTANT_RECH": "10"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-09-02 14:24:02",
+                    "M_LINE_ID": "212708617144",
+                    "M_MONTANT_RECH": "5"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-09-02 14:08:58",
+                    "M_LINE_ID": "212680440439",
+                    "M_MONTANT_RECH": "5"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-09-02 12:52:20",
+                    "M_LINE_ID": "212640829390",
+                    "M_MONTANT_RECH": "5"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-09-02 12:51:25",
+                    "M_LINE_ID": "212633016758",
+                    "M_MONTANT_RECH": "5"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-09-02 11:40:11",
+                    "M_LINE_ID": "212604406598",
+                    "M_MONTANT_RECH": "10"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-09-02 11:16:45",
+                    "M_LINE_ID": "212635111074",
+                    "M_MONTANT_RECH": "10"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-09-02 10:56:45",
+                    "M_LINE_ID": "212602071016",
+                    "M_MONTANT_RECH": "5"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-09-02 10:31:41",
+                    "M_LINE_ID": "212640716527",
+                    "M_MONTANT_RECH": "5"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-09-02 10:11:19",
+                    "M_LINE_ID": "212635504521",
+                    "M_MONTANT_RECH": "10"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-09-02 10:06:17",
+                    "M_LINE_ID": "212600434406",
+                    "M_MONTANT_RECH": "5"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-09-02 09:40:37",
+                    "M_LINE_ID": "212635500656",
+                    "M_MONTANT_RECH": "10"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-09-01 19:42:03",
+                    "M_LINE_ID": "212607830364",
+                    "M_MONTANT_RECH": "5"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-09-01 18:58:37",
+                    "M_LINE_ID": "212630423170",
+                    "M_MONTANT_RECH": "5"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-09-01 18:38:42",
+                    "M_LINE_ID": "212635346150",
+                    "M_MONTANT_RECH": "10"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-09-01 18:29:43",
+                    "M_LINE_ID": "212701944879",
+                    "M_MONTANT_RECH": "10"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-09-01 18:28:24",
+                    "M_LINE_ID": "212701944879",
+                    "M_MONTANT_RECH": "10"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-09-01 17:33:27",
+                    "M_LINE_ID": "212705579126",
+                    "M_MONTANT_RECH": "5"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-09-01 14:53:14",
+                    "M_LINE_ID": "212681389119",
+                    "M_MONTANT_RECH": "10"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-09-01 14:51:47",
+                    "M_LINE_ID": "212609539881",
+                    "M_MONTANT_RECH": "10"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-09-01 14:13:32",
+                    "M_LINE_ID": "212638048939",
+                    "M_MONTANT_RECH": "5"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-09-01 14:12:31",
+                    "M_LINE_ID": "212603736029",
+                    "M_MONTANT_RECH": "5"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-09-01 12:28:55",
+                    "M_LINE_ID": "212695439334",
+                    "M_MONTANT_RECH": "10"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-09-01 12:26:50",
+                    "M_LINE_ID": "212708804374",
+                    "M_MONTANT_RECH": "5"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-09-01 12:22:35",
+                    "M_LINE_ID": "212699405455",
+                    "M_MONTANT_RECH": "5"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-09-01 12:14:13",
+                    "M_LINE_ID": "212633048006",
+                    "M_MONTANT_RECH": "10"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-09-01 11:37:07",
+                    "M_LINE_ID": "212681286049",
+                    "M_MONTANT_RECH": "10"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-09-01 11:13:38",
+                    "M_LINE_ID": "212646129146",
+                    "M_MONTANT_RECH": "5"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-09-01 09:58:57",
+                    "M_LINE_ID": "212710288450",
+                    "M_MONTANT_RECH": "20"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-09-01 09:35:36",
+                    "M_LINE_ID": "212604238134",
+                    "M_MONTANT_RECH": "10"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-09-01 09:26:53",
+                    "M_LINE_ID": "212627444954",
+                    "M_MONTANT_RECH": "5"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-09-01 09:05:24",
+                    "M_LINE_ID": "212698067585",
+                    "M_MONTANT_RECH": "10"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-09-01 08:52:28",
+                    "M_LINE_ID": "212638272424",
+                    "M_MONTANT_RECH": "5"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-09-01 08:38:43",
+                    "M_LINE_ID": "212680440439",
+                    "M_MONTANT_RECH": "5"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-09-01 08:37:59",
+                    "M_LINE_ID": "212608188959",
+                    "M_MONTANT_RECH": "5"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-09-01 08:29:44",
+                    "M_LINE_ID": "212635504521",
+                    "M_MONTANT_RECH": "10"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-31 20:18:18",
+                    "M_LINE_ID": "212600759743",
+                    "M_MONTANT_RECH": "10"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-31 19:58:32",
+                    "M_LINE_ID": "212603923945",
+                    "M_MONTANT_RECH": "30"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-31 19:57:37",
+                    "M_LINE_ID": "212690434256",
+                    "M_MONTANT_RECH": "30"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-31 19:24:17",
+                    "M_LINE_ID": "212704219263",
+                    "M_MONTANT_RECH": "10"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-31 19:05:14",
+                    "M_LINE_ID": "212630132346",
+                    "M_MONTANT_RECH": "20"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-31 19:01:48",
+                    "M_LINE_ID": "212687324191",
+                    "M_MONTANT_RECH": "10"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-31 19:01:05",
+                    "M_LINE_ID": "212630579299",
+                    "M_MONTANT_RECH": "30"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-31 19:00:16",
+                    "M_LINE_ID": "212708993276",
+                    "M_MONTANT_RECH": "30"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-31 18:50:02",
+                    "M_LINE_ID": "212633099076",
+                    "M_MONTANT_RECH": "30"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-31 18:31:13",
+                    "M_LINE_ID": "212634963828",
+                    "M_MONTANT_RECH": "30"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-31 18:21:12",
+                    "M_LINE_ID": "212701838280",
+                    "M_MONTANT_RECH": "20"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-31 17:53:41",
+                    "M_LINE_ID": "212603907272",
+                    "M_MONTANT_RECH": "20"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-31 17:40:44",
+                    "M_LINE_ID": "212698067585",
+                    "M_MONTANT_RECH": "10"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-31 17:33:50",
+                    "M_LINE_ID": "212629078304",
+                    "M_MONTANT_RECH": "5"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-31 17:30:22",
+                    "M_LINE_ID": "212603326015",
+                    "M_MONTANT_RECH": "10"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-31 17:05:57",
+                    "M_LINE_ID": "212607934569",
+                    "M_MONTANT_RECH": "10"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-31 17:05:16",
+                    "M_LINE_ID": "212705579126",
+                    "M_MONTANT_RECH": "5"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-31 15:45:15",
+                    "M_LINE_ID": "212705151109",
+                    "M_MONTANT_RECH": "10"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-31 15:07:15",
+                    "M_LINE_ID": "212699320621",
+                    "M_MONTANT_RECH": "10"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-31 14:00:43",
+                    "M_LINE_ID": "212635170726",
+                    "M_MONTANT_RECH": "10"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-31 13:59:10",
+                    "M_LINE_ID": "212646563829",
+                    "M_MONTANT_RECH": "5"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-31 13:54:12",
+                    "M_LINE_ID": "212699986619",
+                    "M_MONTANT_RECH": "10"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-31 13:46:37",
+                    "M_LINE_ID": "212630722596",
+                    "M_MONTANT_RECH": "10"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-31 13:45:37",
+                    "M_LINE_ID": "212698192096",
+                    "M_MONTANT_RECH": "5"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-31 13:42:46",
+                    "M_LINE_ID": "212709250387",
+                    "M_MONTANT_RECH": "10"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-31 13:38:11",
+                    "M_LINE_ID": "212601924823",
+                    "M_MONTANT_RECH": "25"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-31 13:23:58",
+                    "M_LINE_ID": "212629320686",
+                    "M_MONTANT_RECH": "10"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-31 13:08:59",
+                    "M_LINE_ID": "212609075210",
+                    "M_MONTANT_RECH": "10"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-31 12:22:41",
+                    "M_LINE_ID": "212661722279",
+                    "M_MONTANT_RECH": "10"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-31 12:21:11",
+                    "M_LINE_ID": "212606082060",
+                    "M_MONTANT_RECH": "20"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-31 12:20:19",
+                    "M_LINE_ID": "212604088292",
+                    "M_MONTANT_RECH": "20"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-31 12:09:04",
+                    "M_LINE_ID": "212617007171",
+                    "M_MONTANT_RECH": "10"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-31 11:48:47",
+                    "M_LINE_ID": "212680137027",
+                    "M_MONTANT_RECH": "5"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-31 11:39:30",
+                    "M_LINE_ID": "212698497220",
+                    "M_MONTANT_RECH": "30"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-31 11:38:19",
+                    "M_LINE_ID": "212681567387",
+                    "M_MONTANT_RECH": "10"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-31 11:36:29",
+                    "M_LINE_ID": "212633016758",
+                    "M_MONTANT_RECH": "5"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-31 10:59:48",
+                    "M_LINE_ID": "212700181339",
+                    "M_MONTANT_RECH": "5"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-31 10:53:37",
+                    "M_LINE_ID": "212600181339",
+                    "M_MONTANT_RECH": "5"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-31 09:49:37",
+                    "M_LINE_ID": "212627252426",
+                    "M_MONTANT_RECH": "5"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-31 08:24:29",
+                    "M_LINE_ID": "212627662180",
+                    "M_MONTANT_RECH": "10"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-31 08:08:12",
+                    "M_LINE_ID": "212661326036",
+                    "M_MONTANT_RECH": "10"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-30 20:40:43",
+                    "M_LINE_ID": "212699314252",
+                    "M_MONTANT_RECH": "5"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-30 20:32:25",
+                    "M_LINE_ID": "212702728707",
+                    "M_MONTANT_RECH": "5"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-30 20:12:45",
+                    "M_LINE_ID": "212608433822",
+                    "M_MONTANT_RECH": "5"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-30 20:01:50",
+                    "M_LINE_ID": "212709288827",
+                    "M_MONTANT_RECH": "30"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-30 19:53:18",
+                    "M_LINE_ID": "212687587542",
+                    "M_MONTANT_RECH": "10"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-30 19:46:23",
+                    "M_LINE_ID": "212640103380",
+                    "M_MONTANT_RECH": "30"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-30 19:45:35",
+                    "M_LINE_ID": "212634840812",
+                    "M_MONTANT_RECH": "30"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-30 19:34:52",
+                    "M_LINE_ID": "212703220885",
+                    "M_MONTANT_RECH": "30"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-30 19:24:00",
+                    "M_LINE_ID": "212601480913",
+                    "M_MONTANT_RECH": "5"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-30 19:22:56",
+                    "M_LINE_ID": "212635504521",
+                    "M_MONTANT_RECH": "10"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-30 18:58:39",
+                    "M_LINE_ID": "212607118312",
+                    "M_MONTANT_RECH": "30"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-30 18:41:00",
+                    "M_LINE_ID": "212681567387",
+                    "M_MONTANT_RECH": "20"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-30 18:31:22",
+                    "M_LINE_ID": "212627908275",
+                    "M_MONTANT_RECH": "20"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-30 18:30:31",
+                    "M_LINE_ID": "212604675048",
+                    "M_MONTANT_RECH": "20"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-30 18:15:04",
+                    "M_LINE_ID": "212600457072",
+                    "M_MONTANT_RECH": "20"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-30 18:09:33",
+                    "M_LINE_ID": "212627444954",
+                    "M_MONTANT_RECH": "5"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-30 18:04:45",
+                    "M_LINE_ID": "212629889179",
+                    "M_MONTANT_RECH": "5"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-30 17:41:31",
+                    "M_LINE_ID": "212680538758",
+                    "M_MONTANT_RECH": "30"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-30 16:39:06",
+                    "M_LINE_ID": "212633781293",
+                    "M_MONTANT_RECH": "5"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-30 16:31:45",
+                    "M_LINE_ID": "212706104971",
+                    "M_MONTANT_RECH": "5"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-30 16:09:28",
+                    "M_LINE_ID": "212608235535",
+                    "M_MONTANT_RECH": "30"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-30 15:41:51",
+                    "M_LINE_ID": "212629474641",
+                    "M_MONTANT_RECH": "5"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-30 15:38:37",
+                    "M_LINE_ID": "212705579126",
+                    "M_MONTANT_RECH": "5"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-30 15:15:48",
+                    "M_LINE_ID": "212710167693",
+                    "M_MONTANT_RECH": "5"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-30 15:00:43",
+                    "M_LINE_ID": "212633999117",
+                    "M_MONTANT_RECH": "20"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-30 14:44:36",
+                    "M_LINE_ID": "212633999117",
+                    "M_MONTANT_RECH": "20"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-30 14:41:15",
+                    "M_LINE_ID": "212634327996",
+                    "M_MONTANT_RECH": "10"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-30 14:31:25",
+                    "M_LINE_ID": "212630899595",
+                    "M_MONTANT_RECH": "5"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-30 12:13:24",
+                    "M_LINE_ID": "212634544262",
+                    "M_MONTANT_RECH": "10"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-30 12:06:00",
+                    "M_LINE_ID": "212604259067",
+                    "M_MONTANT_RECH": "50"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-30 12:00:13",
+                    "M_LINE_ID": "212604668353",
+                    "M_MONTANT_RECH": "10"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-30 11:55:18",
+                    "M_LINE_ID": "212634544262",
+                    "M_MONTANT_RECH": "30"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-30 10:57:36",
+                    "M_LINE_ID": "212687901714",
+                    "M_MONTANT_RECH": "10"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-30 10:15:42",
+                    "M_LINE_ID": "212602833476",
+                    "M_MONTANT_RECH": "10"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-30 10:14:21",
+                    "M_LINE_ID": "212627347194",
+                    "M_MONTANT_RECH": "5"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-30 09:55:43",
+                    "M_LINE_ID": "212604440249",
+                    "M_MONTANT_RECH": "10"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-30 09:03:06",
+                    "M_LINE_ID": "212681567980",
+                    "M_MONTANT_RECH": "10"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-30 08:27:34",
+                    "M_LINE_ID": "212608477704",
+                    "M_MONTANT_RECH": "10"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-30 08:27:00",
+                    "M_LINE_ID": "212608477704",
+                    "M_MONTANT_RECH": "10"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-29 19:28:44",
+                    "M_LINE_ID": "212707417829",
+                    "M_MONTANT_RECH": "10"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-29 18:47:02",
+                    "M_LINE_ID": "212629779841",
+                    "M_MONTANT_RECH": "30"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-29 18:33:53",
+                    "M_LINE_ID": "212608239462",
+                    "M_MONTANT_RECH": "50"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-29 18:03:11",
+                    "M_LINE_ID": "212695505196",
+                    "M_MONTANT_RECH": "10"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-29 17:59:57",
+                    "M_LINE_ID": "212640140495",
+                    "M_MONTANT_RECH": "5"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-29 17:47:11",
+                    "M_LINE_ID": "212629474641",
+                    "M_MONTANT_RECH": "5"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-29 17:36:45",
+                    "M_LINE_ID": "212680788282",
+                    "M_MONTANT_RECH": "5"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-29 16:53:42",
+                    "M_LINE_ID": "212635346150",
+                    "M_MONTANT_RECH": "10"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-29 13:18:03",
+                    "M_LINE_ID": "212708617144",
+                    "M_MONTANT_RECH": "5"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-29 13:12:06",
+                    "M_LINE_ID": "212690765065",
+                    "M_MONTANT_RECH": "5"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-29 12:38:41",
+                    "M_LINE_ID": "212680326279",
+                    "M_MONTANT_RECH": "30"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-29 12:20:29",
+                    "M_LINE_ID": "212604612525",
+                    "M_MONTANT_RECH": "10"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-29 12:20:04",
+                    "M_LINE_ID": "212604612525",
+                    "M_MONTANT_RECH": "10"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-29 12:08:22",
+                    "M_LINE_ID": "212602969296",
+                    "M_MONTANT_RECH": "30"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-29 11:56:24",
+                    "M_LINE_ID": "212706353616",
+                    "M_MONTANT_RECH": "10"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-28 20:32:31",
+                    "M_LINE_ID": "212698287906",
+                    "M_MONTANT_RECH": "5"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-28 20:10:06",
+                    "M_LINE_ID": "212668113768",
+                    "M_MONTANT_RECH": "10"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-28 19:05:54",
+                    "M_LINE_ID": "212604238134",
+                    "M_MONTANT_RECH": "10"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-28 18:57:41",
+                    "M_LINE_ID": "212604406598",
+                    "M_MONTANT_RECH": "10"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-28 18:47:19",
+                    "M_LINE_ID": "212601480913",
+                    "M_MONTANT_RECH": "5"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-28 18:04:47",
+                    "M_LINE_ID": "212680634607",
+                    "M_MONTANT_RECH": "10"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-28 17:50:41",
+                    "M_LINE_ID": "212701749919",
+                    "M_MONTANT_RECH": "5"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-28 17:27:13",
+                    "M_LINE_ID": "212705636664",
+                    "M_MONTANT_RECH": "30"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-28 17:24:01",
+                    "M_LINE_ID": "212633727052",
+                    "M_MONTANT_RECH": "5"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-28 17:13:02",
+                    "M_LINE_ID": "212603326015",
+                    "M_MONTANT_RECH": "10"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-28 15:57:25",
+                    "M_LINE_ID": "212690031331",
+                    "M_MONTANT_RECH": "10"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-28 15:50:52",
+                    "M_LINE_ID": "212604756744",
+                    "M_MONTANT_RECH": "10"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-28 15:28:27",
+                    "M_LINE_ID": "212627347194",
+                    "M_MONTANT_RECH": "5"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-28 15:20:52",
+                    "M_LINE_ID": "212681858333",
+                    "M_MONTANT_RECH": "30"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-28 14:23:49",
+                    "M_LINE_ID": "212698287906",
+                    "M_MONTANT_RECH": "30"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-28 14:10:14",
+                    "M_LINE_ID": "212630545378",
+                    "M_MONTANT_RECH": "25"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-28 14:03:34",
+                    "M_LINE_ID": "212698450082",
+                    "M_MONTANT_RECH": "10"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-28 13:43:44",
+                    "M_LINE_ID": "212603718000",
+                    "M_MONTANT_RECH": "30"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-28 13:40:47",
+                    "M_LINE_ID": "212690765065",
+                    "M_MONTANT_RECH": "5"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-28 13:32:31",
+                    "M_LINE_ID": "212638632975",
+                    "M_MONTANT_RECH": "10"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-28 13:25:35",
+                    "M_LINE_ID": "212633016758",
+                    "M_MONTANT_RECH": "5"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-28 12:38:54",
+                    "M_LINE_ID": "212634823465",
+                    "M_MONTANT_RECH": "5"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-28 12:34:54",
+                    "M_LINE_ID": "212602661225",
+                    "M_MONTANT_RECH": "10"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-28 12:14:28",
+                    "M_LINE_ID": "212638106492",
+                    "M_MONTANT_RECH": "5"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-28 12:09:44",
+                    "M_LINE_ID": "212695439334",
+                    "M_MONTANT_RECH": "10"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-28 10:27:10",
+                    "M_LINE_ID": "212638370909",
+                    "M_MONTANT_RECH": "10"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-28 10:12:58",
+                    "M_LINE_ID": "212700310022",
+                    "M_MONTANT_RECH": "30"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-28 09:35:53",
+                    "M_LINE_ID": "212638836239",
+                    "M_MONTANT_RECH": "25"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-28 09:35:13",
+                    "M_LINE_ID": "212638836239",
+                    "M_MONTANT_RECH": "25"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-27 20:45:27",
+                    "M_LINE_ID": "212690795862",
+                    "M_MONTANT_RECH": "10"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-27 20:33:19",
+                    "M_LINE_ID": "212640344852",
+                    "M_MONTANT_RECH": "30"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-27 20:23:41",
+                    "M_LINE_ID": "212629474641",
+                    "M_MONTANT_RECH": "10"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-27 20:17:42",
+                    "M_LINE_ID": "212630453436",
+                    "M_MONTANT_RECH": "50"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-27 20:10:23",
+                    "M_LINE_ID": "212708918559",
+                    "M_MONTANT_RECH": "30"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-27 20:08:13",
+                    "M_LINE_ID": "212703605913",
+                    "M_MONTANT_RECH": "5"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-27 19:59:38",
+                    "M_LINE_ID": "212633581101",
+                    "M_MONTANT_RECH": "5"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-27 19:53:28",
+                    "M_LINE_ID": "212701205518",
+                    "M_MONTANT_RECH": "10"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-27 19:46:19",
+                    "M_LINE_ID": "212680228324",
+                    "M_MONTANT_RECH": "5"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-27 19:17:17",
+                    "M_LINE_ID": "212607436015",
+                    "M_MONTANT_RECH": "5"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-27 19:06:43",
+                    "M_LINE_ID": "212607382407",
+                    "M_MONTANT_RECH": "20"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-27 18:00:01",
+                    "M_LINE_ID": "212681711167",
+                    "M_MONTANT_RECH": "30"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-27 17:54:39",
+                    "M_LINE_ID": "212601701039",
+                    "M_MONTANT_RECH": "10"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-27 16:48:47",
+                    "M_LINE_ID": "212638835496",
+                    "M_MONTANT_RECH": "20"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-27 16:38:38",
+                    "M_LINE_ID": "212634282346",
+                    "M_MONTANT_RECH": "10"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-27 16:14:33",
+                    "M_LINE_ID": "212603923945",
+                    "M_MONTANT_RECH": "10"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-27 16:10:57",
+                    "M_LINE_ID": "212704158525",
+                    "M_MONTANT_RECH": "5"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-27 15:59:25",
+                    "M_LINE_ID": "212681283452",
+                    "M_MONTANT_RECH": "5"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-27 15:55:10",
+                    "M_LINE_ID": "212687115617",
+                    "M_MONTANT_RECH": "30"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-27 15:52:31",
+                    "M_LINE_ID": "212705579126",
+                    "M_MONTANT_RECH": "5"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-27 15:29:45",
+                    "M_LINE_ID": "212604479660",
+                    "M_MONTANT_RECH": "5"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-27 15:23:42",
+                    "M_LINE_ID": "212601603852",
+                    "M_MONTANT_RECH": "30"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-27 15:08:18",
+                    "M_LINE_ID": "212602623118",
+                    "M_MONTANT_RECH": "5"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-27 12:07:37",
+                    "M_LINE_ID": "212604406598",
+                    "M_MONTANT_RECH": "10"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-27 11:59:22",
+                    "M_LINE_ID": "212640357682",
+                    "M_MONTANT_RECH": "10"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-27 11:46:31",
+                    "M_LINE_ID": "212635741058",
+                    "M_MONTANT_RECH": "10"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-27 11:17:41",
+                    "M_LINE_ID": "212705578465",
+                    "M_MONTANT_RECH": "5"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-27 11:07:54",
+                    "M_LINE_ID": "212680437555",
+                    "M_MONTANT_RECH": "20"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-27 10:59:29",
+                    "M_LINE_ID": "212604881444",
+                    "M_MONTANT_RECH": "5"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-27 10:34:02",
+                    "M_LINE_ID": "212606518282",
+                    "M_MONTANT_RECH": "10"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-27 10:27:28",
+                    "M_LINE_ID": "212681567980",
+                    "M_MONTANT_RECH": "5"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-27 09:54:18",
+                    "M_LINE_ID": "212634230024",
+                    "M_MONTANT_RECH": "5"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-27 09:43:34",
+                    "M_LINE_ID": "212699676252",
+                    "M_MONTANT_RECH": "5"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-27 09:22:50",
+                    "M_LINE_ID": "212680451155",
+                    "M_MONTANT_RECH": "30"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-27 08:35:43",
+                    "M_LINE_ID": "212638030898",
+                    "M_MONTANT_RECH": "10"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-26 20:54:57",
+                    "M_LINE_ID": "212606082060",
+                    "M_MONTANT_RECH": "20"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-26 20:51:10",
+                    "M_LINE_ID": "212603394924",
+                    "M_MONTANT_RECH": "5"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-26 20:37:48",
+                    "M_LINE_ID": "212701205518",
+                    "M_MONTANT_RECH": "10"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-26 20:25:48",
+                    "M_LINE_ID": "212668113768",
+                    "M_MONTANT_RECH": "10"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "M_DATE": "2021-08-26 20:25:26",
+                    "M_LINE_ID": "212626636002",
+                    "M_MONTANT_RECH": "5"
+                }
+            }
+        ]
+    }
+}

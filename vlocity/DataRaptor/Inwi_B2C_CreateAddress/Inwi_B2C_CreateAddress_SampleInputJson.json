@@ -1,0 +1,39 @@
+{
+    "input": {
+        "CodePostal": null,
+        "Code_Dealer": null,
+        "ErrorAddress": true,
+        "Lieux_d_animation_Dealer": null,
+        "NumeroContact2_Dealer": null,
+        "RVR_Dealer": null,
+        "Regional_Dealer": null,
+        "Segment_Dealer": null,
+        "SpecifiedStreet": null,
+        "TypeAddress": "domicile",
+        "TypeCIN": "Carte d'Identité Nationale",
+        "Type_Dealer": null,
+        "VIP": false,
+        "address": "add",
+        "born": "1935-05-31",
+        "civility": "Monsieur",
+        "dependentValues": {
+            "CityName": "RABAT",
+            "IdMaroc": "a6P25000000D5VREA0",
+            "Pays": "a6P25000000D5VREA0",
+            "PaysName": "Maroc",
+            "Quartier": "a6N25000000DANJEA4",
+            "Region": "a6O25000000CfXfEAK",
+            "RegionName": "Rabat-Sale, Zemmour, Zaer",
+            "Ville": "a6M25000000DEKNEA4"
+        },
+        "favLanguage": "Arabe",
+        "firstName": "preee",
+        "lastName": "amm",
+        "nationality": "Maroc",
+        "principalContact": "SMS",
+        "profession": "AUTRES",
+        "segmentMarche": "Particulier",
+        "telephone": "212222222222",
+        "theId": "J5"
+    }
+}

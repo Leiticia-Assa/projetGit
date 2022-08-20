@@ -1,0 +1,87 @@
+{
+    "current": [
+        {
+            "CSFindInvoiceInteraction": [
+                {
+                    "CSInvoice": [
+                        {
+                            "billingAccountId": "979080",
+                            "customerId": "12242066",
+                            "invoiceAmount": 374.1666666666667,
+                            "invoiceAmountATI": 449,
+                            "invoiceAmountVAT": null,
+                            "invoiceDate": "2020-05-01Z",
+                            "invoiceEndDate": "2020-05-01Z",
+                            "invoiceId": "F2002000063",
+                            "invoicePaymentDueDate": "2020-05-31Z",
+                            "invoiceStartDate": "2020-04-01Z",
+                            "marketSegment": "B2C",
+                            "mdn": null,
+                            "name": "Finaltest test",
+                            "paidAmount": null,
+                            "paidAmountATI": null,
+                            "paidAmountVAT": null,
+                            "pinCode": "5963",
+                            "remainingAmount": 0,
+                            "remainingAmountATI": 0,
+                            "remainingAmountVAT": null,
+                            "status": "2"
+                        },
+                        {
+                            "billingAccountId": "979080",
+                            "customerId": "12242066",
+                            "invoiceAmount": 207.5,
+                            "invoiceAmountATI": 249,
+                            "invoiceAmountVAT": null,
+                            "invoiceDate": "2020-04-01Z",
+                            "invoiceEndDate": "2020-04-01Z",
+                            "invoiceId": "F2002000062",
+                            "invoicePaymentDueDate": "2020-05-01Z",
+                            "invoiceStartDate": "2020-03-01Z",
+                            "marketSegment": "B2C",
+                            "mdn": null,
+                            "name": "Finaltest test",
+                            "paidAmount": null,
+                            "paidAmountATI": null,
+                            "paidAmountVAT": null,
+                            "pinCode": "5963",
+                            "remainingAmount": 415,
+                            "remainingAmountATI": 498,
+                            "remainingAmountVAT": null,
+                            "status": null
+                        },
+                        {
+                            "billingAccountId": "979080",
+                            "customerId": "12242066",
+                            "invoiceAmount": 293.3666666666667,
+                            "invoiceAmountATI": 352.04,
+                            "invoiceAmountVAT": null,
+                            "invoiceDate": "2020-03-01Z",
+                            "invoiceEndDate": "2020-03-01Z",
+                            "invoiceId": "F2002000061",
+                            "invoicePaymentDueDate": "2020-03-31Z",
+                            "invoiceStartDate": "2020-02-18Z",
+                            "marketSegment": "B2C",
+                            "mdn": null,
+                            "name": "Finaltest test",
+                            "paidAmount": null,
+                            "paidAmountATI": null,
+                            "paidAmountVAT": null,
+                            "pinCode": "5963",
+                            "remainingAmount": 0,
+                            "remainingAmountATI": 0,
+                            "remainingAmountVAT": null,
+                            "status": "2"
+                        }
+                    ]
+                }
+            ],
+            "CSOperationResultInfo": {
+                "errorCode": null,
+                "errorMessage": null,
+                "isOK": "0",
+                "uuid": null
+            }
+        }
+    ]
+}

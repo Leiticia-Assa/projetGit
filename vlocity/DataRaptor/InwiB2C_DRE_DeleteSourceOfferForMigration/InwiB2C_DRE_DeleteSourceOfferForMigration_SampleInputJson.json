@@ -1,0 +1,3310 @@
+{
+    "offers": {
+        "messages": [
+        ],
+        "records": [
+            {
+                "%vlocity_namespace%__RecurringPrice__c": {
+                    "label": "Recurring Price",
+                    "value": 0
+                },
+                "CurrencyIsoCode": "MAD",
+                "Id": {
+                    "label": "Price Book Entry ID",
+                    "value": "01u3M000002LQ6cQAG"
+                },
+                "IsActive": {
+                    "label": "Active",
+                    "value": true
+                },
+                "Name": {
+                    "label": "Product Name",
+                    "value": "Forfait 3H + 33Go"
+                },
+                "Pricebook2Id": {
+                    "label": "Price Book ID",
+                    "value": "01s4K000001FA2rQAG"
+                },
+                "Product2": {
+                    "%vlocity_namespace%__GlobalGroupKey__c": "180d6c88-8495-cf62-9815-049ecea7e65b",
+                    "%vlocity_namespace%__IsConfigurable__c": true,
+                    "%vlocity_namespace%__SellingStartDate__c": "2021-12-05T23:00:00.000+0000",
+                    "%vlocity_namespace%__SpecificationType__c": "Offer",
+                    "%vlocity_namespace%__SubType__c": "None",
+                    "%vlocity_namespace%__Type__c": "Postpaye",
+                    "Id": "01t3M000000xuJZQAY",
+                    "Name": "Forfait 3H + 33Go",
+                    "RecordTypeId": "0124K000000mercQAA",
+                    "attributes": {
+                        "type": "Product2",
+                        "url": "/services/data/v54.0/sobjects/Product2/01t3M000000xuJZQAY"
+                    }
+                },
+                "Product2Id": {
+                    "label": "Product ID",
+                    "value": "01t3M000000xuJZQAY"
+                },
+                "ProductCode": {
+                    "label": "Product Code",
+                    "value": "INWIB2C_OFFERING_149DH_INTERNET"
+                },
+                "SellingPeriod": "Present",
+                "UnitPrice": {
+                    "label": "List Price",
+                    "value": "149.00"
+                },
+                "actions": {
+                    "getparentoffers": {
+                        "client": {
+                            "params": {
+                            }
+                        },
+                        "remote": {
+                            "params": {
+                                "cartId": "8013M000000OBklQAG",
+                                "fields": "IsActive,Id,Name,UnitPrice,ProductCode,%vlocity_namespace%__RecurringPrice__c,Product2.%vlocity_namespace%__Type__c",
+                                "includeIneligible": false,
+                                "localeCode": "en_US",
+                                "methodName": "getCartsParentOffers",
+                                "offsetSize": null,
+                                "pagesize": 30,
+                                "query": null
+                            }
+                        },
+                        "rest": {
+                            "link": null,
+                            "method": null,
+                            "params": {
+                            }
+                        }
+                    },
+                    "getproductbyid": {
+                        "client": {
+                            "params": {
+                                "cartId": "8013M000000OBklQAG",
+                                "id": "01u3M000002LQ6cQAG",
+                                "methodName": "getCartsProductsById"
+                            }
+                        },
+                        "remote": {
+                            "params": {
+                                "cartId": "8013M000000OBklQAG",
+                                "id": "01u3M000002LQ6cQAG",
+                                "methodName": "getCartsProductsById"
+                            }
+                        },
+                        "rest": {
+                            "link": null,
+                            "method": null,
+                            "params": {
+                            }
+                        }
+                    },
+                    "gettargetoffersitems": {
+                        "client": {
+                            "params": {
+                            }
+                        },
+                        "remote": {
+                            "params": {
+                                "cartId": "8013M000000OBklQAG",
+                                "methodName": "getCartsTargetOffersItems",
+                                "offerIds": "01u3M000002LQ6cQAG"
+                            }
+                        },
+                        "rest": {
+                            "link": null,
+                            "method": null,
+                            "params": {
+                            }
+                        }
+                    },
+                    "replaceoffers": {
+                        "client": {
+                            "params": {
+                            }
+                        },
+                        "remote": {
+                            "params": {
+                                "cartId": "8013M000000OBklQAG",
+                                "hierarchy": -1,
+                                "includeAttachment": false,
+                                "items": [
+                                    {
+                                        "itemId": "01u3M000002LQ6cQAG",
+                                        "quantity": 1
+                                    }
+                                ],
+                                "lastRecordId": null,
+                                "methodName": "replaceOffers",
+                                "pagesize": 30,
+                                "price": true,
+                                "query": null,
+                                "validate": true
+                            }
+                        },
+                        "rest": {
+                            "link": null,
+                            "method": null,
+                            "params": {
+                            }
+                        }
+                    },
+                    "validatecart": {
+                        "client": {
+                            "params": {
+                            }
+                        },
+                        "remote": {
+                            "params": {
+                                "cartId": "8013M000000OBklQAG",
+                                "methodName": "runCartValidation"
+                            }
+                        },
+                        "rest": {
+                            "link": null,
+                            "method": null,
+                            "params": {
+                            }
+                        }
+                    }
+                },
+                "attributeValues": {
+                },
+                "category": "Qualified",
+                "defaultQuantity": 1,
+                "displaySequence": -1,
+                "groupMaxQuantity": 99999,
+                "groupMinQuantity": 0,
+                "hasChildren": true,
+                "isVirtualItem": false,
+                "itemType": "childProduct",
+                "maxQuantity": 99999,
+                "messages": [
+                ],
+                "minQuantity": 0,
+                "name": "Forfait 3H + 33Go",
+                "parentRecordTypeDevName": "inwib2c_OrderRecordType",
+                "productCategories": {
+                    "messages": [
+                    ],
+                    "totalSize": 0
+                },
+                "productChildItemDefinition": {
+                    "%vlocity_namespace%__ChildLineNumber__c": "1",
+                    "%vlocity_namespace%__CollapseHierarchy__c": false,
+                    "%vlocity_namespace%__IsOverride__c": false,
+                    "%vlocity_namespace%__IsRootProductChildItem__c": true,
+                    "%vlocity_namespace%__IsVirtualItem__c": false,
+                    "%vlocity_namespace%__MaxQuantity__c": 99999,
+                    "%vlocity_namespace%__MaximumChildItemQuantity__c": 99999,
+                    "%vlocity_namespace%__MinQuantity__c": 0,
+                    "%vlocity_namespace%__MinimumChildItemQuantity__c": 0,
+                    "%vlocity_namespace%__ParentProductId__c": "01t3M000000xuJZQAY",
+                    "%vlocity_namespace%__ParentProductId__r": {
+                        "%vlocity_namespace%__GlobalGroupKey__c": "180d6c88-8495-cf62-9815-049ecea7e65b",
+                        "%vlocity_namespace%__SellingStartDate__c": "2021-12-05T23:00:00.000+0000",
+                        "Id": "01t3M000000xuJZQAY",
+                        "Name": "Forfait 3H + 33Go",
+                        "attributes": {
+                            "type": "Product2",
+                            "url": "/services/data/v54.0/sobjects/Product2/01t3M000000xuJZQAY"
+                        }
+                    },
+                    "%vlocity_namespace%__Quantity__c": 1,
+                    "%vlocity_namespace%__SeqNumber__c": 1,
+                    "Name": "Root PCI",
+                    "attributes": {
+                        "type": "%vlocity_namespace%__ProductChildItem__c"
+                    }
+                },
+                "productChildItemId": "a3t3M0000000f2aQAA",
+                "productHierarchyPath": "01t3M000000xuJZQAY",
+                "productId": "01t3M000000xuJZQAY",
+                "sequenceNumber": 1
+            },
+            {
+                "%vlocity_namespace%__RecurringPrice__c": {
+                    "label": "Recurring Price",
+                    "value": 0
+                },
+                "CurrencyIsoCode": "MAD",
+                "Id": {
+                    "label": "Price Book Entry ID",
+                    "value": "01u3M000002LQ6hQAG"
+                },
+                "IsActive": {
+                    "label": "Active",
+                    "value": true
+                },
+                "Name": {
+                    "label": "Product Name",
+                    "value": "Forfait 1H + 11Go"
+                },
+                "Pricebook2Id": {
+                    "label": "Price Book ID",
+                    "value": "01s4K000001FA2rQAG"
+                },
+                "Product2": {
+                    "%vlocity_namespace%__GlobalGroupKey__c": "d34cd69f-58ea-c59e-406b-7699d7a69626",
+                    "%vlocity_namespace%__IsConfigurable__c": true,
+                    "%vlocity_namespace%__SellingStartDate__c": "2021-12-02T23:00:00.000+0000",
+                    "%vlocity_namespace%__SpecificationType__c": "Offer",
+                    "%vlocity_namespace%__SubType__c": "None",
+                    "%vlocity_namespace%__Type__c": "Postpaye",
+                    "Id": "01t3M000000xuJtQAI",
+                    "Name": "Forfait 1H + 11Go",
+                    "RecordTypeId": "0124K000000mercQAA",
+                    "attributes": {
+                        "type": "Product2",
+                        "url": "/services/data/v54.0/sobjects/Product2/01t3M000000xuJtQAI"
+                    }
+                },
+                "Product2Id": {
+                    "label": "Product ID",
+                    "value": "01t3M000000xuJtQAI"
+                },
+                "ProductCode": {
+                    "label": "Product Code",
+                    "value": "INWIB2C_OFFERING_49DH_INTERNET"
+                },
+                "SellingPeriod": "Present",
+                "UnitPrice": {
+                    "label": "List Price",
+                    "value": "49.00"
+                },
+                "actions": {
+                    "getparentoffers": {
+                        "client": {
+                            "params": {
+                            }
+                        },
+                        "remote": {
+                            "params": {
+                                "cartId": "8013M000000OBklQAG",
+                                "fields": "IsActive,Id,Name,UnitPrice,ProductCode,%vlocity_namespace%__RecurringPrice__c,Product2.%vlocity_namespace%__Type__c",
+                                "includeIneligible": false,
+                                "localeCode": "en_US",
+                                "methodName": "getCartsParentOffers",
+                                "offsetSize": null,
+                                "pagesize": 30,
+                                "query": null
+                            }
+                        },
+                        "rest": {
+                            "link": null,
+                            "method": null,
+                            "params": {
+                            }
+                        }
+                    },
+                    "getproductbyid": {
+                        "client": {
+                            "params": {
+                                "cartId": "8013M000000OBklQAG",
+                                "id": "01u3M000002LQ6hQAG",
+                                "methodName": "getCartsProductsById"
+                            }
+                        },
+                        "remote": {
+                            "params": {
+                                "cartId": "8013M000000OBklQAG",
+                                "id": "01u3M000002LQ6hQAG",
+                                "methodName": "getCartsProductsById"
+                            }
+                        },
+                        "rest": {
+                            "link": null,
+                            "method": null,
+                            "params": {
+                            }
+                        }
+                    },
+                    "gettargetoffersitems": {
+                        "client": {
+                            "params": {
+                            }
+                        },
+                        "remote": {
+                            "params": {
+                                "cartId": "8013M000000OBklQAG",
+                                "methodName": "getCartsTargetOffersItems",
+                                "offerIds": "01u3M000002LQ6hQAG"
+                            }
+                        },
+                        "rest": {
+                            "link": null,
+                            "method": null,
+                            "params": {
+                            }
+                        }
+                    },
+                    "replaceoffers": {
+                        "client": {
+                            "params": {
+                            }
+                        },
+                        "remote": {
+                            "params": {
+                                "cartId": "8013M000000OBklQAG",
+                                "hierarchy": -1,
+                                "includeAttachment": false,
+                                "items": [
+                                    {
+                                        "itemId": "01u3M000002LQ6hQAG",
+                                        "quantity": 1
+                                    }
+                                ],
+                                "lastRecordId": null,
+                                "methodName": "replaceOffers",
+                                "pagesize": 30,
+                                "price": true,
+                                "query": null,
+                                "validate": true
+                            }
+                        },
+                        "rest": {
+                            "link": null,
+                            "method": null,
+                            "params": {
+                            }
+                        }
+                    },
+                    "validatecart": {
+                        "client": {
+                            "params": {
+                            }
+                        },
+                        "remote": {
+                            "params": {
+                                "cartId": "8013M000000OBklQAG",
+                                "methodName": "runCartValidation"
+                            }
+                        },
+                        "rest": {
+                            "link": null,
+                            "method": null,
+                            "params": {
+                            }
+                        }
+                    }
+                },
+                "attributeValues": {
+                },
+                "category": "Qualified",
+                "defaultQuantity": 1,
+                "displaySequence": -1,
+                "groupMaxQuantity": 99999,
+                "groupMinQuantity": 0,
+                "hasChildren": true,
+                "isVirtualItem": false,
+                "itemType": "childProduct",
+                "maxQuantity": 99999,
+                "messages": [
+                ],
+                "minQuantity": 0,
+                "name": "Forfait 1H + 11Go",
+                "parentRecordTypeDevName": "inwib2c_OrderRecordType",
+                "productCategories": {
+                    "messages": [
+                    ],
+                    "totalSize": 0
+                },
+                "productChildItemDefinition": {
+                    "%vlocity_namespace%__ChildLineNumber__c": "1",
+                    "%vlocity_namespace%__CollapseHierarchy__c": false,
+                    "%vlocity_namespace%__IsOverride__c": false,
+                    "%vlocity_namespace%__IsRootProductChildItem__c": true,
+                    "%vlocity_namespace%__IsVirtualItem__c": false,
+                    "%vlocity_namespace%__MaxQuantity__c": 99999,
+                    "%vlocity_namespace%__MaximumChildItemQuantity__c": 99999,
+                    "%vlocity_namespace%__MinQuantity__c": 0,
+                    "%vlocity_namespace%__MinimumChildItemQuantity__c": 0,
+                    "%vlocity_namespace%__ParentProductId__c": "01t3M000000xuJtQAI",
+                    "%vlocity_namespace%__ParentProductId__r": {
+                        "%vlocity_namespace%__GlobalGroupKey__c": "d34cd69f-58ea-c59e-406b-7699d7a69626",
+                        "%vlocity_namespace%__SellingStartDate__c": "2021-12-02T23:00:00.000+0000",
+                        "Id": "01t3M000000xuJtQAI",
+                        "Name": "Forfait 1H + 11Go",
+                        "attributes": {
+                            "type": "Product2",
+                            "url": "/services/data/v54.0/sobjects/Product2/01t3M000000xuJtQAI"
+                        }
+                    },
+                    "%vlocity_namespace%__Quantity__c": 1,
+                    "%vlocity_namespace%__SeqNumber__c": 1,
+                    "Name": "Root PCI",
+                    "attributes": {
+                        "type": "%vlocity_namespace%__ProductChildItem__c"
+                    }
+                },
+                "productChildItemId": "a3t3M0000000f2iQAA",
+                "productHierarchyPath": "01t3M000000xuJtQAI",
+                "productId": "01t3M000000xuJtQAI",
+                "sequenceNumber": 1
+            },
+            {
+                "%vlocity_namespace%__RecurringPrice__c": {
+                    "label": "Recurring Price",
+                    "value": 0
+                },
+                "CurrencyIsoCode": "MAD",
+                "Id": {
+                    "label": "Price Book Entry ID",
+                    "value": "01u3M000002LQ6mQAG"
+                },
+                "IsActive": {
+                    "label": "Active",
+                    "value": true
+                },
+                "Name": {
+                    "label": "Product Name",
+                    "value": "Forfait Illimite national +50Go"
+                },
+                "Pricebook2Id": {
+                    "label": "Price Book ID",
+                    "value": "01s4K000001FA2rQAG"
+                },
+                "Product2": {
+                    "%vlocity_namespace%__GlobalGroupKey__c": "b543ea62-791c-9f38-f3e5-465ffb1d6442",
+                    "%vlocity_namespace%__IsConfigurable__c": true,
+                    "%vlocity_namespace%__SellingStartDate__c": "2021-12-05T23:00:00.000+0000",
+                    "%vlocity_namespace%__SpecificationType__c": "Offer",
+                    "%vlocity_namespace%__SubType__c": "None",
+                    "%vlocity_namespace%__Type__c": "Postpaye",
+                    "Id": "01t3M000000xuJjQAI",
+                    "Name": "Forfait Illimite national +50Go",
+                    "RecordTypeId": "0124K000000mercQAA",
+                    "attributes": {
+                        "type": "Product2",
+                        "url": "/services/data/v54.0/sobjects/Product2/01t3M000000xuJjQAI"
+                    }
+                },
+                "Product2Id": {
+                    "label": "Product ID",
+                    "value": "01t3M000000xuJjQAI"
+                },
+                "ProductCode": {
+                    "label": "Product Code",
+                    "value": "INWIB2C_OFFERING_249DH_TOUT"
+                },
+                "SellingPeriod": "Present",
+                "UnitPrice": {
+                    "label": "List Price",
+                    "value": "249.00"
+                },
+                "actions": {
+                    "getparentoffers": {
+                        "client": {
+                            "params": {
+                            }
+                        },
+                        "remote": {
+                            "params": {
+                                "cartId": "8013M000000OBklQAG",
+                                "fields": "IsActive,Id,Name,UnitPrice,ProductCode,%vlocity_namespace%__RecurringPrice__c,Product2.%vlocity_namespace%__Type__c",
+                                "includeIneligible": false,
+                                "localeCode": "en_US",
+                                "methodName": "getCartsParentOffers",
+                                "offsetSize": null,
+                                "pagesize": 30,
+                                "query": null
+                            }
+                        },
+                        "rest": {
+                            "link": null,
+                            "method": null,
+                            "params": {
+                            }
+                        }
+                    },
+                    "getproductbyid": {
+                        "client": {
+                            "params": {
+                                "cartId": "8013M000000OBklQAG",
+                                "id": "01u3M000002LQ6mQAG",
+                                "methodName": "getCartsProductsById"
+                            }
+                        },
+                        "remote": {
+                            "params": {
+                                "cartId": "8013M000000OBklQAG",
+                                "id": "01u3M000002LQ6mQAG",
+                                "methodName": "getCartsProductsById"
+                            }
+                        },
+                        "rest": {
+                            "link": null,
+                            "method": null,
+                            "params": {
+                            }
+                        }
+                    },
+                    "gettargetoffersitems": {
+                        "client": {
+                            "params": {
+                            }
+                        },
+                        "remote": {
+                            "params": {
+                                "cartId": "8013M000000OBklQAG",
+                                "methodName": "getCartsTargetOffersItems",
+                                "offerIds": "01u3M000002LQ6mQAG"
+                            }
+                        },
+                        "rest": {
+                            "link": null,
+                            "method": null,
+                            "params": {
+                            }
+                        }
+                    },
+                    "replaceoffers": {
+                        "client": {
+                            "params": {
+                            }
+                        },
+                        "remote": {
+                            "params": {
+                                "cartId": "8013M000000OBklQAG",
+                                "hierarchy": -1,
+                                "includeAttachment": false,
+                                "items": [
+                                    {
+                                        "itemId": "01u3M000002LQ6mQAG",
+                                        "quantity": 1
+                                    }
+                                ],
+                                "lastRecordId": null,
+                                "methodName": "replaceOffers",
+                                "pagesize": 30,
+                                "price": true,
+                                "query": null,
+                                "validate": true
+                            }
+                        },
+                        "rest": {
+                            "link": null,
+                            "method": null,
+                            "params": {
+                            }
+                        }
+                    },
+                    "validatecart": {
+                        "client": {
+                            "params": {
+                            }
+                        },
+                        "remote": {
+                            "params": {
+                                "cartId": "8013M000000OBklQAG",
+                                "methodName": "runCartValidation"
+                            }
+                        },
+                        "rest": {
+                            "link": null,
+                            "method": null,
+                            "params": {
+                            }
+                        }
+                    }
+                },
+                "attributeValues": {
+                },
+                "category": "Qualified",
+                "defaultQuantity": 1,
+                "displaySequence": -1,
+                "groupMaxQuantity": 99999,
+                "groupMinQuantity": 0,
+                "hasChildren": true,
+                "isVirtualItem": false,
+                "itemType": "childProduct",
+                "maxQuantity": 99999,
+                "messages": [
+                ],
+                "minQuantity": 0,
+                "name": "Forfait Illimite national +50Go",
+                "parentRecordTypeDevName": "inwib2c_OrderRecordType",
+                "productCategories": {
+                    "messages": [
+                    ],
+                    "totalSize": 0
+                },
+                "productChildItemDefinition": {
+                    "%vlocity_namespace%__ChildLineNumber__c": "1",
+                    "%vlocity_namespace%__CollapseHierarchy__c": false,
+                    "%vlocity_namespace%__IsOverride__c": false,
+                    "%vlocity_namespace%__IsRootProductChildItem__c": true,
+                    "%vlocity_namespace%__IsVirtualItem__c": false,
+                    "%vlocity_namespace%__MaxQuantity__c": 99999,
+                    "%vlocity_namespace%__MaximumChildItemQuantity__c": 99999,
+                    "%vlocity_namespace%__MinQuantity__c": 0,
+                    "%vlocity_namespace%__MinimumChildItemQuantity__c": 0,
+                    "%vlocity_namespace%__ParentProductId__c": "01t3M000000xuJjQAI",
+                    "%vlocity_namespace%__ParentProductId__r": {
+                        "%vlocity_namespace%__GlobalGroupKey__c": "b543ea62-791c-9f38-f3e5-465ffb1d6442",
+                        "%vlocity_namespace%__SellingStartDate__c": "2021-12-05T23:00:00.000+0000",
+                        "Id": "01t3M000000xuJjQAI",
+                        "Name": "Forfait Illimite national +50Go",
+                        "attributes": {
+                            "type": "Product2",
+                            "url": "/services/data/v54.0/sobjects/Product2/01t3M000000xuJjQAI"
+                        }
+                    },
+                    "%vlocity_namespace%__Quantity__c": 1,
+                    "%vlocity_namespace%__SeqNumber__c": 1,
+                    "Name": "Root PCI",
+                    "attributes": {
+                        "type": "%vlocity_namespace%__ProductChildItem__c"
+                    }
+                },
+                "productChildItemId": "a3t3M0000000f2mQAA",
+                "productHierarchyPath": "01t3M000000xuJjQAI",
+                "productId": "01t3M000000xuJjQAI",
+                "sequenceNumber": 1
+            },
+            {
+                "%vlocity_namespace%__RecurringPrice__c": {
+                    "label": "Recurring Price",
+                    "value": 0
+                },
+                "CurrencyIsoCode": "MAD",
+                "Id": {
+                    "label": "Price Book Entry ID",
+                    "value": "01u3M000002LQ6rQAG"
+                },
+                "IsActive": {
+                    "label": "Active",
+                    "value": true
+                },
+                "Name": {
+                    "label": "Product Name",
+                    "value": "Forfait Illimité inwi 11h+11Go"
+                },
+                "Pricebook2Id": {
+                    "label": "Price Book ID",
+                    "value": "01s4K000001FA2rQAG"
+                },
+                "Product2": {
+                    "%vlocity_namespace%__GlobalGroupKey__c": "7e7e0e3c-3e4a-4714-abc5-ba466ebab7fa",
+                    "%vlocity_namespace%__IsConfigurable__c": true,
+                    "%vlocity_namespace%__SellingStartDate__c": "2021-12-01T23:00:00.000+0000",
+                    "%vlocity_namespace%__SpecificationType__c": "Offer",
+                    "%vlocity_namespace%__SubType__c": "None",
+                    "%vlocity_namespace%__Type__c": "Postpaye",
+                    "Id": "01t3M000000xuJuQAI",
+                    "Name": "Forfait Illimité inwi 11h+11Go",
+                    "RecordTypeId": "0124K000000mercQAA",
+                    "attributes": {
+                        "type": "Product2",
+                        "url": "/services/data/v54.0/sobjects/Product2/01t3M000000xuJuQAI"
+                    }
+                },
+                "Product2Id": {
+                    "label": "Product ID",
+                    "value": "01t3M000000xuJuQAI"
+                },
+                "ProductCode": {
+                    "label": "Product Code",
+                    "value": "INWIB2C_OFFERING_99DH_ILLINWI_APL"
+                },
+                "SellingPeriod": "Present",
+                "UnitPrice": {
+                    "label": "List Price",
+                    "value": "99.00"
+                },
+                "actions": {
+                    "getparentoffers": {
+                        "client": {
+                            "params": {
+                            }
+                        },
+                        "remote": {
+                            "params": {
+                                "cartId": "8013M000000OBklQAG",
+                                "fields": "IsActive,Id,Name,UnitPrice,ProductCode,%vlocity_namespace%__RecurringPrice__c,Product2.%vlocity_namespace%__Type__c",
+                                "includeIneligible": false,
+                                "localeCode": "en_US",
+                                "methodName": "getCartsParentOffers",
+                                "offsetSize": null,
+                                "pagesize": 30,
+                                "query": null
+                            }
+                        },
+                        "rest": {
+                            "link": null,
+                            "method": null,
+                            "params": {
+                            }
+                        }
+                    },
+                    "getproductbyid": {
+                        "client": {
+                            "params": {
+                                "cartId": "8013M000000OBklQAG",
+                                "id": "01u3M000002LQ6rQAG",
+                                "methodName": "getCartsProductsById"
+                            }
+                        },
+                        "remote": {
+                            "params": {
+                                "cartId": "8013M000000OBklQAG",
+                                "id": "01u3M000002LQ6rQAG",
+                                "methodName": "getCartsProductsById"
+                            }
+                        },
+                        "rest": {
+                            "link": null,
+                            "method": null,
+                            "params": {
+                            }
+                        }
+                    },
+                    "gettargetoffersitems": {
+                        "client": {
+                            "params": {
+                            }
+                        },
+                        "remote": {
+                            "params": {
+                                "cartId": "8013M000000OBklQAG",
+                                "methodName": "getCartsTargetOffersItems",
+                                "offerIds": "01u3M000002LQ6rQAG"
+                            }
+                        },
+                        "rest": {
+                            "link": null,
+                            "method": null,
+                            "params": {
+                            }
+                        }
+                    },
+                    "replaceoffers": {
+                        "client": {
+                            "params": {
+                            }
+                        },
+                        "remote": {
+                            "params": {
+                                "cartId": "8013M000000OBklQAG",
+                                "hierarchy": -1,
+                                "includeAttachment": false,
+                                "items": [
+                                    {
+                                        "itemId": "01u3M000002LQ6rQAG",
+                                        "quantity": 1
+                                    }
+                                ],
+                                "lastRecordId": null,
+                                "methodName": "replaceOffers",
+                                "pagesize": 30,
+                                "price": true,
+                                "query": null,
+                                "validate": true
+                            }
+                        },
+                        "rest": {
+                            "link": null,
+                            "method": null,
+                            "params": {
+                            }
+                        }
+                    },
+                    "validatecart": {
+                        "client": {
+                            "params": {
+                            }
+                        },
+                        "remote": {
+                            "params": {
+                                "cartId": "8013M000000OBklQAG",
+                                "methodName": "runCartValidation"
+                            }
+                        },
+                        "rest": {
+                            "link": null,
+                            "method": null,
+                            "params": {
+                            }
+                        }
+                    }
+                },
+                "attributeValues": {
+                },
+                "category": "Qualified",
+                "defaultQuantity": 1,
+                "displaySequence": -1,
+                "groupMaxQuantity": 99999,
+                "groupMinQuantity": 0,
+                "hasChildren": true,
+                "isVirtualItem": false,
+                "itemType": "childProduct",
+                "maxQuantity": 99999,
+                "messages": [
+                ],
+                "minQuantity": 0,
+                "name": "Forfait Illimité inwi 11h+11Go",
+                "parentRecordTypeDevName": "inwib2c_OrderRecordType",
+                "productCategories": {
+                    "messages": [
+                    ],
+                    "totalSize": 0
+                },
+                "productChildItemDefinition": {
+                    "%vlocity_namespace%__ChildLineNumber__c": "1",
+                    "%vlocity_namespace%__CollapseHierarchy__c": false,
+                    "%vlocity_namespace%__IsOverride__c": false,
+                    "%vlocity_namespace%__IsRootProductChildItem__c": true,
+                    "%vlocity_namespace%__IsVirtualItem__c": false,
+                    "%vlocity_namespace%__MaxQuantity__c": 99999,
+                    "%vlocity_namespace%__MaximumChildItemQuantity__c": 99999,
+                    "%vlocity_namespace%__MinQuantity__c": 0,
+                    "%vlocity_namespace%__MinimumChildItemQuantity__c": 0,
+                    "%vlocity_namespace%__ParentProductId__c": "01t3M000000xuJuQAI",
+                    "%vlocity_namespace%__ParentProductId__r": {
+                        "%vlocity_namespace%__GlobalGroupKey__c": "7e7e0e3c-3e4a-4714-abc5-ba466ebab7fa",
+                        "%vlocity_namespace%__SellingStartDate__c": "2021-12-01T23:00:00.000+0000",
+                        "Id": "01t3M000000xuJuQAI",
+                        "Name": "Forfait Illimité inwi 11h+11Go",
+                        "attributes": {
+                            "type": "Product2",
+                            "url": "/services/data/v54.0/sobjects/Product2/01t3M000000xuJuQAI"
+                        }
+                    },
+                    "%vlocity_namespace%__Quantity__c": 1,
+                    "%vlocity_namespace%__SeqNumber__c": 1,
+                    "Name": "Root PCI",
+                    "attributes": {
+                        "type": "%vlocity_namespace%__ProductChildItem__c"
+                    }
+                },
+                "productChildItemId": "a3t3M0000000f2sQAA",
+                "productHierarchyPath": "01t3M000000xuJuQAI",
+                "productId": "01t3M000000xuJuQAI",
+                "sequenceNumber": 1
+            },
+            {
+                "%vlocity_namespace%__RecurringPrice__c": {
+                    "label": "Recurring Price",
+                    "value": 0
+                },
+                "CurrencyIsoCode": "MAD",
+                "Id": {
+                    "label": "Price Book Entry ID",
+                    "value": "01u3M000002LQ6wQAG"
+                },
+                "IsActive": {
+                    "label": "Active",
+                    "value": true
+                },
+                "Name": {
+                    "label": "Product Name",
+                    "value": "Forfait 2h + 15 Go + Illimité RS"
+                },
+                "Pricebook2Id": {
+                    "label": "Price Book ID",
+                    "value": "01s4K000001FA2rQAG"
+                },
+                "Product2": {
+                    "%vlocity_namespace%__GlobalGroupKey__c": "fc6b8e84-64c0-c4a9-c7cf-2dc9380412e5",
+                    "%vlocity_namespace%__IsConfigurable__c": true,
+                    "%vlocity_namespace%__SellingStartDate__c": "2021-12-05T23:00:00.000+0000",
+                    "%vlocity_namespace%__SpecificationType__c": "Offer",
+                    "%vlocity_namespace%__SubType__c": "None",
+                    "%vlocity_namespace%__Type__c": "Postpaye",
+                    "Id": "01t3M000000xuK3QAI",
+                    "Name": "Forfait 2h + 15 Go + Illimité RS",
+                    "RecordTypeId": "0124K000000mercQAA",
+                    "attributes": {
+                        "type": "Product2",
+                        "url": "/services/data/v54.0/sobjects/Product2/01t3M000000xuK3QAI"
+                    }
+                },
+                "Product2Id": {
+                    "label": "Product ID",
+                    "value": "01t3M000000xuK3QAI"
+                },
+                "ProductCode": {
+                    "label": "Product Code",
+                    "value": "INWIB2C_OFFERING_99DH_ILLIMITE_RS"
+                },
+                "SellingPeriod": "Present",
+                "UnitPrice": {
+                    "label": "List Price",
+                    "value": "99.00"
+                },
+                "actions": {
+                    "getparentoffers": {
+                        "client": {
+                            "params": {
+                            }
+                        },
+                        "remote": {
+                            "params": {
+                                "cartId": "8013M000000OBklQAG",
+                                "fields": "IsActive,Id,Name,UnitPrice,ProductCode,%vlocity_namespace%__RecurringPrice__c,Product2.%vlocity_namespace%__Type__c",
+                                "includeIneligible": false,
+                                "localeCode": "en_US",
+                                "methodName": "getCartsParentOffers",
+                                "offsetSize": null,
+                                "pagesize": 30,
+                                "query": null
+                            }
+                        },
+                        "rest": {
+                            "link": null,
+                            "method": null,
+                            "params": {
+                            }
+                        }
+                    },
+                    "getproductbyid": {
+                        "client": {
+                            "params": {
+                                "cartId": "8013M000000OBklQAG",
+                                "id": "01u3M000002LQ6wQAG",
+                                "methodName": "getCartsProductsById"
+                            }
+                        },
+                        "remote": {
+                            "params": {
+                                "cartId": "8013M000000OBklQAG",
+                                "id": "01u3M000002LQ6wQAG",
+                                "methodName": "getCartsProductsById"
+                            }
+                        },
+                        "rest": {
+                            "link": null,
+                            "method": null,
+                            "params": {
+                            }
+                        }
+                    },
+                    "gettargetoffersitems": {
+                        "client": {
+                            "params": {
+                            }
+                        },
+                        "remote": {
+                            "params": {
+                                "cartId": "8013M000000OBklQAG",
+                                "methodName": "getCartsTargetOffersItems",
+                                "offerIds": "01u3M000002LQ6wQAG"
+                            }
+                        },
+                        "rest": {
+                            "link": null,
+                            "method": null,
+                            "params": {
+                            }
+                        }
+                    },
+                    "replaceoffers": {
+                        "client": {
+                            "params": {
+                            }
+                        },
+                        "remote": {
+                            "params": {
+                                "cartId": "8013M000000OBklQAG",
+                                "hierarchy": -1,
+                                "includeAttachment": false,
+                                "items": [
+                                    {
+                                        "itemId": "01u3M000002LQ6wQAG",
+                                        "quantity": 1
+                                    }
+                                ],
+                                "lastRecordId": null,
+                                "methodName": "replaceOffers",
+                                "pagesize": 30,
+                                "price": true,
+                                "query": null,
+                                "validate": true
+                            }
+                        },
+                        "rest": {
+                            "link": null,
+                            "method": null,
+                            "params": {
+                            }
+                        }
+                    },
+                    "validatecart": {
+                        "client": {
+                            "params": {
+                            }
+                        },
+                        "remote": {
+                            "params": {
+                                "cartId": "8013M000000OBklQAG",
+                                "methodName": "runCartValidation"
+                            }
+                        },
+                        "rest": {
+                            "link": null,
+                            "method": null,
+                            "params": {
+                            }
+                        }
+                    }
+                },
+                "attributeValues": {
+                },
+                "category": "Qualified",
+                "defaultQuantity": 1,
+                "displaySequence": -1,
+                "groupMaxQuantity": 99999,
+                "groupMinQuantity": 0,
+                "hasChildren": true,
+                "isVirtualItem": false,
+                "itemType": "childProduct",
+                "maxQuantity": 99999,
+                "messages": [
+                ],
+                "minQuantity": 0,
+                "name": "Forfait 2h + 15 Go + Illimité RS",
+                "parentRecordTypeDevName": "inwib2c_OrderRecordType",
+                "productCategories": {
+                    "messages": [
+                    ],
+                    "totalSize": 0
+                },
+                "productChildItemDefinition": {
+                    "%vlocity_namespace%__ChildLineNumber__c": "1",
+                    "%vlocity_namespace%__CollapseHierarchy__c": false,
+                    "%vlocity_namespace%__IsOverride__c": false,
+                    "%vlocity_namespace%__IsRootProductChildItem__c": true,
+                    "%vlocity_namespace%__IsVirtualItem__c": false,
+                    "%vlocity_namespace%__MaxQuantity__c": 99999,
+                    "%vlocity_namespace%__MaximumChildItemQuantity__c": 99999,
+                    "%vlocity_namespace%__MinQuantity__c": 0,
+                    "%vlocity_namespace%__MinimumChildItemQuantity__c": 0,
+                    "%vlocity_namespace%__ParentProductId__c": "01t3M000000xuK3QAI",
+                    "%vlocity_namespace%__ParentProductId__r": {
+                        "%vlocity_namespace%__GlobalGroupKey__c": "fc6b8e84-64c0-c4a9-c7cf-2dc9380412e5",
+                        "%vlocity_namespace%__SellingStartDate__c": "2021-12-05T23:00:00.000+0000",
+                        "Id": "01t3M000000xuK3QAI",
+                        "Name": "Forfait 2h + 15 Go + Illimité RS",
+                        "attributes": {
+                            "type": "Product2",
+                            "url": "/services/data/v54.0/sobjects/Product2/01t3M000000xuK3QAI"
+                        }
+                    },
+                    "%vlocity_namespace%__Quantity__c": 1,
+                    "%vlocity_namespace%__SeqNumber__c": 1,
+                    "Name": "Root PCI",
+                    "attributes": {
+                        "type": "%vlocity_namespace%__ProductChildItem__c"
+                    }
+                },
+                "productChildItemId": "a3t3M0000000f2xQAA",
+                "productHierarchyPath": "01t3M000000xuK3QAI",
+                "productId": "01t3M000000xuK3QAI",
+                "sequenceNumber": 1
+            },
+            {
+                "%vlocity_namespace%__RecurringPrice__c": {
+                    "label": "Recurring Price",
+                    "value": 0
+                },
+                "CurrencyIsoCode": "MAD",
+                "Id": {
+                    "label": "Price Book Entry ID",
+                    "value": "01u3M000002LQ71QAG"
+                },
+                "IsActive": {
+                    "label": "Active",
+                    "value": true
+                },
+                "Name": {
+                    "label": "Product Name",
+                    "value": "Forfait 1H + 2Go + Illimité RS + inwi"
+                },
+                "Pricebook2Id": {
+                    "label": "Price Book ID",
+                    "value": "01s4K000001FA2rQAG"
+                },
+                "Product2": {
+                    "%vlocity_namespace%__GlobalGroupKey__c": "6d2bf8fd-08f9-518d-17e9-2f9b715b3a3d",
+                    "%vlocity_namespace%__IsConfigurable__c": true,
+                    "%vlocity_namespace%__SellingStartDate__c": "2021-12-05T23:00:00.000+0000",
+                    "%vlocity_namespace%__SpecificationType__c": "Offer",
+                    "%vlocity_namespace%__SubType__c": "None",
+                    "%vlocity_namespace%__Type__c": "Postpaye",
+                    "Id": "01t3M000000xuJvQAI",
+                    "Name": "Forfait 1H + 2Go + Illimité RS + inwi",
+                    "RecordTypeId": "0124K000000mercQAA",
+                    "attributes": {
+                        "type": "Product2",
+                        "url": "/services/data/v54.0/sobjects/Product2/01t3M000000xuJvQAI"
+                    }
+                },
+                "Product2Id": {
+                    "label": "Product ID",
+                    "value": "01t3M000000xuJvQAI"
+                },
+                "ProductCode": {
+                    "label": "Product Code",
+                    "value": "INWIB2C_OFFERING_49DH_ILLIMITE_RS"
+                },
+                "SellingPeriod": "Present",
+                "UnitPrice": {
+                    "label": "List Price",
+                    "value": "49.00"
+                },
+                "actions": {
+                    "getparentoffers": {
+                        "client": {
+                            "params": {
+                            }
+                        },
+                        "remote": {
+                            "params": {
+                                "cartId": "8013M000000OBklQAG",
+                                "fields": "IsActive,Id,Name,UnitPrice,ProductCode,%vlocity_namespace%__RecurringPrice__c,Product2.%vlocity_namespace%__Type__c",
+                                "includeIneligible": false,
+                                "localeCode": "en_US",
+                                "methodName": "getCartsParentOffers",
+                                "offsetSize": null,
+                                "pagesize": 30,
+                                "query": null
+                            }
+                        },
+                        "rest": {
+                            "link": null,
+                            "method": null,
+                            "params": {
+                            }
+                        }
+                    },
+                    "getproductbyid": {
+                        "client": {
+                            "params": {
+                                "cartId": "8013M000000OBklQAG",
+                                "id": "01u3M000002LQ71QAG",
+                                "methodName": "getCartsProductsById"
+                            }
+                        },
+                        "remote": {
+                            "params": {
+                                "cartId": "8013M000000OBklQAG",
+                                "id": "01u3M000002LQ71QAG",
+                                "methodName": "getCartsProductsById"
+                            }
+                        },
+                        "rest": {
+                            "link": null,
+                            "method": null,
+                            "params": {
+                            }
+                        }
+                    },
+                    "gettargetoffersitems": {
+                        "client": {
+                            "params": {
+                            }
+                        },
+                        "remote": {
+                            "params": {
+                                "cartId": "8013M000000OBklQAG",
+                                "methodName": "getCartsTargetOffersItems",
+                                "offerIds": "01u3M000002LQ71QAG"
+                            }
+                        },
+                        "rest": {
+                            "link": null,
+                            "method": null,
+                            "params": {
+                            }
+                        }
+                    },
+                    "replaceoffers": {
+                        "client": {
+                            "params": {
+                            }
+                        },
+                        "remote": {
+                            "params": {
+                                "cartId": "8013M000000OBklQAG",
+                                "hierarchy": -1,
+                                "includeAttachment": false,
+                                "items": [
+                                    {
+                                        "itemId": "01u3M000002LQ71QAG",
+                                        "quantity": 1
+                                    }
+                                ],
+                                "lastRecordId": null,
+                                "methodName": "replaceOffers",
+                                "pagesize": 30,
+                                "price": true,
+                                "query": null,
+                                "validate": true
+                            }
+                        },
+                        "rest": {
+                            "link": null,
+                            "method": null,
+                            "params": {
+                            }
+                        }
+                    },
+                    "validatecart": {
+                        "client": {
+                            "params": {
+                            }
+                        },
+                        "remote": {
+                            "params": {
+                                "cartId": "8013M000000OBklQAG",
+                                "methodName": "runCartValidation"
+                            }
+                        },
+                        "rest": {
+                            "link": null,
+                            "method": null,
+                            "params": {
+                            }
+                        }
+                    }
+                },
+                "attributeValues": {
+                },
+                "category": "Qualified",
+                "defaultQuantity": 1,
+                "displaySequence": -1,
+                "groupMaxQuantity": 99999,
+                "groupMinQuantity": 0,
+                "hasChildren": true,
+                "isVirtualItem": false,
+                "itemType": "childProduct",
+                "maxQuantity": 99999,
+                "messages": [
+                ],
+                "minQuantity": 0,
+                "name": "Forfait 1H + 2Go + Illimité RS + inwi",
+                "parentRecordTypeDevName": "inwib2c_OrderRecordType",
+                "productCategories": {
+                    "messages": [
+                    ],
+                    "totalSize": 0
+                },
+                "productChildItemDefinition": {
+                    "%vlocity_namespace%__ChildLineNumber__c": "1",
+                    "%vlocity_namespace%__CollapseHierarchy__c": false,
+                    "%vlocity_namespace%__IsOverride__c": false,
+                    "%vlocity_namespace%__IsRootProductChildItem__c": true,
+                    "%vlocity_namespace%__IsVirtualItem__c": false,
+                    "%vlocity_namespace%__MaxQuantity__c": 99999,
+                    "%vlocity_namespace%__MaximumChildItemQuantity__c": 99999,
+                    "%vlocity_namespace%__MinQuantity__c": 0,
+                    "%vlocity_namespace%__MinimumChildItemQuantity__c": 0,
+                    "%vlocity_namespace%__ParentProductId__c": "01t3M000000xuJvQAI",
+                    "%vlocity_namespace%__ParentProductId__r": {
+                        "%vlocity_namespace%__GlobalGroupKey__c": "6d2bf8fd-08f9-518d-17e9-2f9b715b3a3d",
+                        "%vlocity_namespace%__SellingStartDate__c": "2021-12-05T23:00:00.000+0000",
+                        "Id": "01t3M000000xuJvQAI",
+                        "Name": "Forfait 1H + 2Go + Illimité RS + inwi",
+                        "attributes": {
+                            "type": "Product2",
+                            "url": "/services/data/v54.0/sobjects/Product2/01t3M000000xuJvQAI"
+                        }
+                    },
+                    "%vlocity_namespace%__Quantity__c": 1,
+                    "%vlocity_namespace%__SeqNumber__c": 1,
+                    "Name": "Root PCI",
+                    "attributes": {
+                        "type": "%vlocity_namespace%__ProductChildItem__c"
+                    }
+                },
+                "productChildItemId": "a3t3M0000000f32QAA",
+                "productHierarchyPath": "01t3M000000xuJvQAI",
+                "productId": "01t3M000000xuJvQAI",
+                "sequenceNumber": 1
+            },
+            {
+                "%vlocity_namespace%__RecurringPrice__c": {
+                    "label": "Recurring Price",
+                    "value": 0
+                },
+                "CurrencyIsoCode": "MAD",
+                "Id": {
+                    "label": "Price Book Entry ID",
+                    "value": "01u3M000002LQ76QAG"
+                },
+                "IsActive": {
+                    "label": "Active",
+                    "value": true
+                },
+                "Name": {
+                    "label": "Product Name",
+                    "value": "Forfait 20H + 12Go"
+                },
+                "Pricebook2Id": {
+                    "label": "Price Book ID",
+                    "value": "01s4K000001FA2rQAG"
+                },
+                "Product2": {
+                    "%vlocity_namespace%__GlobalGroupKey__c": "6b4e6f16-1c23-5e7a-ffe9-27a6f4c62a4c",
+                    "%vlocity_namespace%__IsConfigurable__c": true,
+                    "%vlocity_namespace%__SellingStartDate__c": "2021-12-05T23:00:00.000+0000",
+                    "%vlocity_namespace%__SpecificationType__c": "Offer",
+                    "%vlocity_namespace%__SubType__c": "None",
+                    "%vlocity_namespace%__Type__c": "Postpaye",
+                    "Id": "01t3M000000xuJzQAI",
+                    "Name": "Forfait 20H + 12Go",
+                    "RecordTypeId": "0124K000000mercQAA",
+                    "attributes": {
+                        "type": "Product2",
+                        "url": "/services/data/v54.0/sobjects/Product2/01t3M000000xuJzQAI"
+                    }
+                },
+                "Product2Id": {
+                    "label": "Product ID",
+                    "value": "01t3M000000xuJzQAI"
+                },
+                "ProductCode": {
+                    "label": "Product Code",
+                    "value": "INWIB2C_OFFERING_149DH_APL"
+                },
+                "SellingPeriod": "Present",
+                "UnitPrice": {
+                    "label": "List Price",
+                    "value": "149.00"
+                },
+                "actions": {
+                    "getparentoffers": {
+                        "client": {
+                            "params": {
+                            }
+                        },
+                        "remote": {
+                            "params": {
+                                "cartId": "8013M000000OBklQAG",
+                                "fields": "IsActive,Id,Name,UnitPrice,ProductCode,%vlocity_namespace%__RecurringPrice__c,Product2.%vlocity_namespace%__Type__c",
+                                "includeIneligible": false,
+                                "localeCode": "en_US",
+                                "methodName": "getCartsParentOffers",
+                                "offsetSize": null,
+                                "pagesize": 30,
+                                "query": null
+                            }
+                        },
+                        "rest": {
+                            "link": null,
+                            "method": null,
+                            "params": {
+                            }
+                        }
+                    },
+                    "getproductbyid": {
+                        "client": {
+                            "params": {
+                                "cartId": "8013M000000OBklQAG",
+                                "id": "01u3M000002LQ76QAG",
+                                "methodName": "getCartsProductsById"
+                            }
+                        },
+                        "remote": {
+                            "params": {
+                                "cartId": "8013M000000OBklQAG",
+                                "id": "01u3M000002LQ76QAG",
+                                "methodName": "getCartsProductsById"
+                            }
+                        },
+                        "rest": {
+                            "link": null,
+                            "method": null,
+                            "params": {
+                            }
+                        }
+                    },
+                    "gettargetoffersitems": {
+                        "client": {
+                            "params": {
+                            }
+                        },
+                        "remote": {
+                            "params": {
+                                "cartId": "8013M000000OBklQAG",
+                                "methodName": "getCartsTargetOffersItems",
+                                "offerIds": "01u3M000002LQ76QAG"
+                            }
+                        },
+                        "rest": {
+                            "link": null,
+                            "method": null,
+                            "params": {
+                            }
+                        }
+                    },
+                    "replaceoffers": {
+                        "client": {
+                            "params": {
+                            }
+                        },
+                        "remote": {
+                            "params": {
+                                "cartId": "8013M000000OBklQAG",
+                                "hierarchy": -1,
+                                "includeAttachment": false,
+                                "items": [
+                                    {
+                                        "itemId": "01u3M000002LQ76QAG",
+                                        "quantity": 1
+                                    }
+                                ],
+                                "lastRecordId": null,
+                                "methodName": "replaceOffers",
+                                "pagesize": 30,
+                                "price": true,
+                                "query": null,
+                                "validate": true
+                            }
+                        },
+                        "rest": {
+                            "link": null,
+                            "method": null,
+                            "params": {
+                            }
+                        }
+                    },
+                    "validatecart": {
+                        "client": {
+                            "params": {
+                            }
+                        },
+                        "remote": {
+                            "params": {
+                                "cartId": "8013M000000OBklQAG",
+                                "methodName": "runCartValidation"
+                            }
+                        },
+                        "rest": {
+                            "link": null,
+                            "method": null,
+                            "params": {
+                            }
+                        }
+                    }
+                },
+                "attributeValues": {
+                },
+                "category": "Qualified",
+                "defaultQuantity": 1,
+                "displaySequence": -1,
+                "groupMaxQuantity": 99999,
+                "groupMinQuantity": 0,
+                "hasChildren": true,
+                "isVirtualItem": false,
+                "itemType": "childProduct",
+                "maxQuantity": 99999,
+                "messages": [
+                ],
+                "minQuantity": 0,
+                "name": "Forfait 20H + 12Go",
+                "parentRecordTypeDevName": "inwib2c_OrderRecordType",
+                "productCategories": {
+                    "messages": [
+                    ],
+                    "totalSize": 0
+                },
+                "productChildItemDefinition": {
+                    "%vlocity_namespace%__ChildLineNumber__c": "1",
+                    "%vlocity_namespace%__CollapseHierarchy__c": false,
+                    "%vlocity_namespace%__IsOverride__c": false,
+                    "%vlocity_namespace%__IsRootProductChildItem__c": true,
+                    "%vlocity_namespace%__IsVirtualItem__c": false,
+                    "%vlocity_namespace%__MaxQuantity__c": 99999,
+                    "%vlocity_namespace%__MaximumChildItemQuantity__c": 99999,
+                    "%vlocity_namespace%__MinQuantity__c": 0,
+                    "%vlocity_namespace%__MinimumChildItemQuantity__c": 0,
+                    "%vlocity_namespace%__ParentProductId__c": "01t3M000000xuJzQAI",
+                    "%vlocity_namespace%__ParentProductId__r": {
+                        "%vlocity_namespace%__GlobalGroupKey__c": "6b4e6f16-1c23-5e7a-ffe9-27a6f4c62a4c",
+                        "%vlocity_namespace%__SellingStartDate__c": "2021-12-05T23:00:00.000+0000",
+                        "Id": "01t3M000000xuJzQAI",
+                        "Name": "Forfait 20H + 12Go",
+                        "attributes": {
+                            "type": "Product2",
+                            "url": "/services/data/v54.0/sobjects/Product2/01t3M000000xuJzQAI"
+                        }
+                    },
+                    "%vlocity_namespace%__Quantity__c": 1,
+                    "%vlocity_namespace%__SeqNumber__c": 1,
+                    "Name": "Root PCI",
+                    "attributes": {
+                        "type": "%vlocity_namespace%__ProductChildItem__c"
+                    }
+                },
+                "productChildItemId": "a3t3M0000000f37QAA",
+                "productHierarchyPath": "01t3M000000xuJzQAI",
+                "productId": "01t3M000000xuJzQAI",
+                "sequenceNumber": 1
+            },
+            {
+                "%vlocity_namespace%__RecurringPrice__c": {
+                    "label": "Recurring Price",
+                    "value": 0
+                },
+                "CurrencyIsoCode": "MAD",
+                "Id": {
+                    "label": "Price Book Entry ID",
+                    "value": "01u3M000002LQ7BQAW"
+                },
+                "IsActive": {
+                    "label": "Active",
+                    "value": true
+                },
+                "Name": {
+                    "label": "Product Name",
+                    "value": "Forfait 4H + 2Go"
+                },
+                "Pricebook2Id": {
+                    "label": "Price Book ID",
+                    "value": "01s4K000001FA2rQAG"
+                },
+                "Product2": {
+                    "%vlocity_namespace%__GlobalGroupKey__c": "7d77de85-f26c-908f-7124-c96fe17d6790",
+                    "%vlocity_namespace%__IsConfigurable__c": true,
+                    "%vlocity_namespace%__SellingStartDate__c": "2021-12-02T23:00:00.000+0000",
+                    "%vlocity_namespace%__SpecificationType__c": "Offer",
+                    "%vlocity_namespace%__SubType__c": "None",
+                    "%vlocity_namespace%__Type__c": "Postpaye",
+                    "Id": "01t3M000000xuJaQAI",
+                    "Name": "Forfait 4H + 2Go",
+                    "RecordTypeId": "0124K000000mercQAA",
+                    "attributes": {
+                        "type": "Product2",
+                        "url": "/services/data/v54.0/sobjects/Product2/01t3M000000xuJaQAI"
+                    }
+                },
+                "Product2Id": {
+                    "label": "Product ID",
+                    "value": "01t3M000000xuJaQAI"
+                },
+                "ProductCode": {
+                    "label": "Product Code",
+                    "value": "INWIB2C_OFFERING_49DH_APL"
+                },
+                "SellingPeriod": "Present",
+                "UnitPrice": {
+                    "label": "List Price",
+                    "value": "49.00"
+                },
+                "actions": {
+                    "getparentoffers": {
+                        "client": {
+                            "params": {
+                            }
+                        },
+                        "remote": {
+                            "params": {
+                                "cartId": "8013M000000OBklQAG",
+                                "fields": "IsActive,Id,Name,UnitPrice,ProductCode,%vlocity_namespace%__RecurringPrice__c,Product2.%vlocity_namespace%__Type__c",
+                                "includeIneligible": false,
+                                "localeCode": "en_US",
+                                "methodName": "getCartsParentOffers",
+                                "offsetSize": null,
+                                "pagesize": 30,
+                                "query": null
+                            }
+                        },
+                        "rest": {
+                            "link": null,
+                            "method": null,
+                            "params": {
+                            }
+                        }
+                    },
+                    "getproductbyid": {
+                        "client": {
+                            "params": {
+                                "cartId": "8013M000000OBklQAG",
+                                "id": "01u3M000002LQ7BQAW",
+                                "methodName": "getCartsProductsById"
+                            }
+                        },
+                        "remote": {
+                            "params": {
+                                "cartId": "8013M000000OBklQAG",
+                                "id": "01u3M000002LQ7BQAW",
+                                "methodName": "getCartsProductsById"
+                            }
+                        },
+                        "rest": {
+                            "link": null,
+                            "method": null,
+                            "params": {
+                            }
+                        }
+                    },
+                    "gettargetoffersitems": {
+                        "client": {
+                            "params": {
+                            }
+                        },
+                        "remote": {
+                            "params": {
+                                "cartId": "8013M000000OBklQAG",
+                                "methodName": "getCartsTargetOffersItems",
+                                "offerIds": "01u3M000002LQ7BQAW"
+                            }
+                        },
+                        "rest": {
+                            "link": null,
+                            "method": null,
+                            "params": {
+                            }
+                        }
+                    },
+                    "replaceoffers": {
+                        "client": {
+                            "params": {
+                            }
+                        },
+                        "remote": {
+                            "params": {
+                                "cartId": "8013M000000OBklQAG",
+                                "hierarchy": -1,
+                                "includeAttachment": false,
+                                "items": [
+                                    {
+                                        "itemId": "01u3M000002LQ7BQAW",
+                                        "quantity": 1
+                                    }
+                                ],
+                                "lastRecordId": null,
+                                "methodName": "replaceOffers",
+                                "pagesize": 30,
+                                "price": true,
+                                "query": null,
+                                "validate": true
+                            }
+                        },
+                        "rest": {
+                            "link": null,
+                            "method": null,
+                            "params": {
+                            }
+                        }
+                    },
+                    "validatecart": {
+                        "client": {
+                            "params": {
+                            }
+                        },
+                        "remote": {
+                            "params": {
+                                "cartId": "8013M000000OBklQAG",
+                                "methodName": "runCartValidation"
+                            }
+                        },
+                        "rest": {
+                            "link": null,
+                            "method": null,
+                            "params": {
+                            }
+                        }
+                    }
+                },
+                "attributeValues": {
+                },
+                "category": "Qualified",
+                "defaultQuantity": 1,
+                "displaySequence": -1,
+                "groupMaxQuantity": 99999,
+                "groupMinQuantity": 0,
+                "hasChildren": true,
+                "isVirtualItem": false,
+                "itemType": "childProduct",
+                "maxQuantity": 99999,
+                "messages": [
+                ],
+                "minQuantity": 0,
+                "name": "Forfait 4H + 2Go",
+                "parentRecordTypeDevName": "inwib2c_OrderRecordType",
+                "productCategories": {
+                    "messages": [
+                    ],
+                    "totalSize": 0
+                },
+                "productChildItemDefinition": {
+                    "%vlocity_namespace%__ChildLineNumber__c": "1",
+                    "%vlocity_namespace%__CollapseHierarchy__c": false,
+                    "%vlocity_namespace%__IsOverride__c": false,
+                    "%vlocity_namespace%__IsRootProductChildItem__c": true,
+                    "%vlocity_namespace%__IsVirtualItem__c": false,
+                    "%vlocity_namespace%__MaxQuantity__c": 99999,
+                    "%vlocity_namespace%__MaximumChildItemQuantity__c": 99999,
+                    "%vlocity_namespace%__MinQuantity__c": 0,
+                    "%vlocity_namespace%__MinimumChildItemQuantity__c": 0,
+                    "%vlocity_namespace%__ParentProductId__c": "01t3M000000xuJaQAI",
+                    "%vlocity_namespace%__ParentProductId__r": {
+                        "%vlocity_namespace%__GlobalGroupKey__c": "7d77de85-f26c-908f-7124-c96fe17d6790",
+                        "%vlocity_namespace%__SellingStartDate__c": "2021-12-02T23:00:00.000+0000",
+                        "Id": "01t3M000000xuJaQAI",
+                        "Name": "Forfait 4H + 2Go",
+                        "attributes": {
+                            "type": "Product2",
+                            "url": "/services/data/v54.0/sobjects/Product2/01t3M000000xuJaQAI"
+                        }
+                    },
+                    "%vlocity_namespace%__Quantity__c": 1,
+                    "%vlocity_namespace%__SeqNumber__c": 1,
+                    "Name": "Root PCI",
+                    "attributes": {
+                        "type": "%vlocity_namespace%__ProductChildItem__c"
+                    }
+                },
+                "productChildItemId": "a3t3M0000000f3BQAQ",
+                "productHierarchyPath": "01t3M000000xuJaQAI",
+                "productId": "01t3M000000xuJaQAI",
+                "sequenceNumber": 1
+            },
+            {
+                "%vlocity_namespace%__RecurringPrice__c": {
+                    "label": "Recurring Price",
+                    "value": 0
+                },
+                "CurrencyIsoCode": "MAD",
+                "Id": {
+                    "label": "Price Book Entry ID",
+                    "value": "01u3M000002LQ7GQAW"
+                },
+                "IsActive": {
+                    "label": "Active",
+                    "value": true
+                },
+                "Name": {
+                    "label": "Product Name",
+                    "value": "Forfait 11h + 11Go"
+                },
+                "Pricebook2Id": {
+                    "label": "Price Book ID",
+                    "value": "01s4K000001FA2rQAG"
+                },
+                "Product2": {
+                    "%vlocity_namespace%__GlobalGroupKey__c": "f134117d-ac63-9bf7-3063-a3bea079550e",
+                    "%vlocity_namespace%__IsConfigurable__c": true,
+                    "%vlocity_namespace%__SellingStartDate__c": "2021-12-02T23:00:00.000+0000",
+                    "%vlocity_namespace%__SpecificationType__c": "Offer",
+                    "%vlocity_namespace%__SubType__c": "None",
+                    "%vlocity_namespace%__Type__c": "Postpaye",
+                    "Id": "01t3M000000xuJyQAI",
+                    "Name": "Forfait 11h + 11Go",
+                    "RecordTypeId": "0124K000000mercQAA",
+                    "attributes": {
+                        "type": "Product2",
+                        "url": "/services/data/v54.0/sobjects/Product2/01t3M000000xuJyQAI"
+                    }
+                },
+                "Product2Id": {
+                    "label": "Product ID",
+                    "value": "01t3M000000xuJyQAI"
+                },
+                "ProductCode": {
+                    "label": "Product Code",
+                    "value": "INWIB2C_OFFERING_99DH_APL"
+                },
+                "SellingPeriod": "Present",
+                "UnitPrice": {
+                    "label": "List Price",
+                    "value": "99.00"
+                },
+                "actions": {
+                    "getparentoffers": {
+                        "client": {
+                            "params": {
+                            }
+                        },
+                        "remote": {
+                            "params": {
+                                "cartId": "8013M000000OBklQAG",
+                                "fields": "IsActive,Id,Name,UnitPrice,ProductCode,%vlocity_namespace%__RecurringPrice__c,Product2.%vlocity_namespace%__Type__c",
+                                "includeIneligible": false,
+                                "localeCode": "en_US",
+                                "methodName": "getCartsParentOffers",
+                                "offsetSize": null,
+                                "pagesize": 30,
+                                "query": null
+                            }
+                        },
+                        "rest": {
+                            "link": null,
+                            "method": null,
+                            "params": {
+                            }
+                        }
+                    },
+                    "getproductbyid": {
+                        "client": {
+                            "params": {
+                                "cartId": "8013M000000OBklQAG",
+                                "id": "01u3M000002LQ7GQAW",
+                                "methodName": "getCartsProductsById"
+                            }
+                        },
+                        "remote": {
+                            "params": {
+                                "cartId": "8013M000000OBklQAG",
+                                "id": "01u3M000002LQ7GQAW",
+                                "methodName": "getCartsProductsById"
+                            }
+                        },
+                        "rest": {
+                            "link": null,
+                            "method": null,
+                            "params": {
+                            }
+                        }
+                    },
+                    "gettargetoffersitems": {
+                        "client": {
+                            "params": {
+                            }
+                        },
+                        "remote": {
+                            "params": {
+                                "cartId": "8013M000000OBklQAG",
+                                "methodName": "getCartsTargetOffersItems",
+                                "offerIds": "01u3M000002LQ7GQAW"
+                            }
+                        },
+                        "rest": {
+                            "link": null,
+                            "method": null,
+                            "params": {
+                            }
+                        }
+                    },
+                    "replaceoffers": {
+                        "client": {
+                            "params": {
+                            }
+                        },
+                        "remote": {
+                            "params": {
+                                "cartId": "8013M000000OBklQAG",
+                                "hierarchy": -1,
+                                "includeAttachment": false,
+                                "items": [
+                                    {
+                                        "itemId": "01u3M000002LQ7GQAW",
+                                        "quantity": 1
+                                    }
+                                ],
+                                "lastRecordId": null,
+                                "methodName": "replaceOffers",
+                                "pagesize": 30,
+                                "price": true,
+                                "query": null,
+                                "validate": true
+                            }
+                        },
+                        "rest": {
+                            "link": null,
+                            "method": null,
+                            "params": {
+                            }
+                        }
+                    },
+                    "validatecart": {
+                        "client": {
+                            "params": {
+                            }
+                        },
+                        "remote": {
+                            "params": {
+                                "cartId": "8013M000000OBklQAG",
+                                "methodName": "runCartValidation"
+                            }
+                        },
+                        "rest": {
+                            "link": null,
+                            "method": null,
+                            "params": {
+                            }
+                        }
+                    }
+                },
+                "attributeValues": {
+                },
+                "category": "Qualified",
+                "defaultQuantity": 1,
+                "displaySequence": -1,
+                "groupMaxQuantity": 99999,
+                "groupMinQuantity": 0,
+                "hasChildren": true,
+                "isVirtualItem": false,
+                "itemType": "childProduct",
+                "maxQuantity": 99999,
+                "messages": [
+                ],
+                "minQuantity": 0,
+                "name": "Forfait 11h + 11Go",
+                "parentRecordTypeDevName": "inwib2c_OrderRecordType",
+                "productCategories": {
+                    "messages": [
+                    ],
+                    "totalSize": 0
+                },
+                "productChildItemDefinition": {
+                    "%vlocity_namespace%__ChildLineNumber__c": "1",
+                    "%vlocity_namespace%__CollapseHierarchy__c": false,
+                    "%vlocity_namespace%__IsOverride__c": false,
+                    "%vlocity_namespace%__IsRootProductChildItem__c": true,
+                    "%vlocity_namespace%__IsVirtualItem__c": false,
+                    "%vlocity_namespace%__MaxQuantity__c": 99999,
+                    "%vlocity_namespace%__MaximumChildItemQuantity__c": 99999,
+                    "%vlocity_namespace%__MinQuantity__c": 0,
+                    "%vlocity_namespace%__MinimumChildItemQuantity__c": 0,
+                    "%vlocity_namespace%__ParentProductId__c": "01t3M000000xuJyQAI",
+                    "%vlocity_namespace%__ParentProductId__r": {
+                        "%vlocity_namespace%__GlobalGroupKey__c": "f134117d-ac63-9bf7-3063-a3bea079550e",
+                        "%vlocity_namespace%__SellingStartDate__c": "2021-12-02T23:00:00.000+0000",
+                        "Id": "01t3M000000xuJyQAI",
+                        "Name": "Forfait 11h + 11Go",
+                        "attributes": {
+                            "type": "Product2",
+                            "url": "/services/data/v54.0/sobjects/Product2/01t3M000000xuJyQAI"
+                        }
+                    },
+                    "%vlocity_namespace%__Quantity__c": 1,
+                    "%vlocity_namespace%__SeqNumber__c": 1,
+                    "Name": "Root PCI",
+                    "attributes": {
+                        "type": "%vlocity_namespace%__ProductChildItem__c"
+                    }
+                },
+                "productChildItemId": "a3t3M0000000f3FQAQ",
+                "productHierarchyPath": "01t3M000000xuJyQAI",
+                "productId": "01t3M000000xuJyQAI",
+                "sequenceNumber": 1
+            },
+            {
+                "%vlocity_namespace%__RecurringPrice__c": {
+                    "label": "Recurring Price",
+                    "value": 0
+                },
+                "CurrencyIsoCode": "MAD",
+                "Id": {
+                    "label": "Price Book Entry ID",
+                    "value": "01u3M000002LQ7LQAW"
+                },
+                "IsActive": {
+                    "label": "Active",
+                    "value": true
+                },
+                "Name": {
+                    "label": "Product Name",
+                    "value": "Forfait 4H + 44Go"
+                },
+                "Pricebook2Id": {
+                    "label": "Price Book ID",
+                    "value": "01s4K000001FA2rQAG"
+                },
+                "Product2": {
+                    "%vlocity_namespace%__GlobalGroupKey__c": "5f355f76-f30c-d27c-1d7d-f8b6cd848c83",
+                    "%vlocity_namespace%__IsConfigurable__c": true,
+                    "%vlocity_namespace%__SellingStartDate__c": "2021-12-05T23:00:00.000+0000",
+                    "%vlocity_namespace%__SpecificationType__c": "Offer",
+                    "%vlocity_namespace%__SubType__c": "None",
+                    "%vlocity_namespace%__Type__c": "Postpaye",
+                    "Id": "01t3M000000xuJeQAI",
+                    "Name": "Forfait 4H + 44Go",
+                    "RecordTypeId": "0124K000000mercQAA",
+                    "attributes": {
+                        "type": "Product2",
+                        "url": "/services/data/v54.0/sobjects/Product2/01t3M000000xuJeQAI"
+                    }
+                },
+                "Product2Id": {
+                    "label": "Product ID",
+                    "value": "01t3M000000xuJeQAI"
+                },
+                "ProductCode": {
+                    "label": "Product Code",
+                    "value": "INWIB2C_OFFERING_199DH_INTERNET"
+                },
+                "SellingPeriod": "Present",
+                "UnitPrice": {
+                    "label": "List Price",
+                    "value": "199.00"
+                },
+                "actions": {
+                    "getparentoffers": {
+                        "client": {
+                            "params": {
+                            }
+                        },
+                        "remote": {
+                            "params": {
+                                "cartId": "8013M000000OBklQAG",
+                                "fields": "IsActive,Id,Name,UnitPrice,ProductCode,%vlocity_namespace%__RecurringPrice__c,Product2.%vlocity_namespace%__Type__c",
+                                "includeIneligible": false,
+                                "localeCode": "en_US",
+                                "methodName": "getCartsParentOffers",
+                                "offsetSize": null,
+                                "pagesize": 30,
+                                "query": null
+                            }
+                        },
+                        "rest": {
+                            "link": null,
+                            "method": null,
+                            "params": {
+                            }
+                        }
+                    },
+                    "getproductbyid": {
+                        "client": {
+                            "params": {
+                                "cartId": "8013M000000OBklQAG",
+                                "id": "01u3M000002LQ7LQAW",
+                                "methodName": "getCartsProductsById"
+                            }
+                        },
+                        "remote": {
+                            "params": {
+                                "cartId": "8013M000000OBklQAG",
+                                "id": "01u3M000002LQ7LQAW",
+                                "methodName": "getCartsProductsById"
+                            }
+                        },
+                        "rest": {
+                            "link": null,
+                            "method": null,
+                            "params": {
+                            }
+                        }
+                    },
+                    "gettargetoffersitems": {
+                        "client": {
+                            "params": {
+                            }
+                        },
+                        "remote": {
+                            "params": {
+                                "cartId": "8013M000000OBklQAG",
+                                "methodName": "getCartsTargetOffersItems",
+                                "offerIds": "01u3M000002LQ7LQAW"
+                            }
+                        },
+                        "rest": {
+                            "link": null,
+                            "method": null,
+                            "params": {
+                            }
+                        }
+                    },
+                    "replaceoffers": {
+                        "client": {
+                            "params": {
+                            }
+                        },
+                        "remote": {
+                            "params": {
+                                "cartId": "8013M000000OBklQAG",
+                                "hierarchy": -1,
+                                "includeAttachment": false,
+                                "items": [
+                                    {
+                                        "itemId": "01u3M000002LQ7LQAW",
+                                        "quantity": 1
+                                    }
+                                ],
+                                "lastRecordId": null,
+                                "methodName": "replaceOffers",
+                                "pagesize": 30,
+                                "price": true,
+                                "query": null,
+                                "validate": true
+                            }
+                        },
+                        "rest": {
+                            "link": null,
+                            "method": null,
+                            "params": {
+                            }
+                        }
+                    },
+                    "validatecart": {
+                        "client": {
+                            "params": {
+                            }
+                        },
+                        "remote": {
+                            "params": {
+                                "cartId": "8013M000000OBklQAG",
+                                "methodName": "runCartValidation"
+                            }
+                        },
+                        "rest": {
+                            "link": null,
+                            "method": null,
+                            "params": {
+                            }
+                        }
+                    }
+                },
+                "attributeValues": {
+                },
+                "category": "Qualified",
+                "defaultQuantity": 1,
+                "displaySequence": -1,
+                "groupMaxQuantity": 99999,
+                "groupMinQuantity": 0,
+                "hasChildren": true,
+                "isVirtualItem": false,
+                "itemType": "childProduct",
+                "maxQuantity": 99999,
+                "messages": [
+                ],
+                "minQuantity": 0,
+                "name": "Forfait 4H + 44Go",
+                "parentRecordTypeDevName": "inwib2c_OrderRecordType",
+                "productCategories": {
+                    "messages": [
+                    ],
+                    "totalSize": 0
+                },
+                "productChildItemDefinition": {
+                    "%vlocity_namespace%__ChildLineNumber__c": "1",
+                    "%vlocity_namespace%__CollapseHierarchy__c": false,
+                    "%vlocity_namespace%__IsOverride__c": false,
+                    "%vlocity_namespace%__IsRootProductChildItem__c": true,
+                    "%vlocity_namespace%__IsVirtualItem__c": false,
+                    "%vlocity_namespace%__MaxQuantity__c": 99999,
+                    "%vlocity_namespace%__MaximumChildItemQuantity__c": 99999,
+                    "%vlocity_namespace%__MinQuantity__c": 0,
+                    "%vlocity_namespace%__MinimumChildItemQuantity__c": 0,
+                    "%vlocity_namespace%__ParentProductId__c": "01t3M000000xuJeQAI",
+                    "%vlocity_namespace%__ParentProductId__r": {
+                        "%vlocity_namespace%__GlobalGroupKey__c": "5f355f76-f30c-d27c-1d7d-f8b6cd848c83",
+                        "%vlocity_namespace%__SellingStartDate__c": "2021-12-05T23:00:00.000+0000",
+                        "Id": "01t3M000000xuJeQAI",
+                        "Name": "Forfait 4H + 44Go",
+                        "attributes": {
+                            "type": "Product2",
+                            "url": "/services/data/v54.0/sobjects/Product2/01t3M000000xuJeQAI"
+                        }
+                    },
+                    "%vlocity_namespace%__Quantity__c": 1,
+                    "%vlocity_namespace%__SeqNumber__c": 1,
+                    "Name": "Root PCI",
+                    "attributes": {
+                        "type": "%vlocity_namespace%__ProductChildItem__c"
+                    }
+                },
+                "productChildItemId": "a3t3M0000000f3MQAQ",
+                "productHierarchyPath": "01t3M000000xuJeQAI",
+                "productId": "01t3M000000xuJeQAI",
+                "sequenceNumber": 1
+            },
+            {
+                "%vlocity_namespace%__RecurringPrice__c": {
+                    "label": "Recurring Price",
+                    "value": 0
+                },
+                "CurrencyIsoCode": "MAD",
+                "Id": {
+                    "label": "Price Book Entry ID",
+                    "value": "01u3M000002LQ7QQAW"
+                },
+                "IsActive": {
+                    "label": "Active",
+                    "value": true
+                },
+                "Name": {
+                    "label": "Product Name",
+                    "value": "Forfait 4H+2GO Appels illimités"
+                },
+                "Pricebook2Id": {
+                    "label": "Price Book ID",
+                    "value": "01s4K000001FA2rQAG"
+                },
+                "Product2": {
+                    "%vlocity_namespace%__GlobalGroupKey__c": "7126c9a5-ce92-f20d-c841-4219862d779b",
+                    "%vlocity_namespace%__IsConfigurable__c": true,
+                    "%vlocity_namespace%__SellingStartDate__c": "2021-11-10T23:00:00.000+0000",
+                    "%vlocity_namespace%__SpecificationType__c": "Offer",
+                    "%vlocity_namespace%__SubType__c": "None",
+                    "%vlocity_namespace%__Type__c": "Postpaye",
+                    "Id": "01t3M000000xuJbQAI",
+                    "Name": "Forfait 4H+2GO Appels illimités",
+                    "RecordTypeId": "0124K000000mercQAA",
+                    "attributes": {
+                        "type": "Product2",
+                        "url": "/services/data/v54.0/sobjects/Product2/01t3M000000xuJbQAI"
+                    }
+                },
+                "Product2Id": {
+                    "label": "Product ID",
+                    "value": "01t3M000000xuJbQAI"
+                },
+                "ProductCode": {
+                    "label": "Product Code",
+                    "value": "INWIB2C_OFFERING_49DH_ILLINWI_APL"
+                },
+                "SellingPeriod": "Present",
+                "UnitPrice": {
+                    "label": "List Price",
+                    "value": "49.00"
+                },
+                "actions": {
+                    "getparentoffers": {
+                        "client": {
+                            "params": {
+                            }
+                        },
+                        "remote": {
+                            "params": {
+                                "cartId": "8013M000000OBklQAG",
+                                "fields": "IsActive,Id,Name,UnitPrice,ProductCode,%vlocity_namespace%__RecurringPrice__c,Product2.%vlocity_namespace%__Type__c",
+                                "includeIneligible": false,
+                                "localeCode": "en_US",
+                                "methodName": "getCartsParentOffers",
+                                "offsetSize": null,
+                                "pagesize": 30,
+                                "query": null
+                            }
+                        },
+                        "rest": {
+                            "link": null,
+                            "method": null,
+                            "params": {
+                            }
+                        }
+                    },
+                    "getproductbyid": {
+                        "client": {
+                            "params": {
+                                "cartId": "8013M000000OBklQAG",
+                                "id": "01u3M000002LQ7QQAW",
+                                "methodName": "getCartsProductsById"
+                            }
+                        },
+                        "remote": {
+                            "params": {
+                                "cartId": "8013M000000OBklQAG",
+                                "id": "01u3M000002LQ7QQAW",
+                                "methodName": "getCartsProductsById"
+                            }
+                        },
+                        "rest": {
+                            "link": null,
+                            "method": null,
+                            "params": {
+                            }
+                        }
+                    },
+                    "gettargetoffersitems": {
+                        "client": {
+                            "params": {
+                            }
+                        },
+                        "remote": {
+                            "params": {
+                                "cartId": "8013M000000OBklQAG",
+                                "methodName": "getCartsTargetOffersItems",
+                                "offerIds": "01u3M000002LQ7QQAW"
+                            }
+                        },
+                        "rest": {
+                            "link": null,
+                            "method": null,
+                            "params": {
+                            }
+                        }
+                    },
+                    "replaceoffers": {
+                        "client": {
+                            "params": {
+                            }
+                        },
+                        "remote": {
+                            "params": {
+                                "cartId": "8013M000000OBklQAG",
+                                "hierarchy": -1,
+                                "includeAttachment": false,
+                                "items": [
+                                    {
+                                        "itemId": "01u3M000002LQ7QQAW",
+                                        "quantity": 1
+                                    }
+                                ],
+                                "lastRecordId": null,
+                                "methodName": "replaceOffers",
+                                "pagesize": 30,
+                                "price": true,
+                                "query": null,
+                                "validate": true
+                            }
+                        },
+                        "rest": {
+                            "link": null,
+                            "method": null,
+                            "params": {
+                            }
+                        }
+                    },
+                    "validatecart": {
+                        "client": {
+                            "params": {
+                            }
+                        },
+                        "remote": {
+                            "params": {
+                                "cartId": "8013M000000OBklQAG",
+                                "methodName": "runCartValidation"
+                            }
+                        },
+                        "rest": {
+                            "link": null,
+                            "method": null,
+                            "params": {
+                            }
+                        }
+                    }
+                },
+                "attributeValues": {
+                },
+                "category": "Qualified",
+                "defaultQuantity": 1,
+                "displaySequence": -1,
+                "groupMaxQuantity": 99999,
+                "groupMinQuantity": 0,
+                "hasChildren": true,
+                "isVirtualItem": false,
+                "itemType": "childProduct",
+                "maxQuantity": 99999,
+                "messages": [
+                ],
+                "minQuantity": 0,
+                "name": "Forfait 4H+2GO Appels illimités",
+                "parentRecordTypeDevName": "inwib2c_OrderRecordType",
+                "productCategories": {
+                    "messages": [
+                    ],
+                    "totalSize": 0
+                },
+                "productChildItemDefinition": {
+                    "%vlocity_namespace%__ChildLineNumber__c": "1",
+                    "%vlocity_namespace%__CollapseHierarchy__c": false,
+                    "%vlocity_namespace%__IsOverride__c": false,
+                    "%vlocity_namespace%__IsRootProductChildItem__c": true,
+                    "%vlocity_namespace%__IsVirtualItem__c": false,
+                    "%vlocity_namespace%__MaxQuantity__c": 99999,
+                    "%vlocity_namespace%__MaximumChildItemQuantity__c": 99999,
+                    "%vlocity_namespace%__MinQuantity__c": 0,
+                    "%vlocity_namespace%__MinimumChildItemQuantity__c": 0,
+                    "%vlocity_namespace%__ParentProductId__c": "01t3M000000xuJbQAI",
+                    "%vlocity_namespace%__ParentProductId__r": {
+                        "%vlocity_namespace%__GlobalGroupKey__c": "7126c9a5-ce92-f20d-c841-4219862d779b",
+                        "%vlocity_namespace%__SellingStartDate__c": "2021-11-10T23:00:00.000+0000",
+                        "Id": "01t3M000000xuJbQAI",
+                        "Name": "Forfait 4H+2GO Appels illimités",
+                        "attributes": {
+                            "type": "Product2",
+                            "url": "/services/data/v54.0/sobjects/Product2/01t3M000000xuJbQAI"
+                        }
+                    },
+                    "%vlocity_namespace%__Quantity__c": 1,
+                    "%vlocity_namespace%__SeqNumber__c": 1,
+                    "Name": "Root PCI",
+                    "attributes": {
+                        "type": "%vlocity_namespace%__ProductChildItem__c"
+                    }
+                },
+                "productChildItemId": "a3t3M0000000f3SQAQ",
+                "productHierarchyPath": "01t3M000000xuJbQAI",
+                "productId": "01t3M000000xuJbQAI",
+                "sequenceNumber": 1
+            },
+            {
+                "%vlocity_namespace%__RecurringPrice__c": {
+                    "label": "Recurring Price",
+                    "value": 0
+                },
+                "CurrencyIsoCode": "MAD",
+                "Id": {
+                    "label": "Price Book Entry ID",
+                    "value": "01u3M000002LQ7VQAW"
+                },
+                "IsActive": {
+                    "label": "Active",
+                    "value": true
+                },
+                "Name": {
+                    "label": "Product Name",
+                    "value": "Forfait Illimite national + 25 Go"
+                },
+                "Pricebook2Id": {
+                    "label": "Price Book ID",
+                    "value": "01s4K000001FA2rQAG"
+                },
+                "Product2": {
+                    "%vlocity_namespace%__GlobalGroupKey__c": "0cda5902-ce5d-6095-7f1f-ed0c17fc6cf0",
+                    "%vlocity_namespace%__IsConfigurable__c": true,
+                    "%vlocity_namespace%__SellingStartDate__c": "2021-12-05T23:00:00.000+0000",
+                    "%vlocity_namespace%__SpecificationType__c": "Offer",
+                    "%vlocity_namespace%__SubType__c": "None",
+                    "%vlocity_namespace%__Type__c": "Postpaye",
+                    "Id": "01t3M000000xuJcQAI",
+                    "Name": "Forfait Illimite national + 25 Go",
+                    "RecordTypeId": "0124K000000mercQAA",
+                    "attributes": {
+                        "type": "Product2",
+                        "url": "/services/data/v54.0/sobjects/Product2/01t3M000000xuJcQAI"
+                    }
+                },
+                "Product2Id": {
+                    "label": "Product ID",
+                    "value": "01t3M000000xuJcQAI"
+                },
+                "ProductCode": {
+                    "label": "Product Code",
+                    "value": "INWIB2C_OFFERING_199DH_APL"
+                },
+                "SellingPeriod": "Present",
+                "UnitPrice": {
+                    "label": "List Price",
+                    "value": "199.00"
+                },
+                "actions": {
+                    "getparentoffers": {
+                        "client": {
+                            "params": {
+                            }
+                        },
+                        "remote": {
+                            "params": {
+                                "cartId": "8013M000000OBklQAG",
+                                "fields": "IsActive,Id,Name,UnitPrice,ProductCode,%vlocity_namespace%__RecurringPrice__c,Product2.%vlocity_namespace%__Type__c",
+                                "includeIneligible": false,
+                                "localeCode": "en_US",
+                                "methodName": "getCartsParentOffers",
+                                "offsetSize": null,
+                                "pagesize": 30,
+                                "query": null
+                            }
+                        },
+                        "rest": {
+                            "link": null,
+                            "method": null,
+                            "params": {
+                            }
+                        }
+                    },
+                    "getproductbyid": {
+                        "client": {
+                            "params": {
+                                "cartId": "8013M000000OBklQAG",
+                                "id": "01u3M000002LQ7VQAW",
+                                "methodName": "getCartsProductsById"
+                            }
+                        },
+                        "remote": {
+                            "params": {
+                                "cartId": "8013M000000OBklQAG",
+                                "id": "01u3M000002LQ7VQAW",
+                                "methodName": "getCartsProductsById"
+                            }
+                        },
+                        "rest": {
+                            "link": null,
+                            "method": null,
+                            "params": {
+                            }
+                        }
+                    },
+                    "gettargetoffersitems": {
+                        "client": {
+                            "params": {
+                            }
+                        },
+                        "remote": {
+                            "params": {
+                                "cartId": "8013M000000OBklQAG",
+                                "methodName": "getCartsTargetOffersItems",
+                                "offerIds": "01u3M000002LQ7VQAW"
+                            }
+                        },
+                        "rest": {
+                            "link": null,
+                            "method": null,
+                            "params": {
+                            }
+                        }
+                    },
+                    "replaceoffers": {
+                        "client": {
+                            "params": {
+                            }
+                        },
+                        "remote": {
+                            "params": {
+                                "cartId": "8013M000000OBklQAG",
+                                "hierarchy": -1,
+                                "includeAttachment": false,
+                                "items": [
+                                    {
+                                        "itemId": "01u3M000002LQ7VQAW",
+                                        "quantity": 1
+                                    }
+                                ],
+                                "lastRecordId": null,
+                                "methodName": "replaceOffers",
+                                "pagesize": 30,
+                                "price": true,
+                                "query": null,
+                                "validate": true
+                            }
+                        },
+                        "rest": {
+                            "link": null,
+                            "method": null,
+                            "params": {
+                            }
+                        }
+                    },
+                    "validatecart": {
+                        "client": {
+                            "params": {
+                            }
+                        },
+                        "remote": {
+                            "params": {
+                                "cartId": "8013M000000OBklQAG",
+                                "methodName": "runCartValidation"
+                            }
+                        },
+                        "rest": {
+                            "link": null,
+                            "method": null,
+                            "params": {
+                            }
+                        }
+                    }
+                },
+                "attributeValues": {
+                },
+                "category": "Qualified",
+                "defaultQuantity": 1,
+                "displaySequence": -1,
+                "groupMaxQuantity": 99999,
+                "groupMinQuantity": 0,
+                "hasChildren": true,
+                "isVirtualItem": false,
+                "itemType": "childProduct",
+                "maxQuantity": 99999,
+                "messages": [
+                ],
+                "minQuantity": 0,
+                "name": "Forfait Illimite national + 25 Go",
+                "parentRecordTypeDevName": "inwib2c_OrderRecordType",
+                "productCategories": {
+                    "messages": [
+                    ],
+                    "totalSize": 0
+                },
+                "productChildItemDefinition": {
+                    "%vlocity_namespace%__ChildLineNumber__c": "1",
+                    "%vlocity_namespace%__CollapseHierarchy__c": false,
+                    "%vlocity_namespace%__IsOverride__c": false,
+                    "%vlocity_namespace%__IsRootProductChildItem__c": true,
+                    "%vlocity_namespace%__IsVirtualItem__c": false,
+                    "%vlocity_namespace%__MaxQuantity__c": 99999,
+                    "%vlocity_namespace%__MaximumChildItemQuantity__c": 99999,
+                    "%vlocity_namespace%__MinQuantity__c": 0,
+                    "%vlocity_namespace%__MinimumChildItemQuantity__c": 0,
+                    "%vlocity_namespace%__ParentProductId__c": "01t3M000000xuJcQAI",
+                    "%vlocity_namespace%__ParentProductId__r": {
+                        "%vlocity_namespace%__GlobalGroupKey__c": "0cda5902-ce5d-6095-7f1f-ed0c17fc6cf0",
+                        "%vlocity_namespace%__SellingStartDate__c": "2021-12-05T23:00:00.000+0000",
+                        "Id": "01t3M000000xuJcQAI",
+                        "Name": "Forfait Illimite national + 25 Go",
+                        "attributes": {
+                            "type": "Product2",
+                            "url": "/services/data/v54.0/sobjects/Product2/01t3M000000xuJcQAI"
+                        }
+                    },
+                    "%vlocity_namespace%__Quantity__c": 1,
+                    "%vlocity_namespace%__SeqNumber__c": 1,
+                    "Name": "Root PCI",
+                    "attributes": {
+                        "type": "%vlocity_namespace%__ProductChildItem__c"
+                    }
+                },
+                "productChildItemId": "a3t3M0000000f3WQAQ",
+                "productHierarchyPath": "01t3M000000xuJcQAI",
+                "productId": "01t3M000000xuJcQAI",
+                "sequenceNumber": 1
+            },
+            {
+                "%vlocity_namespace%__RecurringPrice__c": {
+                    "label": "Recurring Price",
+                    "value": 0
+                },
+                "CurrencyIsoCode": "MAD",
+                "Id": {
+                    "label": "Price Book Entry ID",
+                    "value": "01u3M000002LQ7aQAG"
+                },
+                "IsActive": {
+                    "label": "Active",
+                    "value": true
+                },
+                "Name": {
+                    "label": "Product Name",
+                    "value": "Forfait illimite Appels + 100Go"
+                },
+                "Pricebook2Id": {
+                    "label": "Price Book ID",
+                    "value": "01s4K000001FA2rQAG"
+                },
+                "Product2": {
+                    "%vlocity_namespace%__GlobalGroupKey__c": "e424a8f0-f0bc-8d7d-6c78-767e47ca4f9c",
+                    "%vlocity_namespace%__IsConfigurable__c": true,
+                    "%vlocity_namespace%__SellingStartDate__c": "2021-12-05T23:00:00.000+0000",
+                    "%vlocity_namespace%__SpecificationType__c": "Offer",
+                    "%vlocity_namespace%__SubType__c": "None",
+                    "%vlocity_namespace%__Type__c": "Postpaye",
+                    "Id": "01t3M000000xuJoQAI",
+                    "Name": "Forfait illimite Appels + 100Go",
+                    "RecordTypeId": "0124K000000mercQAA",
+                    "attributes": {
+                        "type": "Product2",
+                        "url": "/services/data/v54.0/sobjects/Product2/01t3M000000xuJoQAI"
+                    }
+                },
+                "Product2Id": {
+                    "label": "Product ID",
+                    "value": "01t3M000000xuJoQAI"
+                },
+                "ProductCode": {
+                    "label": "Product Code",
+                    "value": "INWIB2C_OFFERING_499DH_TOUT"
+                },
+                "SellingPeriod": "Present",
+                "UnitPrice": {
+                    "label": "List Price",
+                    "value": "499.00"
+                },
+                "actions": {
+                    "getparentoffers": {
+                        "client": {
+                            "params": {
+                            }
+                        },
+                        "remote": {
+                            "params": {
+                                "cartId": "8013M000000OBklQAG",
+                                "fields": "IsActive,Id,Name,UnitPrice,ProductCode,%vlocity_namespace%__RecurringPrice__c,Product2.%vlocity_namespace%__Type__c",
+                                "includeIneligible": false,
+                                "localeCode": "en_US",
+                                "methodName": "getCartsParentOffers",
+                                "offsetSize": null,
+                                "pagesize": 30,
+                                "query": null
+                            }
+                        },
+                        "rest": {
+                            "link": null,
+                            "method": null,
+                            "params": {
+                            }
+                        }
+                    },
+                    "getproductbyid": {
+                        "client": {
+                            "params": {
+                                "cartId": "8013M000000OBklQAG",
+                                "id": "01u3M000002LQ7aQAG",
+                                "methodName": "getCartsProductsById"
+                            }
+                        },
+                        "remote": {
+                            "params": {
+                                "cartId": "8013M000000OBklQAG",
+                                "id": "01u3M000002LQ7aQAG",
+                                "methodName": "getCartsProductsById"
+                            }
+                        },
+                        "rest": {
+                            "link": null,
+                            "method": null,
+                            "params": {
+                            }
+                        }
+                    },
+                    "gettargetoffersitems": {
+                        "client": {
+                            "params": {
+                            }
+                        },
+                        "remote": {
+                            "params": {
+                                "cartId": "8013M000000OBklQAG",
+                                "methodName": "getCartsTargetOffersItems",
+                                "offerIds": "01u3M000002LQ7aQAG"
+                            }
+                        },
+                        "rest": {
+                            "link": null,
+                            "method": null,
+                            "params": {
+                            }
+                        }
+                    },
+                    "replaceoffers": {
+                        "client": {
+                            "params": {
+                            }
+                        },
+                        "remote": {
+                            "params": {
+                                "cartId": "8013M000000OBklQAG",
+                                "hierarchy": -1,
+                                "includeAttachment": false,
+                                "items": [
+                                    {
+                                        "itemId": "01u3M000002LQ7aQAG",
+                                        "quantity": 1
+                                    }
+                                ],
+                                "lastRecordId": null,
+                                "methodName": "replaceOffers",
+                                "pagesize": 30,
+                                "price": true,
+                                "query": null,
+                                "validate": true
+                            }
+                        },
+                        "rest": {
+                            "link": null,
+                            "method": null,
+                            "params": {
+                            }
+                        }
+                    },
+                    "validatecart": {
+                        "client": {
+                            "params": {
+                            }
+                        },
+                        "remote": {
+                            "params": {
+                                "cartId": "8013M000000OBklQAG",
+                                "methodName": "runCartValidation"
+                            }
+                        },
+                        "rest": {
+                            "link": null,
+                            "method": null,
+                            "params": {
+                            }
+                        }
+                    }
+                },
+                "attributeValues": {
+                },
+                "category": "Qualified",
+                "defaultQuantity": 1,
+                "displaySequence": -1,
+                "groupMaxQuantity": 99999,
+                "groupMinQuantity": 0,
+                "hasChildren": true,
+                "isVirtualItem": false,
+                "itemType": "childProduct",
+                "maxQuantity": 99999,
+                "messages": [
+                ],
+                "minQuantity": 0,
+                "name": "Forfait illimite Appels + 100Go",
+                "parentRecordTypeDevName": "inwib2c_OrderRecordType",
+                "productCategories": {
+                    "messages": [
+                    ],
+                    "totalSize": 0
+                },
+                "productChildItemDefinition": {
+                    "%vlocity_namespace%__ChildLineNumber__c": "1",
+                    "%vlocity_namespace%__CollapseHierarchy__c": false,
+                    "%vlocity_namespace%__IsOverride__c": false,
+                    "%vlocity_namespace%__IsRootProductChildItem__c": true,
+                    "%vlocity_namespace%__IsVirtualItem__c": false,
+                    "%vlocity_namespace%__MaxQuantity__c": 99999,
+                    "%vlocity_namespace%__MaximumChildItemQuantity__c": 99999,
+                    "%vlocity_namespace%__MinQuantity__c": 0,
+                    "%vlocity_namespace%__MinimumChildItemQuantity__c": 0,
+                    "%vlocity_namespace%__ParentProductId__c": "01t3M000000xuJoQAI",
+                    "%vlocity_namespace%__ParentProductId__r": {
+                        "%vlocity_namespace%__GlobalGroupKey__c": "e424a8f0-f0bc-8d7d-6c78-767e47ca4f9c",
+                        "%vlocity_namespace%__SellingStartDate__c": "2021-12-05T23:00:00.000+0000",
+                        "Id": "01t3M000000xuJoQAI",
+                        "Name": "Forfait illimite Appels + 100Go",
+                        "attributes": {
+                            "type": "Product2",
+                            "url": "/services/data/v54.0/sobjects/Product2/01t3M000000xuJoQAI"
+                        }
+                    },
+                    "%vlocity_namespace%__Quantity__c": 1,
+                    "%vlocity_namespace%__SeqNumber__c": 1,
+                    "Name": "Root PCI",
+                    "attributes": {
+                        "type": "%vlocity_namespace%__ProductChildItem__c"
+                    }
+                },
+                "productChildItemId": "a3t3M0000000f3ZQAQ",
+                "productHierarchyPath": "01t3M000000xuJoQAI",
+                "productId": "01t3M000000xuJoQAI",
+                "sequenceNumber": 1
+            },
+            {
+                "%vlocity_namespace%__RecurringPrice__c": {
+                    "label": "Recurring Price",
+                    "value": 0
+                },
+                "CurrencyIsoCode": "MAD",
+                "Id": {
+                    "label": "Price Book Entry ID",
+                    "value": "01u3M000002M82CQAS"
+                },
+                "IsActive": {
+                    "label": "Active",
+                    "value": true
+                },
+                "Name": {
+                    "label": "Product Name",
+                    "value": "Forfait Spécial Etudiant"
+                },
+                "Pricebook2Id": {
+                    "label": "Price Book ID",
+                    "value": "01s4K000001FA2rQAG"
+                },
+                "Product2": {
+                    "%vlocity_namespace%__GlobalGroupKey__c": "814e6e89-f9fe-a2b1-5bdf-c085f4e63058",
+                    "%vlocity_namespace%__IsConfigurable__c": true,
+                    "%vlocity_namespace%__SellingStartDate__c": "2021-12-31T23:00:00.000+0000",
+                    "%vlocity_namespace%__SpecificationType__c": "Offer",
+                    "%vlocity_namespace%__SubType__c": "None",
+                    "%vlocity_namespace%__Type__c": "Postpaye",
+                    "Id": "01t3M000000y4KZQAY",
+                    "Name": "Forfait Spécial Etudiant",
+                    "RecordTypeId": "0124K000000mercQAA",
+                    "attributes": {
+                        "type": "Product2",
+                        "url": "/services/data/v54.0/sobjects/Product2/01t3M000000y4KZQAY"
+                    }
+                },
+                "Product2Id": {
+                    "label": "Product ID",
+                    "value": "01t3M000000y4KZQAY"
+                },
+                "ProductCode": {
+                    "label": "Product Code",
+                    "value": "INWIB2C_OFFERING_SPECIAL_ETUDIANT"
+                },
+                "SellingPeriod": "Present",
+                "UnitPrice": {
+                    "label": "List Price",
+                    "value": "0.00"
+                },
+                "actions": {
+                    "getparentoffers": {
+                        "client": {
+                            "params": {
+                            }
+                        },
+                        "remote": {
+                            "params": {
+                                "cartId": "8013M000000OBklQAG",
+                                "fields": "IsActive,Id,Name,UnitPrice,ProductCode,%vlocity_namespace%__RecurringPrice__c,Product2.%vlocity_namespace%__Type__c",
+                                "includeIneligible": false,
+                                "localeCode": "en_US",
+                                "methodName": "getCartsParentOffers",
+                                "offsetSize": null,
+                                "pagesize": 30,
+                                "query": null
+                            }
+                        },
+                        "rest": {
+                            "link": null,
+                            "method": null,
+                            "params": {
+                            }
+                        }
+                    },
+                    "getproductbyid": {
+                        "client": {
+                            "params": {
+                                "cartId": "8013M000000OBklQAG",
+                                "id": "01u3M000002M82CQAS",
+                                "methodName": "getCartsProductsById"
+                            }
+                        },
+                        "remote": {
+                            "params": {
+                                "cartId": "8013M000000OBklQAG",
+                                "id": "01u3M000002M82CQAS",
+                                "methodName": "getCartsProductsById"
+                            }
+                        },
+                        "rest": {
+                            "link": null,
+                            "method": null,
+                            "params": {
+                            }
+                        }
+                    },
+                    "gettargetoffersitems": {
+                        "client": {
+                            "params": {
+                            }
+                        },
+                        "remote": {
+                            "params": {
+                                "cartId": "8013M000000OBklQAG",
+                                "methodName": "getCartsTargetOffersItems",
+                                "offerIds": "01u3M000002M82CQAS"
+                            }
+                        },
+                        "rest": {
+                            "link": null,
+                            "method": null,
+                            "params": {
+                            }
+                        }
+                    },
+                    "replaceoffers": {
+                        "client": {
+                            "params": {
+                            }
+                        },
+                        "remote": {
+                            "params": {
+                                "cartId": "8013M000000OBklQAG",
+                                "hierarchy": -1,
+                                "includeAttachment": false,
+                                "items": [
+                                    {
+                                        "itemId": "01u3M000002M82CQAS",
+                                        "quantity": 1
+                                    }
+                                ],
+                                "lastRecordId": null,
+                                "methodName": "replaceOffers",
+                                "pagesize": 30,
+                                "price": true,
+                                "query": null,
+                                "validate": true
+                            }
+                        },
+                        "rest": {
+                            "link": null,
+                            "method": null,
+                            "params": {
+                            }
+                        }
+                    },
+                    "validatecart": {
+                        "client": {
+                            "params": {
+                            }
+                        },
+                        "remote": {
+                            "params": {
+                                "cartId": "8013M000000OBklQAG",
+                                "methodName": "runCartValidation"
+                            }
+                        },
+                        "rest": {
+                            "link": null,
+                            "method": null,
+                            "params": {
+                            }
+                        }
+                    }
+                },
+                "attributeValues": {
+                },
+                "category": "Qualified",
+                "defaultQuantity": 1,
+                "displaySequence": -1,
+                "groupMaxQuantity": 99999,
+                "groupMinQuantity": 0,
+                "hasChildren": true,
+                "isVirtualItem": false,
+                "itemType": "childProduct",
+                "maxQuantity": 99999,
+                "messages": [
+                ],
+                "minQuantity": 0,
+                "name": "Forfait Spécial Etudiant",
+                "parentRecordTypeDevName": "inwib2c_OrderRecordType",
+                "productCategories": {
+                    "messages": [
+                    ],
+                    "totalSize": 0
+                },
+                "productChildItemDefinition": {
+                    "%vlocity_namespace%__ChildLineNumber__c": "1",
+                    "%vlocity_namespace%__CollapseHierarchy__c": false,
+                    "%vlocity_namespace%__IsOverride__c": false,
+                    "%vlocity_namespace%__IsRootProductChildItem__c": true,
+                    "%vlocity_namespace%__IsVirtualItem__c": false,
+                    "%vlocity_namespace%__MaxQuantity__c": 99999,
+                    "%vlocity_namespace%__MaximumChildItemQuantity__c": 99999,
+                    "%vlocity_namespace%__MinQuantity__c": 0,
+                    "%vlocity_namespace%__MinimumChildItemQuantity__c": 0,
+                    "%vlocity_namespace%__ParentProductId__c": "01t3M000000y4KZQAY",
+                    "%vlocity_namespace%__ParentProductId__r": {
+                        "%vlocity_namespace%__GlobalGroupKey__c": "814e6e89-f9fe-a2b1-5bdf-c085f4e63058",
+                        "%vlocity_namespace%__SellingStartDate__c": "2021-12-31T23:00:00.000+0000",
+                        "Id": "01t3M000000y4KZQAY",
+                        "Name": "Forfait Spécial Etudiant",
+                        "attributes": {
+                            "type": "Product2",
+                            "url": "/services/data/v54.0/sobjects/Product2/01t3M000000y4KZQAY"
+                        }
+                    },
+                    "%vlocity_namespace%__Quantity__c": 1,
+                    "%vlocity_namespace%__SeqNumber__c": 1,
+                    "Name": "Root PCI",
+                    "attributes": {
+                        "type": "%vlocity_namespace%__ProductChildItem__c"
+                    }
+                },
+                "productChildItemId": "a3t3M0000000fDOQAY",
+                "productHierarchyPath": "01t3M000000y4KZQAY",
+                "productId": "01t3M000000y4KZQAY",
+                "sequenceNumber": 1
+            },
+            {
+                "%vlocity_namespace%__RecurringPrice__c": {
+                    "label": "Recurring Price",
+                    "value": 0
+                },
+                "CurrencyIsoCode": "MAD",
+                "Id": {
+                    "label": "Price Book Entry ID",
+                    "value": "01u3M000002MPBQQA4"
+                },
+                "IsActive": {
+                    "label": "Active",
+                    "value": true
+                },
+                "Name": {
+                    "label": "Product Name",
+                    "value": "Forfait 2H + 22Go"
+                },
+                "Pricebook2Id": {
+                    "label": "Price Book ID",
+                    "value": "01s4K000001FA2rQAG"
+                },
+                "Product2": {
+                    "%vlocity_namespace%__GlobalGroupKey__c": "051ab9b2-929a-c7c1-7910-89105e126fae",
+                    "%vlocity_namespace%__IsConfigurable__c": true,
+                    "%vlocity_namespace%__SellingStartDate__c": "2021-12-31T23:00:00.000+0000",
+                    "%vlocity_namespace%__SpecificationType__c": "Offer",
+                    "%vlocity_namespace%__SubType__c": "None",
+                    "%vlocity_namespace%__Type__c": "Postpaye",
+                    "Id": "01t3M000000ySQ6QAM",
+                    "Name": "Forfait 2H + 22Go",
+                    "RecordTypeId": "0124K000000mercQAA",
+                    "attributes": {
+                        "type": "Product2",
+                        "url": "/services/data/v54.0/sobjects/Product2/01t3M000000ySQ6QAM"
+                    }
+                },
+                "Product2Id": {
+                    "label": "Product ID",
+                    "value": "01t3M000000ySQ6QAM"
+                },
+                "ProductCode": {
+                    "label": "Product Code",
+                    "value": "INWIB2C_OFFERING_99DH_INTERNET"
+                },
+                "SellingPeriod": "Present",
+                "UnitPrice": {
+                    "label": "List Price",
+                    "value": "0.00"
+                },
+                "actions": {
+                    "getparentoffers": {
+                        "client": {
+                            "params": {
+                            }
+                        },
+                        "remote": {
+                            "params": {
+                                "cartId": "8013M000000OBklQAG",
+                                "fields": "IsActive,Id,Name,UnitPrice,ProductCode,%vlocity_namespace%__RecurringPrice__c,Product2.%vlocity_namespace%__Type__c",
+                                "includeIneligible": false,
+                                "localeCode": "en_US",
+                                "methodName": "getCartsParentOffers",
+                                "offsetSize": null,
+                                "pagesize": 30,
+                                "query": null
+                            }
+                        },
+                        "rest": {
+                            "link": null,
+                            "method": null,
+                            "params": {
+                            }
+                        }
+                    },
+                    "getproductbyid": {
+                        "client": {
+                            "params": {
+                                "cartId": "8013M000000OBklQAG",
+                                "id": "01u3M000002MPBQQA4",
+                                "methodName": "getCartsProductsById"
+                            }
+                        },
+                        "remote": {
+                            "params": {
+                                "cartId": "8013M000000OBklQAG",
+                                "id": "01u3M000002MPBQQA4",
+                                "methodName": "getCartsProductsById"
+                            }
+                        },
+                        "rest": {
+                            "link": null,
+                            "method": null,
+                            "params": {
+                            }
+                        }
+                    },
+                    "gettargetoffersitems": {
+                        "client": {
+                            "params": {
+                            }
+                        },
+                        "remote": {
+                            "params": {
+                                "cartId": "8013M000000OBklQAG",
+                                "methodName": "getCartsTargetOffersItems",
+                                "offerIds": "01u3M000002MPBQQA4"
+                            }
+                        },
+                        "rest": {
+                            "link": null,
+                            "method": null,
+                            "params": {
+                            }
+                        }
+                    },
+                    "replaceoffers": {
+                        "client": {
+                            "params": {
+                            }
+                        },
+                        "remote": {
+                            "params": {
+                                "cartId": "8013M000000OBklQAG",
+                                "hierarchy": -1,
+                                "includeAttachment": false,
+                                "items": [
+                                    {
+                                        "itemId": "01u3M000002MPBQQA4",
+                                        "quantity": 1
+                                    }
+                                ],
+                                "lastRecordId": null,
+                                "methodName": "replaceOffers",
+                                "pagesize": 30,
+                                "price": true,
+                                "query": null,
+                                "validate": true
+                            }
+                        },
+                        "rest": {
+                            "link": null,
+                            "method": null,
+                            "params": {
+                            }
+                        }
+                    },
+                    "validatecart": {
+                        "client": {
+                            "params": {
+                            }
+                        },
+                        "remote": {
+                            "params": {
+                                "cartId": "8013M000000OBklQAG",
+                                "methodName": "runCartValidation"
+                            }
+                        },
+                        "rest": {
+                            "link": null,
+                            "method": null,
+                            "params": {
+                            }
+                        }
+                    }
+                },
+                "attributeValues": {
+                },
+                "category": "Qualified",
+                "defaultQuantity": 1,
+                "displaySequence": -1,
+                "groupMaxQuantity": 99999,
+                "groupMinQuantity": 0,
+                "hasChildren": true,
+                "isVirtualItem": false,
+                "itemType": "childProduct",
+                "maxQuantity": 99999,
+                "messages": [
+                ],
+                "minQuantity": 0,
+                "name": "Forfait 2H + 22Go",
+                "parentRecordTypeDevName": "inwib2c_OrderRecordType",
+                "productCategories": {
+                    "messages": [
+                    ],
+                    "totalSize": 0
+                },
+                "productChildItemDefinition": {
+                    "%vlocity_namespace%__ChildLineNumber__c": "1",
+                    "%vlocity_namespace%__CollapseHierarchy__c": false,
+                    "%vlocity_namespace%__IsOverride__c": false,
+                    "%vlocity_namespace%__IsRootProductChildItem__c": true,
+                    "%vlocity_namespace%__IsVirtualItem__c": false,
+                    "%vlocity_namespace%__MaxQuantity__c": 99999,
+                    "%vlocity_namespace%__MaximumChildItemQuantity__c": 99999,
+                    "%vlocity_namespace%__MinQuantity__c": 0,
+                    "%vlocity_namespace%__MinimumChildItemQuantity__c": 0,
+                    "%vlocity_namespace%__ParentProductId__c": "01t3M000000ySQ6QAM",
+                    "%vlocity_namespace%__ParentProductId__r": {
+                        "%vlocity_namespace%__GlobalGroupKey__c": "051ab9b2-929a-c7c1-7910-89105e126fae",
+                        "%vlocity_namespace%__SellingStartDate__c": "2021-12-31T23:00:00.000+0000",
+                        "Id": "01t3M000000ySQ6QAM",
+                        "Name": "Forfait 2H + 22Go",
+                        "attributes": {
+                            "type": "Product2",
+                            "url": "/services/data/v54.0/sobjects/Product2/01t3M000000ySQ6QAM"
+                        }
+                    },
+                    "%vlocity_namespace%__Quantity__c": 1,
+                    "%vlocity_namespace%__SeqNumber__c": 1,
+                    "Name": "Root PCI",
+                    "attributes": {
+                        "type": "%vlocity_namespace%__ProductChildItem__c"
+                    }
+                },
+                "productChildItemId": "a3t3M0000000fWBQAY",
+                "productHierarchyPath": "01t3M000000ySQ6QAM",
+                "productId": "01t3M000000ySQ6QAM",
+                "sequenceNumber": 1
+            }
+        ],
+        "totalSize": 15
+    },
+    "offresource": "INWIB2C_OFFERING_49DH_APL"
+}

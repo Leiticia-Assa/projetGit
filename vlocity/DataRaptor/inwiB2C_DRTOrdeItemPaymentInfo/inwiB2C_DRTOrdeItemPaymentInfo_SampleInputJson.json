@@ -1,0 +1,18 @@
+{
+    "CSCreatePaymentInteraction": [
+        {
+            "CSPayment": {
+                "CSPaymentReference": {
+                    "creatorReference": "shhhhh_9518181002487830",
+                    "registerReference": "21042717360"
+                }
+            },
+            "errorCode": null,
+            "errorDesc": null,
+            "handlingAction": "1"
+        }
+    ],
+    "PaymentReference": "222222",
+    "PaymentType": "PAYFI",
+    "mode": "CS"
+}

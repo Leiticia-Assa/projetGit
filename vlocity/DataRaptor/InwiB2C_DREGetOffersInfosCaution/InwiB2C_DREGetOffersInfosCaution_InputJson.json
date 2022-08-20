@@ -1,0 +1,23 @@
+{
+    "ContextId": null,
+    "IsOK": {
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "DREGetInfoPayXRequest": null,
+        "DREGetOrderLineInfo": null,
+        "DRTPAYXInterface": null,
+        "DRTPAYXResponse": null,
+        "HTTPCreatePayement": null,
+        "IsOK": null,
+        "PAYXInterfaceResponseSatut": null,
+        "ResponseAction": null,
+        "SetValues2": null
+    }
+}

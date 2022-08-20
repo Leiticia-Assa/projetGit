@@ -1,0 +1,785 @@
+{
+    "ActivationStep": {
+    },
+    "Authorization": false,
+    "Auto": false,
+    "ContextId": "a4k25000000F6gHAAS",
+    "GetRecharge": [
+        {
+            "activationDate": "2020-03-17T23:00:00Z[UTC]",
+            "balance": [
+                {
+                    "amount": {
+                        "value": 0
+                    },
+                    "id": "2000",
+                    "relatedParty": [
+                    ],
+                    "specCharacteristic": [
+                    ],
+                    "usages": [
+                    ],
+                    "validFor": {
+                        "endDateTime": "2021-09-18T23:00:00Z[UTC]"
+                    }
+                }
+            ],
+            "characteristic": [
+                {
+                    "characteristicItem": [
+                    ],
+                    "characteristicRelationship": [
+                    ],
+                    "name": "C_SUB_CARRIERROAM_RIGHT",
+                    "valueType": "0"
+                },
+                {
+                    "characteristicItem": [
+                    ],
+                    "characteristicRelationship": [
+                    ],
+                    "name": "C_IS_GROUP_MEMBER",
+                    "valueType": "0"
+                },
+                {
+                    "characteristicItem": [
+                    ],
+                    "characteristicRelationship": [
+                    ],
+                    "name": "C_SUB_MAX_BALANCE",
+                    "valueType": "1000000"
+                },
+                {
+                    "characteristicItem": [
+                    ],
+                    "characteristicRelationship": [
+                    ],
+                    "name": "C_SUB_REGISTER_TIME",
+                    "valueType": "20200317173244"
+                },
+                {
+                    "characteristicItem": [
+                    ],
+                    "characteristicRelationship": [
+                    ],
+                    "name": "LastSubDailyBillTime",
+                    "valueType": "20210621083626"
+                },
+                {
+                    "characteristicItem": [
+                    ],
+                    "characteristicRelationship": [
+                    ],
+                    "name": "C_SWITCH_MP_USED_FREE_TIMES",
+                    "valueType": "0"
+                },
+                {
+                    "characteristicItem": [
+                    ],
+                    "characteristicRelationship": [
+                    ],
+                    "name": "C_SUB_MAINBAL_CLEAN_DATE",
+                    "valueType": "20200617235959"
+                },
+                {
+                    "characteristicItem": [
+                    ],
+                    "characteristicRelationship": [
+                    ],
+                    "name": "C_NOTIFYACCOUNTFLAG",
+                    "valueType": "1"
+                },
+                {
+                    "characteristicItem": [
+                    ],
+                    "characteristicRelationship": [
+                    ],
+                    "name": "MAX_MODIFY_FN_TIMES",
+                    "valueType": "-1"
+                },
+                {
+                    "characteristicItem": [
+                    ],
+                    "characteristicRelationship": [
+                    ],
+                    "name": "STARFLAG",
+                    "valueType": "1"
+                },
+                {
+                    "characteristicItem": [
+                    ],
+                    "characteristicRelationship": [
+                    ],
+                    "name": "C_RISKLIMIT_INBAND",
+                    "valueType": "0"
+                },
+                {
+                    "characteristicItem": [
+                    ],
+                    "characteristicRelationship": [
+                    ],
+                    "name": "C_LAST_CHARGE_BEGIN_TIME",
+                    "valueType": "20200318124010"
+                },
+                {
+                    "characteristicItem": [
+                    ],
+                    "characteristicRelationship": [
+                    ],
+                    "name": "C_ETU_BLACKLIST_FLAG",
+                    "valueType": "0"
+                },
+                {
+                    "characteristicItem": [
+                    ],
+                    "characteristicRelationship": [
+                    ],
+                    "name": "C_BLACK_FLAG",
+                    "valueType": "0"
+                },
+                {
+                    "characteristicItem": [
+                    ],
+                    "characteristicRelationship": [
+                    ],
+                    "name": "USED_MODIFY_FN_TIMES",
+                    "valueType": "0"
+                },
+                {
+                    "characteristicItem": [
+                    ],
+                    "characteristicRelationship": [
+                    ],
+                    "name": "C_HDM_REQUEST_TIMES",
+                    "valueType": "0"
+                },
+                {
+                    "characteristicItem": [
+                    ],
+                    "characteristicRelationship": [
+                    ],
+                    "name": "C_RAR_SEND_TIME",
+                    "valueType": "19700101010000"
+                },
+                {
+                    "characteristicItem": [
+                    ],
+                    "characteristicRelationship": [
+                    ],
+                    "name": "C_SUBINFO_E",
+                    "valueType": ""
+                },
+                {
+                    "characteristicItem": [
+                    ],
+                    "characteristicRelationship": [
+                    ],
+                    "name": "C_SUBINFO_F",
+                    "valueType": "10100000000000000000000000000000"
+                },
+                {
+                    "characteristicItem": [
+                    ],
+                    "characteristicRelationship": [
+                    ],
+                    "name": "C_SUBINFO_G",
+                    "valueType": "19700101000000"
+                },
+                {
+                    "characteristicItem": [
+                    ],
+                    "characteristicRelationship": [
+                    ],
+                    "name": "C_ACTIVE_CAC_CODE",
+                    "valueType": "-1"
+                },
+                {
+                    "characteristicItem": [
+                    ],
+                    "characteristicRelationship": [
+                    ],
+                    "name": "C_LIFE_TIMES",
+                    "valueType": "2"
+                },
+                {
+                    "characteristicItem": [
+                    ],
+                    "characteristicRelationship": [
+                    ],
+                    "name": "C_SUBINFO_H",
+                    "valueType": "0"
+                },
+                {
+                    "characteristicItem": [
+                    ],
+                    "characteristicRelationship": [
+                    ],
+                    "name": "C_GPRS_UPLIMIT",
+                    "valueType": "-1"
+                },
+                {
+                    "characteristicItem": [
+                    ],
+                    "characteristicRelationship": [
+                    ],
+                    "name": "C_SUB_MAX_VALIDITY",
+                    "valueType": "365"
+                },
+                {
+                    "characteristicItem": [
+                    ],
+                    "characteristicRelationship": [
+                    ],
+                    "name": "C_SUBDISCOUNT",
+                    "valueType": "O"
+                },
+                {
+                    "characteristicItem": [
+                    ],
+                    "characteristicRelationship": [
+                    ],
+                    "name": "C_SUB_REFEREE_IDENTIFER",
+                    "valueType": ""
+                },
+                {
+                    "characteristicItem": [
+                    ],
+                    "characteristicRelationship": [
+                    ],
+                    "name": "C_SUBINFO_A",
+                    "valueType": ""
+                },
+                {
+                    "characteristicItem": [
+                    ],
+                    "characteristicRelationship": [
+                    ],
+                    "name": "C_SUBINFO_B",
+                    "valueType": ""
+                },
+                {
+                    "characteristicItem": [
+                    ],
+                    "characteristicRelationship": [
+                    ],
+                    "name": "C_SUBINFO_C",
+                    "valueType": "-1"
+                },
+                {
+                    "characteristicItem": [
+                    ],
+                    "characteristicRelationship": [
+                    ],
+                    "name": "C_SUBINFO_D",
+                    "valueType": ""
+                },
+                {
+                    "characteristicItem": [
+                    ],
+                    "characteristicRelationship": [
+                    ],
+                    "name": "C_GPRS_USEDLIMIT",
+                    "valueType": "0"
+                }
+            ],
+            "dataConsumption": "0",
+            "expirationDate": "2030-03-16T23:00:00Z[UTC]",
+            "expireTimeStatus": "2030-12-12",
+            "hasRechargeX4": true,
+            "hdmExpireDate": "",
+            "isRechargeX4Active": false,
+            "lifeCycleState": "Active",
+            "loanAmount": "",
+            "ocsParameter": "",
+            "paymentMode": "0",
+            "preferdCeilling": "-1",
+            "product": [
+                {
+                    "agreement": [
+                    ],
+                    "id": "84001",
+                    "place": [
+                    ],
+                    "product": [
+                        {
+                            "agreement": [
+                            ],
+                            "id": "110",
+                            "place": [
+                            ],
+                            "product": [
+                            ],
+                            "productCharacteristic": [
+                            ],
+                            "productOrderItem": [
+                            ],
+                            "productPrice": [
+                            ],
+                            "productRelationship": [
+                            ],
+                            "productTerm": [
+                            ],
+                            "realizingResource": [
+                            ],
+                            "realizingService": [
+                            ],
+                            "relatedParty": [
+                            ],
+                            "resourceRef": [
+                            ]
+                        },
+                        {
+                            "agreement": [
+                            ],
+                            "id": "81341",
+                            "place": [
+                            ],
+                            "product": [
+                            ],
+                            "productCharacteristic": [
+                            ],
+                            "productOrderItem": [
+                            ],
+                            "productPrice": [
+                            ],
+                            "productRelationship": [
+                            ],
+                            "productTerm": [
+                            ],
+                            "realizingResource": [
+                            ],
+                            "realizingService": [
+                            ],
+                            "relatedParty": [
+                            ],
+                            "resourceRef": [
+                            ]
+                        }
+                    ],
+                    "productCharacteristic": [
+                    ],
+                    "productOrderItem": [
+                    ],
+                    "productPrice": [
+                    ],
+                    "productRelationship": [
+                    ],
+                    "productTerm": [
+                    ],
+                    "realizingResource": [
+                    ],
+                    "realizingService": [
+                    ],
+                    "relatedParty": [
+                    ],
+                    "resourceRef": [
+                    ]
+                }
+            ],
+            "rechargeStatus": "Débloquée",
+            "subscriberIdentityModules": [
+            ],
+            "unblockingCounter": "2"
+        }
+    ],
+    "Id": "a4k25000000F6gHAAS",
+    "NetworkAsset": {
+        "ActiveRecharge": "Desactive",
+        "DispRecharge": "Dispose de la recharge x 4"
+    },
+    "NumeroLigne": "212648037012",
+    "Recharge": [
+        {
+            "activationDate": "2020-03-17T23:00:00Z[UTC]",
+            "balance": [
+                {
+                    "amount": {
+                        "value": 0
+                    },
+                    "id": "2000",
+                    "relatedParty": [
+                    ],
+                    "specCharacteristic": [
+                    ],
+                    "usages": [
+                    ],
+                    "validFor": {
+                        "endDateTime": "2021-09-18T23:00:00Z[UTC]"
+                    }
+                }
+            ],
+            "characteristic": [
+                {
+                    "characteristicItem": [
+                    ],
+                    "characteristicRelationship": [
+                    ],
+                    "name": "C_SUB_CARRIERROAM_RIGHT",
+                    "valueType": "0"
+                },
+                {
+                    "characteristicItem": [
+                    ],
+                    "characteristicRelationship": [
+                    ],
+                    "name": "C_IS_GROUP_MEMBER",
+                    "valueType": "0"
+                },
+                {
+                    "characteristicItem": [
+                    ],
+                    "characteristicRelationship": [
+                    ],
+                    "name": "C_SUB_MAX_BALANCE",
+                    "valueType": "1000000"
+                },
+                {
+                    "characteristicItem": [
+                    ],
+                    "characteristicRelationship": [
+                    ],
+                    "name": "C_SUB_REGISTER_TIME",
+                    "valueType": "20200317173244"
+                },
+                {
+                    "characteristicItem": [
+                    ],
+                    "characteristicRelationship": [
+                    ],
+                    "name": "LastSubDailyBillTime",
+                    "valueType": "20210621083626"
+                },
+                {
+                    "characteristicItem": [
+                    ],
+                    "characteristicRelationship": [
+                    ],
+                    "name": "C_SWITCH_MP_USED_FREE_TIMES",
+                    "valueType": "0"
+                },
+                {
+                    "characteristicItem": [
+                    ],
+                    "characteristicRelationship": [
+                    ],
+                    "name": "C_SUB_MAINBAL_CLEAN_DATE",
+                    "valueType": "20200617235959"
+                },
+                {
+                    "characteristicItem": [
+                    ],
+                    "characteristicRelationship": [
+                    ],
+                    "name": "C_NOTIFYACCOUNTFLAG",
+                    "valueType": "1"
+                },
+                {
+                    "characteristicItem": [
+                    ],
+                    "characteristicRelationship": [
+                    ],
+                    "name": "MAX_MODIFY_FN_TIMES",
+                    "valueType": "-1"
+                },
+                {
+                    "characteristicItem": [
+                    ],
+                    "characteristicRelationship": [
+                    ],
+                    "name": "STARFLAG",
+                    "valueType": "1"
+                },
+                {
+                    "characteristicItem": [
+                    ],
+                    "characteristicRelationship": [
+                    ],
+                    "name": "C_RISKLIMIT_INBAND",
+                    "valueType": "0"
+                },
+                {
+                    "characteristicItem": [
+                    ],
+                    "characteristicRelationship": [
+                    ],
+                    "name": "C_LAST_CHARGE_BEGIN_TIME",
+                    "valueType": "20200318124010"
+                },
+                {
+                    "characteristicItem": [
+                    ],
+                    "characteristicRelationship": [
+                    ],
+                    "name": "C_ETU_BLACKLIST_FLAG",
+                    "valueType": "0"
+                },
+                {
+                    "characteristicItem": [
+                    ],
+                    "characteristicRelationship": [
+                    ],
+                    "name": "C_BLACK_FLAG",
+                    "valueType": "0"
+                },
+                {
+                    "characteristicItem": [
+                    ],
+                    "characteristicRelationship": [
+                    ],
+                    "name": "USED_MODIFY_FN_TIMES",
+                    "valueType": "0"
+                },
+                {
+                    "characteristicItem": [
+                    ],
+                    "characteristicRelationship": [
+                    ],
+                    "name": "C_HDM_REQUEST_TIMES",
+                    "valueType": "0"
+                },
+                {
+                    "characteristicItem": [
+                    ],
+                    "characteristicRelationship": [
+                    ],
+                    "name": "C_RAR_SEND_TIME",
+                    "valueType": "19700101010000"
+                },
+                {
+                    "characteristicItem": [
+                    ],
+                    "characteristicRelationship": [
+                    ],
+                    "name": "C_SUBINFO_E",
+                    "valueType": ""
+                },
+                {
+                    "characteristicItem": [
+                    ],
+                    "characteristicRelationship": [
+                    ],
+                    "name": "C_SUBINFO_F",
+                    "valueType": "10100000000000000000000000000000"
+                },
+                {
+                    "characteristicItem": [
+                    ],
+                    "characteristicRelationship": [
+                    ],
+                    "name": "C_SUBINFO_G",
+                    "valueType": "19700101000000"
+                },
+                {
+                    "characteristicItem": [
+                    ],
+                    "characteristicRelationship": [
+                    ],
+                    "name": "C_ACTIVE_CAC_CODE",
+                    "valueType": "-1"
+                },
+                {
+                    "characteristicItem": [
+                    ],
+                    "characteristicRelationship": [
+                    ],
+                    "name": "C_LIFE_TIMES",
+                    "valueType": "2"
+                },
+                {
+                    "characteristicItem": [
+                    ],
+                    "characteristicRelationship": [
+                    ],
+                    "name": "C_SUBINFO_H",
+                    "valueType": "0"
+                },
+                {
+                    "characteristicItem": [
+                    ],
+                    "characteristicRelationship": [
+                    ],
+                    "name": "C_GPRS_UPLIMIT",
+                    "valueType": "-1"
+                },
+                {
+                    "characteristicItem": [
+                    ],
+                    "characteristicRelationship": [
+                    ],
+                    "name": "C_SUB_MAX_VALIDITY",
+                    "valueType": "365"
+                },
+                {
+                    "characteristicItem": [
+                    ],
+                    "characteristicRelationship": [
+                    ],
+                    "name": "C_SUBDISCOUNT",
+                    "valueType": "O"
+                },
+                {
+                    "characteristicItem": [
+                    ],
+                    "characteristicRelationship": [
+                    ],
+                    "name": "C_SUB_REFEREE_IDENTIFER",
+                    "valueType": ""
+                },
+                {
+                    "characteristicItem": [
+                    ],
+                    "characteristicRelationship": [
+                    ],
+                    "name": "C_SUBINFO_A",
+                    "valueType": ""
+                },
+                {
+                    "characteristicItem": [
+                    ],
+                    "characteristicRelationship": [
+                    ],
+                    "name": "C_SUBINFO_B",
+                    "valueType": ""
+                },
+                {
+                    "characteristicItem": [
+                    ],
+                    "characteristicRelationship": [
+                    ],
+                    "name": "C_SUBINFO_C",
+                    "valueType": "-1"
+                },
+                {
+                    "characteristicItem": [
+                    ],
+                    "characteristicRelationship": [
+                    ],
+                    "name": "C_SUBINFO_D",
+                    "valueType": ""
+                },
+                {
+                    "characteristicItem": [
+                    ],
+                    "characteristicRelationship": [
+                    ],
+                    "name": "C_GPRS_USEDLIMIT",
+                    "valueType": "0"
+                }
+            ],
+            "dataConsumption": "0",
+            "expirationDate": "2030-03-16T23:00:00Z[UTC]",
+            "expireTimeStatus": "2030-12-12",
+            "hasRechargeX4": true,
+            "hdmExpireDate": "",
+            "isRechargeX4Active": false,
+            "lifeCycleState": "Active",
+            "loanAmount": "",
+            "ocsParameter": "",
+            "paymentMode": "0",
+            "preferdCeilling": "-1",
+            "product": [
+                {
+                    "agreement": [
+                    ],
+                    "id": "84001",
+                    "place": [
+                    ],
+                    "product": [
+                        {
+                            "agreement": [
+                            ],
+                            "id": "110",
+                            "place": [
+                            ],
+                            "product": [
+                            ],
+                            "productCharacteristic": [
+                            ],
+                            "productOrderItem": [
+                            ],
+                            "productPrice": [
+                            ],
+                            "productRelationship": [
+                            ],
+                            "productTerm": [
+                            ],
+                            "realizingResource": [
+                            ],
+                            "realizingService": [
+                            ],
+                            "relatedParty": [
+                            ],
+                            "resourceRef": [
+                            ]
+                        },
+                        {
+                            "agreement": [
+                            ],
+                            "id": "81341",
+                            "place": [
+                            ],
+                            "product": [
+                            ],
+                            "productCharacteristic": [
+                            ],
+                            "productOrderItem": [
+                            ],
+                            "productPrice": [
+                            ],
+                            "productRelationship": [
+                            ],
+                            "productTerm": [
+                            ],
+                            "realizingResource": [
+                            ],
+                            "realizingService": [
+                            ],
+                            "relatedParty": [
+                            ],
+                            "resourceRef": [
+                            ]
+                        }
+                    ],
+                    "productCharacteristic": [
+                    ],
+                    "productOrderItem": [
+                    ],
+                    "productPrice": [
+                    ],
+                    "productRelationship": [
+                    ],
+                    "productTerm": [
+                    ],
+                    "realizingResource": [
+                    ],
+                    "realizingService": [
+                    ],
+                    "relatedParty": [
+                    ],
+                    "resourceRef": [
+                    ]
+                }
+            ],
+            "rechargeStatus": "Débloquée",
+            "subscriberIdentityModules": [
+            ],
+            "unblockingCounter": "2"
+        }
+    ],
+    "SubscriptionId": "a4k25000000F6gHAAS",
+    "characteristic": [
+        {
+            "name": "C_SUBINFO_C"
+        }
+    ],
+    "mdn": "212648037012",
+    "result": [
+        true
+    ],
+    "timeStamp": "2021-06-21T08:47:04.019Z",
+    "userCurrencyCode": "MAD",
+    "userId": "00525000006lJOmAAM",
+    "userName": "rima.mansour@devph02.com",
+    "userProfile": "System Administrator",
+    "userTimeZone": "60"
+}

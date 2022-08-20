@@ -1,0 +1,71 @@
+{
+    "OLI": [
+        {
+            "Code": "000056165",
+            "Id": "80225000002dsBaAAI",
+            "Name": "SIM",
+            "Prix": 20,
+            "creatorReference": "SIM_80225000002dsBaAAI"
+        },
+        {
+            "Id": "80225000002dsBbAAI",
+            "Name": "Numéro Téléphone",
+            "Prix": 0,
+            "creatorReference": "Num_80225000002dsBbAAI"
+        },
+        {
+            "Id": "80225000002dsBcAAI",
+            "Name": "Terminal",
+            "Prix": 0,
+            "creatorReference": "Ter_80225000002dsBcAAI"
+        },
+        {
+            "Id": "80225000002dsBdAAI",
+            "Name": "Options Roaming",
+            "Prix": 0,
+            "creatorReference": "Opt_80225000002dsBdAAI"
+        },
+        {
+            "Id": "80225000002dsBeAAI",
+            "Name": "Service Roaming",
+            "Prix": 0,
+            "creatorReference": "Ser_80225000002dsBeAAI"
+        },
+        {
+            "Id": "80225000002dsBfAAI",
+            "Name": "Options Telco",
+            "Prix": 0,
+            "creatorReference": "Opt_80225000002dsBfAAI"
+        },
+        {
+            "Id": "80225000002dsBgAAI",
+            "Name": "Restriction appels sortants",
+            "Prix": 0,
+            "creatorReference": "Res_80225000002dsBgAAI"
+        },
+        {
+            "Id": "80225000002dsBhAAI",
+            "Name": "Notification des appels manqués",
+            "Prix": 0,
+            "creatorReference": "Not_80225000002dsBhAAI"
+        },
+        {
+            "Id": "80225000002dsBiAAI",
+            "Name": "Internet sur Mobile",
+            "Prix": 0,
+            "creatorReference": "Int_80225000002dsBiAAI"
+        },
+        {
+            "Id": "80225000002dsBjAAI",
+            "Name": "Renvoi vers boite vocale si non réponse",
+            "Prix": 0,
+            "creatorReference": "Ren_80225000002dsBjAAI"
+        },
+        {
+            "Id": "80225000002dsBkAAI",
+            "Name": "Volte",
+            "Prix": 0,
+            "creatorReference": "Vol_80225000002dsBkAAI"
+        }
+    ]
+}

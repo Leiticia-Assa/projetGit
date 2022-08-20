@@ -1,0 +1,20 @@
+{
+    "List": [
+        {
+            "CIN": "FJ251364",
+            "Id": "a4k25000000F57aAAC",
+            "LastName": "KANTAS",
+            "Offre": "Offre Papillon B2C",
+            "contractId": "2626",
+            "mdn": "212648035651"
+        },
+        {
+            "CIN": "FJ251364",
+            "Id": "a4k25000000F57aAAC",
+            "LastName": "KANTAS",
+            "Offre": "Offre Papillon B2C",
+            "contractId": "2626",
+            "mdn": "212648035626"
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "GlobalOrderItem": {
+        "OrderItem": [
+            {
+                "Id": "802250000030hplAAA",
+                "MsisdnProvisional": "212648064563",
+                "Ocsid": "IN2",
+                "Rootid": "802250000030hpkAAA"
+            },
+            {
+                "Id": "802250000030hqUAAQ",
+                "MsisdnProvisional": "212648064566",
+                "Ocsid": "IN2",
+                "Rootid": "802250000030hqTAAQ"
+            }
+        ],
+        "OrderItemMsisdn": [
+            {
+                "Choixnumber": "personaliser",
+                "Operator": "WIN",
+                "OrderItemId": "802250000030hpmAAA",
+                "Rootid": "802250000030hpkAAA",
+                "number": "212648068169"
+            },
+            {
+                "Choixnumber": "garder",
+                "Operator": "WIN",
+                "OrderItemId": "802250000030hqVAAQ",
+                "Rootid": "802250000030hqTAAQ"
+            }
+        ]
+    }
+}

@@ -1,0 +1,44 @@
+[
+    {
+        "": "",
+        "InvoiceId": "F1910000066",
+        "invoiceAmount": 103.75,
+        "invoicePaymentDueDate": "2019-12-31Z",
+        "status": "1"
+    },
+    {
+        "": "",
+        "InvoiceId": "F1910000067",
+        "invoiceAmount": 290.8333333333333,
+        "invoicePaymentDueDate": "2019-12-31Z",
+        "status": "0"
+    },
+    {
+        "": "",
+        "InvoiceId": "F1910000064",
+        "invoiceAmount": 103.75,
+        "invoicePaymentDueDate": "2019-12-01Z",
+        "status": "0"
+    },
+    {
+        "": "",
+        "InvoiceId": "F1910000065",
+        "invoiceAmount": 207.5,
+        "invoicePaymentDueDate": "2019-12-01Z",
+        "status": "1"
+    },
+    {
+        "": "",
+        "InvoiceId": "F1910000062",
+        "invoiceAmount": 186.75,
+        "invoicePaymentDueDate": "2019-10-31Z",
+        "status": "0"
+    },
+    {
+        "": "",
+        "InvoiceId": "F1910000063",
+        "invoiceAmount": 373.5,
+        "invoicePaymentDueDate": "2019-10-31Z",
+        "status": "2"
+    }
+]

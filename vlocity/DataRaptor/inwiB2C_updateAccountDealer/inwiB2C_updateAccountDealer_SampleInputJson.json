@@ -1,0 +1,37 @@
+{
+    "input": {
+        "IdContact": "0032500001PsGh4AAF",
+        "idAccount": "0012500001T4nC4AAJ",
+        "infoAccDealer": {
+            "AddressesManagment": {
+                "CityName": "AARAB SEBBAH GHERIS",
+                "IdMaroc": "a6P25000000D5VREA0",
+                "Pays": "a6P25000000D5VREA0",
+                "PaysName": "Maroc",
+                "PrecisionQuartier": "1212 carablanca",
+                "Quartier": "null",
+                "Region": "a6O25000000CfXdEAK",
+                "RegionName": "Meknes,Tafilalet",
+                "Ville": "a6M25000000DEIzEAO"
+            },
+            "NomDealer": "new na",
+            "PrenomDealer": "dl",
+            "SegmentDealer": "Grossiste",
+            "TypeAddressDealer": "résidence",
+            "TypeDealer": "Type1",
+            "cinDealer": "ZZ1235",
+            "typeCINDealer": "Carte d'Identité Nationale"
+        },
+        "infoAddressDealer": {
+            "CityName": "AARAB SEBBAH GHERIS",
+            "IdMaroc": "a6P25000000D5VREA0",
+            "Pays": "a6P25000000D5VREA0",
+            "PaysName": "Maroc",
+            "PrecisionQuartier": "1212 carablanca",
+            "Quartier": "null",
+            "Region": "a6O25000000CfXdEAK",
+            "RegionName": "Meknes,Tafilalet",
+            "Ville": "a6M25000000DEIzEAO"
+        }
+    }
+}

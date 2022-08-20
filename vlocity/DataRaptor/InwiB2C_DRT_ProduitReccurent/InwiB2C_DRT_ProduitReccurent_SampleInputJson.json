@@ -1,0 +1,48 @@
+{
+    "AccountId": "0012500001Osh1BAAR",
+    "AssetId": "02i2500000ILMSWAA5",
+    "AstStatus": "Obsolete",
+    "Canal": "inwiB2C_Televente",
+    "ContextId": "a4k25000000F6iIAAS",
+    "DRId_Order": "801250000027lZGAAY",
+    "DRId_inwiB2C_BusinessEvent__c": "a5u25000000D6TsAAK",
+    "DistriCode": "CPD01",
+    "DistriId": "0012500001QU68UAAT",
+    "Error": null,
+    "ModeleCarteSIM": "S.A SIM 4G BOUTIQUES PREPAID",
+    "NumeroLigne": "12345",
+    "Offre": "Offre TicTac Sim Seule",
+    "OrderId": "801250000027lZGAAY",
+    "OrderNumber": "00002958",
+    "OrderURL": "../lightning/r/Order//view",
+    "POSCode": "CPD11",
+    "POSId": "0012500001QUCGMAA5",
+    "Status": "inwiB2C_EnCours",
+    "Step2": {
+        "TypeSuspension": null
+    },
+    "SubStatut": "EXPIRED",
+    "TypeCommande": "inwiB2C_Modification",
+    "UserName": "sara.asmlal@devph02.com",
+    "contextId": "a4k25000000F6iIAAS",
+    "dateActivation": "2021-04-13T14:47:19.000Z",
+    "messages": [
+    ],
+    "omnidesignerChannelId": "omni-designer-channel-id-1622111915804",
+    "records": [
+        {
+            "cartId": "801250000027lZGAAY",
+            "displaySequence": -1,
+            "messages": [
+            ]
+        }
+    ],
+    "timeStamp": "2021-05-27T10:38:41.503Z",
+    "totalSize": 0,
+    "userCurrencyCode": "MAD",
+    "userId": "005250000076gbMAAQ",
+    "userName": "sara.asmlal@devph02.com",
+    "userProfile": "System Administrator",
+    "userTimeZone": "60",
+    "vlcCart": null
+}

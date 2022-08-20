@@ -1,0 +1,370 @@
+{
+    "AccountNumber": "8777566568",
+    "BillingAccounts": [
+        {
+            "AccountNumber": "X11111",
+            "Id": "0013M00000zwWQ4QAM",
+            "ModeDePaiement": "Guichet",
+            "Name": "lllll"
+        },
+        {
+            "AccountNumber": "8777566568",
+            "BillingAddress": "Liban a6Y3M0000004IUp BRIKCHA CHEIKH LAMFADDALQuartie45",
+            "Id": "0013M000010KlKRQA0",
+            "ModeDePaiement": "Prélèvement automatique (RIB)",
+            "Name": "sasa"
+        },
+        {
+            "AccountNumber": "SF0000000106",
+            "BillingAddress": "Libéria a6Y3M0000004INK Casablanca SEBT EL GUERDANEassaa",
+            "Id": "0013M000011qCckQAE",
+            "ModeDePaiement": "Guichet",
+            "Name": "asssssaaa"
+        },
+        {
+            "AccountNumber": "X11111",
+            "Id": "0013M000010KMhoQAG",
+            "ModeDePaiement": "Prélèvement automatique (RIB)",
+            "Name": "asssssaaa"
+        },
+        {
+            "AccountNumber": "X11111",
+            "CycleDeFacturation": "18",
+            "Id": "0013M000010KMYnQAO",
+            "ModeDePaiement": "Prélèvement automatique (RIB)",
+            "Name": "sasa"
+        },
+        {
+            "AccountNumber": "X11111",
+            "BillingAddress": "AARAB SEBBAH ZIZ",
+            "Id": "0013M000010IqEKQA0",
+            "ModeDePaiement": "Prélèvement automatique (RIB)",
+            "Name": "sa"
+        },
+        {
+            "AccountNumber": "X11111",
+            "Id": "0013M000010K6F2QAK",
+            "ModeDePaiement": "Guichet",
+            "Name": "ddd"
+        },
+        {
+            "AccountNumber": "SF0000000002",
+            "Id": "0013M000010ST2nQAG",
+            "ModeDePaiement": "Guichet",
+            "Name": "asssssaaa"
+        },
+        {
+            "AccountNumber": "X11111",
+            "Id": "0013M00000zwSoaQAE",
+            "ModeDePaiement": "Guichet",
+            "Name": "kkkk"
+        },
+        {
+            "AccountNumber": "X11111",
+            "Id": "0013M000010K37eQAC",
+            "ModeDePaiement": "Prélèvement automatique (RIB)",
+            "Name": "asssssaaa"
+        },
+        {
+            "AccountNumber": "X11111",
+            "Id": "0013M000010K6VgQAK",
+            "ModeDePaiement": "Prélèvement automatique (RIB)",
+            "Name": "llll"
+        },
+        {
+            "AccountNumber": "X11111",
+            "Id": "0013M000010KZnHQAW",
+            "Name": "kkkk"
+        },
+        {
+            "AccountNumber": "X11111",
+            "Id": "0013M00000yuHhNQAU",
+            "ModeDePaiement": "Guichet",
+            "Name": "ddd"
+        },
+        {
+            "AccountNumber": "X11111",
+            "BillingAddress": "CASABLANCA",
+            "Id": "0013M00000zwUTTQA2",
+            "ModeDePaiement": "Guichet",
+            "Name": "aaaa"
+        },
+        {
+            "AccountNumber": "X11111",
+            "BillingAddress": "AARAB SEBBAH GHERIS",
+            "Id": "0013M000010Iu1UQAS",
+            "ModeDePaiement": "Guichet",
+            "Name": "asssssaaa"
+        },
+        {
+            "AccountNumber": "X11111",
+            "Id": "0013M000010KZnRQAW",
+            "ModeDePaiement": "Guichet",
+            "Name": "llll"
+        },
+        {
+            "AccountNumber": "X11111",
+            "BillingAddress": "Maroc a6Y3M0000004IMW a6j3M0000008nxZ EL ARJATEquartierr",
+            "Id": "0013M000010SatdQAC",
+            "ModeDePaiement": "Guichet",
+            "Name": "sasa"
+        },
+        {
+            "AccountNumber": "X11111",
+            "Id": "0013M000010K5KBQA0",
+            "ModeDePaiement": "Prélèvement automatique (RIB)",
+            "Name": "sasa"
+        },
+        {
+            "AccountNumber": "X11111",
+            "Id": "0013M000010KZnvQAG",
+            "ModeDePaiement": "Guichet",
+            "Name": "asssssaaa"
+        },
+        {
+            "AccountNumber": "X11111",
+            "Id": "0013M000010LZsZQAW",
+            "ModeDePaiement": "Prélèvement automatique (RIB)",
+            "Name": "asssssaaa"
+        },
+        {
+            "AccountNumber": "X11111",
+            "Id": "0013M000010SVjVQAW",
+            "ModeDePaiement": "Guichet",
+            "Name": "asssssaaa"
+        },
+        {
+            "AccountNumber": "10089068402",
+            "BillingAddress": "Maroc  CASABLANCA AGENCE POSTE MAROC CASA  ANFA CD (COMPLEXE)",
+            "Id": "0013M000011qCs9QAE",
+            "ModeDePaiement": "Guichet",
+            "Name": "kkkk"
+        },
+        {
+            "AccountNumber": "X11111",
+            "Id": "0013M00000yuHVRQA2",
+            "ModeDePaiement": "Guichet",
+            "Name": "cqdfc"
+        },
+        {
+            "AccountNumber": "X11111",
+            "BillingAddress": "BRADIA",
+            "Id": "0013M000010ItYfQAK",
+            "ModeDePaiement": "Guichet",
+            "Name": "sasa"
+        },
+        {
+            "AccountNumber": "SF0000000008",
+            "Id": "0013M000010T85EQAS",
+            "ModeDePaiement": "Guichet",
+            "Name": "ddd"
+        },
+        {
+            "AccountNumber": "SF0000000103",
+            "BillingAddress": "Maroc  CASABLANCA AGENCE POSTE MAROC CASA  ANFA CD (COMPLEXE)",
+            "Id": "0013M000011qBjNQAU",
+            "ModeDePaiement": "Guichet",
+            "Name": "asssssaaa"
+        },
+        {
+            "AccountNumber": "X11111",
+            "Id": "0013M00000zwWPuQAM",
+            "ModeDePaiement": "Prélèvement automatique (RIB)",
+            "Name": "kkkk"
+        },
+        {
+            "AccountNumber": "X11111",
+            "BillingAddress": "CASABLANCA",
+            "Id": "0013M00000zwUSzQAM",
+            "ModeDePaiement": "Guichet",
+            "Name": "sasa"
+        },
+        {
+            "AccountNumber": "X11111",
+            "Id": "0013M000010K1u7QAC",
+            "ModeDePaiement": "Guichet",
+            "Name": "asssssaaa"
+        },
+        {
+            "AccountNumber": "X11111",
+            "Id": "0013M000010KMgcQAG",
+            "ModeDePaiement": "Prélèvement automatique (RIB)",
+            "Name": "sasa"
+        },
+        {
+            "AccountNumber": "X11111",
+            "Id": "0013M000010SUFjQAO",
+            "ModeDePaiement": "Guichet",
+            "Name": "ddd"
+        },
+        {
+            "AccountNumber": "X11111",
+            "BillingAddress": "CASABLANCA",
+            "Id": "0013M000010ItgpQAC",
+            "ModeDePaiement": "Guichet",
+            "Name": "asssssaaa"
+        },
+        {
+            "AccountNumber": "X11111",
+            "BillingAddress": "CASABLANCA",
+            "Id": "0013M000010ItmRQAS",
+            "ModeDePaiement": "Guichet",
+            "Name": "asssssaaa"
+        },
+        {
+            "AccountNumber": "SF0000000104",
+            "BillingAddress": "Maroc  CASABLANCA AGENCE POSTE MAROC CASA  ANFA CD (COMPLEXE)",
+            "Id": "0013M000011qC5OQAU",
+            "ModeDePaiement": "Guichet",
+            "Name": "sasa"
+        },
+        {
+            "AccountNumber": "SF0000000105",
+            "BillingAddress": "BZOU AGENCE POSTE MAROC CASA  ANFA CD (COMPLEXE)",
+            "Id": "0013M000011qCLJQA2",
+            "ModeDePaiement": "Guichet",
+            "Name": "lllll"
+        }
+    ],
+    "ContextId": "0013M00000yqoJgQAI",
+    "DisplayInvoices": null,
+    "DistriCode": "CMS01",
+    "DistriId": "0013M00000sPgwYQAS",
+    "Id": "label",
+    "InvId": "",
+    "NOTOKPAY": null,
+    "NoPayedInvoices": null,
+    "Operation": {
+        "DisplayOperationChoice": {
+            "selectedchoiceoperation": "invoicePayment"
+        }
+    },
+    "POSCode": "CPD01",
+    "POSId": "0013M00000sPgwUQAS",
+    "POSName": "Agence CPD01",
+    "Paiement": null,
+    "Pays": "Liban",
+    "Quartier": "CHEIKH LAMFADDAL",
+    "ResultInvoicesKO": null,
+    "Resultat": {
+        "DisplayBillingAccounts": {
+            "selectedBillingAccountId": "0013M000010KlKRQA0"
+        }
+    },
+    "ResultatKO": null,
+    "Search": null,
+    "UserName": "lamyaa.brikssi@atos.net.dev3",
+    "Ville": "BRIKCHA",
+    "accid": "0013M000010KlKRQA0",
+    "checkingTable": "1",
+    "contextId": "0013M00000yqoJgQAI",
+    "invoiceAmount": "label",
+    "invoiceAmountATI": "label",
+    "invoicePaymentDueDate": "label",
+    "list": [
+        {
+            "Id": "F21031339067",
+            "InvoiceDate": "2021-03-18",
+            "IsSelected": false,
+            "billingAccountId": "6568557",
+            "invoiceAmount": 185.76,
+            "invoiceEndDate": "18/03/2021",
+            "invoicePaymentDueDate": "07/04/2021",
+            "invoiceStartDate": "18/02/2021",
+            "mois": "Février",
+            "status": "Payée",
+            "vlcSelected": true
+        },
+        {
+            "Id": "F21041379892",
+            "InvoiceDate": "2021-04-18",
+            "IsSelected": false,
+            "billingAccountId": "6568557",
+            "invoiceAmount": 174.5,
+            "invoiceEndDate": "18/04/2021",
+            "invoicePaymentDueDate": "07/05/2021",
+            "invoiceStartDate": "11/03/2021",
+            "mois": "Mars",
+            "status": "Payée",
+            "vlcSelected": true
+        },
+        {
+            "Id": "F21071389997",
+            "InvoiceDate": "2021-07-18",
+            "IsSelected": false,
+            "billingAccountId": "6568557",
+            "invoiceAmount": 174.5,
+            "invoiceEndDate": "18/07/2021",
+            "invoicePaymentDueDate": "07/08/2021",
+            "invoiceStartDate": "18/06/2021",
+            "mois": "Juin",
+            "status": "Payée",
+            "vlcSelected": true
+        },
+        {
+            "Id": "F21081451877",
+            "InvoiceDate": "2021-08-18",
+            "IsSelected": false,
+            "billingAccountId": "6568557",
+            "invoiceAmount": 174.5,
+            "invoiceEndDate": "18/08/2021",
+            "invoicePaymentDueDate": "07/09/2021",
+            "invoiceStartDate": "18/07/2021",
+            "mois": "Juillet",
+            "status": "Payée",
+            "vlcSelected": true
+        },
+        {
+            "Id": "F21091483058",
+            "InvoiceDate": "2021-09-18",
+            "IsSelected": false,
+            "billingAccountId": "6568557",
+            "invoiceAmount": 174.5,
+            "invoiceEndDate": "18/09/2021",
+            "invoicePaymentDueDate": "07/10/2021",
+            "invoiceStartDate": "18/08/2021",
+            "mois": "Août",
+            "status": "Partiellement payée",
+            "vlcSelected": true
+        },
+        {
+            "Id": "F21061431291",
+            "InvoiceDate": "2021-06-18",
+            "IsSelected": false,
+            "billingAccountId": "6568557",
+            "invoiceAmount": 174.5,
+            "invoiceEndDate": "18/06/2021",
+            "invoicePaymentDueDate": "07/07/2021",
+            "invoiceStartDate": "18/05/2021",
+            "mois": "Mai",
+            "status": "Payée",
+            "vlcSelected": true
+        },
+        {
+            "Id": "F21051432012",
+            "InvoiceDate": "2021-05-18",
+            "IsSelected": false,
+            "billingAccountId": "6568557",
+            "invoiceAmount": 174.5,
+            "invoiceEndDate": "18/05/2021",
+            "invoicePaymentDueDate": "07/06/2021",
+            "invoiceStartDate": "18/04/2021",
+            "mois": "Avril",
+            "status": "Payée",
+            "vlcSelected": true
+        }
+    ],
+    "mois": "label",
+    "numberofaccounts": 35,
+    "operation": "invoicePayment",
+    "remainingAmount": "label",
+    "status": "label",
+    "timeStamp": "2022-03-22T14:22:00.606Z",
+    "tpevariable": null,
+    "typePos": "inwib2c_OS",
+    "userCurrencyCode": "MAD",
+    "userId": "0053M000001ZB0zQAG",
+    "userName": "lamyaa.brikssi@atos.net.dev3",
+    "userProfile": "System Administrator",
+    "userTimeZone": "60"
+}

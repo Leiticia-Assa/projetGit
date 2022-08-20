@@ -1,0 +1,1461 @@
+{
+    "CallAPISubProductsDisp": {
+        "networkSubProducts": [
+            {
+                "activation_type": "",
+                "effectivedate": "2017-02-07T12:22:08Z[UTC]",
+                "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                "id": "86744",
+                "label": "",
+                "pass_prd": "",
+                "status": "Inactif"
+            },
+            {
+                "activation_type": "Y",
+                "effectivedate": "2017-02-07T12:22:08Z[UTC]",
+                "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                "id": "89214",
+                "label": "sous produit Sharing postpaid",
+                "pass_prd": "IN",
+                "status": "Inactif"
+            },
+            {
+                "activation_type": "",
+                "effectivedate": "2017-11-13T00:00:00Z[UTC]",
+                "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                "id": "81549",
+                "label": "",
+                "pass_prd": "",
+                "status": "Inactif"
+            },
+            {
+                "activation_type": "",
+                "effectivedate": "2020-04-23T00:00:00Z[UTC]",
+                "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                "id": "89621",
+                "label": "",
+                "pass_prd": "",
+                "status": "Inactif"
+            },
+            {
+                "activation_type": "",
+                "effectivedate": "2020-04-23T00:00:00Z[UTC]",
+                "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                "id": "89623",
+                "label": "",
+                "pass_prd": "",
+                "status": "Inactif"
+            },
+            {
+                "activation_type": "",
+                "effectivedate": "2020-04-23T00:00:00Z[UTC]",
+                "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                "id": "89622",
+                "label": "",
+                "pass_prd": "",
+                "status": "Inactif"
+            },
+            {
+                "activation_type": "",
+                "effectivedate": "2020-04-23T00:00:00Z[UTC]",
+                "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                "id": "89625",
+                "label": "",
+                "pass_prd": "",
+                "status": "Inactif"
+            },
+            {
+                "activation_type": "Y",
+                "effectivedate": "2020-04-23T00:00:00Z[UTC]",
+                "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                "id": "89624",
+                "label": "Gaming AYCE - Pass 7 jours",
+                "pass_prd": "IN",
+                "status": "Inactif"
+            },
+            {
+                "activation_type": "Y",
+                "effectivedate": "2020-04-23T00:00:00Z[UTC]",
+                "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                "id": "89627",
+                "label": "Gaming AYCE - Pass 30 jours",
+                "pass_prd": "IN",
+                "status": "Inactif"
+            },
+            {
+                "activation_type": "",
+                "effectivedate": "2020-04-23T00:00:00Z[UTC]",
+                "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                "id": "89626",
+                "label": "",
+                "pass_prd": "",
+                "status": "Inactif"
+            },
+            {
+                "activation_type": "",
+                "effectivedate": "2010-03-25T18:28:18Z[UTC]",
+                "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                "id": "3100",
+                "label": "",
+                "pass_prd": "",
+                "status": "Inactif"
+            },
+            {
+                "activation_type": "",
+                "effectivedate": "2020-04-23T00:00:00Z[UTC]",
+                "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                "id": "89629",
+                "label": "",
+                "pass_prd": "",
+                "status": "Inactif"
+            },
+            {
+                "activation_type": "",
+                "effectivedate": "2020-04-23T00:00:00Z[UTC]",
+                "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                "id": "89628",
+                "label": "",
+                "pass_prd": "",
+                "status": "Inactif"
+            },
+            {
+                "activation_type": "",
+                "effectivedate": "2017-07-12T23:00:00Z[UTC]",
+                "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                "id": "83119",
+                "label": "",
+                "pass_prd": "",
+                "status": "Inactif"
+            },
+            {
+                "activation_type": "",
+                "effectivedate": "2017-07-12T23:00:00Z[UTC]",
+                "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                "id": "83121",
+                "label": "",
+                "pass_prd": "",
+                "status": "Inactif"
+            },
+            {
+                "activation_type": "",
+                "effectivedate": "2017-07-12T23:00:00Z[UTC]",
+                "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                "id": "83123",
+                "label": "",
+                "pass_prd": "",
+                "status": "Inactif"
+            },
+            {
+                "activation_type": "",
+                "effectivedate": "2017-07-12T23:00:00Z[UTC]",
+                "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                "id": "83122",
+                "label": "",
+                "pass_prd": "",
+                "status": "Inactif"
+            },
+            {
+                "activation_type": "",
+                "effectivedate": "2017-07-12T23:00:00Z[UTC]",
+                "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                "id": "83125",
+                "label": "",
+                "pass_prd": "",
+                "status": "Inactif"
+            },
+            {
+                "activation_type": "",
+                "effectivedate": "2017-01-24T00:00:00Z[UTC]",
+                "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                "id": "89525",
+                "label": "",
+                "pass_prd": "",
+                "status": "Inactif"
+            },
+            {
+                "activation_type": "",
+                "effectivedate": "2017-07-12T23:00:00Z[UTC]",
+                "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                "id": "83124",
+                "label": "",
+                "pass_prd": "",
+                "status": "Inactif"
+            },
+            {
+                "activation_type": "",
+                "effectivedate": "2017-01-24T00:00:00Z[UTC]",
+                "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                "id": "89524",
+                "label": "",
+                "pass_prd": "",
+                "status": "Inactif"
+            },
+            {
+                "activation_type": "",
+                "effectivedate": "2013-01-01T00:00:00Z[UTC]",
+                "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                "id": "89143",
+                "label": "",
+                "pass_prd": "",
+                "status": "Inactif"
+            },
+            {
+                "activation_type": "",
+                "effectivedate": "2017-01-25T00:00:00Z[UTC]",
+                "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                "id": "89526",
+                "label": "",
+                "pass_prd": "",
+                "status": "Inactif"
+            },
+            {
+                "activation_type": "",
+                "effectivedate": "2019-12-22T23:00:00Z[UTC]",
+                "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                "id": "82117",
+                "label": "",
+                "pass_prd": "",
+                "status": "Inactif"
+            },
+            {
+                "activation_type": "",
+                "effectivedate": "2013-01-01T00:00:00Z[UTC]",
+                "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                "id": "80196",
+                "label": "",
+                "pass_prd": "",
+                "status": "Inactif"
+            },
+            {
+                "activation_type": "",
+                "effectivedate": "2019-12-22T23:00:00Z[UTC]",
+                "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                "id": "82116",
+                "label": "",
+                "pass_prd": "",
+                "status": "Inactif"
+            },
+            {
+                "activation_type": "",
+                "effectivedate": "2019-12-22T23:00:00Z[UTC]",
+                "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                "id": "82119",
+                "label": "",
+                "pass_prd": "",
+                "status": "Inactif"
+            },
+            {
+                "activation_type": "",
+                "effectivedate": "2019-12-22T23:00:00Z[UTC]",
+                "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                "id": "82118",
+                "label": "",
+                "pass_prd": "",
+                "status": "Inactif"
+            },
+            {
+                "activation_type": "",
+                "effectivedate": "2017-09-17T23:00:00Z[UTC]",
+                "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                "id": "89555",
+                "label": "",
+                "pass_prd": "",
+                "status": "Inactif"
+            },
+            {
+                "activation_type": "",
+                "effectivedate": "2017-09-17T23:00:00Z[UTC]",
+                "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                "id": "89554",
+                "label": "",
+                "pass_prd": "",
+                "status": "Inactif"
+            },
+            {
+                "activation_type": "",
+                "effectivedate": "2017-09-17T23:00:00Z[UTC]",
+                "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                "id": "89556",
+                "label": "",
+                "pass_prd": "",
+                "status": "Inactif"
+            },
+            {
+                "activation_type": "",
+                "effectivedate": "2020-08-09T23:00:00Z[UTC]",
+                "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                "id": "86871",
+                "label": "",
+                "pass_prd": "",
+                "status": "Inactif"
+            },
+            {
+                "activation_type": "",
+                "effectivedate": "2020-08-09T23:00:00Z[UTC]",
+                "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                "id": "86870",
+                "label": "",
+                "pass_prd": "",
+                "status": "Inactif"
+            },
+            {
+                "activation_type": "",
+                "effectivedate": "2020-08-09T23:00:00Z[UTC]",
+                "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                "id": "86873",
+                "label": "",
+                "pass_prd": "",
+                "status": "Inactif"
+            },
+            {
+                "activation_type": "",
+                "effectivedate": "2020-08-09T23:00:00Z[UTC]",
+                "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                "id": "86872",
+                "label": "",
+                "pass_prd": "",
+                "status": "Inactif"
+            },
+            {
+                "activation_type": "",
+                "effectivedate": "2020-08-09T23:00:00Z[UTC]",
+                "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                "id": "86875",
+                "label": "",
+                "pass_prd": "",
+                "status": "Inactif"
+            },
+            {
+                "activation_type": "",
+                "effectivedate": "2020-08-09T23:00:00Z[UTC]",
+                "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                "id": "86874",
+                "label": "",
+                "pass_prd": "",
+                "status": "Inactif"
+            },
+            {
+                "activation_type": "",
+                "effectivedate": "2020-08-24T23:00:00Z[UTC]",
+                "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                "id": "82145",
+                "label": "",
+                "pass_prd": "",
+                "status": "Inactif"
+            },
+            {
+                "activation_type": "",
+                "effectivedate": "2020-08-24T23:00:00Z[UTC]",
+                "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                "id": "82144",
+                "label": "",
+                "pass_prd": "",
+                "status": "Inactif"
+            },
+            {
+                "activation_type": "",
+                "effectivedate": "2020-08-24T23:00:00Z[UTC]",
+                "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                "id": "82147",
+                "label": "",
+                "pass_prd": "",
+                "status": "Inactif"
+            },
+            {
+                "activation_type": "",
+                "effectivedate": "2020-08-24T23:00:00Z[UTC]",
+                "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                "id": "82146",
+                "label": "",
+                "pass_prd": "",
+                "status": "Inactif"
+            },
+            {
+                "activation_type": "",
+                "effectivedate": "2020-08-24T23:00:00Z[UTC]",
+                "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                "id": "82149",
+                "label": "",
+                "pass_prd": "",
+                "status": "Inactif"
+            },
+            {
+                "activation_type": "",
+                "effectivedate": "2020-08-24T23:00:00Z[UTC]",
+                "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                "id": "82148",
+                "label": "",
+                "pass_prd": "",
+                "status": "Inactif"
+            },
+            {
+                "activation_type": "",
+                "effectivedate": "2020-08-24T23:00:00Z[UTC]",
+                "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                "id": "82151",
+                "label": "",
+                "pass_prd": "",
+                "status": "Inactif"
+            },
+            {
+                "activation_type": "",
+                "effectivedate": "2020-08-24T23:00:00Z[UTC]",
+                "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                "id": "82150",
+                "label": "",
+                "pass_prd": "",
+                "status": "Inactif"
+            },
+            {
+                "activation_type": "",
+                "effectivedate": "2020-08-24T23:00:00Z[UTC]",
+                "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                "id": "82153",
+                "label": "",
+                "pass_prd": "",
+                "status": "Inactif"
+            },
+            {
+                "activation_type": "",
+                "effectivedate": "2020-08-24T23:00:00Z[UTC]",
+                "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                "id": "82152",
+                "label": "",
+                "pass_prd": "",
+                "status": "Inactif"
+            },
+            {
+                "activation_type": "",
+                "effectivedate": "2020-08-24T23:00:00Z[UTC]",
+                "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                "id": "82155",
+                "label": "",
+                "pass_prd": "",
+                "status": "Inactif"
+            },
+            {
+                "activation_type": "",
+                "effectivedate": "2020-08-24T23:00:00Z[UTC]",
+                "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                "id": "82154",
+                "label": "",
+                "pass_prd": "",
+                "status": "Inactif"
+            },
+            {
+                "activation_type": "",
+                "effectivedate": "2019-03-06T23:00:00Z[UTC]",
+                "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                "id": "88442",
+                "label": "",
+                "pass_prd": "",
+                "status": "Inactif"
+            }
+        ]
+    },
+    "CallAPISubProductsDispDebug": {
+        "ElapsedTime": 727,
+        "ElapsedTimeCPU": 50,
+        "Input": {
+            "endpoint": "callout:SOA_URL/inwi-api/productInventory/v1/product/retreiveSubProduct?req_type=DIS&product_id=OGSMPOSTB2C&mdn=212648008559",
+            "headers": {
+                "Canal": "SF",
+                "UUID": "123",
+                "User": "SF"
+            }
+        },
+        "Status": true,
+        "Type": "Rest Action"
+    },
+    "DataRaptorTransformAction1": [
+    ],
+    "DataRaptorTransformAction1Debug": {
+        "ElapsedTime": 12,
+        "ElapsedTimeCPU": 10,
+        "Input": {
+            "CallAPISubProductsDisp": {
+                "networkSubProducts": [
+                    {
+                        "activation_type": "",
+                        "effectivedate": "2017-02-07T12:22:08Z[UTC]",
+                        "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                        "id": "86744",
+                        "label": "",
+                        "pass_prd": "",
+                        "status": "Inactif"
+                    },
+                    {
+                        "activation_type": "Y",
+                        "effectivedate": "2017-02-07T12:22:08Z[UTC]",
+                        "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                        "id": "89214",
+                        "label": "sous produit Sharing postpaid",
+                        "pass_prd": "IN",
+                        "status": "Inactif"
+                    },
+                    {
+                        "activation_type": "",
+                        "effectivedate": "2017-11-13T00:00:00Z[UTC]",
+                        "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                        "id": "81549",
+                        "label": "",
+                        "pass_prd": "",
+                        "status": "Inactif"
+                    },
+                    {
+                        "activation_type": "",
+                        "effectivedate": "2020-04-23T00:00:00Z[UTC]",
+                        "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                        "id": "89621",
+                        "label": "",
+                        "pass_prd": "",
+                        "status": "Inactif"
+                    },
+                    {
+                        "activation_type": "",
+                        "effectivedate": "2020-04-23T00:00:00Z[UTC]",
+                        "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                        "id": "89623",
+                        "label": "",
+                        "pass_prd": "",
+                        "status": "Inactif"
+                    },
+                    {
+                        "activation_type": "",
+                        "effectivedate": "2020-04-23T00:00:00Z[UTC]",
+                        "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                        "id": "89622",
+                        "label": "",
+                        "pass_prd": "",
+                        "status": "Inactif"
+                    },
+                    {
+                        "activation_type": "",
+                        "effectivedate": "2020-04-23T00:00:00Z[UTC]",
+                        "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                        "id": "89625",
+                        "label": "",
+                        "pass_prd": "",
+                        "status": "Inactif"
+                    },
+                    {
+                        "activation_type": "Y",
+                        "effectivedate": "2020-04-23T00:00:00Z[UTC]",
+                        "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                        "id": "89624",
+                        "label": "Gaming AYCE - Pass 7 jours",
+                        "pass_prd": "IN",
+                        "status": "Inactif"
+                    },
+                    {
+                        "activation_type": "Y",
+                        "effectivedate": "2020-04-23T00:00:00Z[UTC]",
+                        "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                        "id": "89627",
+                        "label": "Gaming AYCE - Pass 30 jours",
+                        "pass_prd": "IN",
+                        "status": "Inactif"
+                    },
+                    {
+                        "activation_type": "",
+                        "effectivedate": "2020-04-23T00:00:00Z[UTC]",
+                        "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                        "id": "89626",
+                        "label": "",
+                        "pass_prd": "",
+                        "status": "Inactif"
+                    },
+                    {
+                        "activation_type": "",
+                        "effectivedate": "2010-03-25T18:28:18Z[UTC]",
+                        "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                        "id": "3100",
+                        "label": "",
+                        "pass_prd": "",
+                        "status": "Inactif"
+                    },
+                    {
+                        "activation_type": "",
+                        "effectivedate": "2020-04-23T00:00:00Z[UTC]",
+                        "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                        "id": "89629",
+                        "label": "",
+                        "pass_prd": "",
+                        "status": "Inactif"
+                    },
+                    {
+                        "activation_type": "",
+                        "effectivedate": "2020-04-23T00:00:00Z[UTC]",
+                        "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                        "id": "89628",
+                        "label": "",
+                        "pass_prd": "",
+                        "status": "Inactif"
+                    },
+                    {
+                        "activation_type": "",
+                        "effectivedate": "2017-07-12T23:00:00Z[UTC]",
+                        "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                        "id": "83119",
+                        "label": "",
+                        "pass_prd": "",
+                        "status": "Inactif"
+                    },
+                    {
+                        "activation_type": "",
+                        "effectivedate": "2017-07-12T23:00:00Z[UTC]",
+                        "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                        "id": "83121",
+                        "label": "",
+                        "pass_prd": "",
+                        "status": "Inactif"
+                    },
+                    {
+                        "activation_type": "",
+                        "effectivedate": "2017-07-12T23:00:00Z[UTC]",
+                        "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                        "id": "83123",
+                        "label": "",
+                        "pass_prd": "",
+                        "status": "Inactif"
+                    },
+                    {
+                        "activation_type": "",
+                        "effectivedate": "2017-07-12T23:00:00Z[UTC]",
+                        "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                        "id": "83122",
+                        "label": "",
+                        "pass_prd": "",
+                        "status": "Inactif"
+                    },
+                    {
+                        "activation_type": "",
+                        "effectivedate": "2017-07-12T23:00:00Z[UTC]",
+                        "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                        "id": "83125",
+                        "label": "",
+                        "pass_prd": "",
+                        "status": "Inactif"
+                    },
+                    {
+                        "activation_type": "",
+                        "effectivedate": "2017-01-24T00:00:00Z[UTC]",
+                        "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                        "id": "89525",
+                        "label": "",
+                        "pass_prd": "",
+                        "status": "Inactif"
+                    },
+                    {
+                        "activation_type": "",
+                        "effectivedate": "2017-07-12T23:00:00Z[UTC]",
+                        "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                        "id": "83124",
+                        "label": "",
+                        "pass_prd": "",
+                        "status": "Inactif"
+                    },
+                    {
+                        "activation_type": "",
+                        "effectivedate": "2017-01-24T00:00:00Z[UTC]",
+                        "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                        "id": "89524",
+                        "label": "",
+                        "pass_prd": "",
+                        "status": "Inactif"
+                    },
+                    {
+                        "activation_type": "",
+                        "effectivedate": "2013-01-01T00:00:00Z[UTC]",
+                        "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                        "id": "89143",
+                        "label": "",
+                        "pass_prd": "",
+                        "status": "Inactif"
+                    },
+                    {
+                        "activation_type": "",
+                        "effectivedate": "2017-01-25T00:00:00Z[UTC]",
+                        "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                        "id": "89526",
+                        "label": "",
+                        "pass_prd": "",
+                        "status": "Inactif"
+                    },
+                    {
+                        "activation_type": "",
+                        "effectivedate": "2019-12-22T23:00:00Z[UTC]",
+                        "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                        "id": "82117",
+                        "label": "",
+                        "pass_prd": "",
+                        "status": "Inactif"
+                    },
+                    {
+                        "activation_type": "",
+                        "effectivedate": "2013-01-01T00:00:00Z[UTC]",
+                        "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                        "id": "80196",
+                        "label": "",
+                        "pass_prd": "",
+                        "status": "Inactif"
+                    },
+                    {
+                        "activation_type": "",
+                        "effectivedate": "2019-12-22T23:00:00Z[UTC]",
+                        "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                        "id": "82116",
+                        "label": "",
+                        "pass_prd": "",
+                        "status": "Inactif"
+                    },
+                    {
+                        "activation_type": "",
+                        "effectivedate": "2019-12-22T23:00:00Z[UTC]",
+                        "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                        "id": "82119",
+                        "label": "",
+                        "pass_prd": "",
+                        "status": "Inactif"
+                    },
+                    {
+                        "activation_type": "",
+                        "effectivedate": "2019-12-22T23:00:00Z[UTC]",
+                        "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                        "id": "82118",
+                        "label": "",
+                        "pass_prd": "",
+                        "status": "Inactif"
+                    },
+                    {
+                        "activation_type": "",
+                        "effectivedate": "2017-09-17T23:00:00Z[UTC]",
+                        "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                        "id": "89555",
+                        "label": "",
+                        "pass_prd": "",
+                        "status": "Inactif"
+                    },
+                    {
+                        "activation_type": "",
+                        "effectivedate": "2017-09-17T23:00:00Z[UTC]",
+                        "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                        "id": "89554",
+                        "label": "",
+                        "pass_prd": "",
+                        "status": "Inactif"
+                    },
+                    {
+                        "activation_type": "",
+                        "effectivedate": "2017-09-17T23:00:00Z[UTC]",
+                        "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                        "id": "89556",
+                        "label": "",
+                        "pass_prd": "",
+                        "status": "Inactif"
+                    },
+                    {
+                        "activation_type": "",
+                        "effectivedate": "2020-08-09T23:00:00Z[UTC]",
+                        "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                        "id": "86871",
+                        "label": "",
+                        "pass_prd": "",
+                        "status": "Inactif"
+                    },
+                    {
+                        "activation_type": "",
+                        "effectivedate": "2020-08-09T23:00:00Z[UTC]",
+                        "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                        "id": "86870",
+                        "label": "",
+                        "pass_prd": "",
+                        "status": "Inactif"
+                    },
+                    {
+                        "activation_type": "",
+                        "effectivedate": "2020-08-09T23:00:00Z[UTC]",
+                        "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                        "id": "86873",
+                        "label": "",
+                        "pass_prd": "",
+                        "status": "Inactif"
+                    },
+                    {
+                        "activation_type": "",
+                        "effectivedate": "2020-08-09T23:00:00Z[UTC]",
+                        "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                        "id": "86872",
+                        "label": "",
+                        "pass_prd": "",
+                        "status": "Inactif"
+                    },
+                    {
+                        "activation_type": "",
+                        "effectivedate": "2020-08-09T23:00:00Z[UTC]",
+                        "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                        "id": "86875",
+                        "label": "",
+                        "pass_prd": "",
+                        "status": "Inactif"
+                    },
+                    {
+                        "activation_type": "",
+                        "effectivedate": "2020-08-09T23:00:00Z[UTC]",
+                        "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                        "id": "86874",
+                        "label": "",
+                        "pass_prd": "",
+                        "status": "Inactif"
+                    },
+                    {
+                        "activation_type": "",
+                        "effectivedate": "2020-08-24T23:00:00Z[UTC]",
+                        "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                        "id": "82145",
+                        "label": "",
+                        "pass_prd": "",
+                        "status": "Inactif"
+                    },
+                    {
+                        "activation_type": "",
+                        "effectivedate": "2020-08-24T23:00:00Z[UTC]",
+                        "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                        "id": "82144",
+                        "label": "",
+                        "pass_prd": "",
+                        "status": "Inactif"
+                    },
+                    {
+                        "activation_type": "",
+                        "effectivedate": "2020-08-24T23:00:00Z[UTC]",
+                        "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                        "id": "82147",
+                        "label": "",
+                        "pass_prd": "",
+                        "status": "Inactif"
+                    },
+                    {
+                        "activation_type": "",
+                        "effectivedate": "2020-08-24T23:00:00Z[UTC]",
+                        "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                        "id": "82146",
+                        "label": "",
+                        "pass_prd": "",
+                        "status": "Inactif"
+                    },
+                    {
+                        "activation_type": "",
+                        "effectivedate": "2020-08-24T23:00:00Z[UTC]",
+                        "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                        "id": "82149",
+                        "label": "",
+                        "pass_prd": "",
+                        "status": "Inactif"
+                    },
+                    {
+                        "activation_type": "",
+                        "effectivedate": "2020-08-24T23:00:00Z[UTC]",
+                        "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                        "id": "82148",
+                        "label": "",
+                        "pass_prd": "",
+                        "status": "Inactif"
+                    },
+                    {
+                        "activation_type": "",
+                        "effectivedate": "2020-08-24T23:00:00Z[UTC]",
+                        "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                        "id": "82151",
+                        "label": "",
+                        "pass_prd": "",
+                        "status": "Inactif"
+                    },
+                    {
+                        "activation_type": "",
+                        "effectivedate": "2020-08-24T23:00:00Z[UTC]",
+                        "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                        "id": "82150",
+                        "label": "",
+                        "pass_prd": "",
+                        "status": "Inactif"
+                    },
+                    {
+                        "activation_type": "",
+                        "effectivedate": "2020-08-24T23:00:00Z[UTC]",
+                        "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                        "id": "82153",
+                        "label": "",
+                        "pass_prd": "",
+                        "status": "Inactif"
+                    },
+                    {
+                        "activation_type": "",
+                        "effectivedate": "2020-08-24T23:00:00Z[UTC]",
+                        "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                        "id": "82152",
+                        "label": "",
+                        "pass_prd": "",
+                        "status": "Inactif"
+                    },
+                    {
+                        "activation_type": "",
+                        "effectivedate": "2020-08-24T23:00:00Z[UTC]",
+                        "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                        "id": "82155",
+                        "label": "",
+                        "pass_prd": "",
+                        "status": "Inactif"
+                    },
+                    {
+                        "activation_type": "",
+                        "effectivedate": "2020-08-24T23:00:00Z[UTC]",
+                        "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                        "id": "82154",
+                        "label": "",
+                        "pass_prd": "",
+                        "status": "Inactif"
+                    },
+                    {
+                        "activation_type": "",
+                        "effectivedate": "2019-03-06T23:00:00Z[UTC]",
+                        "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                        "id": "88442",
+                        "label": "",
+                        "pass_prd": "",
+                        "status": "Inactif"
+                    }
+                ]
+            },
+            "CallAPISubProductsDispInfo": {
+                "Access-Control-Allow-Headers": "Content-Type",
+                "Access-Control-Allow-Methods": "GET, POST, DELETE, PUT",
+                "Access-Control-Allow-Origin": "*",
+                "Connection": "Keep-Alive",
+                "Content-Type": "application/json;charset=utf-8",
+                "Date": "Thu, 18 Feb 2021 14:25:45 GMT",
+                "Keep-Alive": "timeout=5, max=100",
+                "Server": "Payara Micro #badassfish",
+                "Set-Cookie": "dtCookie=v_4_srv_1_sn_371FF39984B2DF43867423A327C20D6B_perc_100000_ol_0_mul_1; Path=/; Domain=.inwi.ma",
+                "Transfer-Encoding": "chunked",
+                "X-Frame-Options": "SAMEORIGIN",
+                "status": "OK",
+                "statusCode": 200
+            },
+            "CallAPISubProductsDispStatus": true,
+            "MDN": "212648008559",
+            "REQ_TYPE": "DIS",
+            "options": {
+                "chainable": false,
+                "ignoreCache": true,
+                "queueableChainable": false,
+                "resetCache": false
+            },
+            "product_id": "OGSMPRE"
+        },
+        "Status": true,
+        "Type": "DataRaptor Transform Action"
+    },
+    "debugLog": [
+        "2021-02-18T15:25:45.389Z: CallAPISubProductsDisp: callout:SOA_URL/inwi-api/productInventory/v1/product/retreiveSubProduct?req_type=DIS&product_id=OGSMPOSTB2C&mdn=212648008559"
+    ],
+    "elapsedTimeActual": 750,
+    "elapsedTimeCPU": 131,
+    "executionSequence": [
+        "CallAPISubProductsDisp",
+        "DataRaptorTransformAction1"
+    ],
+    "fullDataJson": {
+        "CallAPISubProductsDisp": {
+            "networkSubProducts": [
+                {
+                    "activation_type": "",
+                    "effectivedate": "2017-02-07T12:22:08Z[UTC]",
+                    "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                    "id": "86744",
+                    "label": "",
+                    "pass_prd": "",
+                    "status": "Inactif"
+                },
+                {
+                    "activation_type": "Y",
+                    "effectivedate": "2017-02-07T12:22:08Z[UTC]",
+                    "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                    "id": "89214",
+                    "label": "sous produit Sharing postpaid",
+                    "pass_prd": "IN",
+                    "status": "Inactif"
+                },
+                {
+                    "activation_type": "",
+                    "effectivedate": "2017-11-13T00:00:00Z[UTC]",
+                    "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                    "id": "81549",
+                    "label": "",
+                    "pass_prd": "",
+                    "status": "Inactif"
+                },
+                {
+                    "activation_type": "",
+                    "effectivedate": "2020-04-23T00:00:00Z[UTC]",
+                    "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                    "id": "89621",
+                    "label": "",
+                    "pass_prd": "",
+                    "status": "Inactif"
+                },
+                {
+                    "activation_type": "",
+                    "effectivedate": "2020-04-23T00:00:00Z[UTC]",
+                    "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                    "id": "89623",
+                    "label": "",
+                    "pass_prd": "",
+                    "status": "Inactif"
+                },
+                {
+                    "activation_type": "",
+                    "effectivedate": "2020-04-23T00:00:00Z[UTC]",
+                    "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                    "id": "89622",
+                    "label": "",
+                    "pass_prd": "",
+                    "status": "Inactif"
+                },
+                {
+                    "activation_type": "",
+                    "effectivedate": "2020-04-23T00:00:00Z[UTC]",
+                    "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                    "id": "89625",
+                    "label": "",
+                    "pass_prd": "",
+                    "status": "Inactif"
+                },
+                {
+                    "activation_type": "Y",
+                    "effectivedate": "2020-04-23T00:00:00Z[UTC]",
+                    "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                    "id": "89624",
+                    "label": "Gaming AYCE - Pass 7 jours",
+                    "pass_prd": "IN",
+                    "status": "Inactif"
+                },
+                {
+                    "activation_type": "Y",
+                    "effectivedate": "2020-04-23T00:00:00Z[UTC]",
+                    "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                    "id": "89627",
+                    "label": "Gaming AYCE - Pass 30 jours",
+                    "pass_prd": "IN",
+                    "status": "Inactif"
+                },
+                {
+                    "activation_type": "",
+                    "effectivedate": "2020-04-23T00:00:00Z[UTC]",
+                    "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                    "id": "89626",
+                    "label": "",
+                    "pass_prd": "",
+                    "status": "Inactif"
+                },
+                {
+                    "activation_type": "",
+                    "effectivedate": "2010-03-25T18:28:18Z[UTC]",
+                    "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                    "id": "3100",
+                    "label": "",
+                    "pass_prd": "",
+                    "status": "Inactif"
+                },
+                {
+                    "activation_type": "",
+                    "effectivedate": "2020-04-23T00:00:00Z[UTC]",
+                    "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                    "id": "89629",
+                    "label": "",
+                    "pass_prd": "",
+                    "status": "Inactif"
+                },
+                {
+                    "activation_type": "",
+                    "effectivedate": "2020-04-23T00:00:00Z[UTC]",
+                    "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                    "id": "89628",
+                    "label": "",
+                    "pass_prd": "",
+                    "status": "Inactif"
+                },
+                {
+                    "activation_type": "",
+                    "effectivedate": "2017-07-12T23:00:00Z[UTC]",
+                    "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                    "id": "83119",
+                    "label": "",
+                    "pass_prd": "",
+                    "status": "Inactif"
+                },
+                {
+                    "activation_type": "",
+                    "effectivedate": "2017-07-12T23:00:00Z[UTC]",
+                    "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                    "id": "83121",
+                    "label": "",
+                    "pass_prd": "",
+                    "status": "Inactif"
+                },
+                {
+                    "activation_type": "",
+                    "effectivedate": "2017-07-12T23:00:00Z[UTC]",
+                    "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                    "id": "83123",
+                    "label": "",
+                    "pass_prd": "",
+                    "status": "Inactif"
+                },
+                {
+                    "activation_type": "",
+                    "effectivedate": "2017-07-12T23:00:00Z[UTC]",
+                    "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                    "id": "83122",
+                    "label": "",
+                    "pass_prd": "",
+                    "status": "Inactif"
+                },
+                {
+                    "activation_type": "",
+                    "effectivedate": "2017-07-12T23:00:00Z[UTC]",
+                    "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                    "id": "83125",
+                    "label": "",
+                    "pass_prd": "",
+                    "status": "Inactif"
+                },
+                {
+                    "activation_type": "",
+                    "effectivedate": "2017-01-24T00:00:00Z[UTC]",
+                    "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                    "id": "89525",
+                    "label": "",
+                    "pass_prd": "",
+                    "status": "Inactif"
+                },
+                {
+                    "activation_type": "",
+                    "effectivedate": "2017-07-12T23:00:00Z[UTC]",
+                    "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                    "id": "83124",
+                    "label": "",
+                    "pass_prd": "",
+                    "status": "Inactif"
+                },
+                {
+                    "activation_type": "",
+                    "effectivedate": "2017-01-24T00:00:00Z[UTC]",
+                    "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                    "id": "89524",
+                    "label": "",
+                    "pass_prd": "",
+                    "status": "Inactif"
+                },
+                {
+                    "activation_type": "",
+                    "effectivedate": "2013-01-01T00:00:00Z[UTC]",
+                    "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                    "id": "89143",
+                    "label": "",
+                    "pass_prd": "",
+                    "status": "Inactif"
+                },
+                {
+                    "activation_type": "",
+                    "effectivedate": "2017-01-25T00:00:00Z[UTC]",
+                    "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                    "id": "89526",
+                    "label": "",
+                    "pass_prd": "",
+                    "status": "Inactif"
+                },
+                {
+                    "activation_type": "",
+                    "effectivedate": "2019-12-22T23:00:00Z[UTC]",
+                    "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                    "id": "82117",
+                    "label": "",
+                    "pass_prd": "",
+                    "status": "Inactif"
+                },
+                {
+                    "activation_type": "",
+                    "effectivedate": "2013-01-01T00:00:00Z[UTC]",
+                    "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                    "id": "80196",
+                    "label": "",
+                    "pass_prd": "",
+                    "status": "Inactif"
+                },
+                {
+                    "activation_type": "",
+                    "effectivedate": "2019-12-22T23:00:00Z[UTC]",
+                    "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                    "id": "82116",
+                    "label": "",
+                    "pass_prd": "",
+                    "status": "Inactif"
+                },
+                {
+                    "activation_type": "",
+                    "effectivedate": "2019-12-22T23:00:00Z[UTC]",
+                    "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                    "id": "82119",
+                    "label": "",
+                    "pass_prd": "",
+                    "status": "Inactif"
+                },
+                {
+                    "activation_type": "",
+                    "effectivedate": "2019-12-22T23:00:00Z[UTC]",
+                    "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                    "id": "82118",
+                    "label": "",
+                    "pass_prd": "",
+                    "status": "Inactif"
+                },
+                {
+                    "activation_type": "",
+                    "effectivedate": "2017-09-17T23:00:00Z[UTC]",
+                    "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                    "id": "89555",
+                    "label": "",
+                    "pass_prd": "",
+                    "status": "Inactif"
+                },
+                {
+                    "activation_type": "",
+                    "effectivedate": "2017-09-17T23:00:00Z[UTC]",
+                    "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                    "id": "89554",
+                    "label": "",
+                    "pass_prd": "",
+                    "status": "Inactif"
+                },
+                {
+                    "activation_type": "",
+                    "effectivedate": "2017-09-17T23:00:00Z[UTC]",
+                    "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                    "id": "89556",
+                    "label": "",
+                    "pass_prd": "",
+                    "status": "Inactif"
+                },
+                {
+                    "activation_type": "",
+                    "effectivedate": "2020-08-09T23:00:00Z[UTC]",
+                    "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                    "id": "86871",
+                    "label": "",
+                    "pass_prd": "",
+                    "status": "Inactif"
+                },
+                {
+                    "activation_type": "",
+                    "effectivedate": "2020-08-09T23:00:00Z[UTC]",
+                    "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                    "id": "86870",
+                    "label": "",
+                    "pass_prd": "",
+                    "status": "Inactif"
+                },
+                {
+                    "activation_type": "",
+                    "effectivedate": "2020-08-09T23:00:00Z[UTC]",
+                    "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                    "id": "86873",
+                    "label": "",
+                    "pass_prd": "",
+                    "status": "Inactif"
+                },
+                {
+                    "activation_type": "",
+                    "effectivedate": "2020-08-09T23:00:00Z[UTC]",
+                    "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                    "id": "86872",
+                    "label": "",
+                    "pass_prd": "",
+                    "status": "Inactif"
+                },
+                {
+                    "activation_type": "",
+                    "effectivedate": "2020-08-09T23:00:00Z[UTC]",
+                    "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                    "id": "86875",
+                    "label": "",
+                    "pass_prd": "",
+                    "status": "Inactif"
+                },
+                {
+                    "activation_type": "",
+                    "effectivedate": "2020-08-09T23:00:00Z[UTC]",
+                    "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                    "id": "86874",
+                    "label": "",
+                    "pass_prd": "",
+                    "status": "Inactif"
+                },
+                {
+                    "activation_type": "",
+                    "effectivedate": "2020-08-24T23:00:00Z[UTC]",
+                    "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                    "id": "82145",
+                    "label": "",
+                    "pass_prd": "",
+                    "status": "Inactif"
+                },
+                {
+                    "activation_type": "",
+                    "effectivedate": "2020-08-24T23:00:00Z[UTC]",
+                    "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                    "id": "82144",
+                    "label": "",
+                    "pass_prd": "",
+                    "status": "Inactif"
+                },
+                {
+                    "activation_type": "",
+                    "effectivedate": "2020-08-24T23:00:00Z[UTC]",
+                    "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                    "id": "82147",
+                    "label": "",
+                    "pass_prd": "",
+                    "status": "Inactif"
+                },
+                {
+                    "activation_type": "",
+                    "effectivedate": "2020-08-24T23:00:00Z[UTC]",
+                    "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                    "id": "82146",
+                    "label": "",
+                    "pass_prd": "",
+                    "status": "Inactif"
+                },
+                {
+                    "activation_type": "",
+                    "effectivedate": "2020-08-24T23:00:00Z[UTC]",
+                    "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                    "id": "82149",
+                    "label": "",
+                    "pass_prd": "",
+                    "status": "Inactif"
+                },
+                {
+                    "activation_type": "",
+                    "effectivedate": "2020-08-24T23:00:00Z[UTC]",
+                    "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                    "id": "82148",
+                    "label": "",
+                    "pass_prd": "",
+                    "status": "Inactif"
+                },
+                {
+                    "activation_type": "",
+                    "effectivedate": "2020-08-24T23:00:00Z[UTC]",
+                    "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                    "id": "82151",
+                    "label": "",
+                    "pass_prd": "",
+                    "status": "Inactif"
+                },
+                {
+                    "activation_type": "",
+                    "effectivedate": "2020-08-24T23:00:00Z[UTC]",
+                    "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                    "id": "82150",
+                    "label": "",
+                    "pass_prd": "",
+                    "status": "Inactif"
+                },
+                {
+                    "activation_type": "",
+                    "effectivedate": "2020-08-24T23:00:00Z[UTC]",
+                    "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                    "id": "82153",
+                    "label": "",
+                    "pass_prd": "",
+                    "status": "Inactif"
+                },
+                {
+                    "activation_type": "",
+                    "effectivedate": "2020-08-24T23:00:00Z[UTC]",
+                    "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                    "id": "82152",
+                    "label": "",
+                    "pass_prd": "",
+                    "status": "Inactif"
+                },
+                {
+                    "activation_type": "",
+                    "effectivedate": "2020-08-24T23:00:00Z[UTC]",
+                    "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                    "id": "82155",
+                    "label": "",
+                    "pass_prd": "",
+                    "status": "Inactif"
+                },
+                {
+                    "activation_type": "",
+                    "effectivedate": "2020-08-24T23:00:00Z[UTC]",
+                    "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                    "id": "82154",
+                    "label": "",
+                    "pass_prd": "",
+                    "status": "Inactif"
+                },
+                {
+                    "activation_type": "",
+                    "effectivedate": "2019-03-06T23:00:00Z[UTC]",
+                    "endValidityDate": "2036-12-31T23:00:00Z[UTC]",
+                    "id": "88442",
+                    "label": "",
+                    "pass_prd": "",
+                    "status": "Inactif"
+                }
+            ]
+        },
+        "CallAPISubProductsDispInfo": {
+            "Access-Control-Allow-Headers": "Content-Type",
+            "Access-Control-Allow-Methods": "GET, POST, DELETE, PUT",
+            "Access-Control-Allow-Origin": "*",
+            "Connection": "Keep-Alive",
+            "Content-Type": "application/json;charset=utf-8",
+            "Date": "Thu, 18 Feb 2021 14:25:45 GMT",
+            "Keep-Alive": "timeout=5, max=100",
+            "Server": "Payara Micro #badassfish",
+            "Set-Cookie": "dtCookie=v_4_srv_1_sn_371FF39984B2DF43867423A327C20D6B_perc_100000_ol_0_mul_1; Path=/; Domain=.inwi.ma",
+            "Transfer-Encoding": "chunked",
+            "X-Frame-Options": "SAMEORIGIN",
+            "status": "OK",
+            "statusCode": 200
+        },
+        "CallAPISubProductsDispStatus": true,
+        "DataRaptorTransformAction1": [
+        ],
+        "DataRaptorTransformAction1Status": true,
+        "MDN": "212648008559",
+        "REQ_TYPE": "DIS",
+        "options": {
+            "chainable": false,
+            "ignoreCache": true,
+            "queueableChainable": false,
+            "resetCache": false
+        },
+        "product_id": "OGSMPRE",
+        "response": {
+        }
+    },
+    "originalInput": {
+        "MDN": "212648008559",
+        "REQ_TYPE": "DIS",
+        "product_id": "OGSMPRE"
+    },
+    "response": {
+    }
+}

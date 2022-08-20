@@ -1,0 +1,34 @@
+{
+    "input": {
+        "infoContact": {
+            "CodePostal": null,
+            "Code_Dealer": "99999",
+            "NumeroContact2_Dealer": "212111111111",
+            "Segment_Dealer": "Grossiste",
+            "SpecifiedStreet": null,
+            "TypeAddress": "domicile",
+            "TypeCIN": "Carte d'Identité Nationale",
+            "Type_Dealer": "Type2",
+            "VIP": false,
+            "address": "addresss",
+            "born": "1933-05-04",
+            "civility": "Monsieur",
+            "dependentValues": {
+                "Pays": "a6P25000000D5VREA0",
+                "Quartier": "null",
+                "Region": "null",
+                "Ville": "null"
+            },
+            "familySituation": "Celibataire",
+            "favLanguage": "Arabe",
+            "firstName": "AAV",
+            "lastName": "AAAADD",
+            "nationality": "Maroc",
+            "principalContact": "SMS",
+            "profession": "AUTRES",
+            "segmentMarche": "Dealer",
+            "telephone": "212666666666",
+            "theId": "R7897"
+        }
+    }
+}

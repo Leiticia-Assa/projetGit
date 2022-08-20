@@ -1,0 +1,3 @@
+{
+    "input": "{\"id\":\"80025000007p9e4AAA\",\"fieldstoupdate\":{\"StatusContract\":\"Initialise\",\"CanalIdentification\":\"Point de vente\",\"PDV_Identification\":\"\",\"agenceIdentification\":\"\",\"Nom\":\"ahemd\",\"Prenom\":\"hamod\",\"TypeCIN\":\"Carte d'Identité Nationale\",\"NumCIN\":\"KUJ845124\",\"statutIdentification\":\"Identifie\",\"IdAddress\":\"a5t25000000D0IyAAK\",\"address\":\"addresssss\",\"TypeAdresse\":\"domicile\",\"Pays\":\"a6P25000000D5VREA0\",\"Region\":\"a6O25000000CfXkEAK\",\"Ville\":\"a6M25000000DEVeEAO\",\"Quartier\":\"null\",\"PrecisionQuartier\":\"789 99\"}}"
+}

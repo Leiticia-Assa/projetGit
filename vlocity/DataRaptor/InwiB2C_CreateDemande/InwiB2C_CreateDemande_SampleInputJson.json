@@ -1,0 +1,19 @@
+{
+    "ContextId": "0013M000010ea3PQAQ",
+    "StepShowInformations": {
+        "birthdate_1": "1936-01-27",
+        "firstName": "Ahmed",
+        "idCard": "FJ0001",
+        "lastName": "Med",
+        "mail": "testnew@SF.com",
+        "phone": "212999999999",
+        "typeID": "Carte d'Identité Nationale"
+    },
+    "oldBirthdate": "1936-01-27",
+    "oldCIN": "FJ0001",
+    "oldEmail": "test@SF.com",
+    "oldNom": "Ahmed",
+    "oldPrenom": "YYYYYYYY",
+    "oldTypeCIN": "Carte d'Identité Nationale",
+    "oldphone": "212222222222"
+}

@@ -1,0 +1,39 @@
+{
+    "CSFindInvoiceInteraction": {
+        "CSInvoice": [
+            {
+                "InvoiceDate": "2020-05-01Z",
+                "InvoiceEndDate": "2020-05-01Z",
+                "InvoiceId": "F2002000063",
+                "InvoiceStartDate": "2020-04-01Z",
+                "billingAccountId": "979080",
+                "invoiceAmount": 374.1666666666667,
+                "invoicePaymentDueDate": "2020-05-31Z",
+                "remainingAmount": 0,
+                "status": "2"
+            },
+            {
+                "InvoiceDate": "2020-04-01Z",
+                "InvoiceEndDate": "2020-04-01Z",
+                "InvoiceId": "F2002000062",
+                "InvoiceStartDate": "2020-03-01Z",
+                "billingAccountId": "979080",
+                "invoiceAmount": 207.5,
+                "invoicePaymentDueDate": "2020-05-01Z",
+                "remainingAmount": 415
+            },
+            {
+                "InvoiceDate": "2020-03-01Z",
+                "InvoiceEndDate": "2020-03-01Z",
+                "InvoiceId": "F2002000061",
+                "InvoiceStartDate": "2020-02-18Z",
+                "billingAccountId": "979080",
+                "invoiceAmount": 293.3666666666667,
+                "invoicePaymentDueDate": "2020-03-31Z",
+                "remainingAmount": 0,
+                "status": "2"
+            }
+        ]
+    },
+    "checkingTable": "1"
+}

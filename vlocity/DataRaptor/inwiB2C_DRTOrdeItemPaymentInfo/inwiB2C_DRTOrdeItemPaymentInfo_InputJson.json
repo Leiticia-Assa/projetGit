@@ -1,0 +1,21 @@
+{
+    "ContextId": null,
+    "foundOffer": {
+        "IsOK": {
+        },
+        "LoopBlock2": {
+        }
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "DREGetOrderInfo": null,
+        "GetOffers": null,
+        "foundOffer": null
+    }
+}

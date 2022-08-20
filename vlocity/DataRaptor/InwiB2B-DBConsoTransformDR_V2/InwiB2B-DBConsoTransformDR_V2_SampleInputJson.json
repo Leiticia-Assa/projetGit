@@ -1,0 +1,21 @@
+{
+    "jsonInput": [
+        {
+            "amount": 1000,
+            "bal_After": 0,
+            "bal_Before": 0,
+            "canal": "-1",
+            "recharge_type": "1",
+            "transaction_date": "20211011160005"
+        },
+        {
+            "amount": 500,
+            "bal_After": 501,
+            "bal_Before": 1,
+            "canal": "3",
+            "recharge_type": "0",
+            "sc_number": "2105084277135",
+            "transaction_date": "20211010224058"
+        }
+    ]
+}

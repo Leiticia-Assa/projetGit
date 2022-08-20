@@ -1,0 +1,19 @@
+{
+    "CSFreeMobileDirectoryNumbeOfferRequest": {
+        "CSFreeMobileDirectoryNumberInteraction": {
+            "CSMobileDirectoryNumber": {
+                "mdn": "Text"
+            },
+            "id": "Text",
+            "lockToken": "Text",
+            "marketSegment": "Text",
+            "offerType": "Text",
+            "orgID": "Text"
+        },
+        "CSOperationInfo": {
+            "channel": "Text",
+            "user": "Text",
+            "uuid": "Text"
+        }
+    }
+}

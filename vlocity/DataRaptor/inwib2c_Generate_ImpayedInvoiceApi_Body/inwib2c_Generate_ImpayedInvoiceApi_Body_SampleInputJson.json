@@ -1,0 +1,13 @@
+{
+    "AccountPaymentMethod": "label",
+    "AccountStatus": "label",
+    "accountName": "label",
+    "list": [
+        {
+            "AccountPaymentMethod": "Prélèvement automatique",
+            "AccountStatus": "Inactive",
+            "BillingAccountId": "12242066",
+            "accountName": "BA INWI"
+        }
+    ]
+}

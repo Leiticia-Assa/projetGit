@@ -1,0 +1,33 @@
+{
+    "CSFindInvoiceInteraction": {
+        "CSInvoice": {
+            "InvoiceDate": "Text",
+            "InvoiceEndDate": "Text",
+            "InvoiceId": "Text",
+            "InvoiceStartDate": "Text",
+            "RemainingAmount": "Text",
+            "RemainingAmountATI": "Text",
+            "RemainingAmountVAT": "Text",
+            "billingAccountId": "Text",
+            "customerId": "Text",
+            "invoiceAmount": "Text",
+            "invoiceAmountATI": "Text",
+            "invoiceAmountVAT": "Text",
+            "invoicePaymentDueDate": "Text",
+            "marketSegment": "Text",
+            "mdn": "Text",
+            "name": "Text",
+            "paidAmount": "Text",
+            "paidAmountATI": "Text",
+            "paidAmountVAT": "Text",
+            "pinCode": "Text",
+            "status": "Text"
+        }
+    },
+    "CSOperationResultInfo": {
+        "errorCode": "Text",
+        "errorMessage": "Text",
+        "isOK": "Text",
+        "uuid": "Text"
+    }
+}

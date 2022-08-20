@@ -1,0 +1,17 @@
+{
+    "update": {
+        "StatusContract": "Dossier conforme",
+        "ordersToUpdate": [
+            {
+                "idOrder": "801250000026nDEAAY",
+                "orderNumber": "00000165",
+                "statut": "inwiB2C_Conforme"
+            },
+            {
+                "idOrder": "8012500000270sNAAQ",
+                "orderNumber": "00000450",
+                "statut": "inwiB2C_Conforme"
+            }
+        ]
+    }
+}

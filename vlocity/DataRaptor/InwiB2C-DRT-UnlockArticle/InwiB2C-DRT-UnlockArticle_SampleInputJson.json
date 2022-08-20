@@ -1,0 +1,19 @@
+{
+    "action": "OS",
+    "channel": "SF",
+    "handset": [
+        {
+            "code": "000012345",
+            "orderType": "MOBILE",
+            "quantity": "1",
+            "serialNumber": "892128510050201913",
+            "vendor": "CPD01"
+        }
+    ],
+    "id": "12",
+    "marketSegment": "B2C",
+    "mode": "SALE",
+    "offerType": "MOBILE",
+    "orgID": "INWI",
+    "username": "Djamel"
+}

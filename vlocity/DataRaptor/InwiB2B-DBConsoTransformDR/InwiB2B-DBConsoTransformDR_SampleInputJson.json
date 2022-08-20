@@ -1,0 +1,150 @@
+{
+    "jsonInput": {
+        "bucket": [
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "  ",
+                    "CANAL": "",
+                    "DURATION": "0",
+                    "FNFFLAG": "NO",
+                    "GPRS_VOLUME": "",
+                    "M_AMOUNT_CEILING": "",
+                    "M_AMOUNT_CON": "0",
+                    "M_CALL_TYPE": "EC",
+                    "M_FLAG_CEILING": "",
+                    "M_LINE_ID": "212627776655",
+                    "M_LISTEBAL": "3000:0.5;",
+                    "M_SERVICE_NAME": "Achat SMS préformaté",
+                    "M_START_DATE": "2013-01-03 14:45:36",
+                    "M_TYPE_CONSO": "ACHAT_PASS"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "  ",
+                    "CANAL": "WebService interface",
+                    "DURATION": "0",
+                    "FNFFLAG": "NO",
+                    "GPRS_VOLUME": "",
+                    "M_AMOUNT_CEILING": "",
+                    "M_AMOUNT_CON": "20",
+                    "M_CALL_TYPE": "EC",
+                    "M_FLAG_CEILING": "",
+                    "M_LINE_ID": "",
+                    "M_LISTEBAL": "2556:4194304;2000:-200;",
+                    "M_SERVICE_NAME": "Pass Internet 1j",
+                    "M_START_DATE": "2013-01-03 14:45:36",
+                    "M_TYPE_CONSO": "ACHAT_PASS"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "  ",
+                    "CANAL": "USSD",
+                    "DURATION": "0",
+                    "FNFFLAG": "NO",
+                    "GPRS_VOLUME": "",
+                    "M_AMOUNT_CEILING": "",
+                    "M_AMOUNT_CON": "5",
+                    "M_CALL_TYPE": "EC",
+                    "M_FLAG_CEILING": "",
+                    "M_LINE_ID": "",
+                    "M_LISTEBAL": "5059:300;2000:5;",
+                    "M_SERVICE_NAME": "Pass social SMS 1 jour",
+                    "M_START_DATE": "2013-01-03 14:45:36",
+                    "M_TYPE_CONSO": "ACHAT_PASS"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "  ",
+                    "CANAL": "",
+                    "DURATION": "0",
+                    "FNFFLAG": "NO",
+                    "GPRS_VOLUME": "",
+                    "M_AMOUNT_CEILING": "",
+                    "M_AMOUNT_CON": "19",
+                    "M_CALL_TYPE": "EC",
+                    "M_FLAG_CEILING": "",
+                    "M_LINE_ID": "",
+                    "M_LISTEBAL": "2000:19;",
+                    "M_SERVICE_NAME": "Achat de Pass Mobile International",
+                    "M_START_DATE": "2013-01-03 14:45:36",
+                    "M_TYPE_CONSO": "ACHAT_PASS"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "  ",
+                    "CANAL": "IVR",
+                    "DURATION": "0",
+                    "FNFFLAG": "NO",
+                    "GPRS_VOLUME": "",
+                    "M_AMOUNT_CEILING": "",
+                    "M_AMOUNT_CON": "100",
+                    "M_CALL_TYPE": "EC",
+                    "M_FLAG_CEILING": "",
+                    "M_LINE_ID": "",
+                    "M_LISTEBAL": "2536:9998009;2510:100;2568:100;2000:100;",
+                    "M_SERVICE_NAME": "Achat Pass Zen",
+                    "M_START_DATE": "2012-12-01 00:06:07",
+                    "M_TYPE_CONSO": "ACHAT_PASS"
+                }
+            },
+            {
+                "bucketBalance": [
+                ],
+                "bucketCounter": [
+                ],
+                "product": [
+                ],
+                "properties": {
+                    "CALL_DIRECTION": "  ",
+                    "CANAL": "IVR",
+                    "DURATION": "0",
+                    "FNFFLAG": "NO",
+                    "GPRS_VOLUME": "",
+                    "M_AMOUNT_CEILING": "",
+                    "M_AMOUNT_CON": "100",
+                    "M_CALL_TYPE": "EC",
+                    "M_FLAG_CEILING": "",
+                    "M_LINE_ID": "",
+                    "M_LISTEBAL": "2536:9998009;2510:100;2568:100;2000:100;",
+                    "M_SERVICE_NAME": "",
+                    "M_START_DATE": "2012-11-29 00:06:07",
+                    "M_TYPE_CONSO": "ACHAT_PASS"
+                }
+            }
+        ]
+    }
+}

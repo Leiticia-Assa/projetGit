@@ -1,0 +1,42 @@
+{
+    "BDC": {
+        "Account": {
+            "ARegisteCommerce": "RC6666666",
+            "AccountName": "Soft-Innovation ARE",
+            "AccountPays": "MA",
+            "AccountPhone": "212666996699",
+            "AccountPostal": "20104",
+            "AccountVille": "CASABLANCA",
+            "ICE": "IC4512788",
+            "Id": "0010D00000Qaz8hQAB"
+        }
+    },
+    "BDCId": "a5I0D0000009bZgUAI",
+    "BonDeCommandeId": "a5I0D0000009bZgUAI",
+    "CommandeType": "Acquisition",
+    "ContextId": "a5I0D0000009bZgUAI",
+    "Step1": {
+        "NumBDC": "0000000001",
+        "customerId": "99913390"
+    },
+    "Step2": {
+        "Formula1": null,
+        "Messaging1": null,
+        "SelectableItems": null
+    },
+    "id": "a2c0D000000oP6OQAU",
+    "isdtp": "p1",
+    "layout": "lightning",
+    "sfdcIFrameHost": "web",
+    "sfdcIFrameOrigin": "https://inwib2b--devr2om--vlocity-cmt.visualforce.com",
+    "testContextId": "a5I0D0000009bZgUAI",
+    "timeStamp": "2020-04-10T10:14:58.101Z",
+    "userCurrencyCode": "MAD",
+    "userId": "0050D0000030gS0QAI",
+    "userName": "saloua.elkhoufairi@atos.net.devr2om",
+    "userProfile": "System Administrator",
+    "userTimeZone": 60,
+    "uuid": "37262f85-b6fd-b7ed-38d9-71aada137817",
+    "vlcPersistentComponent": {
+    }
+}

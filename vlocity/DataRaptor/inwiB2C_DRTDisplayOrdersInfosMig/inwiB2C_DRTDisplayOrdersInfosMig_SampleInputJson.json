@@ -1,0 +1,22 @@
+{
+    "offre": [
+        {
+            "Action": "Disconnect",
+            "FormuleChoisie": "Offre acquisition_2015",
+            "ICCSIM": "892120220007108670",
+            "NumLigne": "212607658828",
+            "PrixSIM": 0,
+            "TypeLigne": "NORMAL",
+            "TypeOffre": "Offre Koulchi"
+        },
+        {
+            "Action": "Add",
+            "FormuleChoisie": "Promotion",
+            "ICCSIM": "892120220007108670",
+            "NumLigne": "212607658828",
+            "PrixSIM": 0,
+            "TypeLigne": "NORMAL",
+            "TypeOffre": "Offre TicTac Sim Seule"
+        }
+    ]
+}
