@@ -1,0 +1,596 @@
+[
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 15,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/15/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "37fa3f9d-af28-5587-4b75-560bad2088ad",
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "29e2ce",
+            "dataType": "Text",
+            "displayOrder": 3,
+            "headerType": "Input",
+            "label": null,
+            "lineItemId": null,
+            "listValues": null,
+            "name": "Characteristic Name"
+        },
+        "CurrencyIsoCode": "MAD",
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 15,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/15/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "296d2e52-dcc2-db1e-907d-d87ab8a46c4a",
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "360eb",
+            "dataType": "Text",
+            "displayOrder": 5,
+            "headerType": "Output",
+            "label": null,
+            "lineItemId": null,
+            "listValues": null,
+            "name": "MRC"
+        },
+        "CurrencyIsoCode": "MAD",
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 15,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/15/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "e54bfb50-5252-290d-1d4b-299414e7e8c2",
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "723a54",
+            "dataType": "Text",
+            "displayOrder": 1,
+            "headerType": "Input",
+            "label": null,
+            "lineItemId": null,
+            "listValues": null,
+            "name": "Source Product Name"
+        },
+        "CurrencyIsoCode": "MAD",
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 15,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/15/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "6e4269e2-0cf8-f391-2594-39e12412665a",
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "c3ffcb",
+            "dataType": "Text",
+            "displayOrder": 6,
+            "headerType": "Output",
+            "label": null,
+            "lineItemId": null,
+            "listValues": null,
+            "name": "NRC"
+        },
+        "CurrencyIsoCode": "MAD",
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 15,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/15/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "5afd5f89-02eb-0d1c-2d25-4668c922ef59",
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "f72ce",
+            "dataType": "Text",
+            "displayOrder": 2,
+            "headerType": "Input",
+            "label": null,
+            "lineItemId": null,
+            "listValues": null,
+            "name": "Source Product Code"
+        },
+        "CurrencyIsoCode": "MAD",
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 15,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/15/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "43b4a6f2-b226-58ce-6b24-9ae062da5454",
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "fb0d12",
+            "dataType": "Text",
+            "displayOrder": 4,
+            "headerType": "Input",
+            "label": null,
+            "lineItemId": null,
+            "listValues": null,
+            "name": "Characteristic Value"
+        },
+        "CurrencyIsoCode": "MAD",
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 15,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/15/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "ec6e982a-08d2-b48f-d4ef-1b6562f9f222",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Générosité",
+            "Characteristic Value": "2,5Go supplémentaire",
+            "Source Product Code": "INWIB2C_MOB01_OFFERING_OPT_XGO",
+            "Source Product Name": "Option X GO"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "25",
+            "NRC": "0"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2022-04-12T16:11:58.000Z",
+        "CurrencyIsoCode": "MAD",
+        "Name": "5a641542e7b4f7fc21ed6f640f86d841",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 15,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/15/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "e4f6ebe0-affa-bd42-d283-7fa526afcdbe",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Générosité",
+            "Characteristic Value": "2,5Go supplémentaire",
+            "Source Product Code": "INWIB2C_MOB02_OFFERING_OPT_XGO",
+            "Source Product Name": "Option X GO"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "25",
+            "NRC": "0"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2022-04-12T16:11:58.000Z",
+        "CurrencyIsoCode": "MAD",
+        "Name": "870d91a4b2e4fe957cc0091d72f47b83",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 15,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/15/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "8d7f7f46-b71f-ed3f-4d6b-3106b61b719c",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Générosité",
+            "Characteristic Value": "5Go supplémentaire",
+            "Source Product Code": "INWIB2C_MOB01_OFFERING_OPT_XGO",
+            "Source Product Name": "Option X GO"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "50",
+            "NRC": "0"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2022-04-12T16:11:58.000Z",
+        "CurrencyIsoCode": "MAD",
+        "Name": "543e01bd1d25087bb945a8705208365f",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 15,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/15/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "5cd93300-9c33-fc75-78b1-6dbb972d9b96",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Générosité",
+            "Characteristic Value": "5Go supplémentaire",
+            "Source Product Code": "INWIB2C_MOB02_OFFERING_OPT_XGO",
+            "Source Product Name": "Option X GO"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "50",
+            "NRC": "0"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2022-04-12T16:11:58.000Z",
+        "CurrencyIsoCode": "MAD",
+        "Name": "4592d9d2ea63de5ba7c8e07ea3ebfa00",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 15,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/15/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "7e9e29ea-7052-85b0-546b-5ddae15d83ca",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Voix International",
+            "Characteristic Value": "Option 1H Europe,Asie & Amérique",
+            "Source Product Code": "INWIB2C_MOB01_OFFERING_VOIX_INTER",
+            "Source Product Name": "Options voix International"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "50",
+            "NRC": "0"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2022-04-12T16:11:58.000Z",
+        "CurrencyIsoCode": "MAD",
+        "Name": "54ff333e451883a2e76160c0ffce82ae",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 15,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/15/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "c41c2ae5-d2bb-08c4-2e1d-f78937075b28",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Voix International",
+            "Characteristic Value": "Option 1H Europe,Asie & Amérique",
+            "Source Product Code": "INWIB2C_MOB02_OFFERING_VOIX_INTER",
+            "Source Product Name": "Options voix International"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "50",
+            "NRC": "0"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2022-04-12T16:11:58.000Z",
+        "CurrencyIsoCode": "MAD",
+        "Name": "057a1cf130c0748781300de1c28c005a",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 15,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/15/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "02037eca-3ade-3d5f-f44f-7dc3c4c2dfc9",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Voix International",
+            "Characteristic Value": "Option 2H Europe,Asie & Amérique",
+            "Source Product Code": "INWIB2C_MOB01_OFFERING_VOIX_INTER",
+            "Source Product Name": "Options voix International"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "100",
+            "NRC": "0"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2022-04-12T16:11:58.000Z",
+        "CurrencyIsoCode": "MAD",
+        "Name": "e013ba941c33c0fef4b12601c0890a83",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 15,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/15/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "01145c49-c44c-eba6-8884-42763f0154cd",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Voix International",
+            "Characteristic Value": "Option 2H Europe,Asie & Amérique",
+            "Source Product Code": "INWIB2C_MOB02_OFFERING_VOIX_INTER",
+            "Source Product Name": "Options voix International"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "100",
+            "NRC": "0"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2022-04-12T16:11:58.000Z",
+        "CurrencyIsoCode": "MAD",
+        "Name": "0abf4dc63f226e3ca5ff339126d16a99",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 15,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/15/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "f5252e44-6e36-bd85-17bc-ab6e1c28f1fb",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Voix International",
+            "Characteristic Value": "Option 30 min Europe, Asie & Amérique",
+            "Source Product Code": "INWIB2C_MOB01_OFFERING_VOIX_INTER",
+            "Source Product Name": "Options voix International"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "25",
+            "NRC": "0"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2022-04-12T16:11:58.000Z",
+        "CurrencyIsoCode": "MAD",
+        "Name": "44e89dec400608c66eb33418c2fa717c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 15,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/15/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "35246930-018c-ecca-326f-b3b342987378",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Voix International",
+            "Characteristic Value": "Option 30 min Europe, Asie & Amérique",
+            "Source Product Code": "INWIB2C_MOB02_OFFERING_VOIX_INTER",
+            "Source Product Name": "Options voix International"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "25",
+            "NRC": "0"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2022-04-12T16:11:58.000Z",
+        "CurrencyIsoCode": "MAD",
+        "Name": "9805bb93c830526079306affa672484e",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 15,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/15/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "77d894b0-1ba6-ba24-641d-bb0ec813b446",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Voix National",
+            "Characteristic Value": "Option 2H30min national",
+            "Source Product Code": "INWIB2C_MOB01_OFFERING_VOIX_NATION",
+            "Source Product Name": "Option voix National"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "25",
+            "NRC": "0"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2022-04-12T16:11:58.000Z",
+        "CurrencyIsoCode": "MAD",
+        "Name": "b4b4113211ebf154c6ffa618ccec62a3",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 15,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/15/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "714111a1-e670-19c4-ca4b-0ca5f3352743",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Voix National",
+            "Characteristic Value": "Option 2H30min national",
+            "Source Product Code": "INWIB2C_MOB02_OFFERING_VOIX_NATION",
+            "Source Product Name": "Option voix National"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "25",
+            "NRC": "0"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2022-04-12T16:11:58.000Z",
+        "CurrencyIsoCode": "MAD",
+        "Name": "dd9515299f3551382e4cff6c2fe50981",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 15,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/15/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "17a990fd-e1a2-bb59-5b38-039c45cc1253",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Voix National",
+            "Characteristic Value": "Option 5H national",
+            "Source Product Code": "INWIB2C_MOB01_OFFERING_VOIX_NATION",
+            "Source Product Name": "Option voix National"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "50",
+            "NRC": "0"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2022-04-12T16:11:58.000Z",
+        "CurrencyIsoCode": "MAD",
+        "Name": "9b85cccf2cd133ebabd89d6b80179e84",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 15,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/15/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "aa118d07-c2c5-5589-b1aa-459c1128a26a",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Voix National",
+            "Characteristic Value": "Option 5H national",
+            "Source Product Code": "INWIB2C_MOB02_OFFERING_VOIX_NATION",
+            "Source Product Name": "Option voix National"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "50",
+            "NRC": "0"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2022-04-12T16:11:58.000Z",
+        "CurrencyIsoCode": "MAD",
+        "Name": "d2619cf576095ca296eaef5ad3955187",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 15,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/15/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "82077b2f-7722-20a3-739c-e3706e467cbb",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "porter;offre",
+            "Characteristic Value": "false;SimSeul",
+            "Source Product Code": "INWIB2C_OFFERING_SIM",
+            "Source Product Name": "SIM"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "0",
+            "NRC": "20"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2022-04-12T16:11:58.000Z",
+        "CurrencyIsoCode": "MAD",
+        "Name": "f63b788d559fc11557acef170ef0c7f1",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 15,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/15/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "8f506083-25af-05c5-9d65-9164c8c38b4f",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "porter;offre",
+            "Characteristic Value": "false;SimTerminal",
+            "Source Product Code": "INWIB2C_OFFERING_SIM",
+            "Source Product Name": "SIM"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "0",
+            "NRC": "0"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2022-04-12T16:11:58.000Z",
+        "CurrencyIsoCode": "MAD",
+        "Name": "827c25d8ee084567dfb26c5b805b448a",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 15,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/15/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "9c36b233-f116-23da-a296-024de5b1086f",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "porter;offre",
+            "Characteristic Value": "true;SimSeul",
+            "Source Product Code": "INWIB2C_OFFERING_SIM",
+            "Source Product Name": "SIM"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "0",
+            "NRC": "0"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2022-04-12T16:11:58.000Z",
+        "CurrencyIsoCode": "MAD",
+        "Name": "5d5bc2d4c0e55a23abb02bafe43160f0",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 15,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/15/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "0d892b7b-549b-9996-9d24-a3d730c74918",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "porter;offre",
+            "Characteristic Value": "true;SimTerminal",
+            "Source Product Code": "INWIB2C_OFFERING_SIM",
+            "Source Product Name": "SIM"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "0",
+            "NRC": "0"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2022-04-12T16:11:58.000Z",
+        "CurrencyIsoCode": "MAD",
+        "Name": "40c3f2330a9b982306f3d95d858c584f",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    }
+]

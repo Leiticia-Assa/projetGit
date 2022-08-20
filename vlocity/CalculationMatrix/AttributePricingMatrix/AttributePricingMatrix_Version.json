@@ -1,0 +1,25 @@
+{
+    "%vlocity_namespace%__CalculationMatrixId__c": {
+        "Name": "AttributePricingMatrix",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrix__c"
+    },
+    "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+    "%vlocity_namespace%__CalculationMatrixRow__c": "AttributePricingMatrix_Version_Rows.json",
+    "%vlocity_namespace%__CurrentStatus__c": "Active",
+    "%vlocity_namespace%__EndDateTime__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "028c7139-1441-df19-83e3-09572ed07292",
+    "%vlocity_namespace%__GroupKeyValue__c": "",
+    "%vlocity_namespace%__MatrixUseLongOutput__c": false,
+    "%vlocity_namespace%__Priority__c": 150,
+    "%vlocity_namespace%__StartDateTime__c": "2022-04-12T16:11:58.000Z",
+    "%vlocity_namespace%__SubGroupKeyValue__c": "",
+    "%vlocity_namespace%__UseLongOutput__c": false,
+    "%vlocity_namespace%__VersionNumber__c": 15,
+    "CurrencyIsoCode": "MAD",
+    "Name": "OptionsPricing",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/15/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix"
+}

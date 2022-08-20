@@ -1,0 +1,580 @@
+[
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "InwiB2C_CodeMotifRetentionMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/2/%vlocity_namespace%__CalculationMatrix__c/InwiB2C_CodeMotifRetentionMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "fddc6f19-091c-d513-6f8a-2f5f68499081",
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "a463f0",
+            "dataType": "Text",
+            "displayOrder": 3,
+            "headerType": "Output",
+            "label": null,
+            "lineItemId": null,
+            "listValues": null,
+            "name": "CodeMotif"
+        },
+        "CurrencyIsoCode": "MAD",
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "InwiB2C_CodeMotifRetentionMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/2/%vlocity_namespace%__CalculationMatrix__c/InwiB2C_CodeMotifRetentionMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "ec426287-3e5e-b442-51e0-cedce571ee1f",
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "bc59e2",
+            "dataType": "Text",
+            "displayOrder": 1,
+            "headerType": "Input",
+            "label": null,
+            "lineItemId": null,
+            "listValues": null,
+            "name": "Categorie"
+        },
+        "CurrencyIsoCode": "MAD",
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "InwiB2C_CodeMotifRetentionMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/2/%vlocity_namespace%__CalculationMatrix__c/InwiB2C_CodeMotifRetentionMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "1c5a8cfb-1d43-d81d-a3d4-3fa29df7cb9c",
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "d82c42",
+            "dataType": "Text",
+            "displayOrder": 2,
+            "headerType": "Input",
+            "label": null,
+            "lineItemId": null,
+            "listValues": null,
+            "name": "SousCategorie"
+        },
+        "CurrencyIsoCode": "MAD",
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "InwiB2C_CodeMotifRetentionMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/2/%vlocity_namespace%__CalculationMatrix__c/InwiB2C_CodeMotifRetentionMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "3c5f3faf-171e-caeb-2783-6a2090dc11d9",
+        "%vlocity_namespace%__InputData__c": {
+            "Categorie": "Absence du besoin",
+            "SousCategorie": "Faible besoin permanent (chômage,plus d'utilité mobile..)"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "CodeMotif": "C3M1"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2022-04-25T17:58:54.000Z",
+        "CurrencyIsoCode": "MAD",
+        "Name": "5ad9a49d02952d76db93b74514bb2b53",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "InwiB2C_CodeMotifRetentionMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/2/%vlocity_namespace%__CalculationMatrix__c/InwiB2C_CodeMotifRetentionMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "60c9e0c4-c1bd-92df-91aa-f04429a82309",
+        "%vlocity_namespace%__InputData__c": {
+            "Categorie": "Absence du besoin",
+            "SousCategorie": "Plus d'utilité temporaire"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "CodeMotif": "C3M2"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2022-04-25T17:58:54.000Z",
+        "CurrencyIsoCode": "MAD",
+        "Name": "e0d1adce137486abc255392055cb4558",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "InwiB2C_CodeMotifRetentionMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/2/%vlocity_namespace%__CalculationMatrix__c/InwiB2C_CodeMotifRetentionMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "e3805d71-4aa4-9724-d8a8-b9e68b03e111",
+        "%vlocity_namespace%__InputData__c": {
+            "Categorie": "Fidélité mal récompensée",
+            "SousCategorie": "Mécontentement suite à arrêt du burn"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "CodeMotif": "C4M1"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2022-04-25T17:58:54.000Z",
+        "CurrencyIsoCode": "MAD",
+        "Name": "3f86cf366ef652547a6eed923325fd24",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "InwiB2C_CodeMotifRetentionMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/2/%vlocity_namespace%__CalculationMatrix__c/InwiB2C_CodeMotifRetentionMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "d5fc9b1c-a62b-fe02-7899-b0dbb3e1ccb2",
+        "%vlocity_namespace%__InputData__c": {
+            "Categorie": "Mécontentement du réseau",
+            "SousCategorie": "Absence data indoor only"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "CodeMotif": "C1M2"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2022-04-25T17:58:54.000Z",
+        "CurrencyIsoCode": "MAD",
+        "Name": "69f06d56354b97aca4913d543542aae3",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "InwiB2C_CodeMotifRetentionMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/2/%vlocity_namespace%__CalculationMatrix__c/InwiB2C_CodeMotifRetentionMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "77f3c057-d573-5c33-9407-4a2a6ea90974",
+        "%vlocity_namespace%__InputData__c": {
+            "Categorie": "Mécontentement du réseau",
+            "SousCategorie": "Absence réseau (Voix ou data)"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "CodeMotif": "C1M3"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2022-04-25T17:58:54.000Z",
+        "CurrencyIsoCode": "MAD",
+        "Name": "ff0c34c424ad7d27b445fad57b2ce5a2",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "InwiB2C_CodeMotifRetentionMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/2/%vlocity_namespace%__CalculationMatrix__c/InwiB2C_CodeMotifRetentionMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "f44292f2-cfc4-ae5d-ccea-3ac84da98597",
+        "%vlocity_namespace%__InputData__c": {
+            "Categorie": "Mécontentement du réseau",
+            "SousCategorie": "Absence voix indoor only"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "CodeMotif": "C1M1"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2022-04-25T17:58:54.000Z",
+        "CurrencyIsoCode": "MAD",
+        "Name": "c736dc7caabf397cfba9a65f5c90cac2",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "InwiB2C_CodeMotifRetentionMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/2/%vlocity_namespace%__CalculationMatrix__c/InwiB2C_CodeMotifRetentionMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "b0b5afe0-fcc5-bfcb-9c1c-a49f7cd8b47e",
+        "%vlocity_namespace%__InputData__c": {
+            "Categorie": "Mécontentement du réseau",
+            "SousCategorie": "Couverture wifi indoor"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "CodeMotif": "C1M7"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2022-04-25T17:58:54.000Z",
+        "CurrencyIsoCode": "MAD",
+        "Name": "ae75d9bc71ad4aef80b53205d464bc23",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "InwiB2C_CodeMotifRetentionMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/2/%vlocity_namespace%__CalculationMatrix__c/InwiB2C_CodeMotifRetentionMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "fb6a8eba-043f-0aea-e024-f6e489a6a64d",
+        "%vlocity_namespace%__InputData__c": {
+            "Categorie": "Mécontentement du réseau",
+            "SousCategorie": "Faiblesse débit"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "CodeMotif": "C1M8"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2022-04-25T17:58:54.000Z",
+        "CurrencyIsoCode": "MAD",
+        "Name": "5b8d4e17aa5ce04d8ff1e8669acc5e18",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "InwiB2C_CodeMotifRetentionMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/2/%vlocity_namespace%__CalculationMatrix__c/InwiB2C_CodeMotifRetentionMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "d3277b5d-c184-4eab-9ab5-2eb8196f5573",
+        "%vlocity_namespace%__InputData__c": {
+            "Categorie": "Mécontentement du réseau",
+            "SousCategorie": "Lenteur data"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "CodeMotif": "C1M4"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2022-04-25T17:58:54.000Z",
+        "CurrencyIsoCode": "MAD",
+        "Name": "340de2a35ab17b08b0f83945e44a64ce",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "InwiB2C_CodeMotifRetentionMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/2/%vlocity_namespace%__CalculationMatrix__c/InwiB2C_CodeMotifRetentionMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "66a62919-acb5-b9c4-d1ee-b040b0737aff",
+        "%vlocity_namespace%__InputData__c": {
+            "Categorie": "Mécontentement du réseau",
+            "SousCategorie": "Lenteur/absence réseau"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "CodeMotif": "C1M5"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2022-04-25T17:58:54.000Z",
+        "CurrencyIsoCode": "MAD",
+        "Name": "13c33e853873e800e1cbabfd50e429d0",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "InwiB2C_CodeMotifRetentionMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/2/%vlocity_namespace%__CalculationMatrix__c/InwiB2C_CodeMotifRetentionMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "41e79f5c-99a5-cacf-9f3d-452335c7f193",
+        "%vlocity_namespace%__InputData__c": {
+            "Categorie": "Mécontentement du réseau",
+            "SousCategorie": "Qualité de couverture réseau voix"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "CodeMotif": "C1M6"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2022-04-25T17:58:54.000Z",
+        "CurrencyIsoCode": "MAD",
+        "Name": "7974531007facf95fda7fa96e610220f",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "InwiB2C_CodeMotifRetentionMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/2/%vlocity_namespace%__CalculationMatrix__c/InwiB2C_CodeMotifRetentionMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "824b0d21-10a9-b9c1-ea58-90e2925bf85a",
+        "%vlocity_namespace%__InputData__c": {
+            "Categorie": "Mécontentements/litiges",
+            "SousCategorie": "Contestation du montant de la facture"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "CodeMotif": "C6M4"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2022-04-25T17:58:54.000Z",
+        "CurrencyIsoCode": "MAD",
+        "Name": "0effb1db91bdf8bace4b637b5e5473d3",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "InwiB2C_CodeMotifRetentionMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/2/%vlocity_namespace%__CalculationMatrix__c/InwiB2C_CodeMotifRetentionMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "f9d6e60b-5530-590e-e824-3c57622854df",
+        "%vlocity_namespace%__InputData__c": {
+            "Categorie": "Mécontentements/litiges",
+            "SousCategorie": "Facturation (Non réception de la facture/   Erreur sur le montant facturé/ Mode de Paiement de facture)"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "CodeMotif": "C6M1"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2022-04-25T17:58:54.000Z",
+        "CurrencyIsoCode": "MAD",
+        "Name": "15826be55137113aacecd0a85863e523",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "InwiB2C_CodeMotifRetentionMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/2/%vlocity_namespace%__CalculationMatrix__c/InwiB2C_CodeMotifRetentionMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "0969abf0-f20b-22e2-6a6b-2e13b66391c2",
+        "%vlocity_namespace%__InputData__c": {
+            "Categorie": "Mécontentements/litiges",
+            "SousCategorie": "Mode de paiement de la facture"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "CodeMotif": "C6M5"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2022-04-25T17:58:54.000Z",
+        "CurrencyIsoCode": "MAD",
+        "Name": "892a84f3bc35ad1bd5bcfca17c8abdfe",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "InwiB2C_CodeMotifRetentionMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/2/%vlocity_namespace%__CalculationMatrix__c/InwiB2C_CodeMotifRetentionMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "ea316922-0684-78c5-9600-90bed81b78b5",
+        "%vlocity_namespace%__InputData__c": {
+            "Categorie": "Mécontentements/litiges",
+            "SousCategorie": "Non réception de la facture"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "CodeMotif": "C6M3"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2022-04-25T17:58:54.000Z",
+        "CurrencyIsoCode": "MAD",
+        "Name": "4a2999921e86fa0cc06942d20ccf4634",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "InwiB2C_CodeMotifRetentionMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/2/%vlocity_namespace%__CalculationMatrix__c/InwiB2C_CodeMotifRetentionMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "a2007a8a-c4db-50f8-1d46-a9ce8cc0ee17",
+        "%vlocity_namespace%__InputData__c": {
+            "Categorie": "Mécontentements/litiges",
+            "SousCategorie": "Réclamation ( Ecrasement du solde /réclamation non traitée /Pass ou Option non activée)"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "CodeMotif": "C6M2"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2022-04-25T17:58:54.000Z",
+        "CurrencyIsoCode": "MAD",
+        "Name": "12a28141b0e56bdeadb34c6e7a89868e",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "InwiB2C_CodeMotifRetentionMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/2/%vlocity_namespace%__CalculationMatrix__c/InwiB2C_CodeMotifRetentionMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "4a5cf7d2-204d-613a-96cc-f7c5ae76ad4b",
+        "%vlocity_namespace%__InputData__c": {
+            "Categorie": "Offre",
+            "SousCategorie": "Changement de MDN"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "CodeMotif": "C8M4"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2022-04-25T17:58:54.000Z",
+        "CurrencyIsoCode": "MAD",
+        "Name": "80fe0b42ab257ec9c2493dfc540f1cf0",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "InwiB2C_CodeMotifRetentionMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/2/%vlocity_namespace%__CalculationMatrix__c/InwiB2C_CodeMotifRetentionMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "e8b08f73-f105-81b1-f50d-2f7a9e45bfe9",
+        "%vlocity_namespace%__InputData__c": {
+            "Categorie": "Offre",
+            "SousCategorie": "Forfait non adapté (Pas assez de crédit de communication tous les mois/Pas assez de temps pour tout consommer  ou besoin irrégulier/Internet insuffisant)"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "CodeMotif": "C8M3"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2022-04-25T17:58:54.000Z",
+        "CurrencyIsoCode": "MAD",
+        "Name": "326fd1adc743c4fc309e1515105fc2a4",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "InwiB2C_CodeMotifRetentionMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/2/%vlocity_namespace%__CalculationMatrix__c/InwiB2C_CodeMotifRetentionMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "1d25b5a3-d4eb-3560-e06c-15ce59c0888f",
+        "%vlocity_namespace%__InputData__c": {
+            "Categorie": "Offre",
+            "SousCategorie": "Interéssé par un forfait chez la concurrence"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "CodeMotif": "C8M2"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2022-04-25T17:58:54.000Z",
+        "CurrencyIsoCode": "MAD",
+        "Name": "7c3cfb035fe4bbd7d3cf2800d2800f3f",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "InwiB2C_CodeMotifRetentionMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/2/%vlocity_namespace%__CalculationMatrix__c/InwiB2C_CodeMotifRetentionMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "85a11dd8-dd28-bfa6-70e5-7529b9295118",
+        "%vlocity_namespace%__InputData__c": {
+            "Categorie": "Offre",
+            "SousCategorie": "Veut du prépayé"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "CodeMotif": "C8M1"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2022-04-25T17:58:54.000Z",
+        "CurrencyIsoCode": "MAD",
+        "Name": "2793d69380e9932af7db679f328cb95a",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "InwiB2C_CodeMotifRetentionMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/2/%vlocity_namespace%__CalculationMatrix__c/InwiB2C_CodeMotifRetentionMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "801e21c9-7ea5-d227-ef63-5f26e6f20549",
+        "%vlocity_namespace%__InputData__c": {
+            "Categorie": "Problème de competitivité",
+            "SousCategorie": "Tarification nationale / Tarification internationale"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "CodeMotif": "C7M1"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2022-04-25T17:58:54.000Z",
+        "CurrencyIsoCode": "MAD",
+        "Name": "f437e43dea7fe704aa50d911585764ec",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "InwiB2C_CodeMotifRetentionMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/2/%vlocity_namespace%__CalculationMatrix__c/InwiB2C_CodeMotifRetentionMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "39685f4e-e010-f3eb-1e9c-fe3bd14ca984",
+        "%vlocity_namespace%__InputData__c": {
+            "Categorie": "Problèmes financiers",
+            "SousCategorie": "Problèmes financiers court Terme"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "CodeMotif": "C2M1"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2022-04-25T17:58:54.000Z",
+        "CurrencyIsoCode": "MAD",
+        "Name": "04d3f45519c4d643d2addb6c05f350a2",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "InwiB2C_CodeMotifRetentionMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/2/%vlocity_namespace%__CalculationMatrix__c/InwiB2C_CodeMotifRetentionMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "28eb3bcf-f7f6-7a0d-901e-5e352dd27ebd",
+        "%vlocity_namespace%__InputData__c": {
+            "Categorie": "Problèmes financiers",
+            "SousCategorie": "Problèmes financiers long terme"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "CodeMotif": "C2M2"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2022-04-25T17:58:54.000Z",
+        "CurrencyIsoCode": "MAD",
+        "Name": "692606a92967769298103d7bab0da297",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    }
+]

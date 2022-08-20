@@ -1,0 +1,20 @@
+[
+    {
+        "%vlocity_namespace%__CalculationMatrixId__c": {
+            "Name": "InwiB2C_offreCommToOffreTech",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrix__c/InwiB2C_offreCommToOffreTech",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrix__c"
+        },
+        "%vlocity_namespace%__ColumnKey__c": "",
+        "%vlocity_namespace%__ColumnType__c": "",
+        "%vlocity_namespace%__DataType__c": "",
+        "%vlocity_namespace%__DisplayOrder__c": "",
+        "%vlocity_namespace%__RangeValues__c": "",
+        "CurrencyIsoCode": "MAD",
+        "Name": "Forfait 4h + 2go",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixDimension__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__CalculationMatrixDimension__c/Generated356135950"
+    }
+]
