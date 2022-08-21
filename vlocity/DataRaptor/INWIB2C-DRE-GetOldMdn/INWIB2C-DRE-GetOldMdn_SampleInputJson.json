@@ -1,0 +1,20 @@
+{
+    "action": "MOD",
+    "id": "a364K000000gd6BQAQ",
+    "invMdn": "a2X4K000000qAf8UAE",
+    "reason": "ORDER_CUSTOMIZATION",
+    "relatedParty": [
+        {
+            "TYPE_LIGNE": "B2CPRE"
+        }
+    ],
+    "resourceRef": {
+        "CODE_OP": "INWI",
+        "ICCID": "892120290027639977",
+        "IMSI": "604020140850011",
+        "MSISDN": "212629248567",
+        "OCSID": "IN2",
+        "OLD_MSISDN": "212690101759",
+        "OLD_OCSID": "IN1"
+    }
+}

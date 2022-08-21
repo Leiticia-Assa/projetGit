@@ -1,0 +1,16 @@
+{
+    "ReservedMDNData": {
+        "AccountId": "34894649841564684",
+        "BonDeCommandeID": "a5I0D0000009aoUUAQ",
+        "ReservedMDN": {
+            "category": "NORMAL",
+            "handlingStatus": "BL",
+            "mdn": "212648017579",
+            "price": "0",
+            "regionId": "BGSM",
+            "type": "MO",
+            "vlcSelected": true
+        },
+        "userName": "khalil.benkhelil@soft-innovation.com.devr2om"
+    }
+}

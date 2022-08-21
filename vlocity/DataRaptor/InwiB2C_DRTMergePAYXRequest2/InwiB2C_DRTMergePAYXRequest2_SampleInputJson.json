@@ -1,0 +1,103 @@
+{
+    "ElapsedTime": 43,
+    "ElapsedTimeCPU": 35,
+    "Input": {
+        "LoopBlock2": [
+            {
+                "CSPayment": "",
+                "CSPaymentIterationStatus": false,
+                "CSProductIterationStatus": false,
+                "DRTGetOrderLineInfoStatus": true,
+                "GetOrderLineInfoFromOfferStatus": true,
+                "LoopBlockIterationIndex": 1,
+                "LoopBlockIterationStatus": false
+            },
+            {
+                "CSPayment": "",
+                "CSPaymentIterationStatus": false,
+                "CSProductIterationStatus": false,
+                "DRTGetOrderLineInfoStatus": true,
+                "GetOrderLineInfoFromOfferStatus": true,
+                "LoopBlockIterationIndex": 2,
+                "LoopBlockIterationStatus": false
+            },
+            {
+                "CSPayment": {
+                    "CSAmount": {
+                        "amountPT": 149,
+                        "amountTI": 149,
+                        "amountVAT": 0,
+                        "discountedAmount": 149
+                    },
+                    "CSOrder": {
+                        "CSCustomer": {
+                            "CSIdentification": {
+                                "code": "",
+                                "type": "NIC"
+                            },
+                            "CSIndividualName": {
+                                "familyName": "Moundir",
+                                "firstName": "Amine"
+                            },
+                            "CSMarketSegment": "B2C",
+                            "id": "99917712"
+                        },
+                        "CSOffer": [
+                            {
+                                "code": "11111111111111111"
+                            }
+                        ],
+                        "billingAccountID": "",
+                        "id": "00618766"
+                    },
+                    "CSPaymentMethod": {
+                        "POS": "CPD01",
+                        "bankAccount": "",
+                        "bankCheckDueDate": "",
+                        "bankCheckID": "",
+                        "bankCity": "",
+                        "bankCode": "",
+                        "bankKey": "",
+                        "bankName": "",
+                        "businessUnit": "CPD01",
+                        "mode": "CS",
+                        "tpeCode": ""
+                    },
+                    "CSPaymentReference": {
+                        "creatorReference": "",
+                        "pspReference": ""
+                    },
+                    "channel": "",
+                    "creationDate": "2022-01-27T15:40:52",
+                    "creator": "sara.asmlal@atos.net.prodb2c.dev3",
+                    "type": "TERMINAL_PAYMENT"
+                },
+                "CSPaymentIterationStatus": true,
+                "CSProductIterationStatus": true,
+                "DRTGetOrderLineInfoStatus": true,
+                "GetOrderLineInfoFromOfferStatus": true,
+                "LoopBlockIterationIndex": 3,
+                "LoopBlockIterationStatus": true
+            }
+        ],
+        "OrderInfo": {
+            "OrderId": "8013M000000MLzeQAG",
+            "OrderNumber": "00618766",
+            "POS": "CPD01",
+            "Panier": "00618766",
+            "PaymentReference": "1222545875544",
+            "amountVAT": 0,
+            "businessAccountId": "99917712",
+            "businessUnit": "CPD01",
+            "nationalid": "I717100",
+            "nom": "Moundir",
+            "paymentMode": "CS",
+            "prenom": "Amine",
+            "type": "TERMINAL_PAYMENT",
+            "user": "sara.asmlal@atos.net.prodb2c.dev3",
+            "uuid": "f7ece496-6063-46bb-de3a-983e2e77e753"
+        }
+    },
+    "Status": true,
+    "Type": "DataRaptor Transform Action"
+}

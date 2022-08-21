@@ -1,0 +1,48 @@
+{
+    "serviceOrder": {
+        "orderItem": [
+            {
+                "Id": "a6Y25000000D3PjEAK",
+                "action": "create",
+                "captureID": "801250000027qiVAAQ",
+                "creationDate": "2021-05-26T17:35:39.000Z",
+                "lifeCycleStatus": "APOR",
+                "serviceRefOrValue": [
+                    {
+                        "relatedParty": [
+                            {
+                                "TYPE_LIGNE": "B2C",
+                                "birthDate": "2000-04-07",
+                                "cSIdentification": {
+                                    "code": "H98"
+                                },
+                                "cSIndividualName": {
+                                    "firstName": "HIND",
+                                    "lastName": "KANTAS"
+                                },
+                                "cSPostalAddress": {
+                                    "city": "a6M25000000DELlEAO",
+                                    "country_code": "a6P25000000D5VREA0",
+                                    "line1": "Adresse",
+                                    "postalCode": "11",
+                                    "region": "a6O25000000CfXgEAK"
+                                },
+                                "id": "a6Y25000000D3PjEAK"
+                            }
+                        ],
+                        "supportingResource": [
+                            {
+                                "CSOFFER_TYPE": "MOBILE",
+                                "FINAL_MSISDN": "212767676767",
+                                "PROVISIONAL_MSISDN": "212648060891"
+                            }
+                        ]
+                    }
+                ],
+                "sourceoperator": "MAROCTELECOM",
+                "targetoperator": "INWI",
+                "type": "PORTABILITY"
+            }
+        ]
+    }
+}

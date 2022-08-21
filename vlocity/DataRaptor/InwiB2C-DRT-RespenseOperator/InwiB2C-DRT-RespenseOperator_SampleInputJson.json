@@ -1,0 +1,27 @@
+{
+    "action": "DEL",
+    "id": "a3625000000FtpSAAS",
+    "invMdn": "a2X25000005LiSFEA0",
+    "reason": "PORTABILITY",
+    "relatedParty": [
+        {
+            "TYPE_LIGNE": "B2CPRE"
+        }
+    ],
+    "resourceRef": [
+        {
+            "CODE_OP_PRNT": "INWI",
+            "CODE_OP_SRC": "INWI",
+            "ICCID": "892128510050204189",
+            "IMSI": "604050400057158",
+            "INPROFILE": "ProfilIN",
+            "KI": "F97769DD8309EA44AD0EE2BBB7AB45CC",
+            "LANG": "FR",
+            "MSISDN": "212648060926",
+            "OCSID": "IN2",
+            "OLD_MSISDN": "212648060926"
+        }
+    ],
+    "user": "djamel.lekhbassene@devph02.com",
+    "uuid": "c69da22e-5014-bbd4-54b2-7cbf65490ff4"
+}

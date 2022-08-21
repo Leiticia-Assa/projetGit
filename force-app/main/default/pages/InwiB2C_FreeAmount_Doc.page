@@ -1,0 +1,67 @@
+<apex:page sidebar="false" renderAs="pdf" controller="InwiB2C_FreeAmount_Doc_Controller" showHeader="false" applyBodyTag="false">
+
+    <head>
+        <style>
+            body {
+                font-family: 'Arial Unicode MS';
+                font-size: 12px;
+            }
+
+            @page: first {
+                size: A4;
+                margin-top: 0px margin-right:0px;
+                margin-left: 0px;
+                margin-bottom: 0cm;
+            }
+
+            @page {
+                size: A4;
+                margin-top: 0px;
+                margin-right: 0px;
+                margin-left: 0px;
+                margin-bottom: 0cm;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div style="page-break-after:avoid ; height: 1100px ">
+            <img style="width:100%;" src="{!$Resource.inwiB2C_FreeAmount_Doc}" />
+            <!--  -->
+            	<p style="position: absolute;top:140px;left: 250px;font-size: 14px">{!DateTransaction}</p>
+                <p style="position: absolute;top:162px;left: 250px;font-size: 14px">{!NumeroDeTransaction}</p>
+                <p style="position: absolute;top:210px;left: 220px;font-size: 14px">{!Nom}</p> 
+                <p style="position: absolute;top:245px;left: 220px;font-size: 14px">{!Prenom}</p>
+                <p style="position: absolute;top:265px;left: 220px;font-size: 14px">{!CIN}</p>
+                <p style="position: absolute;top:290px;left: 220px;font-size: 14px">{!Quartier}</p>
+                <p style="position: absolute;top:310px;left: 220px;font-size: 14px">{!Ville}</p>
+                <p style="position: absolute;top:330px;left: 220px;font-size: 14px">{!Pays}</p> 
+            
+            
+                <p style="position: absolute;top:140px;left: 600px;font-size: 14px">{!CodePointDeVente}</p>
+                <p style="position: absolute;top:165px;left: 600px;font-size: 14px">{!CodeAgent}</p>
+            
+                <p style="position: absolute;top:205px;left: 600px;font-size: 14px">{!BillingAccount}</p>
+                <p style="position: absolute;top:225px;left: 600px;font-size: 14px">{!ModeDePaiement}</p>
+                <p style="position: absolute;top:245px;left: 600px;font-size: 14px">{!TotalAmount} Dhs</p>
+            
+            	
+            
+            
+                <p style="position: absolute;top:735px;left: 225px;font-size: 14px">{!CodePointDeVente}</p>
+                <p style="position: absolute;top:760px;left: 225px;font-size: 14px">{!CodeAgent}</p>
+                <p style="position: absolute;top:783px;left: 225px;font-size: 14px">{!DateTransaction}</p>
+                <p style="position: absolute;top:805px;left: 241px;font-size: 14px">{!NumeroDeTransaction}</p>
+                <p style="position: absolute;top:830px;left: 241px;font-size: 14px">{!ReferenceDePaiement}</p>
+                
+            
+               
+
+                
+
+        </div>
+
+    </body>
+
+
+</apex:page>

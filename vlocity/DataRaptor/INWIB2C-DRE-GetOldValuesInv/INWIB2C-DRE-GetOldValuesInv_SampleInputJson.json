@@ -1,0 +1,26 @@
+{
+    "action": "MOD",
+    "id": "a3625000000FrGkAAK",
+    "relatedParty": [
+        {
+            "TYPE_LIGNE": "B2CPRE"
+        }
+    ],
+    "resourceRef": [
+        {
+            "ICCID": "892128510050204157",
+            "IMSI": "604050400057126",
+            "KI": "F97769DD8309EA44AD0EE2BBB7AB45CC",
+            "MSISDN": "finalm",
+            "OCSID": "ocsid"
+        }
+    ],
+    "serviceOrderItem": [
+        {
+            "action": "NOP",
+            "code": "VOLTE"
+        }
+    ],
+    "user": "imane.lakrari@devph02.com",
+    "uuid": "5f0ed77a-074b-15e5-e3d3-0437774ff061"
+}

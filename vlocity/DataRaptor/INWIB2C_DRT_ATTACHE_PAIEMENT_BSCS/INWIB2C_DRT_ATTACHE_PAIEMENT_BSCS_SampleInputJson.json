@@ -1,0 +1,28 @@
+{
+    "productOrderItem": {
+        "OI": {
+            "FRLId": "a2G3M0000009xb9UAA",
+            "OIId": "a363M000000BqOlQAK",
+            "OrderId": "8013M000000MLIXQA4",
+            "childFRLLineNumber": "a2G3M0000009xb9UAA.0001."
+        },
+        "Order": {
+            "Id": "8013M000000MLIXQA4",
+            "IdSub": "a4k3M0000008jnQQAQ"
+        },
+        "Sub": {
+            "capture_Id": "a4k3M0000008jnQQAQ"
+        },
+        "billingAccount": {
+            "BillingAccountId": "0013M000010IqEKQA0"
+        },
+        "payment": [
+            {
+                "amountTI": 199,
+                "creatorReference": "123456789",
+                "mode": "CS",
+                "type": "INSTALL_FEES"
+            }
+        ]
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "action": "MOD",
+    "id": "a3625000000yv4oAAA",
+    "invMdn": "a2X25000005LwnXEAS",
+    "reason": "ORDER_CUSTOMIZATION",
+    "relatedParty": [
+        {
+            "TYPE_LIGNE": "B2CPRE"
+        }
+    ],
+    "resourceRef": {
+        "CODE_OP": "INWI",
+        "ICCID": "892128510050206878",
+        "IMSI": "604050400059847",
+        "MSISDN": "212648067904",
+        "OCSID": "IN2",
+        "OLD_MSISDN": "212648064966",
+        "OLD_OCSID": "IN2"
+    },
+    "serviceOrderItem": [
+        {
+            "action": "NOP",
+            "code": "CAMEL"
+        },
+        {
+            "action": "MOD",
+            "code": "VOLTE"
+        }
+    ]
+}

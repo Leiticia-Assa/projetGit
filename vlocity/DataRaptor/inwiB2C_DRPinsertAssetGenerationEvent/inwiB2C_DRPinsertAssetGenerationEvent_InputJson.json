@@ -1,0 +1,17 @@
+{
+    "ContextId": null,
+    "invetoryItemsNotExists": {
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "GetAssetAccount": null,
+        "GetAssetInventoryItems": null,
+        "invetoryItemsNotExists": null
+    }
+}

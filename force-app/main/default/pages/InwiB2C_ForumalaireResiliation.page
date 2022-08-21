@@ -1,0 +1,49 @@
+<apex:page sidebar="false" renderAs="pdf" controller="InwiB2C_DemandeResil_Form_Controller" showHeader="false" applyBodyTag="false">
+
+    <head>
+        <style>
+            body {
+                font-family: 'Arial Unicode MS';
+                font-size: 12px;
+            }
+
+            @page: first {
+                size: A4;
+                margin-top: 0px margin-right:0px;
+                margin-left: 0px;
+                margin-bottom: 0cm;
+            }
+
+            @page {
+                size: A4;
+                margin-top: 0px;
+                margin-right: 0px;
+                margin-left: 0px;
+                margin-bottom: 0cm;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div style="page-break-after:avoid ; height: 1100px ">
+            <img style="width:100%;" src="{!$Resource.inwiB2C_formulairedemanderesil}" />
+            <!--  -->
+                <p style="position: absolute;top:240px;left: 160px;font-size: 14px">{!lastname}</p>
+                <p style="position: absolute;top:260px;left: 160px;font-size: 14px">{!firstname}</p>
+                <p style="position: absolute;top:275px;left: 160px;font-size: 14px">{!raisonsociale}</p> 
+                <p style="position: absolute;top:295px;left: 160px;font-size: 14px">{!numligne}</p>                                   
+                <p style="position: absolute;top:313px;left: 152px;font-size: 14px">{!IF(typeidentite = "Carte d'Identité Nationale",'X','')} </p>
+                <p style="position: absolute;top:313px;left: 280px;font-size: 14px">{!IF(typeidentite = "Carte de séjour",'X','')} </p>
+                <p style="position: absolute;top:313px;left: 445px;font-size: 14px">{!IF(typeidentite = "Passeport",'X','')} </p>
+                <p style="position: absolute;top:335px;left: 160px;font-size: 14px">{!offre}</p>
+                <p style="position: absolute;top:350px;left: 160px;font-size: 14px">{!numcontact}</p>
+
+                <p style="position: absolute;top:1020px;left: 100px;font-size: 14px">{!datedesignature}</p>
+                                                    
+
+        </div>
+
+    </body>
+
+
+</apex:page>

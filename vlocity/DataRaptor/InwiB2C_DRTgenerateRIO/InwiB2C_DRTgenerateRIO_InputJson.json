@@ -1,0 +1,21 @@
+{
+    "ContextId": null,
+    "MdnNull": {
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "DREGetmdnInfoInSF": null,
+        "DRTgenerateRIO": null,
+        "HTTPgenerateRIO": null,
+        "HTTPgenerateRIOFromInfo": null,
+        "MdnNull": null,
+        "generateRIOFromInfoResponse": null,
+        "generateRIOResponse": null
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "outputLoyalty": {
+        "accountId": "10054368937",
+        "availablePoints": 57092,
+        "balancePoints": 66082,
+        "blockedPoints": 8990,
+        "isClubEligible": false,
+        "isClubMember": true,
+        "loyaltySubscription": [
+            {
+                "accountId": "10054368937",
+                "id": "INS000902706357",
+                "mdn": "212629512736",
+                "offerCode": "OSIMPOSTB2C",
+                "profile": "81374",
+                "status": "0",
+                "subscriptionDate": "2017-02-06T00:00:00Z[UTC]"
+            }
+        ],
+        "marketSegment": "B2C"
+    }
+}

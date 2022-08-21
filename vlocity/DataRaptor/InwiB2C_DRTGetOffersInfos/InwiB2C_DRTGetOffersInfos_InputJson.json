@@ -1,0 +1,25 @@
+{
+    "OLI": [
+        {
+            "FraisFMD": 0,
+            "FraisFMS": 0,
+            "IdOLI": "8023M000000QYgbQAG",
+            "creatorReference": "8023M000000QYgbQAG",
+            "prix": 249
+        },
+        {
+            "FraisFMD": 40,
+            "FraisFMS": 30,
+            "IdOLI": "8023M000000QYhQQAW",
+            "creatorReference": "8023M000000QYhQQAW",
+            "prix": 199
+        },
+        {
+            "FraisFMD": 0,
+            "FraisFMS": 0,
+            "IdOLI": "8023M000000QYfJQAW",
+            "creatorReference": "8023M000000QYfJQAW",
+            "prix": 149
+        }
+    ]
+}

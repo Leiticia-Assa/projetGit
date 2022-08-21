@@ -1,0 +1,13 @@
+{
+    "Id": "8014K000001kjkgQAA",
+    "TypeCommande": "inwiB2C_Modification",
+    "invMdn": "a2X4K000000qkINUAY",
+    "marketSegment": "B2C",
+    "mdn": [
+        {
+            "action": "CHG",
+            "mdn": "212600793942"
+        }
+    ],
+    "offerType": "MOBILE"
+}

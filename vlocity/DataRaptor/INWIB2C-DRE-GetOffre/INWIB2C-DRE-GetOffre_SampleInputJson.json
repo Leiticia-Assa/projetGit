@@ -1,0 +1,59 @@
+{
+    "id": "subscriptionid",
+    "productOrderItem": {
+        "capture_id": "a4k3M0000008jqFQAQ",
+        "product": {
+            "mainNetworkOffer": "86907",
+            "offer_code": "Aliza",
+            "realizingService": [
+                {
+                    "code": "ALIZA",
+                    "handlingAction": "ADD",
+                    "id": "a2G3M0000009y4jUAA"
+                },
+                {
+                    "code": "OPVIN",
+                    "handlingAction": "ADD",
+                    "id": "a2G3M0000009y4sUAA"
+                },
+                {
+                    "code": "OPVNT",
+                    "handlingAction": "ADD",
+                    "id": "a2G3M0000009y4tUAA"
+                },
+                {
+                    "code": "OFDTP",
+                    "handlingAction": "ADD",
+                    "id": "a2G3M0000009y4uUAA"
+                },
+                {
+                    "code": "OMB02",
+                    "handlingAction": "ADD",
+                    "id": "a2G3M0000009y4vUAA"
+                },
+                {
+                    "code": "OS4GC",
+                    "handlingAction": "ADD",
+                    "id": "a2G3M0000009y4yUAA"
+                },
+                {
+                    "code": "OXGO2",
+                    "handlingAction": "ADD",
+                    "id": "a2G3M0000009y50UAA"
+                }
+            ],
+            "resourceRef": [
+                {
+                    "imsi": "604050400060247",
+                    "mdn": "212648065575",
+                    "serialNumber": "892128510050207278"
+                }
+            ]
+        }
+    },
+    "relatedParty": {
+        "marketSegment": "B2C",
+        "orgID": "INWI"
+    },
+    "uuid": "07de27e5-c1d3-e787-8cb4-bba1d5b23c7c"
+}

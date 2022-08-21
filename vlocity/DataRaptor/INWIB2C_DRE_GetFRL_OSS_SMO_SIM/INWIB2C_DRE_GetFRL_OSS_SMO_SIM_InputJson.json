@@ -1,0 +1,40 @@
+{
+    "FRLId": "a210D000000N0T0QAK",
+    "OIId": "a2p0D0000005M72QAE",
+    "childFRLLineNumber": "a210D000000N0T0QAK.0001.",
+    "oldValues": {
+        "Inventry": {
+            "CSService": [
+                {
+                    "additionalInfo": {
+                        "OLD_FIXED_IP": {
+                            "code": "OLD_FIXED_IP",
+                            "value": "1"
+                        },
+                        "OLD_TPL_ID": {
+                            "code": "OLD_TPL_ID",
+                            "value": "12"
+                        }
+                    },
+                    "code": "CLEAN_PIPE_SECURITY"
+                },
+                {
+                    "additionalInfo": {
+                        "OLD_APN": {
+                            "code": "OLD_APN",
+                            "value": "12"
+                        },
+                        "OLD_TPL_ID": {
+                            "code": "OLD_TPL_ID",
+                            "value": "1"
+                        }
+                    },
+                    "code": "PRIVATE_APN"
+                }
+            ],
+            "CSVirtualPrivateNetwork": {
+                "oldGroupID": "Appels et SMS illimités vers les numéros de la flotte inwi"
+            }
+        }
+    }
+}

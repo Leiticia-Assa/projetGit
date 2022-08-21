@@ -1,0 +1,17 @@
+{
+    "ContextId": null,
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "DRPostSuspRehabData": null,
+        "GetIdPrdDATA": null,
+        "ResponseAction1": null,
+        "SetValuesDataAtt": null,
+        "UpdateDataRestrictionAttribute": null
+    }
+}

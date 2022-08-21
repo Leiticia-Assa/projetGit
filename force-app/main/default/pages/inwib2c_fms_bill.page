@@ -1,0 +1,61 @@
+<apex:page sidebar="false" renderAs="pdf" controller="inwib2c_first_bill_controller" showHeader="false" applyBodyTag="false">
+
+    <head>
+        <style>
+            body {
+                font-family: 'Arial Unicode MS';
+                font-size: 12px;
+
+            }
+
+            @page {
+                size: A4;
+                margin-top: 0px;
+                margin-right: 0px;
+                margin-left: 0px;
+                margin-bottom: 0px;
+                width: 210mm;
+                height: 297mm;
+            }
+        </style>
+
+    </head>
+
+    <body>
+        <apex:variable var="index" value="{!0}" />
+        <apex:repeat value="{!data}" var="loopItem" id="theRepeat">
+            <div >
+                <img style="width:97%; height: 95%" src="{!$Resource.fms_bill}" />
+                <p style="position: absolute;top: {! (index * 1115) + 155}px;left: 60%;">{!IF(contains(keys,'clientname'),loopItem['clientname'], '')}</p>
+                <p style="position: absolute;top:{! (index * 1115) + 185}px;left: 60%;">{!IF(contains(keys,'address'),loopItem['address'], '')}</p>
+                <p style="position: absolute;top:{! (index * 1115) + 210}px;left: 60%;">{!IF(contains(keys,'region'),loopItem['region'], '')}</p>
+                <p style="position: absolute;top:{! (index * 1115) + 225}px;left: 60%;">{!IF(contains(keys,'ville'),loopItem['ville'], '')}</p>
+                <p style="position: absolute;top:{! (index * 1115) + 240}px;left: 60%;">{!IF(contains(keys,'pays'),loopItem['pays'], '')}</p>
+
+
+
+                <p style="position: absolute;top:{! (index * 1115) + 316}px;left: 30%;">{!IF(contains(keys,'gamme'),loopItem['gamme'], '')}</p>
+                <p style="position: absolute;top:{! (index * 1115) + 336}px;left: 30%;">{!IF(contains(keys,'numfacture'),loopItem['numfacture'], '')}</p>
+                <p style="position: absolute;top:{! (index * 1115) + 356}px;left: 30%;">{!IF(contains(keys,'activationdate'),loopItem['activationdate'], '')}</p>
+
+                <p style="position: absolute;top:{! (index * 1115) + 390}px;left: 30%;">{!IF(contains(keys,'num_cf'),loopItem['num_cf'], '')}</p>
+                <p style="position: absolute;top:{! (index * 1115) + 414}px;left: 30%;">{!IF(contains(keys,'offer'),loopItem['offer'], '')}</p>
+                <p style="position: absolute;top:{! (index * 1115) + 434}px;left: 30%;">{!IF(contains(keys,'numligne'),loopItem['numligne'], '')}</p>
+
+                <p style="position: absolute;top:{! (index * 1115) + 538}px;left: 90%;">{!IF(contains(keys,'fms'),loopItem['fms'], '')}</p>
+                <p style="position: absolute;top:{! (index * 1115) + 555}px;left: 90%;">{!IF(contains(keys,'timbre'),loopItem['timbre'], '')}</p>
+                <p style="position: absolute;top:{! (index * 1115) + 597}px;left: 90%;">{!IF(contains(keys,'totalttc'),loopItem['totalttc'], '')}</p>
+                <p style="position: absolute;top:{! (index * 1115) + 617}px;left: 90%;">{!IF(contains(keys,'tva'),loopItem['tva'], '')}</p>
+                <p style="position: absolute;top:{! (index * 1115) + 634}px;left: 90%;">{!IF(contains(keys,'avancepaiement'),loopItem['avancepaiement'], '')}</p>
+                <p style="position: absolute;top:{! (index * 1115) + 653}px;left: 90%;">{!IF(contains(keys,'avancepaiement'),loopItem['avancepaiement'], '')}</p>
+
+            </div>
+            <apex:variable var="index" value="{!index + 1}" />
+
+        </apex:repeat>
+
+
+    </body>
+
+
+</apex:page>

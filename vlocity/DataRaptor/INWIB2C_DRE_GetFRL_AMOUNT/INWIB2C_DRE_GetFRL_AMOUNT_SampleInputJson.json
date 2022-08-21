@@ -1,0 +1,28 @@
+{
+    "orderitemid": "8023M000000XGCjQAO",
+    "productOrderItem": {
+        "capture_id": "a4k3M0000008jskQAA",
+        "product": {
+            "billingAccount": {
+                "billingAccountID": "Default"
+            },
+            "resourceRef": [
+                {
+                    "newIcc": "892128510050206747",
+                    "oldIcc": "892128510050207243"
+                }
+            ],
+            "serviceRef": [
+                {
+                    "pricePlan": [
+                        {
+                            "description": "inwiB2C_PerteVol"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "user": "djamel.lekhbassene@assa-associates.com.inwib2c.dev3",
+    "uuid": "994d1fdc-9d87-ec8e-a29c-f39f870310f5"
+}

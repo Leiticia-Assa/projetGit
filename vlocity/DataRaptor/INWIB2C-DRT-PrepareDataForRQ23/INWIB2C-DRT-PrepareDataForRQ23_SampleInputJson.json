@@ -1,0 +1,19 @@
+{
+    "Id": "8014K000001jzPtQAI",
+    "TypeCommande": "inwiB2C_Acquisition",
+    "handset": [
+        {
+            "code": "000056165",
+            "price": 20,
+            "serialNumber": "892120270001107261",
+            "type": "ICCID"
+        }
+    ],
+    "managmentAct": "SALE",
+    "marketSegment": "B2C",
+    "offerType": "MOBILE",
+    "orgID": "INWI",
+    "pricepack": 20,
+    "username": "djamel.lekhbassene@assa-associates.com.inwib2c",
+    "vendor": "CMS08"
+}

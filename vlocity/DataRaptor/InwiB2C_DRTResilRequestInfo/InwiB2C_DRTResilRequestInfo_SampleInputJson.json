@@ -1,0 +1,17 @@
+{
+    "Request": [
+        {
+            "Id": "a7G3M0000009PvpUAE",
+            "StatutResil": "En cours",
+            "StatutRetention": "En cours",
+            "needapprobation": false
+        },
+        {
+            "Id": "a7G3M0000009PvfUAE",
+            "StatutResil": "En cours",
+            "StatutRetention": "En cours",
+            "needapprobation": false
+        }
+    ],
+    "SumOfAllResilRequest": 2
+}

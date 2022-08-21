@@ -1,0 +1,20 @@
+{
+    "ContextId": null,
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "DREGetFRLIds": null,
+        "DREGetOrderItemId": null,
+        "DataRaptorPostAction1": null,
+        "HTTPActionCustomerIMX": null,
+        "ResponseAction1": null,
+        "SetValues1": null,
+        "inwib2c_DRTransforIMXRequest": null,
+        "inwib2c_getaccount_imx": null
+    }
+}

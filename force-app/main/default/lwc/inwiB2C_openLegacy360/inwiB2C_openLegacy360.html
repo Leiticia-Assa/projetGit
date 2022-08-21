@@ -1,0 +1,23 @@
+<template>
+
+    <template if:false={community}>
+        <lightning-button
+            variant="brand-outline"
+            label="360° PS"
+            icon-name="utility:link"
+            icon-position="left"
+            class="slds-m-left_x-small"
+            onclick={open360PeopleSoft}>
+        </lightning-button>
+    </template>
+
+    <lightning-button
+        variant="brand-outline"
+        label="360° Oxygène"
+        icon-name="utility:store"
+        icon-position="left"
+        class="slds-m-left_x-small"
+        onclick={open360Oxygene}>
+    </lightning-button>
+    
+</template>

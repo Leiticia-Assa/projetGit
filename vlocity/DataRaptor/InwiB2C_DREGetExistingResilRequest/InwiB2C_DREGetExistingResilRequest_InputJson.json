@@ -1,0 +1,18 @@
+{
+    "ContextId": null,
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "DRP_CreateResilRequest": null,
+        "DRPupdatetagresilonsouscription": null,
+        "DataRaptorExtractAction3": null,
+        "GetUserInfo": null,
+        "ResponseAction1": null,
+        "SetValues": null
+    }
+}

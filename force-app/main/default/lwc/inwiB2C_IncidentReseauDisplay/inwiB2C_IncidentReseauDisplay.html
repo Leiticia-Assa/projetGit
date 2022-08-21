@@ -1,0 +1,23 @@
+<template>
+
+    <div
+        class="slds-p-right_small slds-m-bottom_xx-small slds-show_inline-block slds-size_12-of-12 slds-medium-size_12-of-12">
+        <lightning-combobox name="progress" label="Type" value="" placeholder="Choissiser un choix" options={options}
+            onchange={selectedincident} ></lightning-combobox>
+        <br>
+        <lightning-card title="Liste des Incidents Réseau">
+            <lightning-button-icon icon-name="utility:recurring_exception" slot="actions"
+                alternative-text="Recevoir automatiquement les alertes" title="Recevoir" onclick={handleSubscribe}>
+            </lightning-button-icon>
+            <lightning-button-icon icon-name="utility:ban" slot="actions" alternative-text="Arrêter la reception"
+                title="Arrêter" onclick={handleUnsubscribe}></lightning-button-icon>
+            <lightning-button-icon icon-name="utility:refresh" slot="actions" alternative-text="Raffraichir laliste"
+                title="Raffrechir" onclick={refreshData}></lightning-button-icon>
+
+            <lightning-datatable class="tab-style slds-table  slds-table_bordered slds-table_col-bordered"
+                key-field="Id" columns={columns} data={records} onrowaction={handleRowAction} hide-checkbox-column=true>
+            </lightning-datatable>
+        </lightning-card>
+    </div>
+
+</template>

@@ -1,0 +1,54 @@
+<apex:page renderAs="pdf" controller="inwib2c_RecuPaiementPostpaid" applyHtmlTag="false" showHeader="false">
+
+    <head>
+        <style>
+            body {
+                font-family: 'Arial Unicode MS';
+                font-size: 12px;
+
+            }
+
+            @page {
+                size: A4;
+                margin: 0px
+            }
+        </style>
+    </head>
+
+    <body>
+        <div>
+            <img style="width: 100%; height: 100%" src="{!$Resource.recu_paiement_postpaid}" />
+            <p style="position: absolute;top: 138px;left: 260px;font-size: 12px">{!date_facture}</p>
+            <p style="position: absolute;top: 158px;left: 260px;font-size: 12px">{!code_transaction}</p>
+            <p style="position: absolute;top: 178px;left: 260px;font-size: 12px">{!code_transaction}</p>
+            <p style="position: absolute;top: 198px;left: 260px;font-size: 12px">{!code_transaction}</p>
+
+            <p style="position: absolute;top: 138px;left: 600px;font-size: 12px">{!IF(contains(keys,'pdv'),output['pdv'], '')}</p>
+            <p style="position: absolute;top: 158px;left: 560px;font-size: 12px">{!IF(contains(keys,'code_agent'),output['code_agent'], '')}</p>
+
+            <apex:variable var="index" value="{!0}" />
+            <apex:repeat value="{!lignes}" var="item">
+                <p style="position: absolute;top: {! 408 + (index * 12)}px;left: 100px;font-size: 11px">{!IF(contains(item['keys'],'reference'),item['reference'], '')}</p>
+                <p style="position: absolute;top: {! 408 + (index * 12)}px;left: 260px;font-size: 11px">{!IF(contains(item['keys'],'type'),item['type'], '')}</p>
+                <p style="position: absolute;top: {! 408 + (index * 12)}px;left: 370px;font-size: 11px">{!IF(contains(item['keys'],'montant'),item['montant'], '')}</p>
+                <p style="position: absolute;top: {! 408 + (index * 12)}px;left: 480px;font-size: 11px">{!IF(contains(item['keys'],'timbre'),item['timbre'], '')}</p>
+                <p style="position: absolute;top: {! 408 + (index * 12)}px;left: 580px;font-size: 11px">{!IF(contains(item['keys'],'montant'),item['montant'], '')}</p>
+                <p style="position: absolute;top: {! 408 + (index * 12)}px;left: 700px;font-size: 11px">{!IF(contains(item['keys'],'montantrestant'),item['montantrestant'], '')}</p>
+
+                <apex:variable var="index" value="{!index + 1}" />
+            </apex:repeat>
+
+
+            <p style="position: absolute;top: 562px;left: 210px;font-size: 12px">0.00</p>
+            <p style="position: absolute;top: 582px;left: 210px;font-size: 12px">{!total_ttc}</p>
+            <p style="position: absolute;top: 600px;left: 210px;font-size: 12px">{!mode_paiement}</p>
+            <p style="position: absolute;top: 620px;left: 210px;font-size: 12px">{!IF(contains(keys,'canal'),output['canal'], '')}</p>
+
+            <p style="position: absolute;top: 567px;left: 607px;font-size: 10px">{!IF(contains(keys,'name'),output['name'], '')}</p>
+            <p style="position: absolute;top: 583px;left: 607px;font-size: 12px">{!IF(contains(keys,'compte_facturation'),output['compte_facturation'], '')}</p>
+
+
+
+        </div>
+    </body>
+</apex:page>

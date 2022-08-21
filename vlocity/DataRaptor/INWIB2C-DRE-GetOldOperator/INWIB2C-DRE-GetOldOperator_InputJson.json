@@ -1,0 +1,18 @@
+{
+    "ContextId": null,
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "DREGetFRL": null,
+        "DREGetFRLIds": null,
+        "DREGetOldMdn": null,
+        "DRTFRLToOSSRequest": null,
+        "HTTPNetworkSwapMDN": null,
+        "ResponseAction1": null
+    }
+}

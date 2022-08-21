@@ -1,0 +1,57 @@
+<apex:page sidebar="false" renderAs="pdf" controller="inwiB2C_ContractGenerationController" showHeader="false" applyBodyTag="false">
+
+    <head>
+        <style>
+            body {
+                font-family: 'Arial Unicode MS';
+                font-size: 12px;
+            }
+
+            @page: first {
+                size: A4;
+                margin-top: 0px margin-right:0px;
+                margin-left: 0px;
+                margin-bottom: 0cm;
+            }
+
+            @page {
+                size: A4;
+                margin-top: 0px;
+                margin-right: 0px;
+                margin-left: 0px;
+                margin-bottom: 0cm;
+            }
+        </style>
+    </head>
+
+    <body>
+        <apex:variable var="loopMp" value="{!0}" />
+        <apex:repeat value="{!ipOutput['numerosPorter']}" var="itemPorter">
+            <apex:repeat value="{!loopList}" var="loopItem">
+                <apex:variable var="added" value="{!IF(loopItem == 1,-5, 0)}" />
+                <div style="page-break-after:{!IF(loopItem > 1,'', 'always')}">
+                    <img style="width:100%;" src="{!$Resource.MandatPortabilite_Page}" />
+                    <div style="position: absolute;top: {! 114 + ((loopItem + loopMp) *1119)+added}px;left: 37%;">{!IF(contains(keys,'NomTitulaire'),ipOutput['NomTitulaire'], '')}</div>
+                    <div style="position: absolute;top: {! 114 + ((loopItem + loopMp) *1119)+added}px;left: 48%;">{!IF(contains(keys,'PrenomTitulaire'),ipOutput['PrenomTitulaire'], '')}</div>
+                    <div style="position: absolute;top: {! 130 + ((loopItem + loopMp) *1119)+added}px;left: 37%;">{!IF(contains(keys,'TypeIdent'),ipOutput['TypeIdent'], '')}</div>
+                    <div style="position: absolute;top: {! 150 + ((loopItem + loopMp) *1119)+added}px;left: 37%;">{!IF(contains(keys,'NumIdentifiant'),ipOutput['NumIdentifiant'], '')}</div>
+                    <p style="position: absolute;top: {! 190 + ((loopItem + loopMp) *1119)+added}px;left: 37%; font-size: 10px;">{!IF(contains(keys,'getFullAddress'),ipOutput['getFullAddress'], '')}</p>
+                    <!--Operateur receveur-->
+                    <div style="position: absolute;top: {! 377 + ((loopItem + loopMp) *1119)+added}px;left: 47%;">INWI</div>
+                    <div style="position: absolute;top: {! 275 + ((loopItem + loopMp) *1119)+added}px;left: 35%;">{!IF(mpSize != 0,mpSize, '')}</div>
+                    <!-- Operateur -->
+                    <div style="position: absolute;top: {! 295 + ((loopItem + loopMp) *1119)+added}px;left: 15%;">{!IF(contains(keysMP,'number'),itemPorter['number'], '')}</div>
+                    <p style="position: absolute;top: {! 415  + ((loopItem + loopMp) *1119)+added}px;left: 28%;font-size: 9px">{!IF(AND(contains(keysMP,'operateur'), itemPorter['operateur'] == 'WIN'),'X', '')}</p>
+                    <p style="position: absolute;top: {! 415  + ((loopItem + loopMp) *1119)+added}px;left: 49%;font-size: 9px">{!IF(AND(contains(keysMP,'operateur'),itemPorter['operateur'] == 'MARMT'),'X', '')}</p>
+                    <p style="position: absolute;top: {! 415  + ((loopItem + loopMp) *1119)+added}px;left: 72%;font-size: 9px">{!IF(AND(contains(keysMP,'operateur'),itemPorter['operateur'] == 'MARM1'),'X', '')}</p>
+
+                    <!-- Date -->
+                    <div style="position: absolute;top: {! 869 + ((loopItem + loopMp) *1119)+added}px;left: 75%;">{!contractDate}</div>
+                </div>
+            </apex:repeat>
+            <apex:variable var="idMp" value="{!loopMp + 3}" />
+        </apex:repeat>
+    </body>
+
+
+</apex:page>

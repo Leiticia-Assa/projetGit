@@ -1,0 +1,175 @@
+<template>
+    <article class="slds-card">
+        <div class="slds-card__header slds-grid">
+            <div class="wrapperSection">
+                <div class="slds-m-top_medium slds-m-bottom_x-large">
+                    <h2 class="slds-text-heading_medium slds-m-bottom_medium">
+                        Promotion
+                    </h2>
+
+                    <lightning-record-form record-id={recordId} object-api-name="InwiB2C_Promotion__c"
+                        fields={promotion_fields_display} density="comfy" columns="2" class="editpromotion"
+                        onchange={handleChangePromotionEdited} 
+                        onsubmit={handleSubmiPromotionEdited}
+                        oncancel={handleCancelPromotionEdited}
+
+                        onsuccess={handleSuccessPromotionEdited}>
+                    </lightning-record-form>
+                    
+                    <div class="slds-card__header slds-grid">
+                        <div class="wrapperSection">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <h3 class="slds-text-heading_medium slds-m-bottom_medium">
+                                            Scope determinant
+                                        </h3>
+                                    </td>
+                                    <td style="margin: 5px;">
+                                        <lightning-button variant="brand" label="Add Scope determinant"
+                                            title="Primary action" onclick={AddScopeDeterminant}
+                                            class="slds-float_right"></lightning-button>
+                                    </td>
+
+                                </tr>
+                            </table>
+
+
+                            
+
+                            <template if:true={is_creation_Scope_Determinant}>
+                                <lightning-record-form object-api-name="inwiB2C_scop_determinant__c"
+                                     columns="2"
+                                    density="comfy" 
+                                    fields={add_Scope_Determinant_fields}
+                                    oncancel={handleCancelScopeDeterminantCreated}
+                                    onsubmit={handleSubmitScopeDeterminantCreated} class="addscopedeterminant"
+                                    onsuccess={handleSuccessScopeDeterminantCreated}>
+                                </lightning-record-form>
+                            </template>
+
+                        <template if:true={has_scope_determinants}>
+
+
+                            <div style="-webkit-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.66); 
+                    box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.66);">
+                                <lightning-datatable class="style-table" key-field="Id"
+                                    columns={scope_determinant_columns}  
+                                    data={related_scope_determinant}
+                                    onrowaction={handleScopeDeterminantRowAction}
+                                     hide-checkbox-column>
+                                </lightning-datatable>
+                            </div>
+                        </template>
+                        <template if:false={has_scope_determinants}>
+                            
+                            there's no scope determinant to show
+                        </template>
+
+                            
+
+                            <template if:true={is_scope_determinant_selected}>
+                                <div class="slds-card__header slds-grid">
+                                    <div class="wrapperSection">
+                                        <h3 class="slds-text-heading_medium slds-m-bottom_medium">
+                                            selected Scope determinant
+                                        </h3>
+
+                                        <lightning-record-form record-id={selected_scope_determinant.Id}
+                                            object-api-name="inwiB2C_scop_determinant__c"
+                                            fields={scop_determinant_fields_display} density="comfy" columns="2"
+                                            onchange={handleChangeScopeDeterminantEdited}
+                                            oncancel={handleCancelScopeDeterminantEdited}
+                                            onsubmit={handleSubmiScopeDeterminantEdited}
+                                            onsuccess={handleSuccessScopeDeterminantEdited}>
+                                        </lightning-record-form>
+
+
+                                        <div class="wrapperSection">
+                                            <div class="slds-m-top_medium slds-m-bottom_x-large">
+                            
+
+                                        
+
+                                        <table>
+                                            <tr>
+                                                <td>
+                                                    <h3 class="slds-text-heading_medium slds-m-bottom_medium">
+                                                        Determinants
+                                                    </h3>
+                                                </td>
+                                                <td style="margin: 5px;">
+                                                    <lightning-button variant="brand" label="Add Determinant"
+                                                        title="Primary action" onclick={AddDeterminant}
+                                                        class="slds-float_right"></lightning-button>
+
+                                                    
+                                                    
+
+
+                                                </td>
+
+                                            </tr>
+                                        </table>
+
+
+                                        <template if:true={is_creation_Determinant}>
+                                            <lightning-record-form object-api-name="inwiB2C_determinant__c"
+                                                density="comfy" onchange={handleChangeDeterminantCreate} columns="2"
+                                                fields={add_Determinant_fields} onsubmit={handleSubmiDeterminantCreated}
+                                                oncancel={handleCancelDeterminantCreated}
+                                                class="adddeterminant" onsuccess={handleSuccessDeterminantCreated}>
+                                            </lightning-record-form>
+                                        </template>
+
+
+                                        <template if:true={is_selected_scope_determinant_has_Determinants}>
+                                            <div style="-webkit-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.66); 
+                                box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.66);">
+                                                <lightning-datatable class="style-table" key-field="Id"
+                                                    columns={determinant_columns}
+                                                    
+                                                    data={selected_scope_determinant.Determinants__r}
+                                                    onrowaction={handleDeterminantRowAction} hide-checkbox-column>
+                                                </lightning-datatable>
+                                            </div>
+                                        </template>
+                                        <template if:false={is_selected_scope_determinant_has_Determinants}>
+                                            selected scope determinant has no determinants 
+                                        </template>
+
+                                        
+                                        
+                                        <template if:true={is_determinant_selected}>
+                                            <h3 class="slds-text-heading_medium slds-m-bottom_medium">
+                                                selected determinant
+                                            </h3>
+
+                                            <lightning-record-form record-id={selected_determinant.Id}
+                                                object-api-name="inwiB2C_determinant__c"
+                                                fields={determinant_fields_display} 
+                                                density="comfy" columns="2"
+                                                onchange={handleChangeDeterminantEdited}
+                                                onsubmit={handleSubmiDeterminantEdited}
+                                                onsuccess={handleSuccessDeterminantEdited}>
+                                            </lightning-record-form>
+
+                                        </template>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </template>
+
+                        </div>
+                    </div> 
+                  
+
+</div>          
+</div>
+</div>
+   </article>
+</template>

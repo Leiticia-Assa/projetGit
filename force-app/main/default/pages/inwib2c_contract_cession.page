@@ -1,0 +1,67 @@
+<apex:page sidebar="false" renderAs="pdf" controller="inwib2c_contract_cession_controller" showHeader="false" applyBodyTag="false">
+
+    <head>
+        <style>
+            body {
+                font-family: 'Arial Unicode MS';
+                font-size: 12px;
+
+            }
+
+            @page {
+                size: A4;
+                margin-top: 0px;
+                margin-right: 0px;
+                margin-left: 0px;
+                margin-bottom: 0px;
+                width: 210mm;
+                height: 297mm;
+            }
+        </style>
+
+    </head>
+
+    <body>
+        <apex:repeat value="{!loopList}" var="loopItem" id="theRepeat">
+            <apex:variable var="margin" value="{!IF(loopItem > 1,7, 0)}" />
+            <div style="page-break-after:always;">
+                <img style="width:100%; height: 100%" src="{!$Resource.contract_cession_page1}" />
+                <p style="position: absolute;top: {! 80 + margin + (loopItem *2238)}px;left: 20%;font-size: 9px"></p>
+                <p style="position: absolute;top: {! 80 + margin + (loopItem *2238)}px;left: 70%;font-size: 9px">{!IF(contains(keys,'numBillingAccount'),ipOutput['numBillingAccount'], '')}</p>
+                <p style="position: absolute;top: {! 103 + margin + (loopItem *2238)}px;left: 21%;font-size: 9px">{!IF(contains(keys,'typeContract'),ipOutput['typeContract'], '')}</p>
+                <p style="position: absolute;top: {! 103 + margin + (loopItem *2238)}px;left: 60%;font-size: 9px">{!IF(contains(keys,'pdv'),ipOutput['pdv'], '')}</p>
+
+
+                <p style="position: absolute;top: {! 148 + margin + (loopItem *2238)}px;left: 25%;font-size: 9px">{!IF(contains(keys,'titulaire'),ipOutput['titulaire'], '')}</p>
+                <p style="position: absolute;top: {! 165 + margin + (loopItem *2238)}px;left: 25%;font-size: 9px">{!IF(contains(keys,'firstname'),ipOutput['firstname'], '')}</p>
+                <p style="position: absolute;top: {! 165 + margin + (loopItem *2238)}px;left: 70%;font-size: 9px">{!IF(contains(keys,'lastname'),ipOutput['lastname'], '')}</p>
+                <p style="position: absolute;top: {! 185 + margin + (loopItem *2238)}px;left: 20%;font-size: 9px">{!IF(contains(keys,'cin'),ipOutput['cin'], '')}</p>
+                <p style="position: absolute;top: {! 185 + margin + (loopItem *2238)}px;left: 65%;font-size: 9px">{!IF(contains(keys,'typecin'),ipOutput['typecin'], '')}</p>
+                <p style="position: absolute;top: {! 208 + margin + (loopItem *2238)}px;left: 17%;font-size: 9px">{!IF(contains(keys,'adresse'),ipOutput['adresse'], '')}</p>
+                <p style="position: absolute;top: {! 238 + margin + (loopItem *2238)}px;left: 20%;font-size: 9px">{!IF(contains(keys,'ville'),ipOutput['ville'], '')}</p>
+                <p style="position: absolute;top: {! 238 + margin + (loopItem *2238)}px;left: 65%;font-size: 9px">{!IF(contains(keys,'codepostal'),ipOutput['codepostal'], '')}</p>
+                <p style="position: absolute;top: {! 255 + margin + (loopItem *2238)}px;left: 25%;font-size: 9px">{!IF(contains(keys,'datenaissance'),ipOutput['datenaissance'], '')}</p>
+                <p style="position: absolute;top: {! 272 + margin + (loopItem *2238)}px;left: 15%;font-size: 9px">{!IF(contains(keys,'email'),ipOutput['email'], '')}</p>
+                <p style="position: absolute;top: {! 275 + margin + (loopItem *2238)}px;left: 70%;font-size: 9px">{!IF(contains(keys,'phone'),ipOutput['phone'], '')}</p>
+
+                <!-- Offres -->
+                <apex:variable var="index" value="{!0}" />
+                <apex:repeat value="{!ipOutput['data']}" var="item">
+                    <p style="position: absolute;top: {! 395 + (index *20) + margin + (loopItem *2238)}px;left: 9%;font-size: 9px">{!IF(contains(keysOffers,'numligne'),item['numligne'], '')}</p>
+                    <p style="position: absolute;top: {! 395 + (index *20) + margin + (loopItem *2238)}px;left: 18%;font-size: 9px">{!IF(contains(keysOffers,'icc'),item['icc'], '')}</p>
+                    <p style="position: absolute;top: {! 398 + (index *20) + margin + (loopItem *2238)}px;left: 44%;font-size: 7px">{!IF(contains(keysOffers,'typeoffre'),item['typeoffre'], '')}</p>
+                    <p style="position: absolute;top: {! 398 + (index *20) + margin + (loopItem *2238)}px;left: 32%;font-size: 7px">{!IF(contains(keysOffers,'formule'),item['formule'], '')}</p>
+                    <p style="position: absolute;top: {! 395 + (index *20) + margin + (loopItem *2238)}px;left: 70%;font-size: 9px">{!IF(contains(keysOffers,'typeligne'),item['typeligne'], '')}</p>
+                    <apex:variable var="index" value="{!index + 1}" />
+                </apex:repeat>
+
+                <p style="position: absolute;top: {! 967 + margin + (loopItem *2238)}px;left: 75%;font-size: 9px">{!IF(contains(keys,'date'),ipOutput['date'], '')}</p>
+            </div>
+            <div>
+                <img style="width:100%; height: 100%" src="{!$Resource.contract_cession_page2}" />
+            </div>
+        </apex:repeat>
+    </body>
+
+
+</apex:page>

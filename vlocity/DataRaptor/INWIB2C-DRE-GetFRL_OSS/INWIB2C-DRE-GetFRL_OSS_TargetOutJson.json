@@ -1,0 +1,202 @@
+{
+    "CSCart": {
+        "CSOrder": {
+            "CSOffer": {
+                "CSProduct": {
+                    "CSService": [
+                        {
+                            "additionalInfo": [
+                                {
+                                    "code": "SERVICE_LEVEL_IN",
+                                    "value": "ALLOWED"
+                                },
+                                {
+                                    "code": "SERVICE_LEVEL_OUT",
+                                    "value": "SR0"
+                                }
+                            ],
+                            "code": "VOICE",
+                            "handlingAction": "MOD"
+                        },
+                        {
+                            "additionalInfo": {
+                                "code": "FIXED_IP",
+                                "value": "10.10.10.10"
+                            },
+                            "code": "DATA",
+                            "handlingAction": "ADD",
+                            "status": "ALLOWED"
+                        },
+                        {
+                            "code": "VOLTE",
+                            "handlingAction": "ADD"
+                        },
+                        {
+                            "additionalInfo": [
+                                {
+                                    "code": "SMS_IN",
+                                    "value": "ALLOWED"
+                                },
+                                {
+                                    "code": "SMS_OUT",
+                                    "value": "ALLOWED"
+                                }
+                            ],
+                            "code": "SMS",
+                            "handlingAction": "MOD"
+                        },
+                        {
+                            "code": "USSD",
+                            "handlingAction": "NOP"
+                        },
+                        {
+                            "additionalInfo": {
+                                "code": "IROAM_SERVICE_LEVEL",
+                                "value": "VSD"
+                            },
+                            "code": "IROAM",
+                            "handlingAction": "DEL"
+                        },
+                        {
+                            "code": "MMS",
+                            "handlingAction": "NOP"
+                        },
+                        {
+                            "additionalInfo": {
+                                "code": "CALL_TRANSFER_LEVEL",
+                                "value": "CFB,CFD,CFNRC,CFNRY,CFU"
+                            },
+                            "code": "CALL_TRANSFER",
+                            "handlingAction": "ADD"
+                        },
+                        {
+                            "code": "CLIP",
+                            "handlingAction": "ADD"
+                        },
+                        {
+                            "code": "CLIR",
+                            "handlingAction": "ADD"
+                        },
+                        {
+                            "code": "CALLWAIT",
+                            "handlingAction": "ADD"
+                        },
+                        {
+                            "code": "CALLHOLD",
+                            "handlingAction": "ADD"
+                        },
+                        {
+                            "code": "CAMEL",
+                            "handlingAction": "ADD"
+                        },
+                        {
+                            "additionalInfo": [
+                                {
+                                    "code": "TPL_ID",
+                                    "value": "51"
+                                },
+                                {
+                                    "code": "FIXED_IP",
+                                    "value": "10.12.13.14"
+                                },
+                                {
+                                    "code": "POOL_ID",
+                                    "value": "pool_id_1"
+                                }
+                            ],
+                            "code": "CLEAN_PIPE_SECURITY",
+                            "handlingAction": "ADD"
+                        },
+                        {
+                            "additionalInfo": [
+                                {
+                                    "code": "TPL_ID",
+                                    "value": "42"
+                                },
+                                {
+                                    "code": "APN",
+                                    "value": "lafarge"
+                                },
+                                {
+                                    "code": "FIXED_IP",
+                                    "value": "10.98.78.56"
+                                }
+                            ],
+                            "code": "PRIVATE_APN",
+                            "handlingAction": "ADD"
+                        },
+                        {
+                            "CSNetworkPass": [
+                                {
+                                    "code": "3100",
+                                    "handlingAction": "ADD"
+                                },
+                                {
+                                    "activationDate": "20210127120000",
+                                    "code": "67001",
+                                    "handlingAction": "DEL"
+                                },
+                                {
+                                    "activationDate": "20210127120001",
+                                    "code": "3101",
+                                    "handlingAction": "MOD"
+                                },
+                                {
+                                    "code": "3102",
+                                    "handlingAction": "NOP"
+                                }
+                            ],
+                            "code": "IN_SUB_PRODUCT"
+                        }
+                    ]
+                },
+                "businessSegment": {
+                    "segment1": "B2B"
+                },
+                "mainNetworkOffer": "622",
+                "offerSegment": "POST",
+                "oldMainNetworkOffer": "618"
+            },
+            "OrderResources": {
+                "CSMobileDirectoryNumber": [
+                    {
+                        "mdn": "212663335590",
+                        "origin": "INWI",
+                        "property": [
+                            {
+                                "code": "LANG",
+                                "value": "FR"
+                            },
+                            {
+                                "code": "OCSID",
+                                "value": "IN2"
+                            }
+                        ],
+                        "subType": "FINAL"
+                    },
+                    {
+                        "mdn": "212663335589",
+                        "origin": "INWI",
+                        "subType": "PROVISIONAL"
+                    }
+                ],
+                "CSSubscriberIdentityModule": {
+                    "icc1": "8921202900297180305",
+                    "imsi": "604020142928064",
+                    "ki": "1DD7C608EA3E01B48101DCE4A8A69AD0",
+                    "serialNumber": "892120290029718030"
+                },
+                "CSVirtualPrivateNetwork": {
+                    "groupID": "123456"
+                }
+            },
+            "handlingAction": "ADD",
+            "id": "COM_B2B_00001"
+        }
+    },
+    "CSOperationInfo": {
+        "channel": "SF",
+        "user": "AYB",
+        "uuid": "TEST_0123455898226559596"
+    }
+}

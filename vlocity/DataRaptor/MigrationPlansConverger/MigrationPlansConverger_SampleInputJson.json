@@ -1,0 +1,41 @@
+{
+    "ataMigrationPlans": {
+        "fieldsMetadata": [
+            {
+                "nm": "Name"
+            },
+            {
+                "cd": "Code"
+            },
+            {
+                "met": "Method"
+            }
+        ],
+        "response": [
+            {
+                "cd": "Demo123",
+                "met": "Any to Any Offers",
+                "nm": "Demo Offer plan"
+            }
+        ]
+    },
+    "soMigrationPlans": {
+        "fieldsMetadata": [
+            {
+                "nm": "Name"
+            },
+            {
+                "cd": "Code"
+            },
+            {
+                "met": "Method"
+            }
+        ],
+        "response": [
+            {
+                "met": "Specific Offers",
+                "nm": "Specific Offer 5155"
+            }
+        ]
+    }
+}

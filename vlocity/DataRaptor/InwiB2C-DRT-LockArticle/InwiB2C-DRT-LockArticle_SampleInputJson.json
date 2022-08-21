@@ -1,0 +1,23 @@
+{
+    "UserName": "mohammedsaad.krouit@waroom.ma.inwib2cpdv",
+    "action": "OS",
+    "channel": "SFB2C",
+    "handset": [
+        {
+            "code": "000021959",
+            "distributorCode": "CMS99",
+            "offerType": "FM",
+            "orderType": "SMO",
+            "quantity": "1",
+            "region": "PGSM",
+            "serialNumber": "892120270002932536",
+            "technology": "GSM",
+            "type": "ICCID"
+        }
+    ],
+    "marketSegment": "B2C",
+    "mode": "SALE",
+    "offerType": "MOBILE",
+    "operation": "RS",
+    "orgID": "INWI"
+}

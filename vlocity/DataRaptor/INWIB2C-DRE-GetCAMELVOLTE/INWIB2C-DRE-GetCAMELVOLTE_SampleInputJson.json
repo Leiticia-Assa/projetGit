@@ -1,0 +1,16 @@
+{
+    "action": "MOD",
+    "channel": "SF",
+    "reason": "ORDER_CUSTOMIZATION",
+    "relatedParty": [
+        {
+            "TYPE_LIGNE": "B2CPRE"
+        }
+    ],
+    "resourceRef": {
+        "CODE_OP": "DefaultValue",
+        "OCSID": "IN1"
+    },
+    "user": "lamyaa.brikssi@atos.net.dev3",
+    "uuid": "54fc31b5-9b43-947a-f7b5-7e37bd1b8dd7"
+}

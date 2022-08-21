@@ -1,0 +1,28 @@
+{
+    "ConditionalBlock1": {
+        "ConditionalBlock2": {
+            "IsActionTypeNonValide": {
+            },
+            "IsCHSIM": {
+            },
+            "IsSUSP/REHAB": {
+            }
+        },
+        "IsMdnNonValide": {
+        }
+    },
+    "ContextId": null,
+    "IsFieldNull": {
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "ConditionalBlock1": null,
+        "IsFieldNull": null
+    }
+}

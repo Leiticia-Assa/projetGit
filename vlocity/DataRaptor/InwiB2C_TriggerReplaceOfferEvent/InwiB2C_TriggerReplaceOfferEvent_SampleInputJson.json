@@ -1,0 +1,37 @@
+{
+    "input": {
+        "cartId": "801250000028o6yAAA",
+        "hierarchy": -1,
+        "includeAttachment": false,
+        "items": [
+            {
+                "itemId": "01u25000008nTpiAAE",
+                "quantity": 1
+            }
+        ],
+        "lastRecordId": null,
+        "methodName": "replaceOffers",
+        "orderid": "801250000028o6yAAA",
+        "pagesize": 5,
+        "price": true,
+        "query": null,
+        "replaceIntentSpecification": {
+            "SourceIntent": [
+                {
+                    "Action": "Replace",
+                    "ActionParameter": "01u25000008nTpiAAE",
+                    "ActionParameterProductId": "01t250000064YH7AAM",
+                    "GroupId": 1,
+                    "LineItemId": "80225000002h6LQAAY",
+                    "ProductId": "01t25000006RpXwAAK",
+                    "actionLabel": "Replace"
+                }
+            ],
+            "TargetIntent": {
+                "1": "01u25000008nTpiAAE"
+            }
+        },
+        "step": "replaceoffer",
+        "validate": true
+    }
+}

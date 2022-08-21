@@ -1,0 +1,60 @@
+<apex:page sidebar="false" renderAs="pdf" controller="inwiB2C_FomulaireModificationCtrl" showHeader="false" applyBodyTag="false">
+
+    <head>
+        <style>
+            body {
+                font-family: 'Arial Unicode MS';
+                font-size: 12px;
+            }
+
+            @page: first {
+                size: A4;
+                margin-top: 0px margin-right:0px;
+                margin-left: 0px;
+                margin-bottom: 0cm;
+            }
+
+            @page {
+                size: A4;
+                margin-top: 0px;
+                margin-right: 0px;
+                margin-left: 0px;
+                margin-bottom: 0cm;
+            }
+        </style>
+
+    </head>
+
+    <body>
+        <div>
+            <img style="width:100%;" src="{!$Resource.piece_justificatif}" />
+
+            <p style="position: absolute;top: 85px;left: 50%;">{!IF(AND(contains(keys,'NomTitulaire'), contains(keys,'PrenomTitulaire')),ipOutput['NomTitulaire'] + " " + ipOutput['PrenomTitulaire'],
+                '')}</p>
+            <p style="position: absolute;top: 110px;left: 50%;">{!IF(contains(keys,'NumIdentifiant'),ipOutput['NumIdentifiant'], '')}</p>
+            <p style="position: absolute;top: 135px;left: 50%;">{!numeroLigne}</p>
+            <p style="position: absolute;top: 162px;left: 50%;">{!offre_commerciale}</p>
+            <p style="position: absolute;top: 188px;left: 50%;">{!dateCreation}</p>
+            <p style="position: absolute;top: 214px;left: 50%;">{!IF(contains(keys,'POS'),ipOutput['POS'], '')}</p>
+            <p style="position: absolute;top: 240px;left: 50%;">{!IF(contains(keys,'OrderNumber'),ipOutput['OrderNumber'], '')}</p>
+            <p style="position: absolute;top: 268px;left: 50%;">{!description}</p>
+            <p style="position: absolute;top: 295px;left: 50%;">{!motif}</p>
+
+
+
+            <p style="position: absolute;top: 433px;left: 65%;">{!IF(contains(keys,'FraisActe'),ipOutput['FraisActe'], '0.00')}</p>
+            <p style="position: absolute;top: 453px;left: 65%;">{!IF(contains(keys,'FraisActe'),ipOutput['FraisActe'], '0.00')}</p>
+
+            
+            <div style="position: absolute;top: 835px;left: 75%;">{!dateCreation}
+
+            </div>
+        </div>
+
+
+
+
+    </body>
+
+
+</apex:page>

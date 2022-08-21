@@ -1,0 +1,38 @@
+<template>
+
+        
+    <div class="slds-grid slds-wrap slds-size_1-of-1 slds-p-left_medium">
+        <div class="slds-p-right_small slds-m-bottom_xx-small slds-show_inline-block slds-size_12-of-12 slds-medium-size_4-of-12">
+            <lightning-card title = "Liste des Profils">
+                <lightning-datatable
+                    class="tab-style slds-table  slds-table_bordered slds-table_col-bordered" 
+                    key-field="Id"
+                    columns={profileListolumns}
+                    data={profileList} 
+                    draft-values={draftValues}
+                    onrowselection={handleProfileSelection}
+                    max-row-selection= "1">
+                </lightning-datatable>
+            </lightning-card>
+        </div>
+        <div class="slds-p-right_small slds-m-bottom_xx-small slds-show_inline-block slds-size_12-of-12 slds-medium-size_8-of-12">
+            <lightning-card title = "Liste des Files d'attente" if:true={selectedProfile}>
+                <div slot="actions">
+                    <lightning-button variant="brand-outline" label="Sauvegarder" title="Sauvegarder" onclick={handleQueueSave} class="slds-m-left_x-small"></lightning-button>
+                </div>
+                <div class="cardMargin">
+                    <lightning-dual-listbox name="languages"
+                    label="Sélectionner les Files d'attente"
+                    source-label="Liste des Files"
+                    selected-label="Files Selectionnées"
+                    field-level-help="Sélectionner la liste des Files pour le profil"
+                    options={queueList}
+                    value={profileQueueList}
+                    onchange={handleQueueListChange}>
+                </lightning-dual-listbox>
+            </div>
+            </lightning-card>
+        </div>
+    </div>
+
+</template>

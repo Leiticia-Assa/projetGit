@@ -1,0 +1,38 @@
+{
+    "getinfouser": {
+        "ContactId": "0034K00000EguduQAB",
+        "DistriCode": "CMS99",
+        "DistriId": "0014K00000OIFdyQAH",
+        "DistriName": "Distributeur Test MOA",
+        "POSCode": "CMS99",
+        "POSId": "0014K00000OIFe3QAH",
+        "POSName": "Agence CMS99",
+        "POSType": "inwib2c_Propre",
+        "UserName": "mohammedsaad.krouit@waroom.ma.inwib2cpdv",
+        "firstName": "Mohammed",
+        "lastName": "Krouit",
+        "typePos": "inwib2c_OS"
+    },
+    "handset": [
+        {
+            "code": "000021959",
+            "distributorCode": "CPD01",
+            "offerType": "FM",
+            "orderType": "SMO",
+            "quantity": "1",
+            "region": "PGSM",
+            "serialNumber": "892120270002932536",
+            "technology": "GSM",
+            "type": "ICCID",
+            "vendor": "CPD01"
+        }
+    ],
+    "inwiB2C_GetStockPosCode": {
+        "DistriCode": "CMS99",
+        "POSCode": "CMS99",
+        "canal": "Other",
+        "modelivraison": "Other"
+    },
+    "operation": "RS",
+    "username": "Djamel"
+}

@@ -1,0 +1,12 @@
+{
+    "displayRoamingStatus": {
+        "Operation": {
+            "canal": "test",
+            "user": "imane",
+            "uuid": "123"
+        },
+        "mdn": {
+            "mdn": "212648076397"
+        }
+    }
+}
