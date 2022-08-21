@@ -1,0 +1,60 @@
+<apex:page sidebar="false" renderAs="pdf" controller="inwiB2C_ContractGenerationController" showHeader="false" applyBodyTag="false">
+
+    <head>
+        <style>
+            body {
+                font-family: 'Arial Unicode MS';
+                font-size: 12px;
+            }
+
+            @page: first {
+                size: A4;
+                margin-top: 0px margin-right:0px;
+                margin-left: 0px;
+                margin-bottom: 0cm;
+            }
+
+            @page {
+                size: A4;
+                margin-top: 0px;
+                margin-right: 0px;
+                margin-left: 0px;
+                margin-bottom: 0cm;
+            }
+        </style>
+    </head>
+
+    <body>
+        <apex:repeat value="{!loopList}" var="loopItem" id="theRepeat">
+        <apex:variable value="{!IF(loopItem <> 1,0, -5)}" var="added" />
+        <div style="page-break-after:{!IF(loopItem > 1,'', 'always')}">
+            <img style="width:100%;" src="{!$Resource.bon_livraison}" />
+
+            <div style="position: absolute;top: {! 203 + (loopItem *1119) + added}px;left: 32%;">{!IF(AND(contains(keys,'NomTitulaire'),contains(keys,'PrenomTitulaire')) ,ipOutput['NomTitulaire'] + " " + ipOutput['PrenomTitulaire'],
+                '')}
+            </div>
+            <div style="position: absolute;top: {! 226 + (loopItem *1119) + added}px;left: 32%;">{!IF(contains(keys,'TypeIdent'),ipOutput['TypeIdent'], '')}</div>
+            <div style="position: absolute;top: {! 250 + (loopItem *1119) + added}px;left: 32%;">{!IF(contains(keys,'NumIdentifiant'),ipOutput['NumIdentifiant'], '')}</div>
+            <div style="position: absolute;top: {! 272 + (loopItem *1119) + added}px;left: 32%;">{!IF(contains(keys,'NumContact'),ipOutput['NumContact'], '')}</div>
+
+<!--  -->
+            <!-- Offres -->
+            <apex:variable var="index" value="{!0}" />
+            <apex:repeat value="{!ipOutput['offre']}" var="item">
+                <p style="position: absolute;top: {! 490 + (index *10) + (loopItem *1119) + added}px;left: 11%;font-size: 10px">{!IF(contains(keysOffers,'NumLigne'),item['NumLigne'], '')}</p>
+                <p style="position: absolute;top: {! 490 + (index *10) + (loopItem *1119) + added}px;left: 24%;font-size: 10px">{!IF(contains(keysOffers,'TypeOffe'),item['TypeOffe'], '')}</p>
+                <p style="position: absolute;top: {! 492 + (index *10) + (loopItem *1119) + added}px;left: 44%;font-size: 9px">{!IF(contains(keysOffers,'ICCSIM'),item['ICCSIM'], '')}</p>
+                <p style="position: absolute;top: {! 492 + (index *10) + (loopItem *1120) + added}px;left: 58%;font-size: 9px">{!IF(contains(keysOffers,'ModeleTerminal'),item['ModeleTerminal'], 'ssssssssd')}</p>
+                <p style="position: absolute;top: {! 490 + (index *10) + (loopItem *1120) + added}px;left: 74%;font-size: 10px">{!IF(contains(keysOffers,'NumSerieTerminal'),item['NumSerieTerminal'], 'ddddddd')}</p>
+                <apex:variable var="idx" value="{!index + 1}" />
+            </apex:repeat>
+
+            <!-- Date -->
+            <div style="position: absolute;top: {! 729 + (loopItem *1119) + added}px;left: 66%;">{!contractDate}</div>
+        </div>
+
+        </apex:repeat>
+    </body>
+
+
+</apex:page>

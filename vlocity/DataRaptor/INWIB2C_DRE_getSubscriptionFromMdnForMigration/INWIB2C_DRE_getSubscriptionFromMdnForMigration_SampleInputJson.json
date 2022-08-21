@@ -1,0 +1,16 @@
+{
+    "CSExecuteMigPostPost": {
+        "CSOperationInfo": {
+            "channel": "",
+            "user": "",
+            "uuid": "1234"
+        },
+        "Code_offre": "INWIB2C_OFFERING_149DH_APL",
+        "Ins": "",
+        "MDN": "21234567898",
+        "Profil": "86910",
+        "TL": "CI",
+        "billingAccount": "",
+        "productId": "Forfait 20H + 12Go"
+    }
+}

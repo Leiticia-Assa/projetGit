@@ -1,0 +1,51 @@
+{
+    "ConditionalBlock1": {
+        "ConditionalBlock2": {
+            "ConditionalBlock10": {
+                "IsCHNUM": {
+                },
+                "IsCHOPT": {
+                    "LoopBlock1": {
+                        "haveAttributeToChange": {
+                        }
+                    },
+                    "NoOption": {
+                    }
+                },
+                "IsCHSIM": {
+                },
+                "IsSUSP/REHAB": {
+                }
+            },
+            "ConditionalBlock13": {
+                "ConditionalBlock15": {
+                },
+                "IsREHABNotSuspendedMdn": {
+                }
+            },
+            "IsActionTypeNonValide": {
+            },
+            "IsSUSPSuspendedMdn": {
+            },
+            "IsSuspendedFR": {
+            }
+        },
+        "IsMdnNonValide": {
+        }
+    },
+    "ContextId": null,
+    "IsFieldNull": {
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "ConditionalBlock1": null,
+        "IsFieldNull": null,
+        "bodyVIP": null
+    }
+}

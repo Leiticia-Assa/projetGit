@@ -1,0 +1,13 @@
+{
+    "SMOOptionAPI": "1111111111",
+    "attribute": [
+        {
+            "attributeCode": "INWIB2C_ATT_PPPPPNG_VOIX_SMS",
+            "attributeValue": "aaaaa"
+        },
+        {
+            "attributeCode": "INWIB2C_ATT_PPPIX_SMS",
+            "attributeValue": "aaaççça"
+        }
+    ]
+}

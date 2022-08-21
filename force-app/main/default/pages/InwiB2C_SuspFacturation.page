@@ -1,0 +1,55 @@
+<apex:page sidebar="false" renderAs="pdf"  showHeader="false" controller="InwiB2C_SuspensionRehabDeFacturation" applyBodyTag="false">
+
+    <head>
+        <style>
+            body {
+                font-family: 'Arial Unicode MS';
+                font-size: 12px;
+
+            }
+
+            @page {
+                size: A4;
+                margin-top: 0px;
+                margin-right: 0px;
+                margin-left: 0px;
+                margin-bottom: 0px;
+                width: 210mm;
+                height: 297mm;
+            }
+        </style>
+
+    </head>
+
+    <body>
+        
+     
+            <div >
+                <img style="width:97%; height: 95%" src="{!$Resource.InwiB2C_suspensiondeFacturation}" />
+
+                <p style="position: absolute;top:80px;left: 372px;font-size: 14px">{!fullName}</p>
+                <p style="position: absolute;top:105px;left: 372px;font-size: 14px">{!cin}</p>
+
+                <p style="position: absolute;top:130px;left: 372px;font-size: 14px">{!MDN}</p>
+                <p style="position: absolute;top:155px;left: 372px;font-size: 14px">{!Offre}</p>
+                <p style="position: absolute;top:176px;left: 372px;font-size: 14px">{!datedefacturation}</p>
+            
+                <p style="position: absolute;top:206px;left: 372px;font-size: 14px">{!POSCode}</p>
+          
+                <p style="position: absolute;top:254px;left: 372px;font-size: 14px">{!descriptif}</p>  
+                <p style="position: absolute;top:230px;left: 372px;font-size: 14px">{!numDemande}</p>
+                <p style="position: absolute;top:478px;left: 210px;font-size: 14px">{!numcontact}</p>
+                <p style="position: absolute;top:478px;left: 450px;font-size: 14px">{!EMAIL}</p>
+                <p style="position: absolute;top:780px;left:525px;font-size: 14px">{!datedefacturation}</p>
+                
+   
+           
+            </div>
+
+
+
+
+    </body>
+
+
+</apex:page>

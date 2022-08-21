@@ -1,0 +1,63 @@
+<apex:page renderAs="pdf" controller="inwib2c_RecuPaiementTerminal" applyHtmlTag="false" showHeader="false">
+
+    <head>
+        <style>
+            body {
+                font-family: 'Arial Unicode MS';
+                font-size: 12px;
+
+            }
+
+            @page {
+                size: A4;
+                margin: 0px
+            }
+        </style>
+    </head>
+
+    <body>
+        <div>
+            <img style="width: 100%; height: 100%" src="{!$Resource.recu_paiement_terminal}" />
+            <p style="position: absolute;top: 135px;left: 257px;font-size: 12px">{!IF(contains(keys,'date'),output['date'], '')}</p>
+
+            <p style="position: absolute;top: 135px;left: 610px;font-size: 12px">{!IF(contains(keys,'pdv'),output['pdv'], '')}</p>
+            <p style="position: absolute;top: 155px;left: 610px;font-size: 12px">{!IF(contains(keys,'code_agent'),output['code_agent'], '')}</p>
+
+
+            <p style="position: absolute;top: 179px;left: 257px;font-size: 12px">{!code_transaction}</p>
+            <p style="position: absolute;top: 200px;left: 257px;font-size: 12px">{!code_transaction}</p>
+
+            
+            <p style="position: absolute;top: 240px;left: 257px;font-size: 12px">{!price}</p>
+
+
+            <p style="position: absolute;top: 328px;left: 257px;font-size: 12px">{!total_ttc}</p>
+            <p style="position: absolute;top: 347px;left: 257px;font-size: 12px">{!mode_paiement}</p>
+
+            
+            <p style="position: absolute;top: 328px;left: 610px;font-size: 12px">{!IF(contains(keys,'firstname'),output['firstname'], '')}</p>
+            <p style="position: absolute;top: 345px;left: 610px;font-size: 12px">{!IF(contains(keys,'lastname'),output['lastname'], '')}</p>
+            <p style="position: absolute;top: 365px;left: 610px;font-size: 12px">{!IF(contains(keys,'cin'),output['cin'], '')}</p>
+            <p style="position: absolute;top: 383px;left: 610px;font-size: 12px">{!IF(contains(keys,'ordernumber'),output['ordernumber'], '')}</p>
+
+            <apex:variable var="index" value="{!0}" />
+            <apex:repeat value="{!lignes}" var="item">
+                <p style="position: absolute;top: {! 440 + (index * 20)}px;left: 60px;font-size: 11px">{!IF(contains(item['keys'],'code'),item['code'], '')}</p>
+                <p style="position: absolute;top: {! 440 + (index * 20)}px;left: 150px;font-size: 11px">{!IF(contains(item['keys'],'name'),item['name'], '')}</p>
+                <p style="position: absolute;top: {! 440 + (index * 20)}px;left: 370px;font-size: 11px">{!IF(contains(item['keys'],'quantity'),item['quantity'], '')}</p>
+                <p style="position: absolute;top: {! 440 + (index * 20)}px;left: 480px;font-size: 9px">{!IF(contains(item['keys'],'gamme'),item['gamme'], '')}</p>
+                <p style="position: absolute;top: {! 448 + (index * 20)}px;left: 520px;font-size: 9px">{!IF(contains(item['keys'],'offre'),item['offre'], '')}</p>
+                <apex:variable var="index" value="{!index + 1}" />
+            </apex:repeat>
+
+            <p style="position: absolute;top: 760px;left: 230px;font-size: 12px">{!IF(contains(keys,'pdv'),output['pdv'], '')}</p>
+            <p style="position: absolute;top: 780px;left: 160px;font-size: 12px">{!IF(contains(keys,'code_agent'),output['code_agent'], '')}</p>
+            <p style="position: absolute;top: 800px;left: 285px;font-size: 12px">{!IF(contains(keys,'cin'),output['cin'], '')}</p>
+            <p style="position: absolute;top: 820px;left: 240px;font-size: 12px">{!IF(contains(keys,'date'),output['date'], '')}</p>
+            <p style="position: absolute;top: 840px;left: 235px;font-size: 12px">{!code_transaction}</p>
+            <p style="position: absolute;top: 860px;left: 235px;font-size: 12px">{!total_ttc}</p>
+
+
+        </div>
+    </body>
+</apex:page>

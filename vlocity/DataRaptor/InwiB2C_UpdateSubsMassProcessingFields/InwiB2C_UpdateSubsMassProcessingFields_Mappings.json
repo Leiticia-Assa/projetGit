@@ -1,0 +1,51 @@
+[
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "INWIB2C_SUBSMASSPROCESSING__c",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "INWIB2C_STATUT__c",
+        "%vlocity_namespace%__GlobalKey__c": "9a3b4ce7-946c-ee19-cc21-75143dff0471",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "Statut",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "InwiB2C_UpdateSubsMassProcessingFieldsCustom8985",
+        "%vlocity_namespace%__OMplusSyncEnabled__c": true,
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "CurrencyIsoCode": "MAD",
+        "Name": "InwiB2C_UpdateSubsMassProcessingFields",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "INWIB2C_SUBSMASSPROCESSING__c",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Id",
+        "%vlocity_namespace%__GlobalKey__c": "f0ed9b65-ce03-bbe2-bd9c-589b0d1c33a6",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "MassProcessId",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": true,
+        "%vlocity_namespace%__MapId__c": "InwiB2C_UpdateSubsMassProcessingFieldsCustom2371",
+        "%vlocity_namespace%__OMplusSyncEnabled__c": true,
+        "%vlocity_namespace%__UpsertKey__c": true,
+        "CurrencyIsoCode": "MAD",
+        "Name": "InwiB2C_UpdateSubsMassProcessingFields",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__ConfigurationValue__c": "FAKEMAPPING",
+        "%vlocity_namespace%__DomainObjectAPIName__c": "INWIB2C_SUBSMASSPROCESSING__c",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Id",
+        "%vlocity_namespace%__FilterOperator__c": "=",
+        "%vlocity_namespace%__GlobalKey__c": "9a913e23-c11c-edff-613a-f706592652f6",
+        "%vlocity_namespace%__IsDisabled__c": true,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "InwiB2C_UpdateSubsMassProcessingFieldsCustom1587",
+        "%vlocity_namespace%__OMplusSyncEnabled__c": true,
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "CurrencyIsoCode": "MAD",
+        "Name": "InwiB2C_UpdateSubsMassProcessingFields",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    }
+]

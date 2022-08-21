@@ -1,0 +1,24 @@
+{
+    "CSOperationInfo": {
+        "channel": "",
+        "user": ""
+    },
+    "CSOrder": {
+        "CSOffer": {
+            "mainNetworkOffer": "",
+            "oldMainNetworkOffer": "",
+            "subscriptionID": "INS000400806324"
+        },
+        "OrderResources": {
+            "CSMobileDirectoryNumber": {
+                "mdn": "212648063826",
+                "oldMdn": ""
+            },
+            "CSSubscriberIdentityModule": {
+                "icc1": "",
+                "icc2": ""
+            }
+        },
+        "handlingAction": "SUSI"
+    }
+}

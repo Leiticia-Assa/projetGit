@@ -1,0 +1,377 @@
+<template> 
+  
+    <article class="slds-card">
+        <div class="slds-card__header slds-grid">
+            <div class="wrapperSection">
+                <div class="slds-m-top_medium slds-m-bottom_x-large">
+                    <h2 class="slds-text-heading_medium slds-m-bottom_medium">
+                        Promotion
+                    </h2>
+                   <lightning-record-form
+                    record-id={recordId}
+                    object-api-name={objectApiName_Promotion}
+                     fields={promotion_fields_display}
+                     density="comfy"
+                     columns="2"
+                     class="Editpromotion"
+                     onchange={handleChangePromotionEdited}
+                     onsuccess={handleSuccessPromotionEdited}
+                     onsubmit={handleSubmiPromotionEdited}
+                     oncancel={handleCancelPromotionEdited}
+                     onerror={handleErrorPromotionEdited}
+                   
+                     >
+                  </lightning-record-form>
+
+               <div class="slds-card__header slds-grid">
+                   <div class="wrapperSection">
+                   <table>
+                       <tr>
+                        <td>
+                            <h3 class="slds-text-heading_medium slds-m-bottom_medium">
+                                Scope determinant
+                            </h3>
+                        </td>
+                        <td style="margin: 5px;">
+                            <lightning-button 
+                                variant="brand" 
+                                label="Ajouter Scope determinant"
+                                title="Primary action"
+                                onclick={AddScopeDeterminant}
+                                class="slds-float_right">
+                            </lightning-button>
+                        </td>
+                       </tr>
+                   </table>
+
+
+                   <template
+                    if:true={is_creation_Scope_Determinant}>
+                                <lightning-record-form
+                                 object-api-name={objectApiName_Scope}
+                                     columns="2"
+                                    density="comfy" 
+                                    fields={add_Scope_Determinant_fields}
+                                    oncancel={handleCancelScopeDeterminantCreated}
+                                    onsubmit={handleSubmitScopeDeterminantCreated} class="addscopedeterminant"
+                                    onsuccess={handleSuccessScopeDeterminantCreated}>
+                                </lightning-record-form>
+                </template>
+
+                   <template
+                     if:true={has_scope_determinants}> 
+                    <div style="-webkit-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.66); 
+                    box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.66);">
+                    <lightning-datatable
+                    class="style-table" 
+                    key-field="Id"
+                    columns={scope_determinant_columns}
+                    data={related_scope_determinant}
+                    onrowaction={handleScopeDeterminantRowAction}
+                    hide-checkbox-column="true"
+                  >
+                  </lightning-datatable>
+
+                </div>
+               </template>
+               <template
+                 if:false={has_scope_determinants}>
+                            
+                there's no scope determinant to show
+            </template>
+                
+            
+         <template
+              if:true={is_scope_determinant_selected}>
+                <div class="slds-card__header slds-grid">
+                    <div class="wrapperSection">
+                        <h3 class="slds-text-heading_medium slds-m-bottom_medium">
+                            selected Scope determinant
+                        </h3>
+                    
+                        <lightning-record-form
+                           record-id={selected_scope_determinant.Id}
+                            object-api-name={objectApiName_Scope}
+                            fields={scop_determinant_fields_display}
+                             density="comfy"
+                             columns="2"
+                            onchange={handleChangeScopeDeterminantEdited}
+                            oncancel={handleCancelScopeDeterminantEdited}
+                            onsubmit={handleSubmiScopeDeterminantEdited}
+                            onsuccess={handleSuccessScopeDeterminantEdited}>
+                        </lightning-record-form>
+
+                 <div class="wrapperSection">
+                     <div class="slds-m-top_medium slds-m-bottom_x-large">
+                
+                        <table>
+                            <tr>
+                                <td>
+                                    <h3 class="slds-text-heading_medium slds-m-bottom_medium">
+                                        Determinants
+                                    </h3>
+                                </td>
+                                <td style="margin: 5px;">
+                                    <lightning-button 
+                                    variant="brand" 
+                                    label="Ajouter Determinant"
+                                    title="Primary action" 
+                                    onclick={AddDeterminant}
+                                    class="slds-float_right">
+                                    </lightning-button>
+                                </td>
+
+                            </tr>
+                        </table>
+
+                        <template
+                           if:true={is_creation_Determinant}>
+                            <lightning-record-form
+                            object-api-name={objectApiName_Determinant}
+                            density="comfy"
+                            columns="2"
+                            fields={add_Determinant_fields}
+                            onchange={handleChangeDeterminantCreate}
+                            onsubmit={handleSubmiDeterminantCreated}
+                            oncancel={handleCancelDeterminantCreated}
+                            class="adddeterminant"
+                            onsuccess={handleSuccessDeterminantCreated}>
+                            </lightning-record-form>
+                        </template>
+
+                        <template
+                          if:true={is_selected_scope_determinant_has_Determinants}>
+                            <div style="-webkit-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.66);box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.66);">
+                                <lightning-datatable 
+                                class="style-table" 
+                                key-field="Id"
+                                columns={determinant_columns}
+                                data={selected_scope_determinant.Determinants__r}
+                                onrowaction={handleDeterminantRowAction}
+                                 hide-checkbox-column>
+                                </lightning-datatable>
+                            </div>
+                        </template>
+                     
+                        <template
+                        if:false={is_selected_scope_determinant_has_Determinants}>
+                            selected scope determinant has no determinants 
+                        </template>
+
+                        <template
+                          if:true={is_determinant_selected}>
+                            <h3 
+                              class="slds-text-heading_medium slds-m-bottom_medium">
+                                selected determinant
+                            </h3>
+
+                            <lightning-record-form
+                             record-id={selected_determinant.Id}
+                             object-api-name={objectApiName_Determinant}
+                             fields={determinant_fields_display} 
+                             density="comfy" 
+                             columns="2"
+                             onchange={handleChangeDeterminantEdited}
+                             onsubmit={handleSubmiDeterminantEdited}
+                             onsuccess={handleSuccessDeterminantEdited}>
+                            </lightning-record-form>
+
+                        </template>
+
+                    </div>
+                </div>
+                    </div>
+                </div>
+            </template> 
+                      
+            </div>
+         </div>
+         <div class="slds-card__header slds-grid">
+            <div class="wrapperSection">
+
+                <table>
+                    <tr>
+                        <td>
+                            <h3 class="slds-text-heading_medium slds-m-bottom_medium">
+                                Applied Product
+                            </h3>
+                        </td>
+                        <td style="margin: 5px;">
+                        <lightning-button 
+                            variant="brand" 
+                            label="Ajouter Applied Product"
+                            title="Primary action" 
+                            onclick={addAppliedProduct}
+                            class="slds-float_right">
+                        </lightning-button>
+                            
+                            
+                        </td>
+
+                    </tr>
+                </table>
+
+                <template
+                 if:true={is_creation_applied_product}>
+                    <lightning-record-form
+                    object-api-name={objectApiName_APPLIED_PRODUCT} 
+                    columns="2"
+                    class="addappliedproduct" 
+                    density="comfy"
+                    fields={add_applied_product_fields}
+                    onchange={handleChangeAppliedProducttCreated}
+                    oncancel={handleCancelAppliedProducttCreated}
+                    onsubmit={handleSubmitAppliedProducttCreated}
+                    onsuccess={handleSuccessAppliedProducttCreated}
+                    onfailure={handlFailureAppliedProducttCreated}>
+                    </lightning-record-form>
+                </template>
+
+                <template 
+                if:true={has_applied_product}>
+                            
+                    <div style="-webkit-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.66); 
+                    box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.66);">
+                        <lightning-datatable 
+                        class="style-table" 
+                        key-field="Id"
+                       columns={applied_product_columns}
+                       data={related_applied_product}
+                       onrowaction={handleAppliedProducttRowAction} hide-checkbox-column>
+                        </lightning-datatable>
+                    </div>
+                </template>
+
+                <template
+                 if:false={has_applied_product}>
+            
+                    there's no Applied Product to show
+                </template>
+
+                <template
+                 if:true={is_applied_product_selected}
+>
+                    <h3 class="slds-text-heading_medium slds-m-bottom_medium">
+                        selected Applied Product
+                    </h3>
+
+                    <lightning-record-form 
+                        class="editAppliedProductt"
+                        record-id={selected_applied_product.Id}
+                        object-api-name={objectApiName_APPLIED_PRODUCT}
+                        fields={applied_product_fields_display} 
+                        density="comfy"
+                        columns="2"
+                        onchange={handleChangeapplied_productEdited}
+                        oncancel={handleCancelapplied_productEdited}
+                        onsubmit={handleSubmiapplied_productEdited}
+                        onsuccess={handleSuccessapplied_productEdited}
+                        onfailure={handleFailureapplied_productEdited}>
+                    </lightning-record-form>
+         
+
+                </template>
+
+
+
+            </div>
+        </div>
+        <div class="slds-card__header slds-grid">
+            <div class="wrapperSection">
+
+                <table>
+                    <tr>
+                        <td>
+                            <h3 class="slds-text-heading_medium slds-m-bottom_medium">
+                                Promotion result
+                            </h3>
+                        </td>
+                        <td style="margin: 5px;">
+                            <lightning-button
+                             variant="brand" 
+                             label="Ajouter Promotion result"
+                             title="Primary action"
+                             onclick={addPromotionResult}
+                            class="slds-float_right">
+                          </lightning-button>
+                            
+                            
+                        </td>
+
+                    </tr>
+                </table>
+
+
+                <template
+                  if:true={is_creation_promotion_result}>
+                    <lightning-record-form
+                    object-api-name={objectApiName_PROMOTION_RESULT}
+                    columns="2"
+                    class="addpromotionresult" 
+                    density="comfy"
+                    fields={add_promotion_result_fields}
+                    onchange={handleChangePromotionResultCreated}
+                    oncancel={handleCancelPromotionResultCreated}
+                    onsubmit={handleSubmitPromotionResultCreated}
+                    onsuccess={handleSuccessPromotionResultCreated}
+                    onfailure={handlFailurePromotionResultCreated}>
+                    </lightning-record-form>
+                </template>
+                <template
+                   if:true={has_promotion_result}>
+                            
+                    <div style="-webkit-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.66); 
+                    box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.66);">
+                 <lightning-datatable
+                  class="style-table"
+                  key-field="Id"
+                  columns={promotion_result_columns}
+                  data={related_promotion_result}
+                  onrowaction={handlePromotionResultRowAction} hide-checkbox-column>
+                 </lightning-datatable>
+                    </div>
+                </template>
+
+                <template
+                   if:false={has_promotion_result}>
+                        
+                    there's no promotion result to show
+                </template>
+
+
+                <template
+                if:true={is_promotion_result_selected}>
+                <h3 class="slds-text-heading_medium slds-m-bottom_medium">
+                        selected product result
+                    </h3>
+                
+                    <lightning-record-form 
+                        class="editpromotionresult"
+                        record-id={selected_promotion_result.Id}
+                        object-api-name={objectApiName_PROMOTION_RESULT}
+                        fields={promotion_result_fields_display} 
+                        density="comfy"
+                        columns="2"
+                        onchange={handleChangepromotion_resultEdited}
+                        onsubmit={handleSubmipromotion_resultEdited}
+                        oncancel={handleCancelpromotion_resultEdited}
+                        onsuccess={handleSuccesspromotion_resultEdited}
+                        onfailure={handleFailurepromotion_resultEdited}>
+                    </lightning-record-form>
+
+
+                </template>
+
+
+
+
+
+            </div> 
+        </div> 
+            </div> 
+            </div> 
+            </div> 
+       
+
+ </article> 
+</template>

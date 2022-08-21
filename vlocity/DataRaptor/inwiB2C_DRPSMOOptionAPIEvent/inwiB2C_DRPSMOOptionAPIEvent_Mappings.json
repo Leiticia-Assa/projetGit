@@ -1,0 +1,51 @@
+[
+    {
+        "%vlocity_namespace%__ConfigurationValue__c": "FAKEMAPPING",
+        "%vlocity_namespace%__DomainObjectAPIName__c": "inwiB2C_SMO_Option_API_Event__e",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Id",
+        "%vlocity_namespace%__FilterOperator__c": "=",
+        "%vlocity_namespace%__GlobalKey__c": "034cf4e8-eac6-55c7-244c-8ec65167d1f7",
+        "%vlocity_namespace%__IsDisabled__c": true,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "inwiB2C_DRPSMOOptionAPIEventCustom1658",
+        "%vlocity_namespace%__OMplusSyncEnabled__c": true,
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "CurrencyIsoCode": "MAD",
+        "Name": "inwiB2C_DRPSMOOptionAPIEvent",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "inwiB2C_SMO_Option_API_Event__e",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Step__c",
+        "%vlocity_namespace%__GlobalKey__c": "dde8ab76-e42d-7d7b-ab29-5b9db41af317",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "Step",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "inwiB2C_DRPSMOOptionAPIEventCustom9833",
+        "%vlocity_namespace%__OMplusSyncEnabled__c": true,
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "CurrencyIsoCode": "MAD",
+        "Name": "inwiB2C_DRPSMOOptionAPIEvent",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "inwiB2C_SMO_Option_API_Event__e",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "inwiB2C_SMO_API__c",
+        "%vlocity_namespace%__GlobalKey__c": "2f3c31e9-d4bf-6a1e-e80e-1fbe23c426e6",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "SMOAPIId",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "inwiB2C_DRPSMOOptionAPIEventCustom8077",
+        "%vlocity_namespace%__OMplusSyncEnabled__c": true,
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "CurrencyIsoCode": "MAD",
+        "Name": "inwiB2C_DRPSMOOptionAPIEvent",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    }
+]

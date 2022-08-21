@@ -1,0 +1,36 @@
+[
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "Formula",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 0,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Formula",
+        "%vlocity_namespace%__FormulaOrder__c": 1,
+        "%vlocity_namespace%__FormulaResultPath__c": "timeStamp",
+        "%vlocity_namespace%__Formula__c": "NOW(\"dd/MM/yyyy HH:mm:ss\")",
+        "%vlocity_namespace%__GlobalKey__c": "f67df846-cf06-7bca-34db-7472503b5d26",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "inwiB2C_DRTtimeStampNowCustom9272",
+        "%vlocity_namespace%__OMplusSyncEnabled__c": true,
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "CurrencyIsoCode": "MAD",
+        "Name": "inwiB2C_DRTtimeStampNow",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "timeStamp",
+        "%vlocity_namespace%__GlobalKey__c": "56d04595-8762-4dd0-0cbf-f688c79804c5",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "timeStamp",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "inwiB2C_DRTtimeStampNowCustom2418",
+        "%vlocity_namespace%__OMplusSyncEnabled__c": true,
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "CurrencyIsoCode": "MAD",
+        "Name": "inwiB2C_DRTtimeStampNow",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    }
+]

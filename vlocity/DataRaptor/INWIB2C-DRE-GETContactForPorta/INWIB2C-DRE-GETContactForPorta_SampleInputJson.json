@@ -1,0 +1,50 @@
+{
+    "AccountId": "0012500001Osh1BAAR",
+    "serviceOrder": {
+        "orderItem": [
+            {
+                "action": "create",
+                "captureID": "801250000027qiVAAQ",
+                "creationDate": "24/05/2021",
+                "effectiveDate": "07/06/2021",
+                "id": "a6Y25000000D3NJEA0",
+                "lifeCycleStatus": "NEW",
+                "serviceRefOrValue": [
+                    {
+                        "relatedParty": [
+                            {
+                                "TYPE_LIGNE": "B2C",
+                                "cSIdentification": {
+                                    "code": "H98",
+                                    "type": "NID"
+                                },
+                                "cSOrganizationName": {
+                                    "tradingName": "tradingName"
+                                },
+                                "cSPostalAddress": {
+                                    "district": "District",
+                                    "isPrincipal": "true",
+                                    "line2": "line2",
+                                    "line3": "line3",
+                                    "priority": "1",
+                                    "type": "CONTACT"
+                                },
+                                "id": "a6Y25000000D3NJEA0"
+                            }
+                        ],
+                        "supportingResource": [
+                            {
+                                "CSOFFER_TYPE": "MOBILE",
+                                "FINAL_MSISDN": "212777777777",
+                                "PROVISIONAL_MSISDN": "212648061056"
+                            }
+                        ]
+                    }
+                ],
+                "sourceoperator": "MAROCTELECOM",
+                "targetoperator": "INWI",
+                "type": "PORTABILITY"
+            }
+        ]
+    }
+}

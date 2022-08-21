@@ -1,0 +1,33 @@
+{
+    "Email": "rimamansour@live.fr",
+    "ModeDeLivraison": "inwiB2C_Domicile",
+    "ModeDePaiement": "inwiB2C_EnEspece",
+    "NomTitulaire": "testfacturation",
+    "NumContact": "212635264251",
+    "NumContrat": "00000383",
+    "NumIdentifiant": "MIHM56523",
+    "PrenomTitulaire": "testfacturation",
+    "TitulaireCompte": "Mademoiselle",
+    "TypeContrat": "Formulaire SAV",
+    "TypeIdent": "Carte d'Identité Nationale",
+    "dateNaissance": "2000-07-09",
+    "isPorta": false,
+    "numerosPorter": [
+        {
+            "NomTitulaire": "testfacturation",
+            "NumIdentifiant": "MIHM56523",
+            "PrenomTitulaire": "testfacturation",
+            "TypeIdent": "Carte d'Identité Nationale",
+            "operateur": "WIN"
+        }
+    ],
+    "offre": [
+        {
+            "FormuleChoisie": "MRE 2017_5292",
+            "ICCSIM": "892128510050205247",
+            "PrixSIM": 20,
+            "TypeLigne": "NORMAL",
+            "TypeOffe": "Offre TicTac Sim Seule"
+        }
+    ]
+}

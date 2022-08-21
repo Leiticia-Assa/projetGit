@@ -1,0 +1,9 @@
+.THIS.scrollerSize {
+    height: 300px;
+    border-radius: 1px;
+}
+
+.cardMargin {
+    padding: 5px;
+    margin: 5px; 
+}

@@ -1,0 +1,64 @@
+<apex:page renderAs="pdf" controller="InwiB2C_FormulaireRemb" applyHtmlTag="false" showHeader="false">
+
+    <head>
+        <style>
+            body {
+                font-family: 'Arial Unicode MS';
+                font-size: 12px;
+
+            }
+
+            @page {
+                size: A4;
+                margin: 0px
+            }
+        </style>
+    </head>
+
+    <body>
+        <div>
+            <img style="width: 100%; height: 100%" src="{!$Resource.InwiB2C_RecuRemb}" />
+            
+              <p style="position: absolute;top: 137px;left: 310px;font-size: 12px">{!IF(contains(keys,'createdDate'),output['createdDate'], '')}</p>
+              <p style="position: absolute;top: 157px;left: 310px;font-size: 12px">{!IF(contains(keys,'dateRemb'),output['dateRemb'], '')}</p>
+
+                        <p style="position: absolute;top: 177px;left: 290px;font-size: 12px">{!transactions} </p>
+                        <p style="position: absolute;top: 196px;left: 290px;font-size: 12px">{!transactions} </p>
+
+            
+             <p style="position: absolute;top: 137px;left: 607px;font-size: 12px">{!IF(contains(keys,'code_agent'),output['code_agent'], '')}</p>
+            <p style="position: absolute;top: 157px;left: 607px;font-size: 12px">{!IF(contains(keys,'pdv'),output['pdv'], '')}</p>
+            <p style="position: absolute;top: 270px;left: 255px;font-size: 12px">{!IF(contains(keys,'montantfms'),output['montantfms'], '')}</p>
+            <p style="position: absolute;top: 287px;left: 255px;font-size: 12px">{!IF(contains(keys,'modePaiement'),output['modePaiement'], '')}</p>
+
+           <p style="position: absolute;top: 270px;left: 600px;font-size: 12px">{!IF(contains(keys,'LastName'),output['LastName'], '')}</p>
+           <p style="position: absolute;top: 287px;left: 600px;font-size: 12px">{!IF(contains(keys,'FirstName'),output['FirstName'], '')}</p>
+           <p style="position: absolute;top: 307px;left: 600px;font-size: 12px">{!IF(contains(keys,'cin'),output['cin'], '')}</p>
+            <p style="position: absolute;top: 328px;left: 600px;font-size: 12px">{!IF(contains(keys,'mdn'),output['mdn'], '')}</p>
+
+          <p style="position: absolute;top: 468px;left: 157px;font-size: 12px">Portabilité in refusé</p>
+            <p style="position: absolute;top: 468px;left: 289px;font-size: 10px">{!IF(contains(keys,'offre'),output['offre'], '')}</p>
+             <p style="position: absolute;top: 465px;left: 580px;font-size: 14px">{!IF(contains(keys,'montantfms'),output['montantfms'], '')}</p>
+            
+            
+            <p style="position: absolute;top: 762px;left: 307px;font-size: 12px">{!IF(contains(keys,'code_agent'),output['code_agent'], '')}</p>
+            <p style="position: absolute;top: 780px;left: 307px;font-size: 12px">{!IF(contains(keys,'pdv'),output['pdv'], '')}</p>
+            <p style="position: absolute;top: 800px;left: 307px;font-size: 12px">{!IF(contains(keys,'cin'),output['cin'], '')}</p>
+            <p style="position: absolute;top: 820px;left: 307px;font-size: 12px">{!IF(contains(keys,'createdDate'),output['createdDate'], '')}</p>
+            <p style="position: absolute;top: 839px;left: 307px;font-size: 12px">{!IF(contains(keys,'dateRemb'),output['dateRemb'], '')}</p>
+            <p style="position: absolute;top: 860px;left: 307px;font-size: 12px">{!transactions} </p>
+
+            <p style="position: absolute;top: 877px;left: 307px;font-size: 14px">{!IF(contains(keys,'montantfms'),output['montantfms'], '')}</p>
+
+
+            
+
+
+        
+
+           
+
+
+        </div>
+    </body>
+</apex:page>

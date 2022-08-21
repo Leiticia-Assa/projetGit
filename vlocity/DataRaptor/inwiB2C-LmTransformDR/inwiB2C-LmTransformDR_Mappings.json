@@ -1,0 +1,36 @@
+[
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "Formula",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 0,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Formula",
+        "%vlocity_namespace%__FormulaOrder__c": 1,
+        "%vlocity_namespace%__FormulaResultPath__c": "outputLoyalty:isClubMemberFR",
+        "%vlocity_namespace%__Formula__c": "IF(outputLoyalty:isClubMember,'Oui','Non')",
+        "%vlocity_namespace%__GlobalKey__c": "c31da4a9-5915-6627-ef86-9e2c1ed567b9",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "inwiB2C-LmTransformDRCustoma1d2z0000004Cq0AAEItem0",
+        "%vlocity_namespace%__OMplusSyncEnabled__c": true,
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "CurrencyIsoCode": "MAD",
+        "Name": "inwiB2C-LmTransformDR",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "outputLoyalty",
+        "%vlocity_namespace%__GlobalKey__c": "7043d65d-7bbf-10f7-2f66-546907e84151",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "outputLoyalty",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "inwiB2C-LmTransformDRCustom2446",
+        "%vlocity_namespace%__OMplusSyncEnabled__c": true,
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "CurrencyIsoCode": "MAD",
+        "Name": "inwiB2C-LmTransformDR",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    }
+]

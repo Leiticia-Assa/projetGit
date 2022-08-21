@@ -1,0 +1,13 @@
+{
+    "invMdn": "a2X4K000000qkINUAY",
+    "marketSegment": "B2C",
+    "mdn": [
+        {
+            "action": "CHG",
+            "icc": "892120270001596961",
+            "mdn": "212600793942",
+            "oldMdn": "212705435171"
+        }
+    ],
+    "offerType": "MOBILE"
+}

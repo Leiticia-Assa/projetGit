@@ -1,0 +1,42 @@
+{
+    "accountid": "0013M00000sQ8RoQAK",
+    "address": {
+        "address": "La renaissance",
+        "city": "RABAT",
+        "countryCode": "MAR",
+        "encodingLanguage": "ARA",
+        "id": "a6O3M0000008VAdUAM",
+        "quartier": "AGENCE POSTE MAROC RABAT AGDAL",
+        "region": "Rabat-Sale, Zemmour, Zaer",
+        "zipCode": "10000"
+    },
+    "contact": {
+        "email": "elalami.hamza@gmail.com",
+        "faxNumber": "212537662350",
+        "fixNumber": "212537662351",
+        "phoneNumber": "212661982366"
+    },
+    "customerInfo": {
+        "birthDate": "19861211",
+        "etat_civil": "MAR",
+        "familyName": "El Alami",
+        "gender": "M",
+        "id": "SF0000000013",
+        "isBlackListed": "N",
+        "isVIP": "N",
+        "legalName": "Hamza",
+        "marketsegment": "B2C",
+        "nationality": "MAR",
+        "orgID": "INWI",
+        "profession": "AVOCAT",
+        "segment1": "C",
+        "segment2": "P",
+        "tradingName": "string",
+        "type": "INDIVIDUAL"
+    },
+    "exist_in_imx": true,
+    "identification": {
+        "identityNumber": "I717188",
+        "typeIdentity": "CIN"
+    }
+}

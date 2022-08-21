@@ -1,0 +1,73 @@
+<apex:page sidebar="false" renderAs="pdf" controller="inwiB2C_ContractGenerationController" showHeader="false" applyBodyTag="false">
+
+    <head>
+        <style>
+            body {
+                font-family: 'Arial Unicode MS';
+                font-size: 12px;
+            }
+
+            @page: first {
+                size: A4;
+                margin-top: 0px margin-right:0px;
+                margin-left: 0px;
+                margin-bottom: 0cm;
+            }
+
+            @page {
+                size: A4;
+                margin-top: 0px;
+                margin-right: 0px;
+                margin-left: 0px;
+                margin-bottom: 0cm;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div style="page-break-after:avoid ; height: 1100px">
+            <img style="width:100%;" src="{!$Resource.recu_paiement}" />
+            <!--  -->
+            <div style="position: absolute;top: 179px;left: 30%;">{!contractDate}</div>
+            <div style="position: absolute;top: 178px;left: 69%;">{!IF(contains(keys,'CodeAgent') ,ipOutput['CodeAgent'], '')}</div>
+            <div style="position: absolute;top: 195px;left: 69%;">{!IF(contains(keys,'AgentName') ,ipOutput['AgentName'], '')}</div>
+            <div style="position: absolute;top: 212px;left: 30%;">{!IF(contains(keys,'CodeTransaction') ,ipOutput['CodeTransaction'], '')}</div>
+            <div style="position: absolute;top: 229px;left: 30%;">{!IF(contains(keys,'CodeTransaction') ,ipOutput['CodeTransaction'], '')}</div>
+
+            <div style="position: absolute;top: 262px;left: 30%;">{!PrixTerminalRP + prixSIMHome}</div>
+            <div style="position: absolute;top: 279px;left: 30%;">{!PrixSIMRP}</div>
+            <!--  -->
+            <div style="position: absolute;top: 328px;left: 30%;">{!PrixTerminalRP + PrixSIMRP + prixSIMHome}</div>
+            <div style="position: absolute;top: 345px;left: 30%;">{!ModeDePaiement}</div>
+
+            <div style="position: absolute;top: 328px;left: 69%;">{!IF(contains(keys,'NomTitulaire') ,ipOutput['NomTitulaire'], '')}
+            </div>
+            <div style="position: absolute;top: 345px;left: 69%;">{!IF(contains(keys,'PrenomTitulaire'),ipOutput['PrenomTitulaire'], '')} </div>
+            <div style="position: absolute;top: 362px;left: 69%;">{!IF(contains(keys,'NumIdentifiant'),ipOutput['NumIdentifiant'], '')}</div>
+            <div style="position: absolute;top: 378px;left: 69%;">{!IF(contains(keys,'OrderNumber'),ipOutput['OrderNumber'], '')}</div>
+
+            <!--  -->
+            <apex:variable var="index" value="{!0}" />
+            <apex:repeat rendered="{!IF(contains(keys,'articleNonSerailise'),true, false)}" value="{!dataArticlesNonSerialise}" var="item">
+                <div style="position: absolute;top: {! 450 + (index *19)}px;left: 9%;"></div>
+                <p style="position: absolute;top: {! 440 + (index *19)}px;left: 20%;;font-size: 10px">{!IF(contains(keysArticles,'codeProduit'),item['codeProduit'], '')}</p>
+                <div style="position: absolute;top: {! 450 + (index *19)}px;left: 46%;">{!IF(contains(keysArticles,'quantity'),item['quantity'], '')}</div>
+                <div style="position: absolute;top: {! 450 + (index *19)}px;left: 56%;"></div>
+                <apex:variable var="index" value="{!index + 1}" />
+            </apex:repeat>
+
+            <!--  -->
+            <div style="position: absolute;top: 800px;left: 34%;">{!IF(contains(keys,'POS') ,ipOutput['POS'], '')}</div>
+            <div style="position: absolute;top: 817px;left: 34%;">{!IF(contains(keys,'CodeAgent') ,ipOutput['CodeAgent'], '')}</div>
+            <div style="position: absolute;top: 832px;left: 34%;">{!IF(contains(keys,'NumIdentifiant'),ipOutput['NumIdentifiant'], '')}</div>
+            <div style="position: absolute;top: 850px;left: 34%;">{!contractDate}</div>
+            <div style="position: absolute;top: 867px;left: 34%;">{!IF(contains(keys,'CodeTransaction') ,ipOutput['CodeTransaction'], '')}</div>
+            <div style="position: absolute;top: 885px;left: 34%;">{!IF(contains(keys,'totalTTC') ,ipOutput['totalTTC'], '')}</div>
+
+
+        </div>
+
+    </body>
+
+
+</apex:page>

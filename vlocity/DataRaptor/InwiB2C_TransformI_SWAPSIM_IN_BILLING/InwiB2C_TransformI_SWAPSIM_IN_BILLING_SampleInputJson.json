@@ -1,0 +1,9 @@
+{
+    "amountTI": "Text",
+    "billingAccountID": "Text",
+    "capture_id": "Text",
+    "description": "Text",
+    "newIcc": "Text",
+    "oldIcc": "Text",
+    "reasoncode": 1
+}

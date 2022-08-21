@@ -1,0 +1,29 @@
+{
+    "ConditionalBlock3": {
+        "DisconnectServices": {
+        },
+        "MigrationPostPre": {
+        }
+    },
+    "ContextId": null,
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "ConditionalBlock3": null,
+        "CreateOrder": null,
+        "DREAssetAccountFromMDN": null,
+        "GetAccountFromSubscription": null,
+        "GetAssetAccountFromSubscription": null,
+        "GetTypeOffer": null,
+        "GetUserInfo": null,
+        "ResponseAction": null,
+        "SetTypeForfait": null,
+        "SetValueOrderID": null,
+        "SetValues2": null
+    }
+}

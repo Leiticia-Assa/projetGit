@@ -1,0 +1,59 @@
+<apex:page sidebar="false" renderAs="pdf" controller="inwib2c_first_bill_controller" showHeader="false" applyBodyTag="false">
+
+    <head>
+        <style>
+            body {
+                font-family: 'Arial Unicode MS';
+                font-size: 12px;
+
+            }
+
+            @page {
+                size: A4;
+                margin-top: 0px;
+                margin-right: 0px;
+                margin-left: 0px;
+                margin-bottom: 0px;
+                width: 210mm;
+                height: 297mm;
+            }
+        </style>
+
+    </head>
+
+    <body>
+        <apex:variable var="index" value="{!0}" />
+        <apex:repeat value="{!data}" var="loopItem" id="theRepeat">
+            <div>
+                <img style="width:97%; height: 95%" src="{!$Resource.first_bill}" />
+                <p style="position: absolute;top: {! (index * 1115) + 175}px;left: 55%;">{!IF(contains(keys,'clientname'),loopItem['clientname'], '')}</p>
+                <p style="position: absolute;top: {! (index * 1115) + 207}px;left: 62%;">{!IF(contains(keys,'periodfactureedd'),loopItem['periodfactureedd'], '')}</p>
+                <p style="position: absolute;top: {! (index * 1115) + 207}px;left: 75%;">{!IF(contains(keys,'periodfactureedf'),loopItem['periodfactureedf'], '')}</p>
+                <p style="position: absolute;top: {! (index * 1115) + 240}px;left: 55%;">{!IF(contains(keys,'offer'),loopItem['offer'], '')}</p>
+
+
+                <p style="position: absolute;top: {! (index * 1115) + 308}px;left: 180px; color: #A3338F; font-size: 16px; font-weight: bold">{!IF(contains(keys,'firstPhrase'),loopItem['firstPhrase'], '')}</p>
+                <p style="position: absolute;top: {! (index * 1115) + 328}px;left: 265px; color: #A3338F; font-size: 16px; font-weight: bold">{!IF(contains(keys,'secondPhrase'),loopItem['secondPhrase'], '')}</p>
+
+                <p style="position: absolute;top: {! (index * 1115) + 390}px;left: 10%;">{!IF(contains(keys,'activationdate'),loopItem['activationdate'], '')}</p>
+                <p style="position: absolute;top: {! (index * 1115) + 390}px;left: 32%;">{!IF(contains(keys,'firstdaycycle'),loopItem['firstdaycycle'], '')}</p>
+                <p style="position: absolute;top: {! (index * 1115) + 390}px;left: 60%;">{!IF(contains(keys,'secondbill'),loopItem['secondbill'], '')}</p>
+
+
+                <p style="position: absolute;top: {! (index * 1115) + 534}px;left: 12%; color: white; font-size: 18px">{!IF(contains(keys,'days'),loopItem['days'], '')}</p>
+                <p style="position: absolute;top: {! (index * 1115) + 610}px;left: 9%; color: #E73E91; font-size: 22px; font-weight: bold">{!IF(contains(keys,'priceprorata'),loopItem['priceprorata'], '')}</p>
+                <p style="position: absolute;top: {! (index * 1115) + 610}px;left:50%; color: #A3338F; font-size: 22px; font-weight: bold">{!IF(contains(keys,'pricefirstmonth'),loopItem['pricefirstmonth'], '')}</p>
+                <p style="position: absolute;top: {! (index * 1115) + 686}px;left:74%; color: #FFFFFF; font-size: 22px; font-weight: bold">{!IF(contains(keys,'total'),loopItem['total'], '')}</p>
+               
+               
+                <p style="position: absolute;top: {! (index * 1115) + 947}px;left: 242px; color: #D157A3; font-size: 11px; font-weight: bold">{!IF(contains(keys,'startday'),loopItem['startday'], '')}</p>
+
+            </div>
+            <apex:variable var="index" value="{!index + 1}" />
+
+        </apex:repeat>
+
+    </body>
+
+
+</apex:page>

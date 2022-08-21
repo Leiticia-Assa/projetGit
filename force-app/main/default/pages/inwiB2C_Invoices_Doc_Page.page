@@ -1,0 +1,71 @@
+<apex:page sidebar="false" renderAs="pdf" controller="InwiB2C_Invoices_Doc_Controller" showHeader="false" applyBodyTag="false">
+
+    <head>
+        <style>
+            body {
+                font-family: 'Arial Unicode MS';
+                font-size: 12px;
+            }
+
+            @page: first {
+                size: A4;
+                margin-top: 0px margin-right:0px;
+                margin-left: 0px;
+                margin-bottom: 0cm;
+            }
+
+            @page {
+                size: A4;
+                margin-top: 0px;
+                margin-right: 0px;
+                margin-left: 0px;
+                margin-bottom: 0cm;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div >
+            <img style="width:100%;" src="{!$Resource.InwiB2C_Invoices_Doc}" />
+            <!--   -->
+            	<p style="position: absolute;top:123px;left: 250px;font-size: 14px">{!DateTransaction}</p>
+                <p style="position: absolute;top:146px;left: 220px;font-size: 14px">{!NumeroDeRecu}</p>
+                <p style="position: absolute;top:167px;left: 250px;font-size: 14px">{!NumTransaction}</p>
+                <p style="position: absolute;top:187px;left: 250px;font-size: 14px">{!NumeroDeRecu}</p>
+            
+                <p style="position: absolute;top:123px;left: 630px;font-size: 14px">{!CodePointDeVente}</p>
+                <p style="position: absolute;top:143px;left: 600px;font-size: 14px">{!CodeAgent}</p>
+            
+            <apex:variable var="index" value="{!0}" />
+            <apex:repeat value="{!data}" var="loopItem" id="theRepeat">
+                  <p style="position: absolute;top: {! 325 + (index *41)}px;left: 8%;font-size: 14px;">{!IF(contains(keys,'Id'),loopItem['Id'], '')}</p>
+                  <p style="position: absolute;top: {! 325 + (index *41)}px;left: 25%;font-size: 14px;">{!IF(contains(keys,'InvoiceDate'),loopItem['InvoiceDate'], '')}</p>
+                  <p style="position: absolute;top: {! 325 + (index *41)}px;left: 38%;font-size: 14px;">{!IF(contains(keys,'invoicePaymentDueDate'),loopItem['invoicePaymentDueDate'], '')}</p>
+                  <p style="position: absolute;top: {! 325 + (index *41)}px;left: 55%;font-size: 14px;">{!IF(contains(keys,'invoiceAmount'),loopItem['invoiceAmount'], '')}</p>
+                  <p style="position: absolute;top: {! 325 + (index *41)}px;left: 70%;font-size: 14px;">{!IF(contains(keys,'invoiceAmount'),loopItem['invoiceAmount'], '')}</p>
+                  <p style="position: absolute;top: {! 325 + (index *41)}px;left: 84%;font-size: 14px;">0.00</p>
+            <apex:variable var="index" value="{!index + 1}" />
+            </apex:repeat>
+            
+                <p style="position: absolute;top:530px;left: 620px;font-size: 14px">{!Nom}</p>
+                <p style="position: absolute;top:553px;left: 625px;font-size: 14px">{!BillingAccount}</p> 
+                
+            
+                <p style="position: absolute;top:533px;left: 220px;font-size: 14px">{!FraisTimbre} Dhs</p>
+                <p style="position: absolute;top:554px;left: 220px;font-size: 14px">{!TotalAmount} Dhs</p>
+                <p style="position: absolute;top:574px;left: 220px;font-size: 14px">{!ModeDePaiement}</p>
+          
+            
+                <p style="position: absolute;top:900px;left: 215px;font-size: 14px">{!CodePointDeVente}</p>
+                <p style="position: absolute;top:920px;left: 215px;font-size: 14px">{!CodeAgent}</p>
+                <p style="position: absolute;top:943px;left: 220px;font-size: 14px">{!DateTransaction}</p>
+                <p style="position: absolute;top:963px;left: 190px;font-size: 14px">{!NumeroDeRecu}</p>
+                <p style="position: absolute;top:985px;left: 243px;font-size: 14px">{!NumTransaction}</p>
+                <p style="position: absolute;top:1005px;left: 243px;font-size: 14px">{!NumeroDeRecu}</p>
+            
+        </div>
+
+    </body>
+
+
+</apex:page>

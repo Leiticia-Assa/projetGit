@@ -1,0 +1,30 @@
+{
+    "ContextId": null,
+    "HasPrd": {
+        "IsOK": {
+        },
+        "LoopBlock1": {
+        },
+        "LoopBlock2": {
+        }
+    },
+    "NoPrd": {
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "DREGetOrderInfo": null,
+        "DREGetOrderLineInfo": null,
+        "DRTGetOrderLineInfo": null,
+        "GetCaution": null,
+        "GetCautionToPay": null,
+        "HasPrd": null,
+        "MergeCautionFMSFMD": null,
+        "NoPrd": null
+    }
+}

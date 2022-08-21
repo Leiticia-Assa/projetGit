@@ -1,0 +1,45 @@
+{
+    "FMD": [
+        {
+            "Frais": 0,
+            "IdOLI": "8023M000000QYgbQAG",
+            "PaymentType": "PAYFMD",
+            "creatorReference": "PAYFMD_8023M000000QYgbQAG"
+        },
+        {
+            "Frais": 40,
+            "IdOLI": "8023M000000QYhQQAW",
+            "PaymentType": "PAYFMD",
+            "creatorReference": "PAYFMD_8023M000000QYhQQAW"
+        },
+        {
+            "Frais": 0,
+            "IdOLI": "8023M000000QYfJQAW",
+            "PaymentType": "PAYFMD",
+            "creatorReference": "PAYFMD_8023M000000QYfJQAW"
+        }
+    ],
+    "FMS": [
+        {
+            "Frais": 0,
+            "IdOLI": "8023M000000QYgbQAG",
+            "PaymentType": "PAYFMS",
+            "creatorReference": "PAYFMS_8023M000000QYgbQAG",
+            "prix": 249
+        },
+        {
+            "Frais": 30,
+            "IdOLI": "8023M000000QYhQQAW",
+            "PaymentType": "PAYFMS",
+            "creatorReference": "PAYFMS_8023M000000QYhQQAW",
+            "prix": 199
+        },
+        {
+            "Frais": 0,
+            "IdOLI": "8023M000000QYfJQAW",
+            "PaymentType": "PAYFMS",
+            "creatorReference": "PAYFMS_8023M000000QYfJQAW",
+            "prix": 149
+        }
+    ]
+}

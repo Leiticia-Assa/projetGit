@@ -1,0 +1,53 @@
+[
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "Formula",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 0,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Formula",
+        "%vlocity_namespace%__FormulaOrder__c": 1,
+        "%vlocity_namespace%__FormulaResultPath__c": "offerMigrationPlans",
+        "%vlocity_namespace%__Formula__c": "LISTMERGE($Vlocity.NULL,LIST(soMigrationPlans:response),LIST(ataMigrationPlans:response))",
+        "%vlocity_namespace%__GlobalKey__c": "ce49541c-cfa4-e164-e70d-b9e04caafdba",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "MigrationPlansConvergerCustom7780",
+        "%vlocity_namespace%__OMplusSyncEnabled__c": true,
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "CurrencyIsoCode": "MAD",
+        "Name": "MigrationPlansConverger",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "offerMigrationPlans:fieldsMetadata",
+        "%vlocity_namespace%__GlobalKey__c": "2da57143-172b-e31e-ddcd-823093594d40",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "ataMigrationPlans:fieldsMetadata",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "MigrationPlansConvergerCustom5147",
+        "%vlocity_namespace%__OMplusSyncEnabled__c": true,
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "CurrencyIsoCode": "MAD",
+        "Name": "MigrationPlansConverger",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "offerMigrationPlans:response",
+        "%vlocity_namespace%__DomainObjectFieldType__c": "List<Map>",
+        "%vlocity_namespace%__GlobalKey__c": "c98c99f3-aacf-1df0-0bfe-e5e9b7218019",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "offerMigrationPlans",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "MigrationPlansConvergerCustom1118",
+        "%vlocity_namespace%__OMplusSyncEnabled__c": true,
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "CurrencyIsoCode": "MAD",
+        "Name": "MigrationPlansConverger",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    }
+]

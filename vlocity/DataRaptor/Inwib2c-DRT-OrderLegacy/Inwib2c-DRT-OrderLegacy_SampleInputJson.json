@@ -1,0 +1,39 @@
+{
+    "CSOperationInfo": {
+        "channel": "SFB2C",
+        "user": "djamel.lekhbassene@devph02.com",
+        "uuid": "2eadcd44-9017-74e7-5056-805765777553"
+    },
+    "CSOrder": {
+        "CSCustomer": {
+            "CSIdentification": {
+                "code": "PA565624",
+                "type": "Carte d'Identit�ationale"
+            },
+            "CSIndividualName": {
+                "familyName": "212333333333",
+                "firstName": "marmt"
+            },
+            "birthDate": "1976-03-22",
+            "gender": "M",
+            "id": "9994754"
+        },
+        "CSOffer": {
+            "businessSegment": {
+                "segment1": "C"
+            },
+            "mainNetworkOffer": "84001"
+        },
+        "OrderResources": {
+            "CSSubscriberIdentityModule": {
+                "CSMobileDirectoryNumber": {
+                    "mdn": "212333333333"
+                },
+                "icc1": "892128510050206626"
+            }
+        },
+        "captureID": "a4k25000000FAGAAA4"
+    },
+    "Id": "801250000029Bi3AAE",
+    "mdnold": "212648064623"
+}

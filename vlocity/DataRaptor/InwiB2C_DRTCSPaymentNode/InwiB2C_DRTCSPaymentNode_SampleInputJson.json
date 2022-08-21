@@ -1,0 +1,30 @@
+{
+    "CSProduct": [
+        {
+            "code": "33333"
+        },
+        {
+            "code": "4444444"
+        }
+    ],
+    "Id": "IdOLIIIII",
+    "OrderInfo": {
+        "OrderId": "8013M000000MLzeQAG",
+        "OrderNumber": "00618766",
+        "POS": "CPD01",
+        "Panier": "00618766",
+        "PaymentReference": "1111111111",
+        "amountVAT": 0,
+        "businessAccountId": "99917712",
+        "businessUnit": "CPD01",
+        "nationalid": "I717100",
+        "nom": "Moundir",
+        "paymentMode": "CS",
+        "prenom": "Amine",
+        "type": "TERMINAL_PAYMENT",
+        "user": "sara.asmlal@atos.net.prodb2c.dev3",
+        "uuid": "899a0555-4fe2-1762-e659-ebf418df7769"
+    },
+    "Price": "10000",
+    "billingAccountID": "BL"
+}

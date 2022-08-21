@@ -1,0 +1,62 @@
+<apex:page sidebar="false" renderAs="pdf" controller="InwiB2C_GenerationRecuPaiementE_Recharge" showHeader="false" applyBodyTag="false">
+
+    <head>
+        <style>
+            body {
+                font-family: 'Arial Unicode MS';
+                font-size: 12px;
+            }
+
+            @page: first {
+                size: A4;
+                margin-top: 0px margin-right:0px;
+                margin-left: 0px;
+                margin-bottom: 0cm;
+            }
+
+            @page {
+                size: A4;
+                margin-top: 0px;
+                margin-right: 0px;
+                margin-left: 0px;
+                margin-bottom: 0cm;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div style="page-break-after:avoid ; height: 1100px ">
+            <img style="width:100%;" src="{!$Resource.InwiB2C_Recu_Paiement_E_Recharge}" />
+            <!--  -->
+            
+            <div style="position:absolute;top:1.55in;left:2.50in;">{!IF(contains(keys,'TransactionDate'),ipOutput['TransactionDate'], '')}</div>
+            <div style="position:absolute;top:1.55in;left:6.3in;">{!IF(contains(keys,'POSCode'),ipOutput['POSCode'], '')}</div>
+            <div style="position:absolute;top:1.75in;left:6.3in;">{!IF(contains(keys,'AgentCode'),ipOutput['AgentCode'], '')}</div>
+            <div style="position:absolute;top:2.0in;left:2.50in;">{!transactionCode}</div>
+			<div style="position:absolute;top:2.22in;left:2.50in;">{!transactionCode}</div>
+            <div style="position:absolute;top:3.6in;left:2.50in;">{!IF(contains(keys,'numLigne'),ipOutput['numLigne'], '')}</div>
+
+            <div style="position:absolute;top:3.84in;left:2.50in;">{!montant} DH</div>
+            <div style="position:absolute;top:4.07in;left:2.50in;">{!typePay}</div>
+            <div style="position:absolute;top:4.35in;left:2.50in;">{!typeRecharge}</div>
+            <div style="position:absolute;top:3.57in;left:6.2in;">{!IF(contains(keys,'LastName') ,ipOutput['LastName'], '')} </div>
+            <div style="position:absolute;top:3.75in;left:6.2in;">{!IF(contains(keys,'FirstName'),ipOutput['FirstName'], '')} </div>
+            <div style="position:absolute;top:3.95in;left:6.2in;">{!IF(contains(keys,'CIN'),ipOutput['CIN'], '')}</div>
+ 
+             
+            <div style="position:absolute;top:8.06in;left:2.30in;">{!IF(contains(keys,'POSCode'),ipOutput['POSCode'], '')}</div>
+            <div style="position:absolute;top:8.27in;left:1.70in;">{!IF(contains(keys,'AgentCode'),ipOutput['AgentCode'], '')}</div>
+            <div style="position:absolute;top:8.50in;left:3.0in;">{!IF(contains(keys,'CIN'),ipOutput['CIN'], '')}</div>
+            <div style="position:absolute;top:8.71in;left:2.4in;">{!IF(contains(keys,'TransactionDate'),ipOutput['TransactionDate'], '')}</div>
+            <div style="position:absolute;top:8.89in;left:2.4in;">{!transactionCode}</div>
+            <div style="position:absolute;top:9.09in;left:2.4in;">{!IF(contains(keys,'numLigne'),ipOutput['numLigne'], '')}</div>
+            <div style="position:absolute;top:9.33in;left:2.15in;">{!montant} DH</div>
+            <div style="position:absolute;top:9.52in;left:2.15in;">{!typePay}</div>
+            <div style="position:absolute;top:9.76in;left:2.15in;">{!typeRecharge}</div>
+
+        </div>
+
+    </body>
+
+
+</apex:page>

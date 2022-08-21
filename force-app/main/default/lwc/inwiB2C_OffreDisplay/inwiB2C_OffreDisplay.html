@@ -1,0 +1,18 @@
+<template>
+    ​
+        <div class="slds-p-right_small slds-m-bottom_xx-small slds-show_inline-block slds-size_12-of-12 slds-medium-size_12-of-12">
+            <lightning-input label=" Promos active depuis:" type="Date" onchange={searchOffred} value={dated_offre}></lightning-input>
+            <lightning-input label=" Promos active jusqu'à:" type="Date" onchange={searchOffref} value={datef_offre}></lightning-input>
+            <lightning-card title = "Liste des Promos">
+                <lightning-button-icon icon-name="utility:refresh" slot="actions"  alternative-text="Raffraichir laliste" title="Raffrechir" onclick={refreshData}></lightning-button-icon>
+                <lightning-datatable
+                    class="tab-style slds-table  slds-table_bordered slds-table_col-bordered" 
+                    key-field="Id"
+                    columns={columns}
+                    data={records} 
+                    onrowaction={handleRowAction}
+                    hide-checkbox-column= true>
+                </lightning-datatable>
+            </lightning-card>
+        </div>
+</template>

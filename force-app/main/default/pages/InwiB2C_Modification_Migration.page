@@ -1,0 +1,52 @@
+<apex:page sidebar="false" renderAs="pdf" controller="InwiB2C_ModificationMigration_Controller" showHeader="false" applyBodyTag="false">
+
+    <head>
+        <style>
+            body {
+                font-family: 'Arial Unicode MS';
+                font-size: 12px;
+            }
+
+            @page: first {
+                size: A4;
+                margin-top: 0px margin-right:0px;
+                margin-left: 0px;
+                margin-bottom: 0cm;
+            }
+
+            @page {
+                size: A4;
+                margin-top: 0px;
+                margin-right: 0px;
+                margin-left: 0px;
+                margin-bottom: 0cm;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div style="page-break-after:avoid ; height: 1100px ">
+            <img style="width:100%;" src="{!$Resource.InwiB2C_Document_Modification_Migration}" />
+            <!--  -->
+            	<p style="position: absolute;top:80px;left: 385px;font-size: 14px">{!name}</p>
+                <p style="position: absolute;top:105px;left: 385px;font-size: 14px">{!cin}</p>
+                <p style="position: absolute;top:130px;left: 385px;font-size: 14px">{!mdn}</p>
+                <p style="position: absolute;top:159px;left: 385px;font-size: 14px">{!Offre}</p>
+                <p style="position: absolute;top:186px;left: 385px;font-size: 14px">{!datedefacturation}</p>
+                <p style="position: absolute;top:210px;left: 385px;font-size: 14px">{!poscode}</p>
+                <p style="position: absolute;top:235px;left: 385px;font-size: 14px">{!numcomm}</p>  
+                <p style="position: absolute;top:264PX;left: 385px;font-size: 14px">{!typeModification}</p>
+            
+                <p style="position: absolute;top:467px;left: 515px;font-size: 14px">{!offre}</p>
+                <p style="position: absolute;top:495px;left: 549px;font-size: 14px">{!newmontant} Dh/mois</p>
+            	<p style="position: absolute;top:467px;left: 225px;font-size: 14px">{!oldoffer}</p>
+                <p style="position: absolute;top:495px;left: 235px;font-size: 14px">{!oldmontant} Dh/mois</p>
+
+                
+
+        </div>
+
+    </body>
+
+
+</apex:page>

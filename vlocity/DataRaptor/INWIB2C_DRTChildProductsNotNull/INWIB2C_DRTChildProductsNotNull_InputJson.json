@@ -1,0 +1,28 @@
+{
+    "ContextId": null,
+    "LoopBlock1": {
+        "IsOPTTelco": {
+        }
+    },
+    "LoopBlock4": {
+        "IsRoaming": {
+        }
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "DRTChildProducts": null,
+        "GetCart": null,
+        "LoopBlock1": null,
+        "LoopBlock4": null,
+        "ResponseAction1": null,
+        "ResponseAction3": null,
+        "ResponseAction4": null,
+        "SetValues1": null
+    }
+}

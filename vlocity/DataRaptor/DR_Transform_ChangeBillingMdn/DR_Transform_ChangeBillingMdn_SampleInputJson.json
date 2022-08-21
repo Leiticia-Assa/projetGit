@@ -1,0 +1,17 @@
+{
+    "OldMSISDN": "212704546993",
+    "TypeMDN": "NORMAL",
+    "billingAccountID": "0013M00000yuHhNQAU",
+    "capture_id": "a4k3M0000008k6WQAQ",
+    "newMSISDN": "212704546992",
+    "pricePlan": [
+        {
+            "amountTI": 30,
+            "description": "Test"
+        },
+        {
+            "amountTI2": 0,
+            "description": "Test"
+        }
+    ]
+}

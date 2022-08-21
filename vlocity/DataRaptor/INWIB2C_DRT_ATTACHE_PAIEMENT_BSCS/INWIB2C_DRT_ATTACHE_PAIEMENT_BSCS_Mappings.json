@@ -1,0 +1,50 @@
+[
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "productOrderItem",
+        "%vlocity_namespace%__GlobalKey__c": "8b878a26-6fbb-d58d-df7f-af9fd8a023a9",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "productOrderItem:Sub",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "INWIB2C_DRT_ATTACHE_PAIEMENT_BSCSCustom5399",
+        "%vlocity_namespace%__OMplusSyncEnabled__c": true,
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "CurrencyIsoCode": "MAD",
+        "Name": "INWIB2C_DRT_ATTACHE_PAIEMENT_BSCS",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "productOrderItem:billingAccount",
+        "%vlocity_namespace%__GlobalKey__c": "80a8b4bd-5876-e847-c0f3-8d88ed66854d",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "productOrderItem:billingAccount",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "INWIB2C_DRT_ATTACHE_PAIEMENT_BSCSCustom2188",
+        "%vlocity_namespace%__OMplusSyncEnabled__c": true,
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "CurrencyIsoCode": "MAD",
+        "Name": "INWIB2C_DRT_ATTACHE_PAIEMENT_BSCS",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "productOrderItem:payment",
+        "%vlocity_namespace%__GlobalKey__c": "212bc101-eebe-41ea-8054-c1127d8ac114",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "productOrderItem:payment",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "INWIB2C_DRT_ATTACHE_PAIEMENT_BSCSCustom2212",
+        "%vlocity_namespace%__OMplusSyncEnabled__c": true,
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "CurrencyIsoCode": "MAD",
+        "Name": "INWIB2C_DRT_ATTACHE_PAIEMENT_BSCS",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    }
+]

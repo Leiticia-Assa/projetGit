@@ -1,0 +1,50 @@
+[
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "CSOperationInfo",
+        "%vlocity_namespace%__GlobalKey__c": "fa55d1cc-31ee-9286-226b-1ba6bc2209c7",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "CSOperationInfo",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "INWIB2C-DRT-UpdateSubscriptionCustom684",
+        "%vlocity_namespace%__OMplusSyncEnabled__c": true,
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "CurrencyIsoCode": "MAD",
+        "Name": "INWIB2C-DRT-UpdateSubscription",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "CSOperationInfo:uuid",
+        "%vlocity_namespace%__GlobalKey__c": "0951474b-a728-8a19-c539-52cfd6c89689",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "GetUUID:UUID",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "INWIB2C-DRT-UpdateSubscriptionCustom9747",
+        "%vlocity_namespace%__OMplusSyncEnabled__c": true,
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "CurrencyIsoCode": "MAD",
+        "Name": "INWIB2C-DRT-UpdateSubscription",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "CSOrder",
+        "%vlocity_namespace%__GlobalKey__c": "cc4e6bad-13c7-9838-18c6-1528d748d338",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "CSOrder",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "INWIB2C-DRT-UpdateSubscriptionCustom8924",
+        "%vlocity_namespace%__OMplusSyncEnabled__c": true,
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "CurrencyIsoCode": "MAD",
+        "Name": "INWIB2C-DRT-UpdateSubscription",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    }
+]

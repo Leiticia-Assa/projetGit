@@ -1,0 +1,12 @@
+{
+    "Id": "8014K000001jr28QAA",
+    "TypeCommande": "inwiB2C_Acquisition",
+    "marketSegment": "B2C",
+    "mdn": [
+        {
+            "mdn": "212708066956"
+        }
+    ],
+    "offerType": "MOBILE",
+    "orderrootid": "8024K000002f13xQAA"
+}

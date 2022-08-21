@@ -1,0 +1,48 @@
+{
+    "id": "8013M000000OCyIQAW",
+    "productOrderItem": {
+        "billingAccount": {
+            "billingAccountID": "99999"
+        },
+        "capture_id": "SIN174559870287",
+        "product": {
+            "mainNetworkOffer": "86911",
+            "offer_code": "Aliza",
+            "realizingService": [
+                {
+                    "code": "ALIZA",
+                    "handlingAction": "ADD",
+                    "id": "a2G3M000000A3OcUAK"
+                },
+                {
+                    "code": "OMB02",
+                    "handlingAction": "ADD",
+                    "id": "a2G3M000000A3OnUAK"
+                },
+                {
+                    "code": "OS4GC",
+                    "handlingAction": "ADD",
+                    "id": "a2G3M000000A3OoUAK"
+                },
+                {
+                    "code": "OISMO",
+                    "handlingAction": "ADD",
+                    "id": "a2G3M000000A3OqUAK"
+                }
+            ],
+            "resourceRef": [
+                {
+                    "imsi": "604050400065793",
+                    "mdn": "212640574284",
+                    "serialNumber": "892128510050212824"
+                }
+            ]
+        }
+    },
+    "relatedParty": {
+        "customerId": "0013M000010N9p4QAC",
+        "marketSegment": "B2C",
+        "orgID": "INWI"
+    },
+    "uuid": "9c48a8f4-5749-fd02-ed95-47f8a37e6494"
+}

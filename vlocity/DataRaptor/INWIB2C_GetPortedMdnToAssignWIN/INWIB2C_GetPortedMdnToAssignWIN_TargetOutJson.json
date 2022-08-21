@@ -1,0 +1,12 @@
+{
+    "marketSegment": "B2C",
+    "mdn": [
+        {
+            "action": "ASS",
+            "icc": "8921285100502",
+            "mdn": "212648051455",
+            "oldMdn": "212648051455"
+        }
+    ],
+    "offerType": "MOBILE"
+}

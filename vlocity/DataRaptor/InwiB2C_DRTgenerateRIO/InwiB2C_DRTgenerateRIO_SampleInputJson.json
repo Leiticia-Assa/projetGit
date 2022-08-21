@@ -1,0 +1,17 @@
+{
+    "rioList": [
+        {
+            "DREGetmdnInfoInSFStatus": true,
+            "LoopBlockIterationIndex": 1,
+            "LoopBlockIterationStatus": true,
+            "businessSegment": "P",
+            "clientSegmentN1": "O",
+            "clientSegmentN2": "Risqjjjjue Nul",
+            "ins": "",
+            "managedInSF": true,
+            "mdn": "212648061460",
+            "offerSegement": "1",
+            "offerType": "M"
+        }
+    ]
+}

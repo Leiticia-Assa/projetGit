@@ -1,0 +1,17 @@
+{
+    "ConditionalBlock1": {
+    },
+    "ContextId": null,
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "ConditionalBlock1": null,
+        "CreateQuote": null,
+        "DREGetAssetFromINS": null
+    }
+}

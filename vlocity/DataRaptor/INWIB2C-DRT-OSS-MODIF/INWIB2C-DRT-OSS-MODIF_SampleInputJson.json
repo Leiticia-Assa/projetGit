@@ -1,0 +1,38 @@
+{
+    "action": "MOD",
+    "id": "a3625000000Gh8lAAC",
+    "invMdn": "a2X25000005LqXoEAK",
+    "relatedParty": [
+        {
+            "TYPE_LIGNE": "B2CPRE"
+        }
+    ],
+    "resourceRef": [
+        {
+            "DESTINATION": "506",
+            "ICCID": "892128510050204588",
+            "IMSI": "604050400057557",
+            "INPROFILE": "84001",
+            "KI": "F97769DD8309EA44AD0EE2BBB7AB45CC",
+            "MSISDN": "212648061460",
+            "OCSID": "IN2",
+            "OFFER_TYPE": "0",
+            "OLD_INPROFILE": "618",
+            "OLD_MSISDN": "212648061460",
+            "PARAMETER_OCS": "1",
+            "VMS_PROFILE": "9991122444"
+        }
+    ],
+    "serviceOrderItem": [
+        {
+            "action": "NOP",
+            "code": "CAMEL"
+        },
+        {
+            "action": "NOP",
+            "code": "VOLTE"
+        }
+    ],
+    "user": "djamel.lekhbassene@devph02.com",
+    "uuid": "c4fe8fba-6e15-3ccd-7e66-edf11e48781d"
+}

@@ -1,0 +1,36 @@
+[
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "Formula",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 0,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Formula",
+        "%vlocity_namespace%__FormulaOrder__c": 1,
+        "%vlocity_namespace%__FormulaResultPath__c": "Anciennete",
+        "%vlocity_namespace%__Formula__c": "IF(Anciennete >= 12,\"Entre 12 mois et plus\",IF(Anciennete >= 9,\"Entre 9 mois et plus\",IF(Anciennete >= 6,\"Entre 6 mois et plus\",IF(Anciennete >= 3,\"Entre 3 mois et plus\",\"ALL\"))))",
+        "%vlocity_namespace%__GlobalKey__c": "a84fcc39-7396-8e9f-2e5b-ba854234ccfd",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "InwiB2C_DRTSourceMatrixCustom8178",
+        "%vlocity_namespace%__OMplusSyncEnabled__c": true,
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "CurrencyIsoCode": "MAD",
+        "Name": "InwiB2C_DRTSourceMatrix",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "AncienneteT",
+        "%vlocity_namespace%__GlobalKey__c": "34361007-d127-748e-8e0b-820e9de6bcd1",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "Anciennete",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "InwiB2C_DRTSourceMatrixCustom5090",
+        "%vlocity_namespace%__OMplusSyncEnabled__c": true,
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "CurrencyIsoCode": "MAD",
+        "Name": "InwiB2C_DRTSourceMatrix",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    }
+]

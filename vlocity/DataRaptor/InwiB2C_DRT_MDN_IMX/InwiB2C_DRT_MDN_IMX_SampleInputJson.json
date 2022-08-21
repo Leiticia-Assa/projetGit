@@ -1,0 +1,31 @@
+{
+    "additionalInfo": [
+        {
+            "code": "DISTRIBUTOR",
+            "value": ""
+        },
+        {
+            "code": "ENGAGEMENT",
+            "value": 0
+        },
+        {
+            "code": "IN_TSRM",
+            "value": "N"
+        },
+        {
+            "code": "CONTRACT_TYPE",
+            "value": "GSM"
+        }
+    ],
+    "capture_id": "a4k3M0000008kARQAY",
+    "code": "a4k3M0000008kARQAY",
+    "handlingAction": "MOD",
+    "id": "8013M000000Ny3yQAC",
+    "isVIP": "N",
+    "mainNetworkOffer": "86911",
+    "marketSegment": "B2C",
+    "mdn": "212648068009",
+    "offer_code": "INWIB2C_OFFERING_149DH_INTERNET",
+    "orgID": "INWI",
+    "status": "Active"
+}

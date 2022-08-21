@@ -1,0 +1,16 @@
+<apex:page standardController="Case" extensions="InwiB2C_CloseCases" recordSetVar="Case" lightningStylesheets="true" showHeader="false" standardStylesheets="false" sidebar="false" applyHtmlTag="false" applyBodyTag="false" docType="html-5.0">
+    <apex:form >
+    <apex:pageBlock >
+        <apex:pageBlockTable value="{!CasesList}" var="M" rendered="{!NOT(CasesList.empty)}">
+            <apex:column value="{!M.id}"/>
+            <apex:column value="{!M.CaseNumber}"/>
+            <apex:column value="{!M.RecordTypeId}"/>
+        </apex:pageBlockTable>
+        <apex:outputLabel value="Aucune requête n'a été séléctionnée ou vous n'avez pas le droit de clôturer!" rendered="{!NOT(RightToClose)}" />
+        <br/>
+        <br/>
+        <apex:commandButton value="Confirmer la clôture" action="{!CloseCases}" rendered="{!RightToClose}" />
+        <apex:commandButton value="Annuler" action="{!CancelAction}" />
+    </apex:pageBlock>
+</apex:form>
+</apex:page>

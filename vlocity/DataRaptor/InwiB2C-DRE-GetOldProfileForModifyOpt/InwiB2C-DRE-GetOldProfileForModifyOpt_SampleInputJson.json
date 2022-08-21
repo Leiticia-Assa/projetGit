@@ -1,0 +1,126 @@
+{
+    "action": "MOD",
+    "id": "a3625000000GV0cAAG",
+    "invProf": "a2X25000005Lq5rEAC",
+    "relatedParty": [
+        {
+            "TYPE_LIGNE": "B2CPRE"
+        }
+    ],
+    "resourceRef": [
+        {
+            "DESTINATION": "506",
+            "ICCID": "892128510050204531",
+            "IMSI": "604050400057500",
+            "INPROFILE": "84001",
+            "KI": "F97769DD8309EA44AD0EE2BBB7AB45CC",
+            "MSISDN": "212648061395",
+            "OCSID": "IN2",
+            "OFFER_TYPE": "0",
+            "OLD_INPROFILE": "618",
+            "OLD_MSISDN": "212648061395",
+            "OLD_OCSID": "IN2",
+            "PARAMETER_OCS": "1",
+            "VMS_PROFILE": "9991122444"
+        }
+    ],
+    "serviceOrderItem": [
+        {
+            "action": "NOP",
+            "code": "CALL_TRANSFER",
+            "serviceRefOrValue": {
+                "characteristic": {
+                    "CALL_TRANSFER_LEVEL": {
+                        "code": "CALL_TRANSFER_LEVEL",
+                        "value": "CFD"
+                    }
+                }
+            }
+        },
+        {
+            "action": "NOP",
+            "code": "SMS",
+            "serviceRefOrValue": {
+                "characteristic": {
+                    "SMS_IN": {
+                        "code": "SMS_IN",
+                        "value": "ALLOWED"
+                    },
+                    "SMS_OUT": {
+                        "code": "SMS_OUT",
+                        "value": "ALLOWED"
+                    }
+                }
+            }
+        },
+        {
+            "action": "NOP",
+            "code": "VOICE",
+            "serviceRefOrValue": {
+                "characteristic": {
+                    "SERVICE_LEVEL_IN": {
+                        "code": "SERVICE_LEVEL_IN",
+                        "value": "Autorisé"
+                    },
+                    "SERVICE_LEVEL_OUT": {
+                        "code": "SERVICE_LEVEL_OUT",
+                        "value": "Autorisé"
+                    }
+                }
+            }
+        },
+        {
+            "action": "NOP",
+            "code": "USSD"
+        },
+        {
+            "action": "NOP",
+            "code": "MMS"
+        },
+        {
+            "action": "NOP",
+            "code": "CLIP"
+        },
+        {
+            "action": "NOP",
+            "code": "CLIR"
+        },
+        {
+            "action": "NOP",
+            "code": "CAMEL"
+        },
+        {
+            "action": "NOP",
+            "code": "VOLTE"
+        },
+        {
+            "action": "NOP",
+            "code": "CALLWAIT"
+        },
+        {
+            "action": "MOD",
+            "code": "IROAM",
+            "serviceRefOrValue": {
+                "characteristic": {
+                    "IROAM_SERVICE_LEVEL": {
+                        "code": "IROAM_SERVICE_LEVEL",
+                        "value": "Roaming Voix+SMS+Data"
+                    }
+                }
+            }
+        },
+        {
+            "action": "NOP",
+            "code": "DATA",
+            "serviceRefOrValue": {
+                "characteristic": {
+                    "SERVICE_STATUS": {
+                        "code": "SERVICE_STATUS",
+                        "value": "ALLOWED"
+                    }
+                }
+            }
+        }
+    ],
+    "uuid": "759c9a32-1c16-bd7a-0301-f0f3fae5bbb3"
+}

@@ -1,0 +1,70 @@
+{
+    "Adresse": "AGENCE POSTE MAROC CASA 2 MARS casa 45",
+    "CodePostal": "20150",
+    "ContextId": "801250000027H4bAAE",
+    "ContractId": "801250000027H4bAAE",
+    "DocumentTemplate": {
+        "Id": "a1s25000001sWMYAA2",
+        "Name": "InwiB2C_GenFormulaireSMOTermModem",
+        "TemplateType": "Microsoft Word .DOCX Template",
+        "versionNumber": 1
+    },
+    "Email": "abdel.elghazali@inwimail.ma",
+    "Id": "801250000027H4bAAE",
+    "NameTemplate": "InwiB2C_GenFormulaireSMOTermModem",
+    "NomTitulaire": "elghazali",
+    "NumContact": "212612345677",
+    "NumIdentifiant": "CC123",
+    "OrderId": "801250000027H4bAAE",
+    "PrenomTitulaire": "ABDEL",
+    "TemplateType": "Microsoft Word .DOCX Template",
+    "Terminal": [
+        {
+            "ModeleTerminal": "47375",
+            "NumSerieTerminal": "069900000699025",
+            "TypeMiseDispo": "Vente",
+            "TypeTerminal": "Terminal"
+        }
+    ],
+    "TitulaireCompte": "Monsieur",
+    "TypeContrat": "Prépayé",
+    "TypeIdent": "Carte d'Identité Nationale",
+    "Ville": "CASABLANCA",
+    "dateNaissance": "2000-11-04",
+    "id": "a2s25000000EvlnAAC",
+    "isdtp": "p1",
+    "layout": "lightning",
+    "offre": [
+        {
+            "FormuleChoisie": "Offre acquisition_89075",
+            "ICCSIM": "123435545455677788",
+            "NumLigne": 212638958385,
+            "PrixSIM": 0,
+            "TypeLigne": "NORMAL",
+            "TypeOffre": "Offre TicTac Sim+Terminal"
+        }
+    ],
+    "sfdcIFrameHost": "web",
+    "sfdcIFrameOrigin": "https://inwi-b2c--devph02--vlocity-cmt.visualforce.com",
+    "templateId": "a1s25000001sWMYAA2",
+    "templateType": "Microsoft Word .DOCX Template",
+    "testContextId": "801250000027H4bAAE",
+    "timeStamp": "2021-04-16T09:50:31.316Z",
+    "urlPrefix": "https://inwi-b2c--devph02--vlocity-cmt.visualforce.com/apex",
+    "useTemplateDRExtract": "No",
+    "userCurrencyCode": "MAD",
+    "userId": "005250000076gbiAAA",
+    "userName": "saloua.elkhoufairi@devph02.com",
+    "userProfile": "System Administrator",
+    "userTimeZone": 0,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "GetContratInfos": 1627,
+        "GetDocumentTemplates": 575,
+        "GetOrdersInfos": 1842,
+        "OmniScriptSessionToken": "b8021219-0a32-460c-9757-b0cf8f56906b",
+        "SetValues1": 8,
+        "SetValues2": 24
+    }
+}

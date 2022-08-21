@@ -1,0 +1,160 @@
+{
+    "CSCreatePaymentInteraction": [
+        {
+            "CSPayment": {
+                "CSAmount": {
+                    "amountPT": 20,
+                    "amountTI": 20,
+                    "amountVAT": 0,
+                    "discountedAmount": 20
+                },
+                "CSOrder": {
+                    "CSCustomer": {
+                        "CSIdentification": {
+                            "code": "",
+                            "type": "NIC"
+                        },
+                        "CSIndividualName": {
+                            "familyName": "Moundir",
+                            "firstName": ""
+                        },
+                        "CSMarketSegment": "B2C",
+                        "id": "99917712"
+                    },
+                    "CSOffer": [
+                        {
+                            "CSProduct": {
+                                "code": "000051240"
+                            }
+                        }
+                    ],
+                    "id": "00619055"
+                },
+                "CSPaymentMethod": {
+                    "POS": "CPD01",
+                    "bankAccount": "",
+                    "bankCheckDueDate": "",
+                    "bankCheckID": "",
+                    "bankCity": "",
+                    "bankCode": "",
+                    "bankKey": "",
+                    "bankName": "",
+                    "businessUnit": "CPD01",
+                    "mode": "CS",
+                    "tpeCode": ""
+                },
+                "CSPaymentReference": {
+                    "creatorReference": "8013M000000NekUQAS",
+                    "pspReference": ""
+                },
+                "channel": "",
+                "creationDate": "2022-02-16T10:55:12",
+                "creator": "sara.asmlal@atos.net.prodb2c.dev3",
+                "type": "TERMINAL_PAYMENT"
+            }
+        }
+    ],
+    "CSCreatePaymentInteractionCaution": [
+        {
+            "CSCreatePaymentPayXIterationStatus": true,
+            "CSPayment": {
+                "CSAmount": {
+                    "amountPT": 49,
+                    "amountTI": 49,
+                    "amountVAT": 0
+                },
+                "CSOrder": {
+                    "CSCustomer": {
+                        "CSIdentification": {
+                            "code": "",
+                            "type": "NIC"
+                        },
+                        "CSIndividualName": {
+                            "familyName": "Moundir",
+                            "firstName": "Amine"
+                        },
+                        "CSMarketSegment": "B2C",
+                        "id": "99917712"
+                    },
+                    "billingAccountID": ""
+                },
+                "CSPaymentMethod": {
+                    "POS": "CPD01",
+                    "bankAccount": "",
+                    "bankCheckDueDate": "",
+                    "bankCheckID": "",
+                    "bankCity": "",
+                    "bankCode": "",
+                    "bankKey": "",
+                    "bankName": "",
+                    "businessUnit": "CPD01",
+                    "mode": "CS",
+                    "tpeCode": ""
+                },
+                "CSPaymentReference": {
+                    "creatorReference": "PAYFMS_8023M000000XDepQAG",
+                    "pspReference": ""
+                },
+                "channel": "SF",
+                "creationDate": "2020-03-30T17:15:56",
+                "creator": "sara.asmlal@atos.net.prodb2c.dev3",
+                "type": "PAYFMS"
+            },
+            "LoopBlockIterationIndex": 1,
+            "LoopBlockIterationStatus": true
+        },
+        {
+            "CSCreatePaymentPayXIterationStatus": true,
+            "CSPayment": {
+                "CSAmount": {
+                    "amountPT": 100,
+                    "amountTI": 100,
+                    "amountVAT": 0
+                },
+                "CSOrder": {
+                    "CSCustomer": {
+                        "CSIdentification": {
+                            "code": "",
+                            "type": "NIC"
+                        },
+                        "CSIndividualName": {
+                            "familyName": "Moundir",
+                            "firstName": "Amine"
+                        },
+                        "CSMarketSegment": "B2C",
+                        "id": "99917712"
+                    },
+                    "billingAccountID": ""
+                },
+                "CSPaymentMethod": {
+                    "POS": "CPD01",
+                    "bankAccount": "",
+                    "bankCheckDueDate": "",
+                    "bankCheckID": "",
+                    "bankCity": "",
+                    "bankCode": "",
+                    "bankKey": "",
+                    "bankName": "",
+                    "businessUnit": "CPD01",
+                    "mode": "CS",
+                    "tpeCode": ""
+                },
+                "CSPaymentReference": {
+                    "creatorReference": "PAYFMD_8023M000000XDepQAG",
+                    "pspReference": ""
+                },
+                "channel": "SF",
+                "creationDate": "2020-03-30T17:15:56",
+                "creator": "sara.asmlal@atos.net.prodb2c.dev3",
+                "type": "PAYFMD"
+            },
+            "LoopBlockIterationIndex": 2,
+            "LoopBlockIterationStatus": true
+        }
+    ],
+    "CSOperationInfo": {
+        "channel": "SF",
+        "user": "sara.asmlal@atos.net.prodb2c.dev3",
+        "uuid": "d30ab028-8309-c82a-8700-a7ced583deb6"
+    }
+}

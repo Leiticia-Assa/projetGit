@@ -1,0 +1,15 @@
+{
+    "List": [
+        {
+            "account_id": "0012500001Osh19AAB",
+            "action_id": "CHNUM",
+            "capture_id": "COM019654",
+            "id_subscription": "a4k25000000FAZoAAO",
+            "product_id": "OGSMPRE",
+            "region_id": "PGSM",
+            "status": "STDBY’"
+        }
+    ],
+    "choix": "INV",
+    "invMdn": "a2X25000005LwnXEAS"
+}

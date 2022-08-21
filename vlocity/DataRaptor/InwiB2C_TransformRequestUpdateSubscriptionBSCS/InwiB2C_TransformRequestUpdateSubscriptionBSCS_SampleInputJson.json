@@ -1,0 +1,139 @@
+{
+    "changeImsi": false,
+    "changeMsisdn": false,
+    "changeSmcId": false,
+    "id": "8013M000000NvisQAC",
+    "iscreate": false,
+    "productOrderItem": {
+        "billingAccount": {
+            "billingAccountID": "0013M000010KMYnQAO"
+        },
+        "capture_id": "a4k3M0000008k6WQAQ",
+        "product": {
+            "effectiveBillingCycle": "18",
+            "isMainNetworkOfferChange": false,
+            "mainNetworkOffer": "86913",
+            "offer_code": "MOB02",
+            "realizingService": [
+                {
+                    "code": "ALIZA",
+                    "flagreset": 2,
+                    "handlingAction": "MOD",
+                    "hasDiscount": false,
+                    "id": "a2G3M000000A0PbUAK",
+                    "parameter": [
+                        {
+                            "code": "ANNFR",
+                            "value": "NON"
+                        },
+                        {
+                            "code": "ENGAG",
+                            "value": "0"
+                        },
+                        {
+                            "code": "FORCH",
+                            "value": "86913"
+                        },
+                        {
+                            "code": "GAMOF",
+                            "value": "GALAXY"
+                        },
+                        {
+                            "code": "OPXGO",
+                            "value": "X2"
+                        },
+                        {
+                            "code": "PLAFB2C",
+                            "value": "-999"
+                        },
+                        {
+                            "code": "TYPLG",
+                            "value": "GP"
+                        },
+                        {
+                            "code": "TYPOP",
+                            "value": "NORM"
+                        }
+                    ]
+                },
+                {
+                    "code": "OMB02",
+                    "flagreset": 2,
+                    "handlingAction": "NOP",
+                    "hasDiscount": false,
+                    "id": "a2G3M000000A0PmUAK",
+                    "parameter": [
+                        {
+                            "code": "PLAFDATB2C",
+                            "value": "43456"
+                        },
+                        {
+                            "code": "TYPCAP",
+                            "value": "DATA1"
+                        }
+                    ]
+                },
+                {
+                    "code": "OS4GC",
+                    "flagreset": 2,
+                    "handlingAction": "NOP",
+                    "hasDiscount": false,
+                    "id": "a2G3M000000A0PnUAK",
+                    "parameter": [
+                    ]
+                },
+                {
+                    "code": "OPVIN",
+                    "flagreset": 2,
+                    "handlingAction": "MOD",
+                    "hasDiscount": false,
+                    "id": "a2G3M000000A0PpUAK",
+                    "parameter": [
+                        {
+                            "code": "ANNFR",
+                            "value": "NON"
+                        }
+                    ]
+                },
+                {
+                    "code": "OPVNT",
+                    "flagreset": 2,
+                    "handlingAction": "MOD",
+                    "hasDiscount": false,
+                    "id": "a2G3M000000A0PqUAK",
+                    "parameter": [
+                        {
+                            "code": "ANNFR",
+                            "value": "NON"
+                        }
+                    ]
+                },
+                {
+                    "code": "OXGO2",
+                    "flagreset": 2,
+                    "handlingAction": "MOD",
+                    "hasDiscount": false,
+                    "id": "a2G3M000000A0PrUAK",
+                    "parameter": [
+                        {
+                            "code": "X Go MOB02",
+                            "value": "X2"
+                        }
+                    ]
+                }
+            ],
+            "resourceRef": [
+                {
+                    "imsi": "604020090227053",
+                    "mdn": "212704546993",
+                    "serialNumber": "892120270001227162"
+                }
+            ]
+        }
+    },
+    "relatedParty": {
+        "customerId": "0013M00000yqoJgQAI",
+        "marketSegment": "B2C",
+        "orgID": "INWI"
+    }
+}
