@@ -1,0 +1,47 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "inwiB2C_Acquisition",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/inwib2c/Acquisition/French",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "AdressLivraison": "=IF(%ModeLivraison:LivraisonDomicile%==\"AdresseDomicile\",%Adress%,IF(%ModeLivraison:LivraisonDomicile%==\"OtherAdress\",%OtherAdress%,\"\"))",
+            "AgenceLivraison": "%ModeLivraison:VilleAgence:agence%",
+            "DistriId": "%CodeDistriAgence%",
+            "ModLivraison": "=IF(%Canal%==\"inwiB2C_Eshop\",%ModeLivraison:TypeLivraison%,IF(%Canal%==\"inwiB2C_Televente\",%ModeLivraison:TypeLivraison%,\"\"))",
+            "ModePaiement": "=IF(%ModeLivraison:TypeLivraison%==\"inwiB2C_Agence\",%ModeLivraison:PaymentMode%,IF(%ModeLivraison:TypeLivraison%==\"inwiB2C_Domicile\",%ModeLivraison:PaymentModeDomicile%,\"\"))",
+            "OrderId": "%OrderId%",
+            "OrderStep": "=NULL",
+            "OrderStepEvent": "Choix Offre",
+            "POSId": "%Codepartenaireagence%",
+            "Prestataire": "%ModeLivraison:PrestataireLivraison%",
+            "RefPaiement": "%ModeLivraison:ReferencePaiements%",
+            "Status": "inwiB2C_EnCours",
+            "stock_sap": "=IF(%POSAccount%==\"inwib2c_OS\",true,false)"
+        },
+        "label": "SetOrderStepOfferChoice",
+        "message": {
+        },
+        "pubsub": false,
+        "show": null,
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "ssm": false,
+        "wpm": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Set Values",
+    "CurrencyIsoCode": "MAD",
+    "Name": "SetOrderStepOfferChoice",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/inwib2c/Acquisition/French/SetOrderStepOfferChoice"
+}

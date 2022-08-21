@@ -1,0 +1,114 @@
+{
+    "allowCancel": true,
+    "allowSaveForLater": false,
+    "autoFocus": false,
+    "autoSaveOnStepNext": true,
+    "bLK": true,
+    "cancelRedirectPageName": "OmniScriptCancelled",
+    "cancelRedirectTemplateUrl": "vlcCancelled.html",
+    "cancelSource": "%ContextId%",
+    "cancelType": "SObject",
+    "consoleTabIcon": "custom:custom18",
+    "consoleTabLabel": null,
+    "consoleTabTitle": "Create Case",
+    "currencyCode": "",
+    "disableUnloadWarn": true,
+    "elementTypeToHTMLTemplateMapping": {
+    },
+    "enableKnowledge": true,
+    "errorMessage": {
+        "custom": [
+        ]
+    },
+    "hideStepChart": false,
+    "knowledgeArticleTypeQueryFieldsMap": {
+        "FAQ": "Title,Question__c,Answer__c",
+        "Gestion de compte client": "Title,Body__c",
+        "Guide utilisateurs": "Title,Question__c,Answer__c",
+        "Infos utiles": "Title,Question__c,Answer__c",
+        "Mode opératoire": "Title,Body__c",
+        "Offre": "Title,Body__c",
+        "Planogramme": "Title,Question__c,Answer__c",
+        "Réseaux": "Title,Body__c",
+        "SAV": "Title,Body__c",
+        "Script": "Title,Body__c",
+        "Terminaux": "Title,Body__c"
+    },
+    "lkObjName": "Knowledge__kav",
+    "mergeSavedData": false,
+    "message": {
+    },
+    "persistentComponent": [
+        {
+            "id": "vlcCart",
+            "itemsKey": "cartItems",
+            "label": null,
+            "modalConfigurationSetting": {
+                "modalController": "ModalProductCtrl",
+                "modalHTMLTemplateId": "YourIdName.html",
+                "modalSize": "lg"
+            },
+            "postTransformBundle": "",
+            "preTransformBundle": "",
+            "remoteClass": "",
+            "remoteMethod": "",
+            "remoteOptions": {
+                "postTransformBundle": "",
+                "preTransformBundle": ""
+            },
+            "remoteTimeout": 30000,
+            "render": false,
+            "responseJSONNode": "",
+            "responseJSONPath": "",
+            "sendJSONNode": "",
+            "sendJSONPath": ""
+        },
+        {
+            "id": "vlcKnowledge",
+            "itemsKey": "knowledgeItems",
+            "label": "Knowledge Articles",
+            "modalConfigurationSetting": {
+                "modalController": "",
+                "modalHTMLTemplateId": "",
+                "modalSize": "lg"
+            },
+            "postTransformBundle": "",
+            "preTransformBundle": "",
+            "remoteClass": "",
+            "remoteMethod": "",
+            "remoteOptions": {
+                "postTransformBundle": "",
+                "preTransformBundle": ""
+            },
+            "remoteTimeout": 30000,
+            "render": true
+        }
+    ],
+    "pubsub": false,
+    "rtpSeed": true,
+    "saveContentEncoded": false,
+    "saveExpireInDays": null,
+    "saveForLaterRedirectPageName": "sflRedirect",
+    "saveForLaterRedirectTemplateUrl": "vlcSaveForLaterAcknowledge.html",
+    "saveNameTemplate": null,
+    "saveObjectId": "%ContextId%",
+    "saveURLPatterns": {
+    },
+    "seedDataJSON": {
+    },
+    "showInputWidth": false,
+    "ssm": false,
+    "stepChartPlacement": "right",
+    "stylesheet": {
+        "lightning": "InwiB2C_RadioButton",
+        "lightningRtl": "",
+        "newport": "InwiB2C_RadioButton",
+        "newportRtl": ""
+    },
+    "timeTracking": false,
+    "trackingCustomData": {
+    },
+    "visualforcePagesAvailableInPreview": {
+    },
+    "wpm": false
+}

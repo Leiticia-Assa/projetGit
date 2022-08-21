@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Account_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+    </actionOverrides>
+    <brand>
+        <headerColor>#0070D2</headerColor>
+        <logoVersion>1</logoVersion>
+        <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
+    </brand>
+    <description>Monitor sales activity, and guide your team to help them meet and exceed sales targets.</description>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <label>Sales Leadership</label>
+    <navType>Standard</navType>
+    <tabs>standard-home</tabs>
+    <tabs>sf_GsPilotV1__Getting_Started</tabs>
+    <tabs>standard-Account</tabs>
+    <tabs>standard-Opportunity</tabs>
+    <tabs>standard-Lead</tabs>
+    <tabs>standard-Dashboard</tabs>
+    <tabs>standard-report</tabs>
+    <tabs>standard-CollaborationGroup</tabs>
+    <tabs>standard-Feed</tabs>
+    <tabs>InwiB2C_Subscription_VIP__c</tabs>
+    <tabs>InwiB2C_Account_VIP__c</tabs>
+    <tabs>vlocity_cmt__Project__c</tabs>
+    <tabs>vlocity_cmt__ObjectClass__c</tabs>
+    <tabs>InwiB2C_Trace_API__c</tabs>
+    <tabs>inwiB2C_CreateContractBulk__c</tabs>
+    <tabs>inwiB2C_ContractFirstCall__c</tabs>
+    <tabs>InwiB2C_Promotion__c</tabs>
+    <tabs>inwiB2C_determinant__c</tabs>
+    <tabs>inwiB2C_scop_determinant__c</tabs>
+    <tabs>inwiB2C_promotion_result__c</tabs>
+    <tabs>InwiB2C_Blacklist_RIB__c</tabs>
+    <tabs>InwiB2C_Demande__c</tabs>
+    <tabs>orderItemAppliedPromotion__c</tabs>
+    <tabs>inwiB2C_DocumentRule__c</tabs>
+    <tabs>inwiB2C_Document__c</tabs>
+    <tabs>InwiB2C_Demande_de_resiliation__c</tabs>
+    <tabs>InwiB2C_R_siliation_Postpay_e__c</tabs>
+    <tabs>INWIB2C_RET_OFELIGIBILITE__c</tabs>
+    <tabs>INWIB2C_RET_MATRICE__c</tabs>
+    <tabs>InwiB2C_MONT_CAUT_FMSFMD__c</tabs>
+    <tabs>test1__c</tabs>
+    <tabs>InwiB2C_MONT_CAUT_CRETER__c</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>Sales_Leadership_UtilityBar</utilityBar>
+</CustomApplication>

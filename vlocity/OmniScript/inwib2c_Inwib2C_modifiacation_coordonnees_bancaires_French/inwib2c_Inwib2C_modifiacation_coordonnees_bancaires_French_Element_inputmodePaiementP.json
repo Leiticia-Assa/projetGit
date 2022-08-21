@@ -1,0 +1,116 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "Inwib2C_modifiacation_coordonnees_bancaires",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/inwib2c/Inwib2C_modifiacation_coordonnees_bancaires/French",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "Inwib2C_modifiacation_coordonnees_bancaires",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/inwib2c/Inwib2C_modifiacation_coordonnees_bancaires/French",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "InformationsBancaires",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/inwib2c/Inwib2C_modifiacation_coordonnees_bancaires/French/InformationsBancaires",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "InformationsBancaires",
+    "%vlocity_namespace%__ParentElementType__c": "Block",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "accessibleInFutureSteps": false,
+        "conditionType": "Hide if False",
+        "controlWidth": 12,
+        "controllingField": {
+            "element": "",
+            "source": "",
+            "type": ""
+        },
+        "defaultValue": "%AccountInfo:Mode_de_paiement%",
+        "disOnTplt": false,
+        "help": false,
+        "helpText": "",
+        "hide": false,
+        "inputWidth": 12,
+        "label": "Mode de paiement",
+        "optionSource": {
+            "source": "Account.InwiB2C_Mode_de_paiement__c",
+            "type": ""
+        },
+        "options": [
+            {
+                "name": "Guichet",
+                "value": "Guichet"
+            }
+        ],
+        "readOnly": false,
+        "repeat": false,
+        "repeatClone": false,
+        "repeatLimit": null,
+        "required": true,
+        "show": {
+            "group": {
+                "operator": "OR",
+                "rules": [
+                    {
+                        "condition": "=",
+                        "data": "SC Agents CRC N1 Ext_Ph3",
+                        "field": "userProfile"
+                    },
+                    {
+                        "condition": "=",
+                        "data": "SC Agents CRC Helpdesk N1 Ext_Ph3",
+                        "field": "userProfile"
+                    },
+                    {
+                        "condition": "=",
+                        "data": "SC Agents CRC Savedesk_Recouv N1 Ext_Ph3",
+                        "field": "userProfile"
+                    },
+                    {
+                        "condition": "=",
+                        "data": "SC Agents CRC Outbound N1  Ext_Ph3",
+                        "field": "userProfile"
+                    },
+                    {
+                        "condition": "=",
+                        "data": "SC Superviseur CRC Ext_Ph3",
+                        "field": "userProfile"
+                    },
+                    {
+                        "condition": "=",
+                        "data": "SC Superviseur FO CRC Int_Ph3",
+                        "field": "userProfile"
+                    },
+                    {
+                        "condition": "=",
+                        "data": "SC Agent VIP Int_Ph3",
+                        "field": "userProfile"
+                    },
+                    {
+                        "condition": "=",
+                        "data": "SC Agents BO_Controle PDV N2 Ext_Ph3",
+                        "field": "userProfile"
+                    },
+                    {
+                        "condition": "=",
+                        "data": "SC Formation Int_Ph3",
+                        "field": "userProfile"
+                    }
+                ]
+            }
+        },
+        "showInputWidth": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": true,
+    "%vlocity_namespace%__Type__c": "Select",
+    "CurrencyIsoCode": "MAD",
+    "Name": "inputmodePaiementP",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/inwib2c/Inwib2C_modifiacation_coordonnees_bancaires/French/inputmodePaiementP"
+}

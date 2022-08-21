@@ -1,0 +1,170 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "inwiB2C_Acquisition",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/inwib2c/Acquisition/French",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "inwiB2C_Acquisition",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/inwib2c/Acquisition/French",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "ChooseFamily",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/inwib2c/Acquisition/French/ChooseFamily",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "ChooseFamily",
+    "%vlocity_namespace%__ParentElementType__c": "Step",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "accessibleInFutureSteps": false,
+        "conditionType": "Hide if False",
+        "controlWidth": 12,
+        "controllingField": {
+            "element": "",
+            "source": "",
+            "type": ""
+        },
+        "defaultValue": null,
+        "disOnTplt": false,
+        "enableCaption": true,
+        "help": false,
+        "helpText": "",
+        "hide": false,
+        "horizontalMode": false,
+        "imageCountInRow": 3,
+        "label": "Famille de Produit",
+        "optionHeight": 100,
+        "optionSource": {
+            "source": "",
+            "type": ""
+        },
+        "optionWidth": 100,
+        "options": [
+            {
+                "name": "Prepaye",
+                "value": "Mobile prépayé"
+            },
+            {
+                "name": "Home",
+                "value": "Home prépayé"
+            }
+        ],
+        "readOnly": false,
+        "repeat": false,
+        "repeatClone": false,
+        "repeatLimit": null,
+        "required": true,
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "group": {
+                            "operator": "OR",
+                            "rules": [
+                                {
+                                    "group": {
+                                        "operator": "AND",
+                                        "rules": [
+                                            {
+                                                "condition": "<>",
+                                                "data": "Super Dealer",
+                                                "field": "segmentmarche"
+                                            },
+                                            {
+                                                "condition": "<>",
+                                                "data": "Dealer",
+                                                "field": "segmentmarche"
+                                            },
+                                            {
+                                                "condition": "<",
+                                                "data": "%MaxCustomerActiveSubscriptions%",
+                                                "field": "totalOrdersSubscriptions"
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "group": {
+                                        "operator": "AND",
+                                        "rules": [
+                                            {
+                                                "condition": "<",
+                                                "data": "%MaxDealerActiveSubscriptions%",
+                                                "field": "totalOrdersSubscriptions"
+                                            },
+                                            {
+                                                "group": {
+                                                    "operator": "OR",
+                                                    "rules": [
+                                                        {
+                                                            "condition": "<>",
+                                                            "data": "Super Dealer",
+                                                            "field": "segmentmarche"
+                                                        },
+                                                        {
+                                                            "condition": "<>",
+                                                            "data": "Dealer",
+                                                            "field": "segmentmarche"
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "group": {
+                            "operator": "OR",
+                            "rules": [
+                                {
+                                    "condition": "=",
+                                    "data": "inwiB2C_Eshop",
+                                    "field": "Canal"
+                                },
+                                {
+                                    "condition": "=",
+                                    "data": "inwiB2C_Televente",
+                                    "field": "Canal"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "group": {
+                            "operator": "OR",
+                            "rules": [
+                                {
+                                    "condition": "=",
+                                    "data": "Prépayé",
+                                    "field": "inwiB2C_Segment_Offer"
+                                },
+                                {
+                                    "condition": "=",
+                                    "data": null,
+                                    "field": "inwiB2C_Segment_Offer"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Radio",
+    "CurrencyIsoCode": "MAD",
+    "Name": "Family_Eshop_Items",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/inwib2c/Acquisition/French/Family_Eshop_Items"
+}

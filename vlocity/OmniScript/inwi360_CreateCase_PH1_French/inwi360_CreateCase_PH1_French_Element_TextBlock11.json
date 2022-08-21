@@ -1,0 +1,40 @@
+{
+    "%vlocity_namespace%__Active__c": false,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "Inwi_B2C_CreateCase_PH1",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/inwi360/CreateCase_PH1/French",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "Inwi_B2C_CreateCase_PH1",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/inwi360/CreateCase_PH1/French",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "SelectOpenAnCase",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/inwi360/CreateCase_PH1/French/SelectOpenAnCase",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "SelectOpenAnCase",
+    "%vlocity_namespace%__ParentElementType__c": "Step",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "dataJSON": false,
+        "disOnTplt": false,
+        "label": "TextBlock11",
+        "show": null,
+        "text": "<p>Uprf :%usprf%</p>\n<p></p>\n<div><strong>Num&eacute;ro d'int&eacute;ration Genesys&nbsp;:</strong>&nbsp;%ctiIteractionNumber%</div>\n<div><strong>Source Genesys&nbsp;:</strong>&nbsp;%ctiSource%</div>\n<div><strong>eMail&nbsp;:</strong>&nbsp;%ctiEmailSource%</div>\n<div><strong>Identifiant Facebook&nbsp;:</strong>&nbsp;%ctiFacebookId%</div>\n<div><strong>Identifiant Twitter:</strong>&nbsp;%ctiTwitterId%</div>\n<div><strong>MDN&nbsp;:</strong>&nbsp;%ctiMDN%</div>",
+        "textKey": ""
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Text Block",
+    "CurrencyIsoCode": "MAD",
+    "Name": "TextBlock11",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/inwi360/CreateCase_PH1/French/TextBlock11"
+}

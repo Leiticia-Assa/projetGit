@@ -1,0 +1,55 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "InwiB2C_RechargeManagement",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/inwi360/RechargeManagement/French",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "BalanceId": "%RechargeManuelle:DisplayBalances:SelectedBalanceId%",
+            "BalanceLabel": "%RechargeManuelle:DisplayBalances:BalanceLabelValue%",
+            "BalanceValue": "%RechargeManuelle:DisplayBalances:selectedBalanceAmount%",
+            "CodeRechargeValue": "%RechargeManuelle:CodeRecharge%",
+            "MDNRech": "=IF(%NumeroLigne% == null , %SelectSubscription:SubscriptionDisplay:selectedSubscriptionMdn%, %NumeroLigne%)",
+            "MDNSC": "=IF(%NumeroLigne% == null , %SelectSubscription:SubscriptionDisplay:selectedSubscriptionMdn%, %NumeroLigne%)",
+            "MontantRechargeValue": "= IF (%RechargeManuelle:MontantRecharge% != null, %RechargeManuelle:MontantRecharge%, IF (%RechargeManuelle:MontantRecharge200% != null, %RechargeManuelle:MontantRecharge200%, IF (%RechargeManuelle:MontantRecharge500% != null, %RechargeManuelle:MontantRecharge500%,'')))",
+            "MotifRechargeValue": "%RechargeManuelle:MotifRecharge%",
+            "Rechargetype2": "MANUAL",
+            "SCValue": "%RechargeScratchCard:ScratchCardNumber%"
+        },
+        "label": "SetValues9",
+        "message": {
+        },
+        "pubsub": false,
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "<>",
+                        "data": "true",
+                        "field": "ispop"
+                    }
+                ]
+            }
+        },
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "ssm": false,
+        "wpm": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": true,
+    "%vlocity_namespace%__Type__c": "Set Values",
+    "CurrencyIsoCode": "MAD",
+    "Name": "SetValues9",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/inwi360/RechargeManagement/French/SetValues9"
+}

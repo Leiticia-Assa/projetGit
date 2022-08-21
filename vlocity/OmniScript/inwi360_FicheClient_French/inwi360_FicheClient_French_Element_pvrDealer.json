@@ -1,0 +1,112 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "FicheClient",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/inwi360/FicheClient/French",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "FicheClient",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/inwi360/FicheClient/French",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "StepShowInformations",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/inwi360/FicheClient/French/StepShowInformations",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "StepShowInformations",
+    "%vlocity_namespace%__ParentElementType__c": "Step",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "accessibleInFutureSteps": false,
+        "clearValue": false,
+        "conditionType": "Hide if False",
+        "controlWidth": 6,
+        "dataSource": {
+            "mapItems": {
+                "inputParameters": [
+                ],
+                "phase1MapItems": [
+                    {
+                        "DomainObjectFieldAPIName__c": "Country",
+                        "FilterOperator__c": "=",
+                        "FilterValue__c": "'Dealer'",
+                        "InterfaceFieldAPIName__c": "Inwib2c_Segment_march__c",
+                        "InterfaceObjectLookupOrder__c": 1,
+                        "InterfaceObjectName__c": "Account"
+                    },
+                    {
+                        "DomainObjectFieldAPIName__c": "Country",
+                        "FilterOperator__c": "=",
+                        "FilterValue__c": "'Super Dealer'",
+                        "InterfaceFieldAPIName__c": "Inwib2c_Segment_march__c",
+                        "InterfaceObjectLookupOrder__c": 2,
+                        "InterfaceObjectName__c": "Account"
+                    }
+                ],
+                "phase2MapItems": [
+                    {
+                        "DomainObjectAPIName__c": "JSON",
+                        "DomainObjectCreationOrder__c": 1,
+                        "DomainObjectFieldAPIName__c": "name",
+                        "InterfaceFieldAPIName__c": "Country:Id"
+                    },
+                    {
+                        "DomainObjectAPIName__c": "JSON",
+                        "DomainObjectCreationOrder__c": 1,
+                        "DomainObjectFieldAPIName__c": "value",
+                        "InterfaceFieldAPIName__c": "Country:Name"
+                    }
+                ]
+            },
+            "type": "SObject"
+        },
+        "defaultValue": "",
+        "disOnTplt": false,
+        "errorMessage": {
+            "custom": [
+            ],
+            "default": null
+        },
+        "help": false,
+        "helpText": "",
+        "hide": false,
+        "inputWidth": 12,
+        "label": "RVR",
+        "placeholder": "",
+        "readOnly": false,
+        "repeat": false,
+        "repeatClone": false,
+        "repeatLimit": null,
+        "required": false,
+        "show": {
+            "group": {
+                "operator": "OR",
+                "rules": [
+                    {
+                        "condition": "=",
+                        "data": "Dealer",
+                        "field": "segmentMarche"
+                    },
+                    {
+                        "condition": "=",
+                        "data": "Super Dealer",
+                        "field": "segmentMarche"
+                    }
+                ]
+            }
+        },
+        "showInputWidth": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": true,
+    "%vlocity_namespace%__Type__c": "Lookup",
+    "CurrencyIsoCode": "MAD",
+    "Name": "pvrDealer",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/inwi360/FicheClient/French/pvrDealer"
+}

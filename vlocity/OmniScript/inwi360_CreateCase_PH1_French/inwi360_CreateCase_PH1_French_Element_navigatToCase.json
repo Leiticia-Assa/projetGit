@@ -1,0 +1,103 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "Inwi_B2C_CreateCase_PH1",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/inwi360/CreateCase_PH1/French",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "disOnTplt": false,
+        "iconName": "",
+        "iconPosition": "left",
+        "iconPositionOptions": [
+            "left",
+            "right"
+        ],
+        "iconVariant": "",
+        "label": "navigatToCase",
+        "loginAction": "login",
+        "message": {
+        },
+        "objectAction": "home",
+        "objectActionOptions": [
+            "home",
+            "list",
+            "new"
+        ],
+        "pubsub": false,
+        "recordAction": "view",
+        "recordActionOptions": [
+            "clone",
+            "edit",
+            "view"
+        ],
+        "replace": true,
+        "replaceOptions": [
+            {
+                "label": "No",
+                "value": false
+            },
+            {
+                "label": "Yes",
+                "value": true
+            }
+        ],
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "=",
+                        "data": "false",
+                        "field": "issellopening"
+                    }
+                ]
+            }
+        },
+        "ssm": false,
+        "targetFilter": "Recent",
+        "targetId": "%idcase%",
+        "targetLWCLayout": "lightning",
+        "targetLWCLayoutOptions": [
+            "lightning",
+            "newport"
+        ],
+        "targetName": "Case",
+        "targetType": "Record",
+        "targetTypeOptions": [
+            "Component",
+            "Current Page",
+            "Knowledge Article",
+            "Named Page",
+            "Navigation Item",
+            "Object",
+            "Record",
+            "Record Relationship",
+            "Web Page",
+            "Vlocity OmniScript"
+        ],
+        "validationRequired": "none",
+        "variant": "brand",
+        "variantOptions": [
+            "brand",
+            "outline-brand",
+            "neutral",
+            "success",
+            "destructive",
+            "text-destructive",
+            "inverse",
+            "link"
+        ],
+        "wpm": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Navigate Action",
+    "CurrencyIsoCode": "MAD",
+    "Name": "navigatToCase",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/inwi360/CreateCase_PH1/French/navigatToCase"
+}

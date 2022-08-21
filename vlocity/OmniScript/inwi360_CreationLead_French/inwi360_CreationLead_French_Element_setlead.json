@@ -1,0 +1,53 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "Lead",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/inwi360/CreationLead/French",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "Civilite": "%Salutation%",
+            "CodePostal": "%codePostal%",
+            "Cote": "%cote%",
+            "Email": "%Mail%",
+            "FirstName": "%Prenom%",
+            "Fonction": "%fonction%",
+            "Interet": "%interets%",
+            "LastName": "%Nom%",
+            "OriginePiste": "%Origine%",
+            "Pays": "%pays%",
+            "Phone": "%telephone%",
+            "Region": "%region%",
+            "Rue": "%rue%",
+            "Societe": "Individuel",
+            "Statut": "%statut%",
+            "TypeOffre": "%type%",
+            "Ville": "%ville%",
+            "formule": "%Formule%",
+            "offre": "%Offre%"
+        },
+        "label": "SetLead",
+        "message": {
+        },
+        "pubsub": false,
+        "show": null,
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "ssm": false,
+        "wpm": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": true,
+    "%vlocity_namespace%__Type__c": "Set Values",
+    "CurrencyIsoCode": "MAD",
+    "Name": "setlead",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/inwi360/CreationLead/French/setlead"
+}

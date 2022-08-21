@@ -1,0 +1,31 @@
+{
+    "%vlocity_namespace%__DisableMetadataCache__c": false,
+    "%vlocity_namespace%__ElementTypeToHTMLTemplateList__c": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "%vlocity_namespace%__Element__c": [
+        "inwib2c_GenDocContrat_English_Element_SetValues1.json",
+        "inwib2c_GenDocContrat_English_Element_GetOrdersInfos.json",
+        "inwib2c_GenDocContrat_English_Element_GetContratInfos.json",
+        "inwib2c_GenDocContrat_English_Element_GetDocumentTemplates.json",
+        "inwib2c_GenDocContrat_English_Element_SetValues2.json",
+        "inwib2c_GenDocContrat_English_Element_CreateObjDocument.json",
+        "inwib2c_GenDocContrat_English_Element_GenerateContrat.json",
+        "inwib2c_GenDocContrat_English_Element_TextBlock1.json",
+        "inwib2c_GenDocContrat_English_Element_GenerateDocumentWordPPT.json",
+        "inwib2c_GenDocContrat_English_Element_GenerateDocumentWebTemplate.json",
+        "inwib2c_GenDocContrat_English_Element_DoneAction1.json"
+    ],
+    "%vlocity_namespace%__IsLwcEnabled__c": false,
+    "%vlocity_namespace%__IsProcedure__c": false,
+    "%vlocity_namespace%__IsReusable__c": true,
+    "%vlocity_namespace%__IsTest__c": false,
+    "%vlocity_namespace%__Language__c": "English",
+    "%vlocity_namespace%__OmniProcessType__c": "OmniScript",
+    "%vlocity_namespace%__PropertySet__c": "inwib2c_GenDocContrat_English_PropertySet.json",
+    "%vlocity_namespace%__SubType__c": "GenDocContrat",
+    "%vlocity_namespace%__Type__c": "inwib2c",
+    "CurrencyIsoCode": "MAD",
+    "Name": "GenDocContrat",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__OmniScript__c/inwib2c/GenDocContrat/English"
+}

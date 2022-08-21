@@ -1,0 +1,54 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "Identification_PDV",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/inwib2c/Identificationpdv/French",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "isCinExist": "=IF(%sumOfacc%>0,true,false)",
+            "isClientHasLigne": "=IF(%sumOfSubsClient%==0,false,true)",
+            "isClientMonoligne": "=IF(%sumOfSubsClient%==1,true,false)",
+            "isOnlyOneCinExist": "=IF(%sumOfacc%==1,true,false)"
+        },
+        "label": "SetCases",
+        "message": {
+        },
+        "pubsub": false,
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "<>",
+                        "data": "Dealer",
+                        "field": "infoCli:sigment"
+                    },
+                    {
+                        "condition": "<>",
+                        "data": "Super Dealer",
+                        "field": "infoCli:sigment"
+                    }
+                ]
+            }
+        },
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "ssm": false,
+        "wpm": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Set Values",
+    "CurrencyIsoCode": "MAD",
+    "Name": "SetCases",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/inwib2c/Identificationpdv/French/SetCases"
+}

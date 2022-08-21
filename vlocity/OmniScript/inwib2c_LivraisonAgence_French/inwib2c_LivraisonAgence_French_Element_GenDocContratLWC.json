@@ -1,0 +1,56 @@
+{
+    "%vlocity_namespace%__Active__c": false,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "inwiB2C_LivraisonAgence",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/inwib2c/LivraisonAgence/French",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__PropertySet__c": {
+        "Language": "English",
+        "Sub Type": "GenDocContratLWC",
+        "Type": "inwib2c",
+        "show": {
+            "group": {
+                "operator": "OR",
+                "rules": [
+                    {
+                        "condition": "=",
+                        "data": "",
+                        "field": "restart"
+                    },
+                    {
+                        "condition": "=",
+                        "data": "false",
+                        "field": "restart"
+                    },
+                    {
+                        "group": {
+                            "operator": "AND",
+                            "rules": [
+                                {
+                                    "condition": "=",
+                                    "data": "true",
+                                    "field": "restart"
+                                },
+                                {
+                                    "condition": "=",
+                                    "data": "Justificatif",
+                                    "field": "OriginalOrderStep"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__SearchKey__c": "inwib2c|GenDocContratLWC|English",
+    "%vlocity_namespace%__Type__c": "OmniScript",
+    "CurrencyIsoCode": "MAD",
+    "Name": "GenDocContratLWC",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/inwib2c/LivraisonAgence/French/GenDocContratLWC"
+}
