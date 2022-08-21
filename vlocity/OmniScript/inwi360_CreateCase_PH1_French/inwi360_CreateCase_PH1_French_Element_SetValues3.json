@@ -1,0 +1,48 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "Inwi_B2C_CreateCase_PH1",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/inwi360/CreateCase_PH1/French",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "CategorieDisplay": "%Categorie%",
+            "DescriptifDisplay": "%Descriptif:descriptif%",
+            "DetailDisplay": "%Detail%",
+            "RecapitulatifDisplay": "%CreactionCase:Recapitulatif:recap%",
+            "ReclamationTypeDisplayCreation": "%ReclamationType%",
+            "SourceDisplay": "%Source%",
+            "TypeSpecialiteDisplay": "%CreactionCase:TypeSpecialite%",
+            "idAccountToApex": "=IF(%isFromAccount% == true || %isFromAnonymousContact% == true,IF(%accountId% == null,%ContextId%,%accountId%),IF(%isFromSubscription% == true,%subscriptionInfo:AccountId%,%billingInfo:AccountId%))",
+            "idBillingAccToApex": "=IF(%isFromBillingAccount% == true  , %billingAccountId% , null)",
+            "idContactToApex": "=IF(%isFromAccount% == true ,%AllContacts:ContactId%,IF(%isFromAnonymousContact% == true,%contactId%,IF(%isFromSubscription% == true,%subscriptionInfo:ContactId%,%billingInfo:ContactId%)))",
+            "idSubscriptionToApex": "=IF(%isFromAccount% == true || %isFromBillingAccount%==true ,%SelectSubscriptions:SubscriptionDisplay:selectedSubscriptionId%,IF(%isFromAnonymousContact% == true,null,%souscriptionId%))",
+            "profileph1": "IF(OR((%userProfile% == \"SC Agents CRC N1 Ext\"),(%userProfile% == \"SC Agents CRC Helpdesk N1 Ext\"), (%userProfile% == \"SC Agents CRC Savedesk_Recouv N1 Ext\"),(%userProfile% == \"SC Agents CRC Outbound N1 Ext\"),(%userProfile% == \"SC Agents BO réclamation N2\"), (%userProfile% == \"SC Agents CRC Activation Ext\"), (%userProfile% == \"SC Agents Contrôle contrat Ext\"), (%userProfile% == \"SC Agents BO Eshop_Televente N2 Int\"), (%userProfile% == \"Com Agents BO Commercial_Boutique N2 Int\"), (%userProfile% == \"SC Superviseur CRC Ext\"), (%userProfile% == \"SC Superviseur BO CRC Ext\"), (%userProfile% == \"SC Superviseur BO CRC Int\"), (%userProfile% == \"SC Superviseur FO CRC Int\"), (%userProfile% == \"SC Agents CRC Outbound N1 Ext\"), (%userProfile% == \"Fraude Int\"), (%userProfile% == \"SC Agent VIP Int\"), (%userProfile% == \"SC Agents BO_Controle PDV N2 Ext\"), (%userProfile% == \"SC Formation Int\"), (%userProfile% == \"Reporting BI\"), (%userProfile% == \"SC Agents CRC Savedesk_Recouv N1 Ext\"), (%userProfile% == \"Support N3\"), (%userProfile% == \"Superviseur Procheck\"), (%userProfile% == \"SPOC Portabilité\"), (%userProfile% == \"SPOC SAV\"), (%userProfile% == \"SC Agents CRC N1 Ext\"), (%userProfile% == \"Responsable ventes régional\"), (%userProfile% == \"SC Agents CRC Helpdesk N1 Ext\")),true,false)",
+            "selectedContactDisplay": "%CreactionCase:selectedContact%",
+            "selectedSubscriptionMDNDisplay": "%CreactionCase:selectedSubscriptionMDN%"
+        },
+        "label": "SetValues3",
+        "message": {
+        },
+        "pubsub": false,
+        "show": null,
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "ssm": false,
+        "wpm": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Set Values",
+    "CurrencyIsoCode": "MAD",
+    "Name": "SetValues3",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/inwi360/CreateCase_PH1/French/SetValues3"
+}

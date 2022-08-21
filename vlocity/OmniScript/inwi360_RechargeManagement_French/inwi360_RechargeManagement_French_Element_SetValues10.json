@@ -1,0 +1,38 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "InwiB2C_RechargeManagement",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/inwi360/RechargeManagement/French",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "Canal": "=IF(%usprf% = 'Inwi POS', 'inwiB2C_PDV', 'inwiB2C_CRC')",
+            "MenuChoice": "=IF(%isFromAccount% == false, %LWCMenuChoice:SelectedChoiceId%, %LWCMenuChoiceAccount:SelectedChoiceId%)",
+            "isDealerValue": "=IF(%isDealer% = 'true', true, false)",
+            "patternrecharge": "=IF(%usprf% = 'System Administrator','[1-2][0-9]{0,2}',IF(%usprf% = 'SC Agents BO réclamation N2_Ph2','[1-5][0-9]{0,2}','[1-9][0-9]{0,2}'))"
+        },
+        "label": "SetValues10",
+        "message": {
+        },
+        "pubsub": false,
+        "show": null,
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "ssm": false,
+        "wpm": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": true,
+    "%vlocity_namespace%__Type__c": "Set Values",
+    "CurrencyIsoCode": "MAD",
+    "Name": "SetValues10",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/inwi360/RechargeManagement/French/SetValues10"
+}

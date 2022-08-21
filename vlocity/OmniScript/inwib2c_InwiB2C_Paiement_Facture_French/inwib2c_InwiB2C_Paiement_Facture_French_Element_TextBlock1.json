@@ -1,0 +1,41 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "InwiB2C_Paiement_Facture",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/inwib2c/InwiB2C_Paiement_Facture/French",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "InwiB2C_Paiement_Facture",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/inwib2c/InwiB2C_Paiement_Facture/French",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "Search",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/inwib2c/InwiB2C_Paiement_Facture/French/Search",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "Search",
+    "%vlocity_namespace%__ParentElementType__c": "Step",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "dataJSON": false,
+        "disOnTplt": false,
+        "label": "TextBlock1",
+        "sanitize": false,
+        "show": null,
+        "text": "<h5><strong><span style=\"color: #000000;\">Vous pouvez rechercher un compte de facturation en saisissant :</span></strong></h5>\n<ol>\n<li><span style=\"color: #000000;\"><span style=\"text-decoration: underline;\"><span style=\"color: #000000; text-decoration: underline;\">Soit</span></span>&nbsp; la&nbsp;<strong>CIN.</strong></span></li>\n<li><span style=\"color: #000000;\"><span style=\"text-decoration: underline;\"><span style=\"color: #000000; text-decoration: underline;\">Soit</span></span>&nbsp; le&nbsp;<strong>MDN.</strong></span></li>\n<li><span style=\"color: #000000;\"><span style=\"text-decoration: underline;\"><span style=\"color: #000000; text-decoration: underline;\">Soit</span></span>&nbsp; le <strong>Numero de compte de facturation.</strong></span></li>\n<li><span style=\"color: #000000;\"><span style=\"text-decoration: underline;\"><span style=\"color: #000000; text-decoration: underline;\">Soit</span></span>&nbsp; le <strong>Numero de la facture.</strong></span></li>\n</ol>",
+        "textKey": ""
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Text Block",
+    "CurrencyIsoCode": "MAD",
+    "Name": "TextBlock1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/inwib2c/InwiB2C_Paiement_Facture/French/TextBlock1"
+}

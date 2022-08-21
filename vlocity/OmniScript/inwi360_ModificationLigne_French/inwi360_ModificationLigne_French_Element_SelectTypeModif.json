@@ -1,0 +1,104 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "inwiB2C_Parcours_Modification_Ligne",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/inwi360/ModificationLigne/French",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "inwiB2C_Parcours_Modification_Ligne",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/inwi360/ModificationLigne/French",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "ChoixTypeModif",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/inwi360/ModificationLigne/French/ChoixTypeModif",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "ChoixTypeModif",
+    "%vlocity_namespace%__ParentElementType__c": "Step",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "accessibleInFutureSteps": false,
+        "conditionType": "Hide if False",
+        "controlWidth": 12,
+        "controllingField": {
+            "element": "Select_subscription",
+            "source": "vfdgdfg"
+        },
+        "defaultValue": "Chang_MDP",
+        "disOnTplt": false,
+        "enableCaption": true,
+        "help": false,
+        "helpText": "",
+        "hide": false,
+        "horizontalMode": false,
+        "imageCountInRow": 3,
+        "label": "Séléction du type de modification",
+        "optionHeight": 150,
+        "optionSource": {
+            "source": "",
+            "type": "Custom"
+        },
+        "optionWidth": 200,
+        "options": [
+            {
+                "imgId": null,
+                "name": "Chang_MDP",
+                "value": "Changement du Mot de Pass BVC"
+            },
+            {
+                "name": "Changement_de_Numero",
+                "value": "Changement de Numéro"
+            },
+            {
+                "name": "Suspension",
+                "value": "Suspension"
+            },
+            {
+                "name": "Rehabilitation",
+                "value": "Réhabilitation"
+            },
+            {
+                "name": "Changement_de_carte_SIM",
+                "value": "Changement de carte SIM"
+            },
+            {
+                "name": "Changement_de_Terminal_Modem",
+                "value": "Changement de Terminal/Modem"
+            },
+            {
+                "name": "Changement_Options_Attributs",
+                "value": "Changement Options/Attributs"
+            },
+            {
+                "name": "Changement_de_carte_SIM_SAV",
+                "value": "Changement de carte SIM - SAV interne"
+            },
+            {
+                "name": "Changement_de_Terminal_SAV",
+                "value": "Changement de Terminal/Modem  - SAV interne"
+            },
+            {
+                "name": "Migration_Offre",
+                "value": "Migration d'offre"
+            }
+        ],
+        "readOnly": false,
+        "repeat": false,
+        "repeatClone": false,
+        "repeatLimit": null,
+        "required": true,
+        "show": null
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Radio",
+    "CurrencyIsoCode": "MAD",
+    "Name": "SelectTypeModif",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/inwi360/ModificationLigne/French/SelectTypeModif"
+}

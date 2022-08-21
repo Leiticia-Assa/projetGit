@@ -1,0 +1,58 @@
+{
+    "%vlocity_namespace%__Active__c": false,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "InwiB2C_Changement_Forfait_Postpayed",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/inwib2c/ChangementForfaitPostpayed/French",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "InwiB2C_Changement_Forfait_Postpayed",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/inwib2c/ChangementForfaitPostpayed/French",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "LigneNonActive",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/inwib2c/ChangementForfaitPostpayed/French/LigneNonActive",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "LigneNonActive",
+    "%vlocity_namespace%__ParentElementType__c": "Step",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 6,
+        "disOnTplt": false,
+        "iconName": "utility:edit_form",
+        "iconPosition": "left",
+        "iconVariant": "",
+        "label": "Création Requête",
+        "loginAction": "login",
+        "message": {
+        },
+        "objectAction": "home",
+        "pubsub": false,
+        "recordAction": "view",
+        "replace": false,
+        "show": null,
+        "ssm": false,
+        "targetFilter": "Recent",
+        "targetId": "%ContextId%",
+        "targetLWC": "/lwcos?c__target=c:inwi360CreateCaseFrench&c__layout=lightning&c__tabIcon=utility:edit_form&c__ContextId=%AccountId%&c__tabLabel=CreationRequete",
+        "targetLWCLayout": "lightning",
+        "targetLWCParams": "c__ContextId=%AccountId%&c__tabLabel=CreationRequete&c__tabIcon=utility:edit_form",
+        "targetType": "Web Page",
+        "targetUrl": "/lwcos?c__target=c:inwi360CreateCaseFrench&c__layout=lightning&c__tabIcon=utility:edit_form&c__ContextId=%AccountId%&c__tabLabel=CreationRequete",
+        "validationRequired": "none",
+        "variant": "brand",
+        "wpm": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Navigate Action",
+    "CurrencyIsoCode": "MAD",
+    "Name": "NavigateAction21",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/inwib2c/ChangementForfaitPostpayed/French/NavigateAction21"
+}

@@ -1,0 +1,67 @@
+{
+    "%vlocity_namespace%__Active__c": false,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "SearchAccount",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/inwi360/SearchAccount/French",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "SearchAccount",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/inwi360/SearchAccount/French",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "Search",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/inwi360/SearchAccount/French/Search",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "Search",
+    "%vlocity_namespace%__ParentElementType__c": "Step",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "dataJSON": false,
+        "disOnTplt": false,
+        "label": "MessageInfo",
+        "sanitize": false,
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "<>",
+                        "data": null,
+                        "field": "Nom"
+                    },
+                    {
+                        "condition": "<>",
+                        "data": null,
+                        "field": "Prenom"
+                    },
+                    {
+                        "condition": "<>",
+                        "data": null,
+                        "field": "CIN"
+                    },
+                    {
+                        "condition": "<>",
+                        "data": null,
+                        "field": "MDN"
+                    }
+                ]
+            }
+        },
+        "text": "<h5><strong><span style=\"color: #000000;\">Vous pouvez rechercher une personne en saisissant :</span></strong></h5>\n<ol>\n<li><span style=\"text-decoration: underline;\"><span style=\"color: #000000; text-decoration: underline;\">Soit</span></span><span style=\"color: #000000;\">&nbsp;&nbsp;</span><span style=\"color: #000000;\">le <strong>Nom <span style=\"color: #ff0000;\">ET</span></strong> le <strong>Pr&eacute;nom</strong> avec trois caract</span><span style=\"color: #000000;\">&egrave;res minimum&nbsp;par champ.</span></li>\n<li><span style=\"color: #000000;\"><span style=\"text-decoration: underline;\"><span style=\"color: #000000; text-decoration: underline;\">Soit</span></span><span style=\"color: #000000;\">&nbsp; la <strong>CIN.</strong></span></span></li>\n<li><span style=\"color: #000000;\"><span style=\"color: #000000;\"><span style=\"text-decoration: underline;\"><span style=\"color: #000000; text-decoration: underline;\">Soit</span></span><span style=\"color: #000000;\">&nbsp; le <strong>MDN.</strong></span></span></span></li>\n</ol>",
+        "textKey": ""
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Text Block",
+    "CurrencyIsoCode": "MAD",
+    "Name": "MessageInfo",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/inwi360/SearchAccount/French/MessageInfo"
+}

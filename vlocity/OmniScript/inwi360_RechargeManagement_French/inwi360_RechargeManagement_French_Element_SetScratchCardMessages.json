@@ -1,0 +1,45 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "InwiB2C_RechargeManagement",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/inwi360/RechargeManagement/French",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "CardActive": "Attention cette scratch card est déjà utilisée",
+            "CardBloqued": "Attention cette scratch card est bloquée. Merci d’escalader la requête au BO",
+            "CardInvalid": "Attention cette scratch card est introuvable. Merci d’escalader la requête au BO",
+            "CardNotExists": "Attention cette scratch card est introuvable. Merci d’escalader la requête au BO",
+            "CardUnused": "Le statut du numéro de série est : UNUSED",
+            "CorrectUnusedCard": "le code PIN est compatible avec le numéro de série.",
+            "ScratchCardLaunched": "KO",
+            "WrongInformations": "Attention cette scratch card est introuvable. Merci d’escalader la requête au BO",
+            "WrongUnusedCard": "Attention le code PIN est incompatible avec le numéro de série.",
+            "pinCode": "",
+            "serialNumber": ""
+        },
+        "label": "SetScratchCardMessages",
+        "message": {
+        },
+        "pubsub": false,
+        "show": null,
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "ssm": false,
+        "wpm": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": true,
+    "%vlocity_namespace%__Type__c": "Set Values",
+    "CurrencyIsoCode": "MAD",
+    "Name": "SetScratchCardMessages",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/inwi360/RechargeManagement/French/SetScratchCardMessages"
+}

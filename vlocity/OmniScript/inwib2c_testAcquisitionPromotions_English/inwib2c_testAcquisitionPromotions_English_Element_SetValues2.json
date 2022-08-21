@@ -1,0 +1,106 @@
+{
+    "%vlocity_namespace%__Active__c": false,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "inwiB2C_testAcquisitionPromotions",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/inwib2c/testAcquisitionPromotions/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "list": [
+                {
+                    "Id": "F1512080315",
+                    "InvoiceDate": "2015-12-01",
+                    "IsSelected": false,
+                    "billingAccountId": "1475763",
+                    "invoiceAmount": 1228.72,
+                    "invoiceEndDate": "01/12/2015",
+                    "invoicePaymentDueDate": "20/12/2015",
+                    "invoiceStartDate": "01/11/2015",
+                    "mois": "Novembre",
+                    "remainingAmount": 1023.93,
+                    "status": "Impayée",
+                    "vlcSelected": true
+                },
+                {
+                    "Id": "F1510056383",
+                    "InvoiceDate": "2015-10-01",
+                    "IsSelected": false,
+                    "billingAccountId": "1475763",
+                    "invoiceAmount": 649,
+                    "invoiceEndDate": "01/10/2015",
+                    "invoicePaymentDueDate": "20/10/2015",
+                    "invoiceStartDate": "01/09/2015",
+                    "mois": "Septembre",
+                    "remainingAmount": 540.83,
+                    "status": "Impayée",
+                    "vlcSelected": true
+                },
+                {
+                    "Id": "F1511066627",
+                    "InvoiceDate": "2015-11-01",
+                    "IsSelected": false,
+                    "billingAccountId": "1475763",
+                    "invoiceAmount": 649,
+                    "invoiceEndDate": "01/11/2015",
+                    "invoicePaymentDueDate": "20/11/2015",
+                    "invoiceStartDate": "01/10/2015",
+                    "mois": "Octobre",
+                    "remainingAmount": 540.83,
+                    "status": "Impayée",
+                    "vlcSelected": true
+                },
+                {
+                    "Id": "F1509064766",
+                    "InvoiceDate": "2015-09-01",
+                    "IsSelected": false,
+                    "billingAccountId": "1475763",
+                    "invoiceAmount": 669.94,
+                    "invoiceEndDate": "01/09/2015",
+                    "invoicePaymentDueDate": "20/09/2015",
+                    "invoiceStartDate": "31/08/2015",
+                    "mois": "Août",
+                    "remainingAmount": 557.45,
+                    "status": "Partiellement payée",
+                    "vlcSelected": true
+                }
+            ],
+            "montant": 500,
+            "montantLibre": 100,
+            "records": [
+                {
+                    "AccountNumber": "10044256148",
+                    "BillingAddress": "Maroc a6Y3M0000004ILx a6j3M0000008nxA a6f3M0000009MEPQuartie  rima chadia",
+                    "FirstName": "Amine12",
+                    "Id": "0013M000010KMhoQAG",
+                    "LastName": "Moundir0",
+                    "ModeDePaiement": "Prélèvement automatique (RIB)",
+                    "Name": "asssssaaa",
+                    "customerAccountId": "0013M00000yqoJgQAI"
+                }
+            ]
+        },
+        "label": "SetValues2",
+        "message": {
+        },
+        "pubsub": false,
+        "show": null,
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "ssm": false,
+        "wpm": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Set Values",
+    "CurrencyIsoCode": "MAD",
+    "Name": "SetValues2",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/inwib2c/testAcquisitionPromotions/English/SetValues2"
+}

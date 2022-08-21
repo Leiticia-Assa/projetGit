@@ -1,0 +1,73 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "inwiB2C_Acquisition",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/inwib2c/Acquisition/French",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "disOnTplt": false,
+        "enableActionMessage": false,
+        "enableDefaultAbort": false,
+        "errorMessage": {
+            "custom": [
+            ],
+            "default": null
+        },
+        "extraPayload": {
+            "cartId": "%OrderId%",
+            "fields": "InwiB2C_FMS__c , InwiB2C_FMD__c,%vlocity_namespace%__BillingAccountId__c,%vlocity_namespace%__ServiceAccountId__c,Quantity,%vlocity_namespace%__RecurringTotal__c,%vlocity_namespace%__OneTimeTotal__c,%vlocity_namespace%__OneTimeManualDiscount__c,%vlocity_namespace%__RecurringManualDiscount__c,%vlocity_namespace%__ProvisioningStatus__c,%vlocity_namespace%__RecurringCharge__c,%vlocity_namespace%__OneTimeCharge__c,ListPrice,%vlocity_namespace%__ParentItemId__c,%vlocity_namespace%__BillingAccountId__r.Name,%vlocity_namespace%__ServiceAccountId__r.Name,%vlocity_namespace%__PremisesId__r.Name,%vlocity_namespace%__InCartQuantityMap__c,%vlocity_namespace%__EffectiveQuantity__c,Product2.INWIB2C_visibilit_options__c,Product2.%vlocity_namespace%__SpecificationType__c,Product2.Name,Product2.%vlocity_namespace%__SellingEndDate__c,%vlocity_namespace%__Product2Id__r.Family,Product2.InwiB2C_Type_offre__c,Product2.%vlocity_namespace%__Type__c",
+            "price": false
+        },
+        "failureAbortLabel": "Abort",
+        "failureAbortMessage": "Are you sure?",
+        "failureGoBackLabel": "Go Back",
+        "failureNextLabel": "Continue",
+        "inProgressMessage": "In Progress",
+        "label": "getCartItems3",
+        "message": {
+        },
+        "postMessage": "Done",
+        "postTransformBundle": "",
+        "preTransformBundle": "",
+        "pubsub": false,
+        "redirectNextLabel": "Next",
+        "redirectNextWidth": 3,
+        "redirectPageName": "",
+        "redirectPreviousLabel": "Previous",
+        "redirectPreviousWidth": 3,
+        "redirectTemplateUrl": "vlcAcknowledge.html",
+        "remoteClass": "%vlocity_namespace%.CpqAppHandler",
+        "remoteMethod": "getCartsItems",
+        "remoteOptions": {
+            "postTransformBundle": "",
+            "preTransformBundle": null
+        },
+        "remoteTimeout": 30000,
+        "responseJSONNode": "vlcCart",
+        "responseJSONPath": "",
+        "sendJSONNode": "",
+        "sendJSONPath": "",
+        "sendOnlyExtraPayload": true,
+        "show": null,
+        "showPersistentComponent": [
+            true,
+            false
+        ],
+        "ssm": false,
+        "svgIcon": "",
+        "svgSprite": "",
+        "validationRequired": "Step",
+        "wpm": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Remote Action",
+    "CurrencyIsoCode": "MAD",
+    "Name": "getCartItems3",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/inwib2c/Acquisition/French/getCartItems3"
+}

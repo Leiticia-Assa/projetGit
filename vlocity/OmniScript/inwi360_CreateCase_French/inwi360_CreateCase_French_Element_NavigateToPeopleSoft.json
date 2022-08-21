@@ -1,0 +1,117 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "Inwi_B2C_CreateCase",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/inwi360/CreateCase/French",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "Inwi_B2C_CreateCase",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/inwi360/CreateCase/French",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "CreactionCase",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/inwi360/CreateCase/French/CreactionCase",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "CreactionCase",
+    "%vlocity_namespace%__ParentElementType__c": "Step",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 6,
+        "disOnTplt": false,
+        "iconName": "utility:link",
+        "iconPosition": "left",
+        "iconPositionOptions": [
+            "left",
+            "right"
+        ],
+        "iconVariant": "",
+        "label": "Vue 360° Client PeopleSoft",
+        "loginAction": "login",
+        "message": {
+        },
+        "objectAction": "home",
+        "objectActionOptions": [
+            "home",
+            "list",
+            "new"
+        ],
+        "pubsub": false,
+        "recordAction": "view",
+        "recordActionOptions": [
+            "clone",
+            "edit",
+            "view"
+        ],
+        "replace": false,
+        "replaceOptions": [
+            {
+                "label": "No",
+                "value": false
+            },
+            {
+                "label": "Yes",
+                "value": true
+            }
+        ],
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "<>",
+                        "data": "Inwi POS",
+                        "field": "usprf"
+                    }
+                ]
+            }
+        },
+        "ssm": false,
+        "targetFilter": "Recent",
+        "targetId": "%ContextId%",
+        "targetLWCLayout": "lightning",
+        "targetLWCLayoutOptions": [
+            "lightning",
+            "newport"
+        ],
+        "targetType": "Web Page",
+        "targetTypeOptions": [
+            "Component",
+            "Current Page",
+            "Knowledge Article",
+            "Named Page",
+            "Navigation Item",
+            "Object",
+            "Record",
+            "Record Relationship",
+            "Web Page",
+            "Vlocity OmniScript"
+        ],
+        "targetUrl": "%redirectpps%",
+        "validationRequired": "none",
+        "variant": "brand",
+        "variantOptions": [
+            "brand",
+            "outline-brand",
+            "neutral",
+            "success",
+            "destructive",
+            "text-destructive",
+            "inverse",
+            "link"
+        ],
+        "wpm": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Navigate Action",
+    "CurrencyIsoCode": "MAD",
+    "Name": "NavigateToPeopleSoft",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/inwi360/CreateCase/French/NavigateToPeopleSoft"
+}

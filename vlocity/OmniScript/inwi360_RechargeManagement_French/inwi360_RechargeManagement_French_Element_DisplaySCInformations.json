@@ -1,0 +1,123 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "InwiB2C_RechargeManagement",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/inwi360/RechargeManagement/French",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "InwiB2C_RechargeManagement",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/inwi360/RechargeManagement/French",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "ScratchCardVerification",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/inwi360/RechargeManagement/French/ScratchCardVerification",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "ScratchCardVerification",
+    "%vlocity_namespace%__ParentElementType__c": "Step",
+    "%vlocity_namespace%__PropertySet__c": {
+        "bStandalone": false,
+        "conditionType": "Hide if False",
+        "controlWidth": 12,
+        "customAttributes": [
+            {
+                "name": "scratchcardstatus",
+                "source": "%resultScratchCard:status%"
+            },
+            {
+                "name": "scratchcardamount",
+                "source": "%resultScratchCard:amount%"
+            },
+            {
+                "name": "scratchcarddatedebut",
+                "source": "%resultScratchCard:SCDateDebut%"
+            },
+            {
+                "name": "scratchcarddatefin",
+                "source": "%resultScratchCard:SCDateFin%"
+            },
+            {
+                "name": "scratchcardpincodestatus",
+                "source": "%resultScratchCard:pinCodeStatus%"
+            },
+            {
+                "name": "scratchcardmdn",
+                "source": "%resultScratchCard:numeromdn%"
+            },
+            {
+                "name": "scratchcardactivationdate",
+                "source": "%resultScratchCard:ActivationDate%"
+            },
+            {
+                "name": "blockcounter",
+                "source": "%blockcounter%"
+            },
+            {
+                "name": "errorcode",
+                "source": "%result:receivedCode%"
+            },
+            {
+                "name": "mdn",
+                "source": "%MDN%"
+            },
+            {
+                "name": "subsid",
+                "source": "%SubsId%"
+            },
+            {
+                "name": "canal",
+                "source": "%Canal%"
+            },
+            {
+                "name": "partenaire",
+                "source": "%POSId%"
+            },
+            {
+                "name": "pincode",
+                "source": "%pinCode%"
+            },
+            {
+                "name": "serialnumber",
+                "source": "%serialNumber%"
+            }
+        ],
+        "disOnTplt": false,
+        "hide": false,
+        "label": "DisplaySCInformations",
+        "lwcName": "inwiB2C_DisplayScratchCardInfos",
+        "show": {
+            "group": {
+                "operator": "OR",
+                "rules": [
+                    {
+                        "condition": "<>",
+                        "data": null,
+                        "field": "resultScratchCard:status"
+                    },
+                    {
+                        "condition": "<>",
+                        "data": null,
+                        "field": "result:receivedCode"
+                    },
+                    {
+                        "condition": "<>",
+                        "data": null,
+                        "field": "result:code"
+                    }
+                ]
+            }
+        }
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": true,
+    "%vlocity_namespace%__Type__c": "Custom Lightning Web Component",
+    "CurrencyIsoCode": "MAD",
+    "Name": "DisplaySCInformations",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/inwi360/RechargeManagement/French/DisplaySCInformations"
+}

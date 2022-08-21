@@ -1,0 +1,43 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "Lead",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/inwi360/CreationLead/French",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "Lead",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/inwi360/CreationLead/French",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "Recap",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/inwi360/CreationLead/French/Recap",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "Recap",
+    "%vlocity_namespace%__ParentElementType__c": "Step",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "dataJSON": true,
+        "disOnTplt": false,
+        "documentNames": [
+            "CACABBCBA6e6dfd85e4254691a7680ff5dd1c38bf"
+        ],
+        "label": "Récapitulatif nouvelle piste",
+        "show": null,
+        "text": "<p></p>\n<p></p>\n<p><strong><img src=\"../servlet/servlet.ImageServer?id=0153M0000005zs1QAA&amp;&amp;docName=CACABBCBA6e6dfd85e4254691a7680ff5dd1c38bf&amp;&amp;oid=00D25000000HtNbEAK\" alt=\"Icon_Lead\" width=\"69\" height=\"68\" /><span style=\"color: #00ccff;\">D&eacute;tail Piste</span></strong></p>\n<p><strong><span style=\"color: #0000ff;\">&nbsp;</span></strong></p>\n<table dir=\"ltr\" style=\"height: 157px; width: 358px;\">\n<tbody>\n<tr style=\"height: 16px;\">\n<td style=\"width: 228px; height: 16px;\"><span style=\"color: #00ccff;\"><strong>Civilit&eacute;</strong></span></td>\n<td style=\"width: 129px; height: 16px;\"><strong>%Step1:Salutation%</strong></td>\n</tr>\n<tr style=\"height: 16px;\">\n<td style=\"width: 228px; height: 16px;\"><span style=\"color: #00ccff;\"><strong>Pr&eacute;nom</strong></span></td>\n<td style=\"width: 129px; height: 16px;\"><strong>%Step1:Nom%</strong></td>\n</tr>\n<tr style=\"height: 16px;\">\n<td style=\"width: 228px; height: 16px;\"><span style=\"color: #00ccff;\"><strong>Nom</strong></span></td>\n<td style=\"width: 129px; height: 16px;\"><strong>%Step1:Prenom%</strong></td>\n</tr>\n<tr style=\"height: 16px;\">\n<td style=\"width: 228px; height: 16px;\"><span style=\"color: #00ccff;\"><strong>Email</strong></span></td>\n<td style=\"width: 129px; height: 16px;\"><strong>%Step1:Mail%</strong></td>\n</tr>\n<tr style=\"height: 16px;\">\n<td style=\"width: 228px; height: 16px;\"><span style=\"color: #00ccff;\"><strong>T&eacute;l&eacute;phone</strong></span></td>\n<td style=\"width: 129px; height: 16px;\"><strong>%Step1:telephone%</strong></td>\n</tr>\n<tr style=\"height: 16px;\">\n<td style=\"width: 228px; height: 16px;\"><span style=\"color: #00ccff;\"><strong>Fonction</strong></span></td>\n<td style=\"width: 129px; height: 16px;\"><strong>%Step1:fonction%</strong></td>\n</tr>\n<tr style=\"height: 16px;\">\n<td style=\"width: 228px; height: 16px;\"><strong><span style=\"color: #33cccc;\">Origine de la piste</span></strong></td>\n<td style=\"width: 129px; height: 16px;\"><strong>%Step1:Origine%</strong></td>\n</tr>\n<tr style=\"height: 16px;\">\n<td style=\"width: 228px; height: 16px;\"><span style=\"color: #00ccff;\"><strong>Type d'offre</strong></span></td>\n<td style=\"width: 129px; height: 16px;\"><strong>%Step1:type%</strong></td>\n</tr>\n<tr style=\"height: 16px;\">\n<td style=\"width: 228px; height: 16px;\"><span style=\"color: #00ccff;\"><strong>Offre</strong></span></td>\n<td style=\"width: 129px; height: 16px;\">&nbsp;<strong>%Step1:Offre%</strong></td>\n</tr>\n<tr style=\"height: 16px;\">\n<td style=\"width: 228px; height: 16px;\"><strong><span style=\"color: #00ccff;\">Formule</span></strong></td>\n<td style=\"width: 129px; height: 16px;\"><strong>&nbsp;%Step1:Formule%</strong></td>\n</tr>\n<tr style=\"height: 10px;\">\n<td style=\"width: 228px; height: 10px; text-align: center;\">\n<h5><span style=\"color: #33cccc;\"><strong>Adresse</strong></span></h5>\n</td>\n<td style=\"width: 129px; height: 10px;\">&nbsp;</td>\n</tr>\n<tr style=\"height: 16px;\">\n<td style=\"width: 228px; height: 16px;\"><span style=\"color: #33cccc;\"><strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Rue</strong></span></td>\n<td style=\"width: 129px; height: 16px;\"><strong>%Step1:rue%</strong></td>\n</tr>\n<tr style=\"height: 16px;\">\n<td style=\"width: 228px; height: 16px;\"><strong><span style=\"color: #33cccc;\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Code Postal</span></strong></td>\n<td style=\"width: 129px; height: 16px;\"><strong>%Step1:codePostal%</strong></td>\n</tr>\n<tr style=\"height: 16px;\">\n<td style=\"width: 228px; height: 16px;\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <strong><span style=\"color: #33cccc;\">Ville</span></strong></td>\n<td style=\"width: 129px; height: 16px;\"><strong>%Step1:ville%</strong></td>\n</tr>\n<tr style=\"height: 16px;\">\n<td style=\"width: 228px; height: 16px;\"><span style=\"color: #33cccc;\"><strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;R&eacute;gion/Province</strong></span></td>\n<td style=\"width: 129px; height: 16px;\"><strong>&nbsp;%Step1:region%</strong></td>\n</tr>\n<tr style=\"height: 16px;\">\n<td style=\"width: 228px; height: 16px;\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<strong><span style=\"color: #33cccc;\">Pays</span></strong></td>\n<td style=\"width: 129px; height: 16px;\"><strong>&nbsp;%Step1:pays%</strong></td>\n</tr>\n</tbody>\n</table>\n<p dir=\"ltr\"><strong>&nbsp;</strong></p>\n<div id=\"insext\">\n<div accesskey=\"i\" class=\"insext-btn\" tabindex=\"0\" title=\"Show Salesforce details (Alt+I / Shift+Alt+I)\">&nbsp;</div>\n</div>\n<div id=\"insext\">&nbsp;</div>\n<div id=\"insext\">&nbsp;</div>",
+        "textKey": ""
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": true,
+    "%vlocity_namespace%__Type__c": "Text Block",
+    "CurrencyIsoCode": "MAD",
+    "Name": "TextBlock1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/inwi360/CreationLead/French/TextBlock1"
+}

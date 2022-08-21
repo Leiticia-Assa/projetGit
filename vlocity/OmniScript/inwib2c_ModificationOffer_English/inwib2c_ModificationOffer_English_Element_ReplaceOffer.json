@@ -1,0 +1,96 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "InwiB2CModificationOffer",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/inwib2c/ModificationOffer/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "disOnTplt": false,
+        "enableActionMessage": false,
+        "enableDefaultAbort": false,
+        "errorMessage": {
+            "custom": [
+            ],
+            "default": null
+        },
+        "extraPayload": {
+            "cartId": "%OrderId%",
+            "hierarchy": -1,
+            "includeAttachment": false,
+            "items": "%targetOffers:records|1:actions:replaceoffers:remote:params:items%",
+            "lastRecordId": null,
+            "methodName": "replaceOffers",
+            "pagesize": 5,
+            "price": true,
+            "query": null,
+            "replaceIntentSpecification": {
+                "SourceIntent": [
+                    {
+                        "Action": "Replace",
+                        "ActionParameter": "%targetOffers:records|1:actions:replaceoffers:remote:params:items|1:itemId%",
+                        "ActionParameterProductId": "%targetOffers:records|1:productId%",
+                        "GroupId": 1,
+                        "LineItemId": "%ExistingOffer:records|1:itemId%",
+                        "ProductId": "%ExistingOffer:records|1:productId%",
+                        "actionLabel": "Replace"
+                    }
+                ],
+                "TargetIntent": {
+                    "1": "%targetOffers:records|1:actions:replaceoffers:remote:params:items|1:itemId%"
+                }
+            },
+            "validate": true
+        },
+        "failureAbortLabel": "Abort",
+        "failureAbortMessage": "Are you sure?",
+        "failureGoBackLabel": "Go Back",
+        "failureNextLabel": "Continue",
+        "inProgressMessage": "In Progress",
+        "label": "ReplaceOffer",
+        "message": {
+        },
+        "postMessage": "Done",
+        "postTransformBundle": "",
+        "preTransformBundle": "",
+        "pubsub": false,
+        "redirectNextLabel": "Next",
+        "redirectNextWidth": 3,
+        "redirectPageName": "",
+        "redirectPreviousLabel": "Previous",
+        "redirectPreviousWidth": 3,
+        "redirectTemplateUrl": "vlcAcknowledge.html",
+        "remoteClass": "%vlocity_namespace%.CpqAppHandler",
+        "remoteMethod": "replaceOffers",
+        "remoteOptions": {
+            "postTransformBundle": "",
+            "preTransformBundle": ""
+        },
+        "remoteTimeout": 30000,
+        "responseJSONNode": "targetOffers",
+        "responseJSONPath": "",
+        "sendJSONNode": "",
+        "sendJSONPath": "",
+        "sendOnlyExtraPayload": true,
+        "show": null,
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "ssm": false,
+        "svgIcon": "",
+        "svgSprite": "",
+        "validationRequired": "Step",
+        "wpm": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Remote Action",
+    "CurrencyIsoCode": "MAD",
+    "Name": "ReplaceOffer",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/inwib2c/ModificationOffer/English/ReplaceOffer"
+}
