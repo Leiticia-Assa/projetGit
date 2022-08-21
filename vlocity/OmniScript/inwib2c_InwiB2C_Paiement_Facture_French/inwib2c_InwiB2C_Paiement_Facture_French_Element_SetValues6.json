@@ -1,0 +1,40 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "InwiB2C_Paiement_Facture",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/inwib2c/InwiB2C_Paiement_Facture/French",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "CIN": "=%CIN%",
+            "fraistimbre": "=IF(%Paiement:TypePaiement%==\"CS\",%totalamount%*0.0025,IF(%Paiement:TypePaiement%==\"PC\",\"0\",IF(%Paiement:TypePaiement%==\"BC\",\"0\",\"\")))",
+            "freeamountdoc": "=%Paiement:FreeAmount%",
+            "modepayment": "=IF(%Paiement:TypePaiement%==\"CS\",\"Espèce\",IF(%Paiement:TypePaiement%==\"PC\",\"TPE\",IF(%Paiement:TypePaiement%==\"BC\",\"chèque\",\"\")))",
+            "paymentref": "=IF(%Paiement:TypePaiement%==\"CS\",%accid%,IF(%Paiement:TypePaiement%==\"PC\",%transactionNumber%,IF(%Paiement:TypePaiement%==\"BC\",%accid%,\"\")))",
+            "totalamountdoc": "=IF(%Paiement:TypePaiement%==\"CS\",SUM(%totalamount%*0.0025,%totalamount%),IF(%Paiement:TypePaiement%==\"PC\",%totalamount%,IF(%Paiement:TypePaiement%==\"BC\",%totalamount%,\"\")))"
+        },
+        "label": "SetValues6",
+        "message": {
+        },
+        "pubsub": false,
+        "show": null,
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "ssm": false,
+        "wpm": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Set Values",
+    "CurrencyIsoCode": "MAD",
+    "Name": "SetValues6",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/inwib2c/InwiB2C_Paiement_Facture/French/SetValues6"
+}

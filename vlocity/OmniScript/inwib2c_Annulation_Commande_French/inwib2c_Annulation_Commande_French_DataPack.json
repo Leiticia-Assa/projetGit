@@ -1,0 +1,27 @@
+{
+    "%vlocity_namespace%__AdditionalInformation__c": "sd",
+    "%vlocity_namespace%__DisableMetadataCache__c": false,
+    "%vlocity_namespace%__ElementTypeToHTMLTemplateList__c": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "%vlocity_namespace%__Element__c": [
+        "inwib2c_Annulation_Commande_French_Element_RemoteAction1.json",
+        "inwib2c_Annulation_Commande_French_Element_SetValues1.json",
+        "inwib2c_Annulation_Commande_French_Element_DataRaptorPostAction1.json",
+        "inwib2c_Annulation_Commande_French_Element_AnnulationMSG.json",
+        "inwib2c_Annulation_Commande_French_Element_TextBlock1.json",
+        "inwib2c_Annulation_Commande_French_Element_NavigateAction1.json"
+    ],
+    "%vlocity_namespace%__IsLwcEnabled__c": true,
+    "%vlocity_namespace%__IsProcedure__c": false,
+    "%vlocity_namespace%__IsReusable__c": true,
+    "%vlocity_namespace%__IsTest__c": false,
+    "%vlocity_namespace%__Language__c": "French",
+    "%vlocity_namespace%__OmniProcessType__c": "OmniScript",
+    "%vlocity_namespace%__PropertySet__c": "inwib2c_Annulation_Commande_French_PropertySet.json",
+    "%vlocity_namespace%__SubType__c": "Annulation_Commande",
+    "%vlocity_namespace%__Type__c": "inwib2c",
+    "CurrencyIsoCode": "MAD",
+    "Name": "Inwib2c_Annulation_Commande",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__OmniScript__c/inwib2c/Annulation_Commande/French"
+}

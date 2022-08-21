@@ -1,0 +1,61 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "Inwi_B2C_CreateCase",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/inwi360/CreateCase/French",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "Inwi_B2C_CreateCase",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/inwi360/CreateCase/French",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "SelectionBesoin",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/inwi360/CreateCase/French/SelectionBesoin",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "SelectionBesoin",
+    "%vlocity_namespace%__ParentElementType__c": "Step",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "dataJSON": false,
+        "disOnTplt": false,
+        "documentNames": [
+            "CACABCCJA0fa394db70ac418097b328d25b5179dc",
+            "CACABCCJAb2ce15542c2d406b880c0edf7d8f2098"
+        ],
+        "label": "TextBlock10",
+        "sanitize": false,
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "=",
+                        "data": "false",
+                        "field": "showBesoinPicklist"
+                    },
+                    {
+                        "condition": "<>",
+                        "data": "SC Agents CRC Outbound N1 Ext",
+                        "field": "userProfile"
+                    }
+                ]
+            }
+        },
+        "text": "<p><a href=\"../servlet/servlet.FileDownload?file=0153M0000005zs6QAA&amp;&amp;docName=CACABCCJA0fa394db70ac418097b328d25b5179dc\" target=\"_blank\" rel=\"noopener\"></a><img src=\"../servlet/servlet.ImageServer?id=0153M0000005zsBQAQ&amp;&amp;docName=CACABCCJAb2ce15542c2d406b880c0edf7d8f2098&amp;&amp;oid=00D25000000HtNbEAK\" alt=\"\" width=\"21\" height=\"19\" />Cr&eacute;ation d'une nouvelle requ&ecirc;te</p>",
+        "textKey": ""
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Text Block",
+    "CurrencyIsoCode": "MAD",
+    "Name": "TextBlock1012",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/inwi360/CreateCase/French/TextBlock1012"
+}

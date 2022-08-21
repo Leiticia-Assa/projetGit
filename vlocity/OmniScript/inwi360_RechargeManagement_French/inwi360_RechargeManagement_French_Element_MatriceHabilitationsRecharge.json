@@ -1,0 +1,39 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "InwiB2C_RechargeManagement",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/inwi360/RechargeManagement/French",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "RechEligible1": "=OR(%userProfile%=\"SC Agents CRC N1 Ext_Ph2\",%userProfile%='SC Agents CRC Helpdesk N1 Ext_Ph2',%userProfile%=='SC Agents CRC Savedesk_Recouv N1 Ext_Ph2')",
+            "RechEligible2": "=OR(%userProfile%='SC Agents CRC Outbound N1  Ext_Ph2',%userProfile%=='SC Agents BO réclamation N2_Ph2',%userProfile%=='SC Agents BO Eshop_Televente N2 Int_Ph2')",
+            "RechEligible3": "=OR(%userProfile%='SC Superviseur CRC Ext_Ph2',%userProfile%=='SC Superviseur BO CRC Ext_Ph2',%userProfile%=='SC Superviseur BO CRC Int_Ph2')",
+            "RechEligible4": "=OR(%userProfile%='SC Superviseur FO CRC Int_Ph2',%userProfile%=='Support N3 Réseau_Ph2',%userProfile%=='SC Agent VIP Int_Ph2')",
+            "RechEligible5": "=OR(%userProfle%='SC Agents BO_Controle PDV N2 Ext_Ph2',%userProfile%=='SC Formation Int_Ph2',%userProfile%=='Support N3 SI_Ph2')"
+        },
+        "label": "MHRech",
+        "message": {
+        },
+        "pubsub": false,
+        "show": null,
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "ssm": false,
+        "wpm": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": true,
+    "%vlocity_namespace%__Type__c": "Set Values",
+    "CurrencyIsoCode": "MAD",
+    "Name": "MatriceHabilitationsRecharge",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/inwi360/RechargeManagement/French/MatriceHabilitationsRecharge"
+}

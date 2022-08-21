@@ -1,0 +1,146 @@
+{
+    "%vlocity_namespace%__Active__c": false,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "InwiB2CModificationOffer",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/inwib2c/ModificationOffer/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "HARDCODE": {
+                "BalanceResult": [
+                    {
+                        "familyName": "Solde Koulchi",
+                        "id": "2738",
+                        "name": "Recharge Koulchi promo 5 Dh",
+                        "relatedParty": [
+                        ],
+                        "specCharacteristic": [
+                        ],
+                        "unit": "DH (s)",
+                        "usages": [
+                            {
+                                "factor": "357.142857142857",
+                                "name": "communiquer en national jusqu'Ã ",
+                                "realValue": "714285.71",
+                                "type": "VOIXNAT",
+                                "unit": "",
+                                "value": "198h 24min 45s"
+                            },
+                            {
+                                "factor": "20.0",
+                                "name": "ou envoyer des SMS jusqu'Ã ",
+                                "realValue": "40000.0",
+                                "type": "SMS",
+                                "unit": "Unité(s)",
+                                "value": "40000"
+                            },
+                            {
+                                "factor": "100.0",
+                                "name": "ou naviguer sur internet jusqu'Ã ",
+                                "realValue": "200000.0",
+                                "type": "DATA",
+                                "unit": "Mo",
+                                "value": "200000.0"
+                            },
+                            {
+                                "factor": "45.045045045045",
+                                "name": "ou communiquer Ã  l'international jusqu'Ã ",
+                                "realValue": "90090.09",
+                                "type": "VOIXINT",
+                                "unit": "",
+                                "value": "25h 01min 30s"
+                            }
+                        ],
+                        "validFor": {
+                            "endDateTime": "2037-01-01T00:00:00Z[UTC]",
+                            "startDateTime": "2016-10-09T23:00:00Z[UTC]"
+                        },
+                        "value": "2000.0"
+                    },
+                    {
+                        "familyName": "Solde Koulchi",
+                        "id": "2733",
+                        "name": "Recharge solde initailVI Termianux",
+                        "relatedParty": [
+                        ],
+                        "specCharacteristic": [
+                        ],
+                        "unit": "DH (s)",
+                        "usages": [
+                            {
+                                "factor": "250.0",
+                                "name": "communiquer en national jusqu'Ã ",
+                                "realValue": "12500.0",
+                                "type": "VOIXNAT",
+                                "unit": "",
+                                "value": "03h 28min 20s"
+                            },
+                            {
+                                "factor": "909.090909090909",
+                                "name": "ou communiquer vers vos numÃ©ros prÃ©fÃ©rÃ©s",
+                                "realValue": "45454.54",
+                                "type": "NUMPREF",
+                                "unit": "",
+                                "value": "12h 37min 34s"
+                            },
+                            {
+                                "factor": "20.0",
+                                "name": "ou envoyer des SMS jusqu'Ã ",
+                                "realValue": "1000.0",
+                                "type": "SMS",
+                                "unit": "Unité(s)",
+                                "value": "1000"
+                            },
+                            {
+                                "factor": "100.0",
+                                "name": "ou naviguer sur internet jusqu'Ã ",
+                                "realValue": "5000.0",
+                                "type": "DATA",
+                                "unit": "Mo",
+                                "value": "5000.0"
+                            },
+                            {
+                                "factor": "54.054054054054",
+                                "name": "ou communiquer Ã  l'international jusqu'Ã ",
+                                "realValue": "2702.70",
+                                "type": "VOIXINT",
+                                "unit": "",
+                                "value": "00h 45min 02s"
+                            }
+                        ],
+                        "validFor": {
+                            "endDateTime": "2020-12-03T00:00:00Z[UTC]",
+                            "startDateTime": "2016-10-09T23:00:00Z[UTC]"
+                        },
+                        "value": "50.0"
+                    }
+                ],
+                "eligibilite": "111033.04",
+                "sum": 9
+            }
+        },
+        "label": "HARDCODE",
+        "message": {
+        },
+        "pubsub": false,
+        "show": null,
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "ssm": false,
+        "wpm": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Set Values",
+    "CurrencyIsoCode": "MAD",
+    "Name": "HARDCODE",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/inwib2c/ModificationOffer/English/HARDCODE"
+}

@@ -1,0 +1,40 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "Inwi_B2C_CreateCase",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/inwi360/CreateCase/French",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "ReclamationType": "%typeValue%",
+            "ReclamationTypeDisplay": "%typeValue%",
+            "accIdToGeneratorClass": "=IF(%isFromAccount% == true || %isFromAnonymousContact% == true,IF(%accountId% == null,%ContextId%,%accountId%),IF(%isFromSubscription% == true,%subscriptionInfo:AccountId%,%billingInfo:AccountId%))",
+            "issellopening": "=IF(OR(AND(%isFromAnonymousContact% <> true ,%SelectSubscriptions:SubscriptionDisplay:selectedSubStatus% = 'ACTIVE',%usprf% <> 'Inwi POS'),AND(%SelectAction% = 'showCases',%usprf% <> 'Inwi POS'),AND(%isFromSubscription% = true)),true,false)",
+            "selectedContact": "=IF(%isFromAccount% == true ,%AllContacts:FirstName%+' '+%AllContacts:LastName%,IF(%isFromAnonymousContact% == true,%contactInfo:FirstName%+' '+%contactInfo:LastName%,IF(%isFromSubscription% == true,%subscriptionInfo:ContactFisrtName% +' '+ %subscriptionInfo:ContactLastName%,%billingInfo:ParentAccountName%)))",
+            "selectedSubscriptionMDN": "=IF(%SubscriptionDisplay:selectedSubscriptionMdn% == null , %subscriptionInfo:MDN%, %SubscriptionDisplay:selectedSubscriptionMdn%)"
+        },
+        "label": "SetValues2",
+        "message": {
+        },
+        "pubsub": false,
+        "show": null,
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "ssm": false,
+        "wpm": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Set Values",
+    "CurrencyIsoCode": "MAD",
+    "Name": "SetValues2",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/inwi360/CreateCase/French/SetValues2"
+}

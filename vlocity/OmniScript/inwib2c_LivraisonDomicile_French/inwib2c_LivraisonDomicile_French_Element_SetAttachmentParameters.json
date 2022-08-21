@@ -1,0 +1,48 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "inwiB2C_LivraisonDomicile",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/inwib2c/LivraisonDomicile/French",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "attacbParams": {
+                "BusinessReference": "%OrderId%",
+                "BusinessReferenceType": "ORDER",
+                "DocumentList": [
+                    {
+                        "docTypeId": "CIN_ou_passeport",
+                        "docTypeLabel": "CIN ou passeport"
+                    },
+                    {
+                        "docTypeId": "Contrat_Original_(Acquisition_ou_identification)_ou_Attestation_sur_l'honneur_légalisée_originale",
+                        "docTypeLabel": "Contrat scanné"
+                    }
+                ]
+            }
+        },
+        "label": "SetAttachmentParameters",
+        "message": {
+        },
+        "pubsub": false,
+        "show": null,
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "ssm": false,
+        "wpm": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Set Values",
+    "CurrencyIsoCode": "MAD",
+    "Name": "SetAttachmentParameters",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/inwib2c/LivraisonDomicile/French/SetAttachmentParameters"
+}

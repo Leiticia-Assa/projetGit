@@ -1,0 +1,41 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "FicheClient",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/inwi360/FicheClient/French",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "SetInput1": "=IF(%StepShowInformations:firstName%==%oldPrenom% && %StepShowInformations:lastName%==%oldNom% && %StepShowInformations:typeID%==%oldTypeCIN% && %StepShowInformations:idCard%==%oldCIN% && %StepShowInformations:birthdate_1%==%oldBirthdate%,\"True\",\"False\")",
+            "Setinput": "=IF(%StepShowInformations:firstName%==%oldPrenom% || %StepShowInformations:LastName%==%oldNom%,\"true\",\"False\")",
+            "birthhhhh": "=IF( %StepShowInformations:birthdate_1%==%oldBirthdate%,\"True\",\"False\")",
+            "cinnnn": "=IF(%StepShowInformations:idCard%==%oldCIN%,\"True\",\"False\")",
+            "nommm": "=IF(%StepShowInformations:lastName%==%oldNom%,\"True\",\"False\")",
+            "prenommmm": "=IF(%StepShowInformations:firstName%==%oldPrenom%,\"True\",\"False\")",
+            "typeidddd": "=IF(%StepShowInformations:typeID%==%oldTypeCIN%,\"True\",\"False\")"
+        },
+        "label": "VarForCheck",
+        "message": {
+        },
+        "pubsub": false,
+        "show": null,
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "ssm": false,
+        "wpm": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": true,
+    "%vlocity_namespace%__Type__c": "Set Values",
+    "CurrencyIsoCode": "MAD",
+    "Name": "VarForCheck",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/inwi360/FicheClient/French/VarForCheck"
+}

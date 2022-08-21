@@ -1,0 +1,82 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "Identification_PDV",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/inwib2c/Identificationpdv/French",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "updateJsonFieldciient": {
+                "account": {
+                    "idClient": "%thecontract:idClient%",
+                    "infoAcc": {
+                        "Segment_Dealer": "%SaisieInformationsDealerStep:SegmentDealer%",
+                        "TypeCIN": "%SaisieInformationsDealerStep:typeCINDealer%",
+                        "Type_Dealer": "%SaisieInformationsDealerStep:TypeDealer%",
+                        "firstName": "%SaisieInformationsDealerStep:NomDealer%",
+                        "lastName": "%SaisieInformationsDealerStep:PrenomDealer%",
+                        "theId": "%SaisieInformationsDealerStep:cinDealer%"
+                    }
+                },
+                "addressclient": {
+                    "Id": "%thecontract:idAddressClient%",
+                    "TypeAdresse": "%SaisieInformationsDealerStep:TypeAddressDealer%",
+                    "adresse": "%SaisieInformationsDealerStep:addressDealer%",
+                    "pays": "%SaisieInformationsDealerStep:AddressesManagment:Pays%",
+                    "prequartier": "%SaisieInformationsDealerStep:AddressesManagment:PrecisionQuartier%",
+                    "quartier": "%SaisieInformationsDealerStep:AddressesManagment:Quartier%",
+                    "region": "%SaisieInformationsDealerStep:AddressesManagment:Region%",
+                    "ville": "%SaisieInformationsDealerStep:AddressesManagment:Ville%"
+                },
+                "contact": {
+                    "idContact": "%thecontract:idContact%",
+                    "infoContact": {
+                        "TypeCIN": "%SaisieInformationsDealerStep:typeCINDealer%",
+                        "firstName": "%SaisieInformationsDealerStep:NomDealer%",
+                        "lastName": "%SaisieInformationsDealerStep:PrenomDealer%",
+                        "theId": "%SaisieInformationsDealerStep:cinDealer%"
+                    }
+                }
+            }
+        },
+        "label": "SetValueToUpdateJsonClient",
+        "message": {
+        },
+        "pubsub": false,
+        "show": {
+            "group": {
+                "operator": "OR",
+                "rules": [
+                    {
+                        "condition": "=",
+                        "data": "Dealer",
+                        "field": "infoCli:sigment"
+                    },
+                    {
+                        "condition": "=",
+                        "data": "Super Dealer",
+                        "field": "infoCli:sigment"
+                    }
+                ]
+            }
+        },
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "ssm": false,
+        "wpm": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Set Values",
+    "CurrencyIsoCode": "MAD",
+    "Name": "SetValueToUpdateJsonClient",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/inwib2c/Identificationpdv/French/SetValueToUpdateJsonClient"
+}

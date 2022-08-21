@@ -1,0 +1,51 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "FicheClient",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/inwi360/FicheClient/French",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "activityArea": "=IF(%sumCounts% == 0, %activityArea_1%, %activityArea_2%)",
+            "birthdate": "=IF(%sumCounts% == 0, %birthdate_1%, %birthdate_2%)",
+            "familySituation": "=IF(%sumCounts% == 0, %familySituation_1%, %familySituation_2%)",
+            "favoriteLanguage": "=IF(%sumCounts% == 0, %favoriteLanguage_1%, %favoriteLanguage_2%)",
+            "fax": "=IF(%sumCounts% == 0, %fax_1%, %fax_2%)",
+            "fixSubscription": "=IF(%sumCounts% == 0, %fixSubscription_1%, %fixSubscription_2%)",
+            "internetSubscription": "=IF(%sumCounts% == 0, %internetSubscription_1%, %internetSubscription_2%)",
+            "levelOfStudies": "=IF(%sumCounts% == 0, %levelOfStudies_1%, %levelOfStudies_2%)",
+            "nationality": "=IF(%sumCounts% == 0, %nationality_1%, %nationality_2%)",
+            "postalCode": "=IF(%sumCounts% == 0, %postalCode_1%, %postalCode_2%)",
+            "primaryOperatorChoice": "=IF(%sumCounts% == 0, %primaryOperatorChoice_1%, %primaryOperatorChoice_2%)",
+            "profession": "=IF(%sumCounts% == 0, %profession_1%, %profession_2%)",
+            "revenus": "=IF(%sumCounts% == 0, %revenus_1%, %revenus_2%)",
+            "seniority": "=IF(%sumCounts% == 0, %seniority_1%, %seniority_2%)",
+            "telephone": "=IF(%sumCounts% == 0, %telephone_1%, %telephone_2%)",
+            "typeSocialMedia": "=IF(%sumCounts% == 0, %typeSocialMedia_1%, %typeSocialMedia_2%)",
+            "vip": "=IF(%sumCounts% == 0, %vip_1%, %vip_2%)"
+        },
+        "label": "SetUpdatedValues",
+        "message": {
+        },
+        "pubsub": false,
+        "show": null,
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "ssm": false,
+        "wpm": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": true,
+    "%vlocity_namespace%__Type__c": "Set Values",
+    "CurrencyIsoCode": "MAD",
+    "Name": "SetUpdatedValues",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/inwi360/FicheClient/French/SetUpdatedValues"
+}

@@ -1,0 +1,64 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "Identification_PDV",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/inwib2c/Identificationpdv/French",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "inputUpdateAdd": {
+                "CityName": "%SaisieInformations:dependentValues:CityName%",
+                "Id": "%thecontract:idAddressClient%",
+                "PaysName": "%SaisieInformations:dependentValues:PaysName%",
+                "PrecisionQuartier": "%SaisieInformations:dependentValues:PrecisionQuartier%",
+                "RegionName": "%SaisieInformations:dependentValues:RegionName%",
+                "adresse": "%SaisieInformations:address%",
+                "codepostal": "%SaisieInformations:CodePostal%",
+                "pays": "%SaisieInformations:dependentValues:Pays%",
+                "prequartier": "%SaisieInformations:dependentValues:PrecisionQuartier%",
+                "quartier": "%SaisieInformations:dependentValues:Quartier%",
+                "region": "%SaisieInformations:dependentValues:Region%",
+                "ville": "%SaisieInformations:dependentValues:Ville%"
+            }
+        },
+        "label": "SetValuesToUpdateAddress",
+        "message": {
+        },
+        "pubsub": false,
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "<>",
+                        "data": "Dealer",
+                        "field": "infoCli:sigment"
+                    },
+                    {
+                        "condition": "<>",
+                        "data": "Super Dealer",
+                        "field": "infoCli:sigment"
+                    }
+                ]
+            }
+        },
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "ssm": false,
+        "wpm": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Set Values",
+    "CurrencyIsoCode": "MAD",
+    "Name": "SetValuesToUpdateAddress",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/inwib2c/Identificationpdv/French/SetValuesToUpdateAddress"
+}

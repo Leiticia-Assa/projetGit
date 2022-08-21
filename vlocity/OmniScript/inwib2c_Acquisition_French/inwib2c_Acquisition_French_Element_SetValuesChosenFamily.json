@@ -1,0 +1,36 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "inwiB2C_Acquisition",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/inwib2c/Acquisition/French",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "Family": "=IF(%Canal%=='inwiB2C_Eshop',%ChooseFamily:Family_Eshop_Items%,IF(%Canal%=='inwiB2C_Televente',%ChooseFamily:Family_Eshop_Items%,IF(%segmentmarche%=='Dealer',%ChooseFamily:Familly_Dealer%,IF(%segmentmarche%=='Super Dealer', %ChooseFamily:Familly_Dealer%,IF(%ChooseFamily:Family_4_items% == null, IF(%Family_4_items_without_prepaid% == null, IF(%ChooseFamily:Family_4_items_without_postpaid% == null, %ChooseFamily:Family_2_items%, %Family_4_items_without_postpaid%), %ChooseFamily:Family_4_items_without_prepaid%), %ChooseFamily:Family_4_items%)))))",
+            "typeoffer": "Postpaye"
+        },
+        "label": "SetValuesChosenFamily",
+        "message": {
+        },
+        "pubsub": false,
+        "show": null,
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "ssm": false,
+        "wpm": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Set Values",
+    "CurrencyIsoCode": "MAD",
+    "Name": "SetValuesChosenFamily",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/inwib2c/Acquisition/French/SetValuesChosenFamily"
+}
